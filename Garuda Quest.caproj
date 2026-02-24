@@ -331,11 +331,154 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="PatchNote" sid="606665907967187">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="452383068606913" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Patch Note.png">
+                        <collision-poly>
+                            <point x="0.166667" y="0.296296" />
+                            <point x="0.5" y="0.0518519" />
+                            <point x="0.820833" y="0.318519" />
+                            <point x="0.840625" y="0.5" />
+                            <point x="1" y="1" />
+                            <point x="0.5" y="0.961111" />
+                            <point x="0.163021" y="0.710185" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="GarudaMoai" sid="743777330225533">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="249080403546602" speed="5">
+                    <frame duration="1" hotspotX="0.512101" hotspotY="0.492019" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Patch Note- Garuda Moai.png">
+                        <collision-poly>
+                            <point x="0.11423" y="0.50047" />
+                            <point x="0.512101" y="0.00751174" />
+                            <point x="0.837367" y="0.570892" />
+                            <point x="0.735721" y="0.492019" />
+                            <point x="0.761859" y="0.339906" />
+                            <point x="0.512101" y="0.999061" />
+                            <point x="0.00580833" y="0.588732" />
+                            <point x="0.113262" y="0.492019" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="PatchNoteNotePatch" sid="519684180357732">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="230309912619009" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Patch Note - Note Patch.png">
+                        <collision-poly>
+                            <point x="0.062435" y="0.00236407" />
+                            <point x="0.937565" y="0.00236407" />
+                            <point x="0.99948" y="0.5" />
+                            <point x="0.937565" y="0.997636" />
+                            <point x="0.062435" y="0.997636" />
+                            <point x="0.000520291" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Back" sid="784981379796026">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="270996643745102" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Tombol &amp; Misc\Back.png">
+                        <collision-poly>
+                            <point x="0.373383" y="0.00719424" />
+                            <point x="0.626617" y="0.00719424" />
+                            <point x="0.999076" y="0.5" />
+                            <point x="0.626617" y="0.992806" />
+                            <point x="0.373383" y="0.992806" />
+                            <point x="0.000924214" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Kredit" sid="860179104504532">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="519233631368413" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Kredit.png">
+                        <collision-poly>
+                            <point x="0.172396" y="0.306481" />
+                            <point x="0.5" y="0.0518519" />
+                            <point x="0.826563" y="0.308333" />
+                            <point x="0.932292" y="0.5" />
+                            <point x="1" y="1" />
+                            <point x="0.5" y="0.961111" />
+                            <point x="0.215625" y="0.616667" />
+                            <point x="0.0625" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="KreditTimDev" sid="864510936854538">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="503909486400328" speed="5">
+                    <frame duration="1" hotspotX="0.499628" hotspotY="0.5" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Kredit - Tim Dev.png">
+                        <collision-poly>
+                            <point x="0.000743494" y="0.268022" />
+                            <point x="0.499628" y="0.000924214" />
+                            <point x="0.998513" y="0.268022" />
+                            <point x="0.998513" y="0.731978" />
+                            <point x="0.499628" y="0.999076" />
+                            <point x="0.000743494" y="0.731978" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="KreditSpecialThanks" sid="265829706888828">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="577894087401863" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Kredit - Special Thanks.png">
+                        <collision-poly>
+                            <point x="0.062435" y="0.00236407" />
+                            <point x="0.937565" y="0.00236407" />
+                            <point x="0.99948" y="0.5" />
+                            <point x="0.937565" y="0.997636" />
+                            <point x="0.062435" y="0.997636" />
+                            <point x="0.000520291" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="KreditSumberInspirasi" sid="497658103019028">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="180821752870085" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Kredit - Sumber Inspirasi.png">
+                        <collision-poly>
+                            <point x="0.000744048" y="0.268022" />
+                            <point x="0.5" y="0.000924214" />
+                            <point x="0.999256" y="0.268022" />
+                            <point x="0.999256" y="0.731978" />
+                            <point x="0.5" y="0.998152" />
+                            <point x="0.000744048" y="0.731978" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
         <layout>Splash Screen.xml</layout>
         <layout>Main Menu.xml</layout>
+        <layout>New Update.xml</layout>
+        <layout>Credit.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>SplashScreenEvent.xml</event-sheet>

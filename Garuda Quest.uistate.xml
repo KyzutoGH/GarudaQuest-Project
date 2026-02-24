@@ -11,7 +11,9 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     </configurations>
     <open-tabs>
         <layout order="0">Splash Screen</layout>
-        <layout active="1" order="2">Main Menu</layout>
+        <layout order="2">Main Menu</layout>
+        <layout order="3">New Update</layout>
+        <layout active="1" order="4">Credit</layout>
         <event-sheet order="1">SplashScreenEvent</event-sheet>
     </open-tabs>
     <properties>
@@ -46,5 +48,13 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/TombolNewUpdate/" />
         <folder expanded="1" path="animation-folder/TombolInformasi/" />
         <folder expanded="1" path="animation-folder/MaskodGaruda/" />
+        <folder expanded="1" path="animation-folder/PatchNote/" />
+        <folder expanded="1" path="animation-folder/GarudaMoai/" />
+        <folder expanded="1" path="animation-folder/PatchNoteNotePatch/" />
+        <folder expanded="1" path="animation-folder/Back/" />
+        <folder expanded="1" path="animation-folder/Kredit/" />
+        <folder expanded="1" path="animation-folder/KreditTimDev/" />
+        <folder expanded="1" path="animation-folder/KreditSpecialThanks/" />
+        <folder expanded="1" path="animation-folder/KreditSumberInspirasi/" />
     </folders-expanded>
 </c2uistate>
