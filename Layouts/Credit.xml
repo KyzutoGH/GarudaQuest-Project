@@ -2,7 +2,7 @@
 <c2layout>
     <name>Credit</name>
     <sid>467763676715940</sid>
-    <event-sheet>MainMenuEvent</event-sheet>
+    <event-sheet>MenuEvent</event-sheet>
     <size>
         <width>1920</width>
         <height>1080</height>
@@ -111,7 +111,7 @@
                         <width>414.969604492</width>
                         <height>333.826843262</height>
                         <depth>0</depth>
-                        <hotspotX>0.499628246</hotspotX>
+                        <hotspotX>0.498884767</hotspotX>
                         <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>

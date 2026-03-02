@@ -12,9 +12,12 @@
     <used-plugins>
         <plugin author="Scirra" id="Browser" version="1">Browser</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Touch" version="1">Touch</plugin>
         <plugin author="Scirra" id="progressbar" version="1">Progress bar</plugin>
     </used-plugins>
-    <used-behaviors />
+    <used-behaviors>
+        <behavior author="Scirra" id="Fade" version="1">Fade</behavior>
+    </used-behaviors>
     <used-effects />
     <configurations>
         <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
@@ -182,12 +185,12 @@
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="926072506496921" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Tombol &amp; Misc\Play.png">
                         <collision-poly>
-                            <point x="0.373383" y="0.00719424" />
-                            <point x="0.626617" y="0.00719424" />
-                            <point x="0.999076" y="0.5" />
-                            <point x="0.626617" y="0.992806" />
-                            <point x="0.373383" y="0.992806" />
-                            <point x="0.000924214" y="0.5" />
+                            <point x="0.373617" y="0" />
+                            <point x="0.626383" y="0" />
+                            <point x="0.998154" y="0.5" />
+                            <point x="0.626383" y="1" />
+                            <point x="0.373617" y="1" />
+                            <point x="0.00184672" y="0.5" />
                         </collision-poly>
                     </frame>
                 </animation>
@@ -199,12 +202,12 @@
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="302509981339985" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Tombol &amp; Misc\Profile.png">
                         <collision-poly>
-                            <point x="0.373383" y="0.00719424" />
-                            <point x="0.626617" y="0.00719424" />
-                            <point x="0.999076" y="0.5" />
-                            <point x="0.626617" y="0.992806" />
-                            <point x="0.373383" y="0.992806" />
-                            <point x="0.000924214" y="0.5" />
+                            <point x="0.373617" y="0" />
+                            <point x="0.626383" y="0" />
+                            <point x="0.998154" y="0.5" />
+                            <point x="0.626383" y="1" />
+                            <point x="0.373617" y="1" />
+                            <point x="0.00184672" y="0.5" />
                         </collision-poly>
                     </frame>
                 </animation>
@@ -216,12 +219,12 @@
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="718995293606932" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Tombol &amp; Misc\Help.png">
                         <collision-poly>
-                            <point x="0.373383" y="0.00719424" />
-                            <point x="0.626617" y="0.00719424" />
-                            <point x="0.999076" y="0.5" />
-                            <point x="0.626617" y="0.992806" />
-                            <point x="0.373383" y="0.992806" />
-                            <point x="0.000924214" y="0.5" />
+                            <point x="0.373617" y="0" />
+                            <point x="0.626383" y="0" />
+                            <point x="0.998154" y="0.5" />
+                            <point x="0.626383" y="1" />
+                            <point x="0.373617" y="1" />
+                            <point x="0.00184672" y="0.5" />
                         </collision-poly>
                     </frame>
                 </animation>
@@ -233,12 +236,12 @@
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="158608415786334" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Tombol &amp; Misc\Exit.png">
                         <collision-poly>
-                            <point x="0.373383" y="0.00719424" />
-                            <point x="0.626617" y="0.00719424" />
-                            <point x="0.999076" y="0.5" />
-                            <point x="0.626617" y="0.992806" />
-                            <point x="0.373383" y="0.992806" />
-                            <point x="0.000924214" y="0.5" />
+                            <point x="0.373617" y="0" />
+                            <point x="0.626383" y="0" />
+                            <point x="0.998154" y="0.5" />
+                            <point x="0.626383" y="1" />
+                            <point x="0.373617" y="1" />
+                            <point x="0.00184672" y="0.5" />
                         </collision-poly>
                     </frame>
                 </animation>
@@ -374,12 +377,12 @@
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="230309912619009" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Patch Note - Note Patch.png">
                         <collision-poly>
-                            <point x="0.062435" y="0.00236407" />
-                            <point x="0.937565" y="0.00236407" />
-                            <point x="0.99948" y="0.5" />
-                            <point x="0.937565" y="0.997636" />
-                            <point x="0.062435" y="0.997636" />
-                            <point x="0.000520291" y="0.5" />
+                            <point x="0.0628903" y="0" />
+                            <point x="0.93711" y="0" />
+                            <point x="0.99896" y="0.5" />
+                            <point x="0.93711" y="1" />
+                            <point x="0.0628903" y="1" />
+                            <point x="0.00104004" y="0.5" />
                         </collision-poly>
                     </frame>
                 </animation>
@@ -391,12 +394,12 @@
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="270996643745102" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Tombol &amp; Misc\Back.png">
                         <collision-poly>
-                            <point x="0.373383" y="0.00719424" />
-                            <point x="0.626617" y="0.00719424" />
-                            <point x="0.999076" y="0.5" />
-                            <point x="0.626617" y="0.992806" />
-                            <point x="0.373383" y="0.992806" />
-                            <point x="0.000924214" y="0.5" />
+                            <point x="0.373617" y="0" />
+                            <point x="0.626383" y="0" />
+                            <point x="0.998154" y="0.5" />
+                            <point x="0.626383" y="1" />
+                            <point x="0.373617" y="1" />
+                            <point x="0.00184672" y="0.5" />
                         </collision-poly>
                     </frame>
                 </animation>
@@ -425,14 +428,14 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="503909486400328" speed="5">
-                    <frame duration="1" hotspotX="0.499628" hotspotY="0.5" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Kredit - Tim Dev.png">
+                    <frame duration="1" hotspotX="0.498885" hotspotY="0.5" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Kredit - Tim Dev.png">
                         <collision-poly>
-                            <point x="0.000743494" y="0.268022" />
-                            <point x="0.499628" y="0.000924214" />
-                            <point x="0.998513" y="0.268022" />
-                            <point x="0.998513" y="0.731978" />
-                            <point x="0.499628" y="0.999076" />
-                            <point x="0.000743494" y="0.731978" />
+                            <point x="0" y="0.268451" />
+                            <point x="0.499097" y="0.00184672" />
+                            <point x="1" y="0.268451" />
+                            <point x="1" y="0.731549" />
+                            <point x="0.499097" y="0.998154" />
+                            <point x="0" y="0.731549" />
                         </collision-poly>
                     </frame>
                 </animation>
@@ -444,12 +447,12 @@
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="577894087401863" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Kredit - Special Thanks.png">
                         <collision-poly>
-                            <point x="0.062435" y="0.00236407" />
-                            <point x="0.937565" y="0.00236407" />
-                            <point x="0.99948" y="0.5" />
-                            <point x="0.937565" y="0.997636" />
-                            <point x="0.062435" y="0.997636" />
-                            <point x="0.000520291" y="0.5" />
+                            <point x="0.0628903" y="0" />
+                            <point x="0.93711" y="0" />
+                            <point x="0.99896" y="0.5" />
+                            <point x="0.93711" y="1" />
+                            <point x="0.0628903" y="1" />
+                            <point x="0.00104004" y="0.5" />
                         </collision-poly>
                     </frame>
                 </animation>
@@ -461,31 +464,231 @@
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="180821752870085" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Kredit - Sumber Inspirasi.png">
                         <collision-poly>
-                            <point x="0.000744048" y="0.268022" />
-                            <point x="0.5" y="0.000924214" />
-                            <point x="0.999256" y="0.268022" />
-                            <point x="0.999256" y="0.731978" />
-                            <point x="0.5" y="0.998152" />
-                            <point x="0.000744048" y="0.731978" />
+                            <point x="0" y="0.268451" />
+                            <point x="0.5" y="0.00184672" />
+                            <point x="1" y="0.268451" />
+                            <point x="1" y="0.731549" />
+                            <point x="0.5" y="0.997231" />
+                            <point x="0" y="0.731549" />
                         </collision-poly>
                     </frame>
                 </animation>
             </animation-folder>
+        </object-type>
+        <object-type name="TxtSelamatBermain" sid="981624870728992">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Fade" sid="771914625121478">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="259142133440800" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5625" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Game Start (2).png">
+                        <collision-poly>
+                            <point x="0.244149" y="0.0178571" />
+                            <point x="0.744149" y="0.214286" />
+                            <point x="0.998936" y="0.5625" />
+                            <point x="0.743617" y="0.901786" />
+                            <point x="0.256383" y="0.901786" />
+                            <point x="0.012766" y="0.5625" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="IntroTemaPancasila" sid="308358650879683">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="617274998287067" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.532738" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Intro Tema (3).png">
+                        <collision-poly>
+                            <point x="0.156502" y="0.00595238" />
+                            <point x="0.843498" y="0.00595238" />
+                            <point x="0.831415" y="0.997024" />
+                            <point x="0.168585" y="0.997024" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="IntroTemaBorder" sid="637845925542040">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="854297908386488" speed="5">
+                    <frame duration="1" hotspotX="0.497648" hotspotY="0.5" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Intro Tema (2).png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="GarudaPancasilaLevel1" sid="196960696352113">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="674750830677870" speed="5">
+                    <frame duration="1" hotspotX="0.449541" hotspotY="0.49435" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Intro Tema- Pancasila Modified.png">
+                        <collision-poly>
+                            <point x="0.102956" y="0.56968" />
+                            <point x="0.449541" y="0.110169" />
+                            <point x="0.986748" y="0.393597" />
+                            <point x="0.954128" y="0.49435" />
+                            <point x="0.922528" y="0.535782" />
+                            <point x="0.449541" y="0.998117" />
+                            <point x="0.0397554" y="0.477401" />
+                            <point x="0.0448522" y="0.49435" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TxtLevel1" sid="859724213285234">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="908552006408491" speed="5">
+                    <frame duration="1" hotspotX="0.50147" hotspotY="0.513308" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Intro Tema (2).png">
+                        <collision-poly>
+                            <point x="0.380364" y="0.920152" />
+                            <point x="0.50147" y="0.0988593" />
+                            <point x="0.650206" y="0.830799" />
+                            <point x="0.884774" y="0.954373" />
+                            <point x="0.50147" y="0.865019" />
+                            <point x="0.109347" y="0.98289" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TxtSoalLevel1" sid="345326998460118">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="500580013687976" speed="5">
+                    <frame duration="1" hotspotX="0.500268" hotspotY="0.421875" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Intro Tema (3).png">
+                        <collision-poly>
+                            <point x="0.998928" y="0.421875" />
+                            <point x="0.264343" y="0.734375" />
+                            <point x="0.00428954" y="0.421875" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="SawitLevel1" sid="858114998447106">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="571064740598439" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Intro Tema- Pancasila Modified (2).png">
+                        <collision-poly>
+                            <point x="0.0902778" y="0.506469" />
+                            <point x="0.5" y="0.2061" />
+                            <point x="0.906746" y="0.509242" />
+                            <point x="0.895833" y="0.480592" />
+                            <point x="0.5" y="0.999076" />
+                            <point x="0.100198" y="0.484288" />
+                            <point x="0.0922619" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="BeringinLevel1" sid="886290664675860">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="749214971175163" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501025" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Intro Tema (4).png">
+                        <collision-poly>
+                            <point x="0.0373563" y="0.436475" />
+                            <point x="0.5" y="0.00204918" />
+                            <point x="0.996169" y="0.400615" />
+                            <point x="0.998084" y="0.501025" />
+                            <point x="0.980843" y="0.585041" />
+                            <point x="0.5" y="0.993852" />
+                            <point x="0.0162835" y="0.588115" />
+                            <point x="0.00766284" y="0.501025" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Nyawa" sid="158358324514818">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="911258244728343" speed="5">
+                    <frame duration="1" hotspotX="0.50051" hotspotY="0.493874" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Tombol &amp; Misc\Nyawa.png">
+                        <collision-poly>
+                            <point x="0.0448522" y="0.072573" />
+                            <point x="0.50051" y="0.109331" />
+                            <point x="0.956167" y="0.072573" />
+                            <point x="0.955148" y="0.493874" />
+                            <point x="0.861366" y="0.827521" />
+                            <point x="0.50051" y="0.967012" />
+                            <point x="0.138634" y="0.828464" />
+                            <point x="0.0448522" y="0.493874" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Pause" sid="934894782609605">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="968198332416381" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.505135" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Tombol &amp; Misc\Pause.png">
+                        <collision-poly>
+                            <point x="0.0203327" y="0.0205416" />
+                            <point x="0.5" y="0.000933707" />
+                            <point x="0.978743" y="0.0214753" />
+                            <point x="0.999076" y="0.505135" />
+                            <point x="0.973198" y="0.983193" />
+                            <point x="0.5" y="0.999066" />
+                            <point x="0.025878" y="0.984127" />
+                            <point x="0.000924214" y="0.505135" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="JawabBtn" sid="631274959618381">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="753166168511433" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Tombol &amp; Misc\Achievements (2).png">
+                        <collision-poly>
+                            <point x="0.373383" y="0.00719424" />
+                            <point x="0.626617" y="0.00719424" />
+                            <point x="0.999076" y="0.5" />
+                            <point x="0.626617" y="0.992806" />
+                            <point x="0.373383" y="0.992806" />
+                            <point x="0.000924214" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Touch" sid="773687727868369">
+            <plugin id="Touch" />
         </object-type>
     </object-folder>
     <families />
     <layout-folder>
         <layout>Splash Screen.xml</layout>
         <layout>Main Menu.xml</layout>
+        <layout>GoodLuck Screen.xml</layout>
         <layout>New Update.xml</layout>
         <layout>Credit.xml</layout>
+        <layout>Level Intro - Pancasila.xml</layout>
+        <layout>Level 1.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>SplashScreenEvent.xml</event-sheet>
-        <event-sheet>MainMenuEvent.xml</event-sheet>
+        <event-sheet>MenuEvent.xml</event-sheet>
+        <event-sheet>LevelTemaIntro.xml</event-sheet>
+        <event-sheet>Level Pancasila Event.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Browser" uid="7" />
+        <global-instance type="Touch" uid="42">
+            <properties>
+                <use-mouse-input>Yes</use-mouse-input>
+            </properties>
+        </global-instance>
     </global-instances>
     <sounds-folder />
     <music-folder />

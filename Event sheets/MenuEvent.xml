@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>MenuEvent</name>
+    <events>
+        <event-group description="" sid="952517311270986" title="Play Game Event" />
+        <event-block sid="706118174176252">
+            <conditions>
+                <condition id="3" name="On touched object" sid="363851060689877" type="Touch">
+                    <param id="0" name="Object">Play</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="890106434360419" type="System">
+                    <param id="0" name="Layout">GoodLuck Screen</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="139594201474824">
+            <conditions>
+                <condition behavior="Fade" id="0" name="On fade-out finished" sid="593627762696936" type="TxtSelamatBermain" />
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="914575548097406" type="System">
+                    <param id="0" name="Layout">Level 1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-group description="" sid="262728008991273" title="Credit Event" />
+        <event-block sid="586082771686323">
+            <conditions>
+                <condition id="3" name="On touched object" sid="812685625316315" type="Touch">
+                    <param id="0" name="Object">TombolInformasi</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="684542918898131" type="System">
+                    <param id="0" name="Layout">Credit</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="272848554696697">
+            <conditions>
+                <condition id="3" name="On touched object" sid="668482305493273" type="Touch">
+                    <param id="0" name="Object">Back</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="856493230921985" type="System">
+                    <param id="0" name="Layout">Main Menu</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

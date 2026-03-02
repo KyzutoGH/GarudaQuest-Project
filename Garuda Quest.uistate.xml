@@ -10,11 +10,9 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout order="0">Splash Screen</layout>
-        <layout order="2">Main Menu</layout>
-        <layout order="3">New Update</layout>
-        <layout active="1" order="4">Credit</layout>
-        <event-sheet order="1">SplashScreenEvent</event-sheet>
+        <layout active="1" order="0">Main Menu</layout>
+        <layout order="2">GoodLuck Screen</layout>
+        <event-sheet order="1">MenuEvent</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -56,5 +54,16 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/KreditTimDev/" />
         <folder expanded="1" path="animation-folder/KreditSpecialThanks/" />
         <folder expanded="1" path="animation-folder/KreditSumberInspirasi/" />
+        <folder expanded="1" path="animation-folder/TxtSelamatBermain/" />
+        <folder expanded="1" path="animation-folder/IntroTemaPancasila/" />
+        <folder expanded="1" path="animation-folder/IntroTemaBorder/" />
+        <folder expanded="1" path="animation-folder/GarudaPancasilaLevel1/" />
+        <folder expanded="1" path="animation-folder/TxtLevel1/" />
+        <folder expanded="1" path="animation-folder/TxtSoalLevel1/" />
+        <folder expanded="1" path="animation-folder/SawitLevel1/" />
+        <folder expanded="1" path="animation-folder/BeringinLevel1/" />
+        <folder expanded="1" path="animation-folder/Nyawa/" />
+        <folder expanded="1" path="animation-folder/Pause/" />
+        <folder expanded="1" path="animation-folder/JawabBtn/" />
     </folders-expanded>
 </c2uistate>

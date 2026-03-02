@@ -2,7 +2,7 @@
 <c2layout>
     <name>New Update</name>
     <sid>804648151105835</sid>
-    <event-sheet>MainMenuEvent</event-sheet>
+    <event-sheet>MenuEvent</event-sheet>
     <size>
         <width>1920</width>
         <height>1080</height>
