@@ -2,5 +2,151 @@
 <c2eventsheet>
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Level Pancasila Event</name>
-    <events />
+    <events>
+        <include>Global Event</include>
+        <variable constant="0" name="Level" sid="252471681881320" static="0" type="number">1</variable>
+        <variable comment="Nyawa Pemain di Satu cycle Game" constant="0" name="Nyawa" sid="286872132870106" static="0" type="number">3</variable>
+        <event-block sid="646592585383563">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="902196962658897" type="System" />
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="514242023165234" type="TxtSisaNyawa">
+                    <param id="0" name="Frame number">Nyawa</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-group description="" sid="878186389012310" title="Level 1">
+            <sub-events>
+                <event-group description="" sid="970223910478142" title="Achievement">
+                    <sub-events>
+                        <event-block sid="999598163788622">
+                            <conditions>
+                                <condition id="3" name="On touched object" sid="883766506940751" type="Touch">
+                                    <param id="0" name="Object">SawitLevel1</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Destroy" sid="879690343463532" type="SawitLevel1" />
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-group>
+                <event-block sid="263078059764966">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="708563920005698" type="Touch">
+                            <param id="0" name="Object">JawabBtn</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-11" name="Subtract from" sid="804771795487305" type="System">
+                            <param id="0" name="Variable">Nyawa</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="982969598279814" type="TxtSisaNyawa">
+                            <param id="0" name="Frame number">Nyawa</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="926240445804896">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="313597001149069" type="System">
+                                    <param id="0" name="Variable">Nyawa</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                                <condition id="-4" name="Trigger once while true" sid="344384176276032" type="System" />
+                            </conditions>
+                            <actions>
+                                <action id="-2" name="Go to layout" sid="265155282170357" type="System">
+                                    <param id="0" name="Layout">Level 1 Failed</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="723517834655209">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="802485122057929" type="Touch">
+                            <param id="0" name="Object">Salah</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-11" name="Subtract from" sid="960555515888823" type="System">
+                            <param id="0" name="Variable">Nyawa</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="832068957437915" type="TxtSisaNyawa">
+                            <param id="0" name="Frame number">Nyawa</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="500195370253601">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="595148884601474" type="System">
+                            <param id="0" name="Variable">Nyawa</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                        <condition id="-4" name="Trigger once while true" sid="360667131789415" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="657142505808986" type="System">
+                            <param id="0" name="Layout">Level 1 Failed</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="111177142796335" title="Game Over">
+            <sub-events>
+                <event-block sid="642949268384309">
+                    <conditions>
+                        <condition id="17" name="On tap object" sid="694785924588147" type="Touch">
+                            <param id="0" name="Object">Exit</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="814783378407570" type="System">
+                            <param id="0" name="Variable">Nyawa</param>
+                            <param id="1" name="Value">3</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="403002128810250" type="System">
+                            <param id="0" name="Variable">Level</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="866886741417051" type="System">
+                            <param id="0" name="Seconds">0.1</param>
+                        </action>
+                        <action id="-2" name="Go to layout" sid="450778150116714" type="System">
+                            <param id="0" name="Layout">Main Menu</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="847496884504451">
+                    <conditions>
+                        <condition id="17" name="On tap object" sid="798878536513374" type="Touch">
+                            <param id="0" name="Object">CobaLagi</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="829564836451667" type="System">
+                            <param id="0" name="Variable">Nyawa</param>
+                            <param id="1" name="Value">3</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="944329295118017" type="System">
+                            <param id="0" name="Variable">Level</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="619775830611690" type="System">
+                            <param id="0" name="Seconds">0.1</param>
+                        </action>
+                        <action id="-2" name="Go to layout" sid="554478327288775" type="System">
+                            <param id="0" name="Layout">Level 1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+    </events>
 </c2eventsheet>

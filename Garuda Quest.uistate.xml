@@ -10,9 +10,12 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout active="1" order="0">Main Menu</layout>
-        <layout order="2">GoodLuck Screen</layout>
-        <event-sheet order="1">MenuEvent</event-sheet>
+        <layout order="0">Level 1</layout>
+        <layout order="3">Main Menu</layout>
+        <layout order="1">Level 1 Failed</layout>
+        <event-sheet order="4">MenuEvent</event-sheet>
+        <event-sheet order="5">Global Event</event-sheet>
+        <event-sheet active="1" order="2">Level Pancasila Event</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -65,5 +68,11 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/Nyawa/" />
         <folder expanded="1" path="animation-folder/Pause/" />
         <folder expanded="1" path="animation-folder/JawabBtn/" />
+        <folder expanded="1" path="animation-folder/Salah/" />
+        <folder expanded="1" path="animation-folder/TxtSisaNyawa/" />
+        <folder expanded="1" path="animation-folder/CobaLagi/" />
+        <folder expanded="1" path="animation-folder/GarudaResultFailed/" />
+        <folder expanded="1" path="animation-folder/GameOver/" />
+        <folder expanded="1" path="animation-folder/EvaluasiLevel1/" />
     </folders-expanded>
 </c2uistate>
