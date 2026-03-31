@@ -25,6 +25,18 @@
                     <param id="4" name="Volume">-5</param>
                     <param id="2" name="Tag (optional)">&quot;BGM&quot;</param>
                 </action>
+                <action id="4" name="Preload" sid="968430547720883" type="Audio">
+                    <param id="0" name="Audio file">Radio-man-ohyeah</param>
+                </action>
+                <action id="4" name="Preload" sid="827440352633556" type="Audio">
+                    <param id="0" name="Audio file">Clicked</param>
+                </action>
+                <action id="4" name="Preload" sid="438607365015230" type="Audio">
+                    <param id="0" name="Audio file">Salah</param>
+                </action>
+                <action id="4" name="Preload" sid="884662891435937" type="Audio">
+                    <param id="0" name="Audio file">Resident Evil 4 HD You Are Dead</param>
+                </action>
             </actions>
             <sub-events>
                 <event-block sid="178625416156270">
@@ -89,6 +101,12 @@
                             <param id="0" name="Tag">&quot;BGM&quot;</param>
                             <param id="1" name="State">1</param>
                         </action>
+                        <action id="0" name="Play" sid="887643208795444" type="Audio">
+                            <param id="0" name="Audio file">Clicked</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;Clicked&quot;</param>
+                        </action>
                     </actions>
                 </event-block>
                 <event-block sid="866391910090321">
@@ -106,6 +124,12 @@
                         <action id="2" name="Set muted" sid="295396283236323" type="Audio">
                             <param id="0" name="Tag">&quot;BGM&quot;</param>
                             <param id="1" name="State">0</param>
+                        </action>
+                        <action id="0" name="Play" sid="564351731251496" type="Audio">
+                            <param id="0" name="Audio file">Clicked</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;Clicked&quot;</param>
                         </action>
                     </actions>
                 </event-block>

@@ -11,11 +11,14 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     </configurations>
     <open-tabs>
         <layout order="0">Level 1</layout>
-        <layout order="3">Main Menu</layout>
         <layout order="1">Level 1 Failed</layout>
-        <event-sheet order="4">MenuEvent</event-sheet>
-        <event-sheet order="5">Global Event</event-sheet>
-        <event-sheet active="1" order="2">Level Pancasila Event</event-sheet>
+        <layout order="2">Level 1 Victory</layout>
+        <layout order="4">Main Menu</layout>
+        <event-sheet active="1" order="3">Level Pancasila Event</event-sheet>
+        <event-sheet order="5">MenuEvent</event-sheet>
+        <event-sheet order="6">Global Event</event-sheet>
+        <event-sheet order="7">SplashScreenEvent</event-sheet>
+        <event-sheet order="8">LevelTemaIntro</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -71,8 +74,15 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/Salah/" />
         <folder expanded="1" path="animation-folder/TxtSisaNyawa/" />
         <folder expanded="1" path="animation-folder/CobaLagi/" />
-        <folder expanded="1" path="animation-folder/GarudaResultFailed/" />
+        <folder expanded="1" path="animation-folder/GarudaResult/" />
         <folder expanded="1" path="animation-folder/GameOver/" />
         <folder expanded="1" path="animation-folder/EvaluasiLevel1/" />
+        <folder expanded="1" path="animation-folder/BenarArea/" />
+        <folder expanded="1" path="animation-folder/Victory/" />
+        <folder expanded="1" path="animation-folder/PenjelasanLevel1/" />
+        <folder expanded="1" path="animation-folder/Lanjut/" />
+        <folder expanded="1" path="animation-folder/BeringinFixed/" />
+        <folder expanded="1" path="animation-folder/ACV_AnomaliSawit/" />
+        <folder expanded="1" path="animation-folder/ACV_TerlaluPintarToStart/" />
     </folders-expanded>
 </c2uistate>

@@ -15,6 +15,50 @@
                     <param id="0" name="Frame number">Nyawa</param>
                 </action>
             </actions>
+            <sub-events>
+                <event-group description="" sid="312724607609666" title="AnimasiFailed" />
+                <event-block sid="785710661735320">
+                    <conditions>
+                        <condition id="-8" name="Compare two values" sid="187188481513676" type="System">
+                            <param id="0" name="First value">LayoutName</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Second value">&quot;Level 1 Failed&quot;</param>
+                        </condition>
+                        <condition id="5" inverted="1" name="Is tag playing" sid="543951349235187" type="Audio">
+                            <param id="0" name="Tag">&quot;Failed&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="22" name="Set paused" sid="317714800168101" type="Audio">
+                            <param id="0" name="Tag">&quot;BGM&quot;</param>
+                            <param id="1" name="State">0</param>
+                        </action>
+                        <action id="0" name="Play" sid="467169174788524" type="Audio">
+                            <param id="0" name="Audio file">Resident Evil 4 HD You Are Dead</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">-5</param>
+                            <param id="1" name="Tag (optional)">&quot;Failed&quot;</param>
+                        </action>
+                        <action behavior="LiteTween" id="10" name="Start" sid="894647702822887" type="ACV_TerlaluPintarToStart">
+                            <param id="0" name="Start Mode">0</param>
+                            <param id="1" name="Force use current">0</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="212210244611543" type="System">
+                            <param id="0" name="Seconds">3</param>
+                        </action>
+                        <action behavior="LiteTween" id="11" name="Reverse" sid="406417899582229" type="ACV_TerlaluPintarToStart">
+                            <param id="0" name="Reverse mode">0</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="107749394212055" type="System">
+                            <param id="0" name="Seconds">3</param>
+                        </action>
+                        <action id="22" name="Set paused" sid="978690600072696" type="Audio">
+                            <param id="0" name="Tag">&quot;BGM&quot;</param>
+                            <param id="1" name="State">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
         </event-block>
         <event-group description="" sid="878186389012310" title="Level 1">
             <sub-events>
@@ -27,7 +71,23 @@
                                 </condition>
                             </conditions>
                             <actions>
+                                <action id="0" name="Play" sid="822436120584255" type="Audio">
+                                    <param id="0" name="Audio file">Clicked</param>
+                                    <param id="2" name="Loop">0</param>
+                                    <param id="3" name="Volume">0</param>
+                                    <param id="1" name="Tag (optional)">&quot;Clicked&quot;</param>
+                                </action>
                                 <action id="-9" name="Destroy" sid="879690343463532" type="SawitLevel1" />
+                                <action behavior="LiteTween" id="10" name="Start" sid="696263897058136" type="ACV_AnomaliSawit">
+                                    <param id="0" name="Start Mode">0</param>
+                                    <param id="1" name="Force use current">0</param>
+                                </action>
+                                <action id="-16" name="Wait" sid="827666718838509" type="System">
+                                    <param id="0" name="Seconds">3</param>
+                                </action>
+                                <action behavior="LiteTween" id="11" name="Reverse" sid="561797785780563" type="ACV_AnomaliSawit">
+                                    <param id="0" name="Reverse mode">0</param>
+                                </action>
                             </actions>
                         </event-block>
                     </sub-events>
@@ -39,6 +99,12 @@
                         </condition>
                     </conditions>
                     <actions>
+                        <action id="0" name="Play" sid="443439865361983" type="Audio">
+                            <param id="0" name="Audio file">Salah</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;Salah&quot;</param>
+                        </action>
                         <action id="-11" name="Subtract from" sid="804771795487305" type="System">
                             <param id="0" name="Variable">Nyawa</param>
                             <param id="1" name="Value">1</param>
@@ -72,6 +138,12 @@
                         </condition>
                     </conditions>
                     <actions>
+                        <action id="0" name="Play" sid="688173762203108" type="Audio">
+                            <param id="0" name="Audio file">Salah</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;Salah&quot;</param>
+                        </action>
                         <action id="-11" name="Subtract from" sid="960555515888823" type="System">
                             <param id="0" name="Variable">Nyawa</param>
                             <param id="1" name="Value">1</param>
@@ -98,15 +170,98 @@
                 </event-block>
             </sub-events>
         </event-group>
+        <event-block sid="176920030567362">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="121988645386352" type="BeringinLevel1">
+                    <param id="0" name="Object">BenarArea</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="386679982511866" type="BeringinLevel1" />
+                <action id="-3" name="Create object" sid="333653158224685" type="System">
+                    <param id="0" name="Object to create">PartikelMenang</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="X">BeringinFixed.X</param>
+                    <param id="3" name="Y">BeringinFixed.Y</param>
+                </action>
+                <action id="-15" name="Set visible" sid="602018806609925" type="BeringinFixed">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="0" name="Play" sid="416330493781137" type="Audio">
+                    <param id="0" name="Audio file">Radio-man-ohyeah</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;Victory&quot;</param>
+                </action>
+                <action id="3" name="Set volume" sid="996717638151843" type="Audio">
+                    <param id="0" name="Tag">&quot;BGM&quot;</param>
+                    <param id="1" name="dB">-15</param>
+                </action>
+                <action id="-16" name="Wait" sid="771165898958650" type="System">
+                    <param id="0" name="Seconds">1.5</param>
+                </action>
+                <action id="3" name="Set volume" sid="126293086193166" type="Audio">
+                    <param id="0" name="Tag">&quot;BGM&quot;</param>
+                    <param id="1" name="dB">-5</param>
+                </action>
+                <action id="-16" name="Wait" sid="463259359537722" type="System">
+                    <param id="0" name="Seconds">3</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="977552186466519" type="System">
+                    <param id="0" name="Layout">Level 1 Victory</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="897571247379095">
+            <conditions>
+                <condition id="-8" name="Compare two values" sid="322941785602184" type="System">
+                    <param id="0" name="First value">LayoutName</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Second value">&quot;Level 1 Victory&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="894735774323811" type="GarudaResult">
+                    <param id="0" name="Frame number">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="115978524588504">
+            <conditions>
+                <condition id="-8" name="Compare two values" sid="427798883988287" type="System">
+                    <param id="0" name="First value">LayoutName</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Second value">&quot;Level 1 Failed&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="681930705102881" type="GarudaResult">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+            </actions>
+        </event-block>
         <event-group description="" sid="111177142796335" title="Game Over">
             <sub-events>
                 <event-block sid="642949268384309">
                     <conditions>
-                        <condition id="17" name="On tap object" sid="694785924588147" type="Touch">
+                        <condition id="3" name="On touched object" sid="694785924588147" type="Touch">
                             <param id="0" name="Object">Exit</param>
                         </condition>
                     </conditions>
                     <actions>
+                        <action id="0" name="Play" sid="483108085556464" type="Audio">
+                            <param id="0" name="Audio file">Clicked</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;Clicked&quot;</param>
+                        </action>
+                        <action id="-12" name="Set group active" sid="473417256835643" type="System">
+                            <param id="0" name="Group name">&quot;AnimasiFailed&quot;</param>
+                            <param id="1" name="State">0</param>
+                        </action>
+                        <action behavior="LiteTween" id="14" name="Stop" sid="276993172775872" type="ACV_TerlaluPintarToStart">
+                            <param id="0" name="Stop Mode">0</param>
+                        </action>
                         <action id="-9" name="Set value" sid="814783378407570" type="System">
                             <param id="0" name="Variable">Nyawa</param>
                             <param id="1" name="Value">3</param>
@@ -125,11 +280,24 @@
                 </event-block>
                 <event-block sid="847496884504451">
                     <conditions>
-                        <condition id="17" name="On tap object" sid="798878536513374" type="Touch">
+                        <condition id="3" name="On touched object" sid="798878536513374" type="Touch">
                             <param id="0" name="Object">CobaLagi</param>
                         </condition>
                     </conditions>
                     <actions>
+                        <action id="0" name="Play" sid="434860858109933" type="Audio">
+                            <param id="0" name="Audio file">Clicked</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;Clicked&quot;</param>
+                        </action>
+                        <action id="-12" name="Set group active" sid="807705941291126" type="System">
+                            <param id="0" name="Group name">&quot;AnimasiFailed&quot;</param>
+                            <param id="1" name="State">0</param>
+                        </action>
+                        <action behavior="LiteTween" id="14" name="Stop" sid="575270416704737" type="ACV_TerlaluPintarToStart">
+                            <param id="0" name="Stop Mode">0</param>
+                        </action>
                         <action id="-9" name="Set value" sid="829564836451667" type="System">
                             <param id="0" name="Variable">Nyawa</param>
                             <param id="1" name="Value">3</param>
