@@ -2,5 +2,7 @@
 <c2eventsheet>
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>LevelTemaIntro</name>
-    <events />
+    <events>
+        <include>Global Event</include>
+    </events>
 </c2eventsheet>

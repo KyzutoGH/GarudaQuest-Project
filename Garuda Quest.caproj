@@ -14,6 +14,7 @@
         <plugin author="Scirra" id="Browser" version="1">Browser</plugin>
         <plugin author="Scirra" id="Particles" version="1">Particles</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Text" version="1">Text</plugin>
         <plugin author="Scirra" id="Touch" version="1">Touch</plugin>
         <plugin author="Scirra" id="progressbar" version="1">Progress bar</plugin>
     </used-plugins>
@@ -925,6 +926,210 @@
             <plugin id="Particles" />
             <texture />
         </object-type>
+        <object-type name="PauseScreen" sid="470241597948796">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="775405636290125" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Tombol &amp; Misc\Patch Note.png">
+                        <collision-poly>
+                            <point x="0.00094518" y="0.311189" />
+                            <point x="0.5" y="0.00174825" />
+                            <point x="0.999055" y="0.311189" />
+                            <point x="0.999055" y="0.688811" />
+                            <point x="0.5" y="0.998252" />
+                            <point x="0.00094518" y="0.688811" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="BackPaused" sid="215925634557052">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="437585828114765" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501805" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Tombol &amp; Misc\Backbordered.png">
+                        <collision-poly>
+                            <point x="0.00924214" y="0.0361011" />
+                            <point x="0.5" y="0.00722022" />
+                            <point x="0.97597" y="0.0938628" />
+                            <point x="0.999076" y="0.498195" />
+                            <point x="0.990758" y="0.963899" />
+                            <point x="0.5" y="0.99639" />
+                            <point x="0.0166359" y="0.935018" />
+                            <point x="0.000924214" y="0.498195" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="ExitPaused" sid="856249166012585">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="137417221940382" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501805" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Tombol &amp; Misc\Exitbordered.png">
+                        <collision-poly>
+                            <point x="0.00924214" y="0.0361011" />
+                            <point x="0.5" y="0.00722022" />
+                            <point x="0.97597" y="0.0938628" />
+                            <point x="0.999076" y="0.498195" />
+                            <point x="0.990758" y="0.963899" />
+                            <point x="0.5" y="0.99639" />
+                            <point x="0.0166359" y="0.935018" />
+                            <point x="0.000924214" y="0.498195" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="ProfileBtn2" sid="841014841265019">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="600547839532156" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Tombol &amp; Misc\Profile.png">
+                        <collision-poly>
+                            <point x="0.373617" y="0" />
+                            <point x="0.626383" y="0" />
+                            <point x="0.998154" y="0.5" />
+                            <point x="0.626383" y="1" />
+                            <point x="0.373617" y="1" />
+                            <point x="0.00184672" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="ArsipMateriBtn" sid="287953162012394">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="792673732602842" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Profile\Achievements (2).png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="PenghargaanBtn" sid="217061296389777">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="842850429190513" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Profile\Achievements.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="ProfileBG" sid="913370931862983">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="108695773051078" speed="5">
+                    <frame duration="1" hotspotX="0.500315" hotspotY="0.5" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Profile\Profil - Profil (2).png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="PP" sid="420807923610124">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="552981740231862" speed="5">
+                    <frame duration="1" hotspotX="0.500486" hotspotY="0.5" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Profile\Profil - Profil (4).png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="PlayerName" sid="850033028738131">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="RankTxt" sid="804933302351876">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="RankEXPTxt" sid="782746793610874">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="RankEXPBar" sid="748186481707580">
+            <plugin id="progressbar" />
+        </object-type>
+        <object-type name="EXPReqTxt" sid="914469112467279">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="PenghargaanNewTxt" sid="514261059187575">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="ProfileLayoutBG" sid="425175820796471">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="734252062134552" speed="5">
+                    <frame duration="1" hotspotX="0.500326" hotspotY="0.5" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Profile\Profil - Profil (3).png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TierPemainTxt" sid="272534856313172">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="972115196829548" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.563636" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Profile\Profil - Profil (11).png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TierIcon" sid="134363462571704">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="243272892263652" speed="5">
+                    <frame duration="1" hotspotX="0.49901" hotspotY="0.532563" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Profile\Profil - Profil (12).png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TierNameTxt" sid="120855926024559">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="795102934376059" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.570423" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Profile\Profil - Profil (13).png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="PenghargaanBar" sid="613460436224487">
+            <plugin id="progressbar" />
+        </object-type>
+        <object-type name="MateriBar" sid="242569851397820">
+            <plugin id="progressbar" />
+        </object-type>
+        <object-type name="LevelGameBar" sid="954064230160904">
+            <plugin id="progressbar" />
+        </object-type>
+        <object-type name="PenghargaanTerbukaTxt" sid="838124225930359">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="119157478213254" speed="5">
+                    <frame duration="1" hotspotX="0.536158" hotspotY="0.60241" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Profile\Profil - Profil (15).png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="MateriTxt" sid="491332876463983">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="537223743939532" speed="5">
+                    <frame duration="1" hotspotX="0.517993" hotspotY="0.60177" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Profile\Profil - Profil (16).png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="RankServerTxt" sid="961748746798918">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="824823555064997" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.558824" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Profile\Profil - Profil (18).png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite" sid="212365962375075">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="950143026832792" speed="5">
+                    <frame duration="1" hotspotX="0.514039" hotspotY="0.6" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Profile\Profil - Profil (17).png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="PenghargaanTerbukaCountTxt" sid="767573770782658">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="MateriCountTxt" sid="371126275578227">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Text" sid="870899918114490">
+            <plugin id="Text" />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
@@ -934,6 +1139,9 @@
         <layout>Level 1 Victory.xml</layout>
         <layout>Splash Screen.xml</layout>
         <layout>Main Menu.xml</layout>
+        <layout>Profile.xml</layout>
+        <layout>Penghargaan.xml</layout>
+        <layout>Arsip Materi.xml</layout>
         <layout>GoodLuck Screen.xml</layout>
         <layout>New Update.xml</layout>
         <layout>Credit.xml</layout>

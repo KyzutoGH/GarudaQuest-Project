@@ -6,9 +6,6 @@
         <event-block sid="264525644247529">
             <conditions>
                 <condition id="-2" name="On start of layout" sid="785797152234477" type="System" />
-                <condition id="5" inverted="1" name="Is tag playing" sid="463655811552205" type="Audio">
-                    <param id="0" name="Tag">&quot;BGM&quot;</param>
-                </condition>
             </conditions>
             <actions>
                 <action id="5" name="Set frame" sid="554045402443592" type="SoundOn">
@@ -17,13 +14,6 @@
                 <action id="9" name="Preload (by name)" sid="140006722723801" type="Audio">
                     <param id="0" name="Folder">0</param>
                     <param id="1" name="Audio file name">&quot;Pepsimen&quot;</param>
-                </action>
-                <action id="7" name="Play (by name)" sid="685373603338128" type="Audio">
-                    <param id="0" name="Folder">0</param>
-                    <param id="1" name="Audio file name">&quot;Pepsimen&quot;</param>
-                    <param id="3" name="Loop">1</param>
-                    <param id="4" name="Volume">-5</param>
-                    <param id="2" name="Tag (optional)">&quot;BGM&quot;</param>
                 </action>
                 <action id="4" name="Preload" sid="968430547720883" type="Audio">
                     <param id="0" name="Audio file">Radio-man-ohyeah</param>
@@ -41,19 +31,14 @@
             <sub-events>
                 <event-block sid="178625416156270">
                     <conditions>
-                        <condition id="-14" name="Compare variable" sid="271419451857264" type="System">
-                            <param id="0" name="Variable">BGMOn</param>
-                            <param id="1" name="Comparison">0</param>
-                            <param id="2" name="Value">1</param>
-                        </condition>
+                        <condition id="3" name="Is silent" sid="543908287602322" type="Audio" />
                     </conditions>
                     <actions>
-                        <action id="5" name="Set frame" sid="392548328332110" type="SoundOn">
-                            <param id="0" name="Frame number">0</param>
+                        <action id="5" name="Set frame" sid="108012180526710" type="SoundOn">
+                            <param id="0" name="Frame number">1</param>
                         </action>
-                        <action id="2" name="Set muted" sid="684462095744727" type="Audio">
-                            <param id="0" name="Tag">&quot;BGM&quot;</param>
-                            <param id="1" name="State">1</param>
+                        <action id="8" name="Set silent" sid="673600833899702" type="Audio">
+                            <param id="0" name="Mode">0</param>
                         </action>
                     </actions>
                 </event-block>
@@ -62,17 +47,65 @@
                         <condition id="-22" name="Else" sid="802051583245730" type="System" />
                     </conditions>
                     <actions>
-                        <action id="5" name="Set frame" sid="108012180526710" type="SoundOn">
-                            <param id="0" name="Frame number">1</param>
+                        <action id="5" name="Set frame" sid="392548328332110" type="SoundOn">
+                            <param id="0" name="Frame number">0</param>
                         </action>
-                        <action id="2" name="Set muted" sid="673600833899702" type="Audio">
-                            <param id="0" name="Tag">&quot;BGM&quot;</param>
-                            <param id="1" name="State">0</param>
+                        <action id="8" name="Set silent" sid="684462095744727" type="Audio">
+                            <param id="0" name="Mode">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="506038519527197">
+                    <conditions>
+                        <condition id="-8" name="Compare two values" sid="163927063252611" type="System">
+                            <param id="0" name="First value">LayoutName</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Second value">&quot;Level 1 Failed&quot;</param>
+                        </condition>
+                        <condition id="-4" name="Trigger once while true" sid="676836111379939" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="33" name="Stop all" sid="278597795950646" type="Audio" />
+                        <action id="0" name="Play" sid="610836119396384" type="Audio">
+                            <param id="0" name="Audio file">Resident Evil 4 HD You Are Dead</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">-5</param>
+                            <param id="1" name="Tag (optional)">&quot;Failed&quot;</param>
+                        </action>
+                        <action behavior="LiteTween" id="10" name="Start" sid="464490405741742" type="ACV_TerlaluPintarToStart">
+                            <param id="0" name="Start Mode">0</param>
+                            <param id="1" name="Force use current">0</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="757808592490644" type="System">
+                            <param id="0" name="Seconds">3.5</param>
+                        </action>
+                        <action behavior="LiteTween" id="11" name="Reverse" sid="594864084183487" type="ACV_TerlaluPintarToStart">
+                            <param id="0" name="Reverse mode">0</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="849987878543185" type="System">
+                            <param id="0" name="Seconds">3.5</param>
                         </action>
                     </actions>
                 </event-block>
             </sub-events>
         </event-block>
+        <event-block sid="563959265516737">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="966414551327895" type="System" />
+                <condition id="5" inverted="1" name="Is tag playing" sid="371945357421564" type="Audio">
+                    <param id="0" name="Tag">&quot;BGM&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="873560689067216" type="Audio">
+                    <param id="0" name="Audio file">BGM Garuda Quest Alpha</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">-5</param>
+                    <param id="1" name="Tag (optional)">&quot;BGM&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-group description="" sid="120783780226096" title="Pertombolan" />
         <event-block sid="607728048221914">
             <conditions>
                 <condition id="3" name="On touched object" sid="368713680844057" type="Touch">
@@ -83,23 +116,14 @@
             <sub-events>
                 <event-block sid="390146206278286">
                     <conditions>
-                        <condition id="-14" name="Compare variable" sid="223301481224678" type="System">
-                            <param id="0" name="Variable">BGMOn</param>
-                            <param id="1" name="Comparison">0</param>
-                            <param id="2" name="Value">1</param>
-                        </condition>
+                        <condition id="3" inverted="1" name="Is silent" sid="599166472284822" type="Audio" />
                     </conditions>
                     <actions>
-                        <action id="-9" name="Set value" sid="569320959883715" type="System">
-                            <param id="0" name="Variable">BGMOn</param>
-                            <param id="1" name="Value">0</param>
+                        <action id="5" name="Set frame" sid="992244261794667" type="SoundOn">
+                            <param id="0" name="Frame number">1</param>
                         </action>
-                        <action id="5" name="Set frame" sid="450722235116576" type="SoundOn">
-                            <param id="0" name="Frame number">0</param>
-                        </action>
-                        <action id="2" name="Set muted" sid="927457513196652" type="Audio">
-                            <param id="0" name="Tag">&quot;BGM&quot;</param>
-                            <param id="1" name="State">1</param>
+                        <action id="8" name="Set silent" sid="286562302513129" type="Audio">
+                            <param id="0" name="Mode">0</param>
                         </action>
                         <action id="0" name="Play" sid="887643208795444" type="Audio">
                             <param id="0" name="Audio file">Clicked</param>
@@ -114,22 +138,127 @@
                         <condition id="-22" name="Else" sid="263940523839029" type="System" />
                     </conditions>
                     <actions>
-                        <action id="-9" name="Set value" sid="412213952843070" type="System">
-                            <param id="0" name="Variable">BGMOn</param>
-                            <param id="1" name="Value">1</param>
+                        <action id="5" name="Set frame" sid="450722235116576" type="SoundOn">
+                            <param id="0" name="Frame number">0</param>
                         </action>
-                        <action id="5" name="Set frame" sid="992244261794667" type="SoundOn">
-                            <param id="0" name="Frame number">1</param>
+                        <action id="8" name="Set silent" sid="302524900590362" type="Audio">
+                            <param id="0" name="Mode">1</param>
                         </action>
-                        <action id="2" name="Set muted" sid="295396283236323" type="Audio">
-                            <param id="0" name="Tag">&quot;BGM&quot;</param>
-                            <param id="1" name="State">0</param>
-                        </action>
-                        <action id="0" name="Play" sid="564351731251496" type="Audio">
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="245100339466492">
+            <conditions>
+                <condition id="3" name="On touched object" sid="223004702132887" type="Touch">
+                    <param id="0" name="Object">ProfileBtn2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="223298671056061" type="System">
+                    <param id="0" name="Layout">Profile</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="926994937581748">
+                    <conditions>
+                        <condition id="3" inverted="1" name="Is silent" sid="459473000838848" type="Audio" />
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="749134480902367" type="Audio">
                             <param id="0" name="Audio file">Clicked</param>
                             <param id="2" name="Loop">0</param>
                             <param id="3" name="Volume">0</param>
                             <param id="1" name="Tag (optional)">&quot;Clicked&quot;</param>
+                        </action>
+                        <action id="-2" name="Go to layout" sid="284584001519098" type="System">
+                            <param id="0" name="Layout">Profile</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="333354608594052">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="246288487483689" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="227949793706245" type="System">
+                            <param id="0" name="Layout">Profile</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="182088588417507">
+            <conditions>
+                <condition id="3" name="On touched object" sid="563420751721167" type="Touch">
+                    <param id="0" name="Object">PenghargaanBtn</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="190888214143025">
+                    <conditions>
+                        <condition id="3" inverted="1" name="Is silent" sid="150089692528326" type="Audio" />
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="741162196672737" type="Audio">
+                            <param id="0" name="Audio file">Clicked</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;Clicked&quot;</param>
+                        </action>
+                        <action id="-2" name="Go to layout" sid="735746266921538" type="System">
+                            <param id="0" name="Layout">Penghargaan</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="405075839712451">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="934673558514232" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="864902067606776" type="System">
+                            <param id="0" name="Layout">Penghargaan</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="777935788794049">
+            <conditions>
+                <condition id="3" name="On touched object" sid="319118165857961" type="Touch">
+                    <param id="0" name="Object">ArsipMateriBtn</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="688775654340262" type="System">
+                    <param id="0" name="Layout">Arsip Materi</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="107350429634128">
+                    <conditions>
+                        <condition id="3" inverted="1" name="Is silent" sid="854653712204403" type="Audio" />
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="232668426564804" type="Audio">
+                            <param id="0" name="Audio file">Clicked</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;Clicked&quot;</param>
+                        </action>
+                        <action id="-2" name="Go to layout" sid="363029165314176" type="System">
+                            <param id="0" name="Layout">Arsip Materi</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="393717200047870">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="352441099425404" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="319014082147012" type="System">
+                            <param id="0" name="Layout">Arsip Materi</param>
                         </action>
                     </actions>
                 </event-block>

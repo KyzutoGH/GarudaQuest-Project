@@ -10,15 +10,12 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout order="0">Level 1</layout>
-        <layout order="1">Level 1 Failed</layout>
-        <layout order="2">Level 1 Victory</layout>
-        <layout order="4">Main Menu</layout>
-        <event-sheet active="1" order="3">Level Pancasila Event</event-sheet>
-        <event-sheet order="5">MenuEvent</event-sheet>
-        <event-sheet order="6">Global Event</event-sheet>
-        <event-sheet order="7">SplashScreenEvent</event-sheet>
-        <event-sheet order="8">LevelTemaIntro</event-sheet>
+        <layout active="1" order="1">Main Menu</layout>
+        <layout order="3">Profile</layout>
+        <layout order="4">Penghargaan</layout>
+        <layout order="5">Arsip Materi</layout>
+        <event-sheet order="2">MenuEvent</event-sheet>
+        <event-sheet order="0">Global Event</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -84,5 +81,21 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/BeringinFixed/" />
         <folder expanded="1" path="animation-folder/ACV_AnomaliSawit/" />
         <folder expanded="1" path="animation-folder/ACV_TerlaluPintarToStart/" />
+        <folder expanded="1" path="animation-folder/PauseScreen/" />
+        <folder expanded="1" path="animation-folder/BackPaused/" />
+        <folder expanded="1" path="animation-folder/ExitPaused/" />
+        <folder expanded="1" path="animation-folder/ProfileBtn2/" />
+        <folder expanded="1" path="animation-folder/ArsipMateriBtn/" />
+        <folder expanded="1" path="animation-folder/PenghargaanBtn/" />
+        <folder expanded="1" path="animation-folder/ProfileBG/" />
+        <folder expanded="1" path="animation-folder/PP/" />
+        <folder expanded="1" path="animation-folder/ProfileLayoutBG/" />
+        <folder expanded="1" path="animation-folder/TierPemainTxt/" />
+        <folder expanded="1" path="animation-folder/TierIcon/" />
+        <folder expanded="1" path="animation-folder/TierNameTxt/" />
+        <folder expanded="1" path="animation-folder/PenghargaanTerbukaTxt/" />
+        <folder expanded="1" path="animation-folder/MateriTxt/" />
+        <folder expanded="1" path="animation-folder/RankServerTxt/" />
+        <folder expanded="1" path="animation-folder/Sprite/" />
     </folders-expanded>
 </c2uistate>
