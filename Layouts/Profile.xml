@@ -496,7 +496,7 @@
                 <instance type="PenghargaanBar" uid="98">
                     <properties>
                         <value>0</value>
-                        <maximum>100</maximum>
+                        <maximum>25</maximum>
                         <tooltip></tooltip>
                         <initial-visibility>Visible</initial-visibility>
                         <id-optional></id-optional>
@@ -517,7 +517,7 @@
                 <instance type="MateriBar" uid="99">
                     <properties>
                         <value>0</value>
-                        <maximum>100</maximum>
+                        <maximum>20</maximum>
                         <tooltip></tooltip>
                         <initial-visibility>Visible</initial-visibility>
                         <id-optional></id-optional>
@@ -538,7 +538,7 @@
                 <instance type="LevelGameBar" uid="100">
                     <properties>
                         <value>0</value>
-                        <maximum>100</maximum>
+                        <maximum>200</maximum>
                         <tooltip></tooltip>
                         <initial-visibility>Visible</initial-visibility>
                         <id-optional></id-optional>
@@ -698,7 +698,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Text" uid="107">
+                <instance type="LevelGameHighestTxt" uid="107">
                     <properties>
                         <text>5/20</text>
                         <initial-visibility>Visible</initial-visibility>

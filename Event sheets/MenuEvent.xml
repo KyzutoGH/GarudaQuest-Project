@@ -5,197 +5,323 @@
     <events>
         <include>Global Event</include>
         <variable constant="0" name="BGMOn" sid="973086145800322" static="0" type="number">1</variable>
-        <event-group description="" sid="952517311270986" title="Play Game Event" />
-        <event-block sid="706118174176252">
-            <conditions>
-                <condition id="3" name="On touched object" sid="363851060689877" type="Touch">
-                    <param id="0" name="Object">Play</param>
-                </condition>
-            </conditions>
-            <actions />
+        <event-group description="" sid="952517311270986" title="Play Game Event">
             <sub-events>
-                <event-block sid="368267562567814">
+                <event-block sid="139594201474824">
                     <conditions>
-                        <condition id="3" inverted="1" name="Is silent" sid="785235226760892" type="Audio" />
+                        <condition behavior="Fade" id="0" name="On fade-out finished" sid="593627762696936" type="TxtSelamatBermain" />
                     </conditions>
                     <actions>
-                        <action id="0" name="Play" sid="948961965599412" type="Audio">
-                            <param id="0" name="Audio file">Clicked</param>
-                            <param id="2" name="Loop">0</param>
-                            <param id="3" name="Volume">0</param>
-                            <param id="1" name="Tag (optional)">&quot;Clicked&quot;</param>
-                        </action>
-                        <action id="-2" name="Go to layout" sid="265962616924842" type="System">
-                            <param id="0" name="Layout">GoodLuck Screen</param>
+                        <action id="-2" name="Go to layout" sid="914575548097406" type="System">
+                            <param id="0" name="Layout">Level 1</param>
                         </action>
                     </actions>
                 </event-block>
-                <event-block sid="838717116204395">
+                <event-block sid="706118174176252">
                     <conditions>
-                        <condition id="-22" name="Else" sid="998505682235573" type="System" />
+                        <condition id="3" name="On touched object" sid="363851060689877" type="Touch">
+                            <param id="0" name="Object">Play</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="368267562567814">
+                            <conditions>
+                                <condition id="3" inverted="1" name="Is silent" sid="785235226760892" type="Audio" />
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Play" sid="948961965599412" type="Audio">
+                                    <param id="0" name="Audio file">Clicked</param>
+                                    <param id="2" name="Loop">0</param>
+                                    <param id="3" name="Volume">0</param>
+                                    <param id="1" name="Tag (optional)">&quot;Clicked&quot;</param>
+                                </action>
+                                <action id="-2" name="Go to layout" sid="265962616924842" type="System">
+                                    <param id="0" name="Layout">GoodLuck Screen</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="838717116204395">
+                            <conditions>
+                                <condition id="-22" name="Else" sid="998505682235573" type="System" />
+                            </conditions>
+                            <actions>
+                                <action id="-2" name="Go to layout" sid="715032703985857" type="System">
+                                    <param id="0" name="Layout">GoodLuck Screen</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="262728008991273" title="Menu Tombol">
+            <sub-events>
+                <event-block sid="198127645590447">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="988292529155226" type="Touch">
+                            <param id="0" name="Object">Profile</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="378211320165466">
+                            <conditions>
+                                <condition id="3" inverted="1" name="Is silent" sid="891785890613196" type="Audio" />
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Play" sid="465098161181491" type="Audio">
+                                    <param id="0" name="Audio file">Clicked</param>
+                                    <param id="2" name="Loop">0</param>
+                                    <param id="3" name="Volume">0</param>
+                                    <param id="1" name="Tag (optional)">&quot;Clicked&quot;</param>
+                                </action>
+                                <action id="-2" name="Go to layout" sid="213286917894505" type="System">
+                                    <param id="0" name="Layout">Profile</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="908579695694350">
+                            <conditions>
+                                <condition id="-22" name="Else" sid="152957187795813" type="System" />
+                            </conditions>
+                            <actions>
+                                <action id="-2" name="Go to layout" sid="197133972408600" type="System">
+                                    <param id="0" name="Layout">Profile</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="860522215565847">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="705350238768794" type="Touch">
+                            <param id="0" name="Object">TombolNewUpdate</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="854247004955332">
+                            <conditions>
+                                <condition id="3" inverted="1" name="Is silent" sid="407559499853735" type="Audio" />
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Play" sid="963952700234131" type="Audio">
+                                    <param id="0" name="Audio file">Clicked</param>
+                                    <param id="2" name="Loop">0</param>
+                                    <param id="3" name="Volume">0</param>
+                                    <param id="1" name="Tag (optional)">&quot;Clicked&quot;</param>
+                                </action>
+                                <action id="-2" name="Go to layout" sid="591475104849964" type="System">
+                                    <param id="0" name="Layout">New Update</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="125440729243005">
+                            <conditions>
+                                <condition id="-22" name="Else" sid="903937454575037" type="System" />
+                            </conditions>
+                            <actions>
+                                <action id="-2" name="Go to layout" sid="662285176148388" type="System">
+                                    <param id="0" name="Layout">New Update</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="272848554696697">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="668482305493273" type="Touch">
+                            <param id="0" name="Object">Back</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="282281243746981">
+                            <conditions>
+                                <condition id="3" inverted="1" name="Is silent" sid="334371506058373" type="Audio" />
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Play" sid="631493355224417" type="Audio">
+                                    <param id="0" name="Audio file">Clicked</param>
+                                    <param id="2" name="Loop">0</param>
+                                    <param id="3" name="Volume">0</param>
+                                    <param id="1" name="Tag (optional)">&quot;Clicked&quot;</param>
+                                </action>
+                                <action id="-2" name="Go to layout" sid="804881451975802" type="System">
+                                    <param id="0" name="Layout">Main Menu</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="814240709106935">
+                            <conditions>
+                                <condition id="-22" name="Else" sid="817805382356308" type="System" />
+                            </conditions>
+                            <actions>
+                                <action id="-2" name="Go to layout" sid="864480853068426" type="System">
+                                    <param id="0" name="Layout">Main Menu</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="586082771686323">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="812685625316315" type="Touch">
+                            <param id="0" name="Object">TombolInformasi</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="335447132031081">
+                            <conditions>
+                                <condition id="3" inverted="1" name="Is silent" sid="114796740104665" type="Audio" />
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Play" sid="252372793736934" type="Audio">
+                                    <param id="0" name="Audio file">Clicked</param>
+                                    <param id="2" name="Loop">0</param>
+                                    <param id="3" name="Volume">0</param>
+                                    <param id="1" name="Tag (optional)">&quot;Clicked&quot;</param>
+                                </action>
+                                <action id="-2" name="Go to layout" sid="687789265950454" type="System">
+                                    <param id="0" name="Layout">Credit</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="947223320589718">
+                            <conditions>
+                                <condition id="-22" name="Else" sid="834062581779027" type="System" />
+                            </conditions>
+                            <actions>
+                                <action id="-2" name="Go to layout" sid="355643296182825" type="System">
+                                    <param id="0" name="Layout">Credit</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="334441567287569" title="Achievement Profile">
+            <sub-events>
+                <event-block sid="718312017092920">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="868815869788494" type="Touch">
+                            <param id="0" name="Object">Halaman2AchBtn</param>
+                        </condition>
                     </conditions>
                     <actions>
-                        <action id="-2" name="Go to layout" sid="715032703985857" type="System">
-                            <param id="0" name="Layout">GoodLuck Screen</param>
+                        <action id="-2" name="Go to layout" sid="715344915778851" type="System">
+                            <param id="0" name="Layout">Penghargaan #2</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="587588760076447">
+                            <conditions>
+                                <condition id="3" inverted="1" name="Is silent" sid="537024491926650" type="Audio" />
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Play" sid="569959548958436" type="Audio">
+                                    <param id="0" name="Audio file">Clicked</param>
+                                    <param id="2" name="Loop">0</param>
+                                    <param id="3" name="Volume">0</param>
+                                    <param id="1" name="Tag (optional)">&quot;Clicked&quot;</param>
+                                </action>
+                                <action id="-2" name="Go to layout" sid="176271200412395" type="System">
+                                    <param id="0" name="Layout">Penghargaan #2</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="765437511169735">
+                            <conditions>
+                                <condition id="-22" name="Else" sid="954519488919673" type="System" />
+                            </conditions>
+                            <actions>
+                                <action id="-2" name="Go to layout" sid="128298169772911" type="System">
+                                    <param id="0" name="Layout">Penghargaan #2</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="616713700800960">
+                    <conditions>
+                        <condition id="-8" name="Compare two values" sid="734770536082830" type="System">
+                            <param id="0" name="First value">LayoutName</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Second value">&quot;Penghargaan #2&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Set frame" sid="171709645063969" type="Halaman1AchBtn">
+                            <param id="0" name="Frame number">1</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="108188324995441" type="Halaman2AchBtn">
+                            <param id="0" name="Frame number">0</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="997235525026153">
+                            <conditions>
+                                <condition id="3" name="On touched object" sid="821040209921628" type="Touch">
+                                    <param id="0" name="Object">Halaman1AchBtn</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-2" name="Go to layout" sid="307307445427200" type="System">
+                                    <param id="0" name="Layout">Penghargaan #1</param>
+                                </action>
+                            </actions>
+                            <sub-events>
+                                <event-block sid="505035595780307">
+                                    <conditions>
+                                        <condition id="3" inverted="1" name="Is silent" sid="809451390558143" type="Audio" />
+                                    </conditions>
+                                    <actions>
+                                        <action id="0" name="Play" sid="984430356197723" type="Audio">
+                                            <param id="0" name="Audio file">Clicked</param>
+                                            <param id="2" name="Loop">0</param>
+                                            <param id="3" name="Volume">0</param>
+                                            <param id="1" name="Tag (optional)">&quot;Clicked&quot;</param>
+                                        </action>
+                                        <action id="-2" name="Go to layout" sid="398508408463253" type="System">
+                                            <param id="0" name="Layout">Penghargaan #1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="940614528389665">
+                                    <conditions>
+                                        <condition id="-22" name="Else" sid="860770323574063" type="System" />
+                                    </conditions>
+                                    <actions>
+                                        <action id="-2" name="Go to layout" sid="298648172343104" type="System">
+                                            <param id="0" name="Layout">Penghargaan #1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="223296686691177">
+                    <conditions>
+                        <condition id="-8" name="Compare two values" sid="506163123166623" type="System">
+                            <param id="0" name="First value">LayoutName</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Second value">&quot;Penghargaan #1&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Set frame" sid="935471185354442" type="Halaman1AchBtn">
+                            <param id="0" name="Frame number">0</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="584912284232657" type="Halaman2AchBtn">
+                            <param id="0" name="Frame number">1</param>
                         </action>
                     </actions>
                 </event-block>
             </sub-events>
-        </event-block>
-        <event-block sid="139594201474824">
-            <conditions>
-                <condition behavior="Fade" id="0" name="On fade-out finished" sid="593627762696936" type="TxtSelamatBermain" />
-            </conditions>
-            <actions>
-                <action id="-2" name="Go to layout" sid="914575548097406" type="System">
-                    <param id="0" name="Layout">Level 1</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-group description="" sid="262728008991273" title="Menu Tombol" />
-        <event-block sid="586082771686323">
-            <conditions>
-                <condition id="3" name="On touched object" sid="812685625316315" type="Touch">
-                    <param id="0" name="Object">TombolInformasi</param>
-                </condition>
-            </conditions>
-            <actions />
-            <sub-events>
-                <event-block sid="335447132031081">
-                    <conditions>
-                        <condition id="3" inverted="1" name="Is silent" sid="114796740104665" type="Audio" />
-                    </conditions>
-                    <actions>
-                        <action id="0" name="Play" sid="252372793736934" type="Audio">
-                            <param id="0" name="Audio file">Clicked</param>
-                            <param id="2" name="Loop">0</param>
-                            <param id="3" name="Volume">0</param>
-                            <param id="1" name="Tag (optional)">&quot;Clicked&quot;</param>
-                        </action>
-                        <action id="-2" name="Go to layout" sid="687789265950454" type="System">
-                            <param id="0" name="Layout">Credit</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="947223320589718">
-                    <conditions>
-                        <condition id="-22" name="Else" sid="834062581779027" type="System" />
-                    </conditions>
-                    <actions>
-                        <action id="-2" name="Go to layout" sid="355643296182825" type="System">
-                            <param id="0" name="Layout">Credit</param>
-                        </action>
-                    </actions>
-                </event-block>
-            </sub-events>
-        </event-block>
-        <event-block sid="272848554696697">
-            <conditions>
-                <condition id="3" name="On touched object" sid="668482305493273" type="Touch">
-                    <param id="0" name="Object">Back</param>
-                </condition>
-            </conditions>
-            <actions />
-            <sub-events>
-                <event-block sid="282281243746981">
-                    <conditions>
-                        <condition id="3" inverted="1" name="Is silent" sid="334371506058373" type="Audio" />
-                    </conditions>
-                    <actions>
-                        <action id="0" name="Play" sid="631493355224417" type="Audio">
-                            <param id="0" name="Audio file">Clicked</param>
-                            <param id="2" name="Loop">0</param>
-                            <param id="3" name="Volume">0</param>
-                            <param id="1" name="Tag (optional)">&quot;Clicked&quot;</param>
-                        </action>
-                        <action id="-2" name="Go to layout" sid="804881451975802" type="System">
-                            <param id="0" name="Layout">Main Menu</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="814240709106935">
-                    <conditions>
-                        <condition id="-22" name="Else" sid="817805382356308" type="System" />
-                    </conditions>
-                    <actions>
-                        <action id="-2" name="Go to layout" sid="864480853068426" type="System">
-                            <param id="0" name="Layout">Main Menu</param>
-                        </action>
-                    </actions>
-                </event-block>
-            </sub-events>
-        </event-block>
-        <event-block sid="860522215565847">
-            <conditions>
-                <condition id="3" name="On touched object" sid="705350238768794" type="Touch">
-                    <param id="0" name="Object">TombolNewUpdate</param>
-                </condition>
-            </conditions>
-            <actions />
-            <sub-events>
-                <event-block sid="854247004955332">
-                    <conditions>
-                        <condition id="3" inverted="1" name="Is silent" sid="407559499853735" type="Audio" />
-                    </conditions>
-                    <actions>
-                        <action id="0" name="Play" sid="963952700234131" type="Audio">
-                            <param id="0" name="Audio file">Clicked</param>
-                            <param id="2" name="Loop">0</param>
-                            <param id="3" name="Volume">0</param>
-                            <param id="1" name="Tag (optional)">&quot;Clicked&quot;</param>
-                        </action>
-                        <action id="-2" name="Go to layout" sid="591475104849964" type="System">
-                            <param id="0" name="Layout">New Update</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="125440729243005">
-                    <conditions>
-                        <condition id="-22" name="Else" sid="903937454575037" type="System" />
-                    </conditions>
-                    <actions>
-                        <action id="-2" name="Go to layout" sid="662285176148388" type="System">
-                            <param id="0" name="Layout">New Update</param>
-                        </action>
-                    </actions>
-                </event-block>
-            </sub-events>
-        </event-block>
-        <event-block sid="198127645590447">
-            <conditions>
-                <condition id="3" name="On touched object" sid="988292529155226" type="Touch">
-                    <param id="0" name="Object">Profile</param>
-                </condition>
-            </conditions>
-            <actions />
-            <sub-events>
-                <event-block sid="378211320165466">
-                    <conditions>
-                        <condition id="3" inverted="1" name="Is silent" sid="891785890613196" type="Audio" />
-                    </conditions>
-                    <actions>
-                        <action id="0" name="Play" sid="465098161181491" type="Audio">
-                            <param id="0" name="Audio file">Clicked</param>
-                            <param id="2" name="Loop">0</param>
-                            <param id="3" name="Volume">0</param>
-                            <param id="1" name="Tag (optional)">&quot;Clicked&quot;</param>
-                        </action>
-                        <action id="-2" name="Go to layout" sid="213286917894505" type="System">
-                            <param id="0" name="Layout">Profile</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="908579695694350">
-                    <conditions>
-                        <condition id="-22" name="Else" sid="152957187795813" type="System" />
-                    </conditions>
-                    <actions>
-                        <action id="-2" name="Go to layout" sid="197133972408600" type="System">
-                            <param id="0" name="Layout">Profile</param>
-                        </action>
-                    </actions>
-                </event-block>
-            </sub-events>
-        </event-block>
+        </event-group>
     </events>
 </c2eventsheet>

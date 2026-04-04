@@ -10,12 +10,13 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout active="1" order="1">Main Menu</layout>
-        <layout order="3">Profile</layout>
-        <layout order="4">Penghargaan</layout>
-        <layout order="5">Arsip Materi</layout>
-        <event-sheet order="2">MenuEvent</event-sheet>
-        <event-sheet order="0">Global Event</event-sheet>
+        <layout order="1">Profile</layout>
+        <layout order="4">Splash Screen</layout>
+        <layout order="5">Level 1 Failed</layout>
+        <layout order="6">Level 1</layout>
+        <event-sheet order="2">Global Event</event-sheet>
+        <event-sheet order="0">MenuEvent</event-sheet>
+        <event-sheet active="1" order="3">Level Pancasila Event</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -25,7 +26,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     </properties>
     <families-expanded root="1" />
     <folders-expanded>
-        <folder expanded="1" path="object-folder/" />
+        <folder expanded="0" path="object-folder/" />
         <folder expanded="1" path="layout-folder/" />
         <folder expanded="1" path="event-folder/" />
         <folder expanded="1" path="file-folder/" />
@@ -97,5 +98,18 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/MateriTxt/" />
         <folder expanded="1" path="animation-folder/RankServerTxt/" />
         <folder expanded="1" path="animation-folder/Sprite/" />
+        <folder expanded="1" path="animation-folder/TerlaluPintarToStartProfile/" />
+        <folder expanded="1" path="animation-folder/SiPalingPancasilaProfile/" />
+        <folder expanded="1" path="animation-folder/PenaklukGQProfile/" />
+        <folder expanded="1" path="animation-folder/MaafSayaButaProfile/" />
+        <folder expanded="1" path="animation-folder/Sprite3/" />
+        <folder expanded="1" path="animation-folder/TerlaluMudahProfile/" />
+        <folder expanded="1" path="animation-folder/AnomaliSawitProfile/" />
+        <folder expanded="1" path="animation-folder/Halaman1AchBtn/" />
+        <folder expanded="1" path="animation-folder/Halaman2AchBtn/" />
+        <folder expanded="1" path="animation-folder/ToleranKolabProfile/" />
+        <folder expanded="1" path="animation-folder/SiPalingAlimProfile/" />
+        <folder expanded="1" path="animation-folder/Sprite2/" />
+        <folder expanded="1" path="animation-folder/Sprite4/" />
     </folders-expanded>
 </c2uistate>

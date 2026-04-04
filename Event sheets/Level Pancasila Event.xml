@@ -40,17 +40,46 @@
                                     <param id="1" name="Tag (optional)">&quot;Clicked&quot;</param>
                                 </action>
                                 <action id="-9" name="Destroy" sid="879690343463532" type="SawitLevel1" />
-                                <action behavior="LiteTween" id="10" name="Start" sid="696263897058136" type="ACV_AnomaliSawit">
-                                    <param id="0" name="Start Mode">0</param>
-                                    <param id="1" name="Force use current">0</param>
-                                </action>
-                                <action id="-16" name="Wait" sid="827666718838509" type="System">
-                                    <param id="0" name="Seconds">3</param>
-                                </action>
-                                <action behavior="LiteTween" id="11" name="Reverse" sid="561797785780563" type="ACV_AnomaliSawit">
-                                    <param id="0" name="Reverse mode">0</param>
-                                </action>
                             </actions>
+                            <sub-events>
+                                <event-block sid="667498964354145">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="949165044546505" type="System">
+                                            <param id="0" name="Variable">AnomaliSawitACV</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">0</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-10" name="Add to" sid="855137380096820" type="System">
+                                            <param id="0" name="Variable">AnomaliSawitACV</param>
+                                            <param id="1" name="Value">1</param>
+                                        </action>
+                                        <action id="-10" name="Add to" sid="934786338879212" type="System">
+                                            <param id="0" name="Variable">Experience</param>
+                                            <param id="1" name="Value">58</param>
+                                        </action>
+                                        <action id="0" name="Set item" sid="726694996910697" type="LocalStorage">
+                                            <param id="0" name="Key">&quot;AnomaliSawitACV&quot;</param>
+                                            <param id="1" name="Value">&quot;&quot;&amp;AnomaliSawitACV</param>
+                                        </action>
+                                        <action id="0" name="Set item" sid="909494642855648" type="LocalStorage">
+                                            <param id="0" name="Key">&quot;EXP&quot;</param>
+                                            <param id="1" name="Value">&quot;&quot;&amp;Experience</param>
+                                        </action>
+                                        <action behavior="LiteTween" id="10" name="Start" sid="417920878930840" type="ACV_AnomaliSawit">
+                                            <param id="0" name="Start Mode">0</param>
+                                            <param id="1" name="Force use current">0</param>
+                                        </action>
+                                        <action id="-16" name="Wait" sid="195593194077740" type="System">
+                                            <param id="0" name="Seconds">3</param>
+                                        </action>
+                                        <action behavior="LiteTween" id="11" name="Reverse" sid="119596422908948" type="ACV_AnomaliSawit">
+                                            <param id="0" name="Reverse mode">0</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
                         </event-block>
                     </sub-events>
                 </event-group>
@@ -80,23 +109,6 @@
                             <param id="0" name="Frame number">Nyawa</param>
                         </action>
                     </actions>
-                    <sub-events>
-                        <event-block sid="926240445804896">
-                            <conditions>
-                                <condition id="-14" name="Compare variable" sid="313597001149069" type="System">
-                                    <param id="0" name="Variable">Nyawa</param>
-                                    <param id="1" name="Comparison">0</param>
-                                    <param id="2" name="Value">0</param>
-                                </condition>
-                                <condition id="-4" name="Trigger once while true" sid="344384176276032" type="System" />
-                            </conditions>
-                            <actions>
-                                <action id="-2" name="Go to layout" sid="265155282170357" type="System">
-                                    <param id="0" name="Layout">Level 1 Failed</param>
-                                </action>
-                            </actions>
-                        </event-block>
-                    </sub-events>
                 </event-block>
                 <event-block sid="723517834655209">
                     <conditions>
@@ -132,13 +144,65 @@
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">0</param>
                         </condition>
-                        <condition id="-4" name="Trigger once while true" sid="360667131789415" type="System" />
+                        <condition id="-4" name="Trigger once while true" sid="702617248998724" type="System" />
                     </conditions>
-                    <actions>
-                        <action id="-2" name="Go to layout" sid="657142505808986" type="System">
-                            <param id="0" name="Layout">Level 1 Failed</param>
-                        </action>
-                    </actions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="110464098999668">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="501773661708605" type="System">
+                                    <param id="0" name="Variable">TooEasyToStartACV</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="LiteTween" id="10" name="Start" sid="997211478570947" type="ACV_TerlaluPintarToStart">
+                                    <param id="0" name="Start Mode">0</param>
+                                    <param id="1" name="Force use current">0</param>
+                                </action>
+                                <action id="-16" name="Wait" sid="912230793171000" type="System">
+                                    <param id="0" name="Seconds">3.5</param>
+                                </action>
+                                <action behavior="LiteTween" id="11" name="Reverse" sid="639854928708464" type="ACV_TerlaluPintarToStart">
+                                    <param id="0" name="Reverse mode">0</param>
+                                </action>
+                                <action id="-10" name="Add to" sid="904257465607070" type="System">
+                                    <param id="0" name="Variable">TooEasyToStartACV</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                                <action id="-10" name="Add to" sid="993966893413173" type="System">
+                                    <param id="0" name="Variable">Experience</param>
+                                    <param id="1" name="Value">50</param>
+                                </action>
+                                <action id="0" name="Set item" sid="323819769474644" type="LocalStorage">
+                                    <param id="0" name="Key">&quot;TooEasyToStartACV&quot;</param>
+                                    <param id="1" name="Value">&quot;&quot;&amp;TooEasyToStartACV</param>
+                                </action>
+                                <action id="0" name="Set item" sid="527194305970220" type="LocalStorage">
+                                    <param id="0" name="Key">&quot;EXP&quot;</param>
+                                    <param id="1" name="Value">&quot;&quot;&amp;Experience</param>
+                                </action>
+                                <action id="-2" name="Go to layout" sid="443871377556647" type="System">
+                                    <param id="0" name="Layout">Level 1 Failed</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="138089217757478">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="938238682998041" type="System">
+                                    <param id="0" name="Variable">TooEasyToStartACV</param>
+                                    <param id="1" name="Comparison">4</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-2" name="Go to layout" sid="424206482164522" type="System">
+                                    <param id="0" name="Layout">Level 1 Failed</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
                 </event-block>
             </sub-events>
         </event-group>

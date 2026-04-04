@@ -27,6 +27,24 @@
                 <action id="4" name="Preload" sid="884662891435937" type="Audio">
                     <param id="0" name="Audio file">Resident Evil 4 HD You Are Dead</param>
                 </action>
+                <action id="1" name="Get item" sid="441936601120336" type="LocalStorage">
+                    <param id="0" name="Key">&quot;EXP&quot;</param>
+                </action>
+                <action id="1" name="Get item" sid="237633621192644" type="LocalStorage">
+                    <param id="0" name="Key">&quot;Level&quot;</param>
+                </action>
+                <action id="1" name="Get item" sid="644208054938105" type="LocalStorage">
+                    <param id="0" name="Key">&quot;LevelGame&quot;</param>
+                </action>
+                <action id="1" name="Get item" sid="472612794456078" type="LocalStorage">
+                    <param id="0" name="Key">&quot;AnomaliSawitACV&quot;</param>
+                </action>
+                <action id="1" name="Get item" sid="615854864764918" type="LocalStorage">
+                    <param id="0" name="Key">&quot;TooEasyToStartACV&quot;</param>
+                </action>
+                <action id="1" name="Get item" sid="912776898159748" type="LocalStorage">
+                    <param id="0" name="Key">&quot;TotalAchievement&quot;</param>
+                </action>
             </actions>
             <sub-events>
                 <event-block sid="178625416156270">
@@ -72,19 +90,6 @@
                             <param id="3" name="Volume">-5</param>
                             <param id="1" name="Tag (optional)">&quot;Failed&quot;</param>
                         </action>
-                        <action behavior="LiteTween" id="10" name="Start" sid="464490405741742" type="ACV_TerlaluPintarToStart">
-                            <param id="0" name="Start Mode">0</param>
-                            <param id="1" name="Force use current">0</param>
-                        </action>
-                        <action id="-16" name="Wait" sid="757808592490644" type="System">
-                            <param id="0" name="Seconds">3.5</param>
-                        </action>
-                        <action behavior="LiteTween" id="11" name="Reverse" sid="594864084183487" type="ACV_TerlaluPintarToStart">
-                            <param id="0" name="Reverse mode">0</param>
-                        </action>
-                        <action id="-16" name="Wait" sid="849987878543185" type="System">
-                            <param id="0" name="Seconds">3.5</param>
-                        </action>
                     </actions>
                 </event-block>
             </sub-events>
@@ -105,164 +110,311 @@
                 </action>
             </actions>
         </event-block>
-        <event-group description="" sid="120783780226096" title="Pertombolan" />
-        <event-block sid="607728048221914">
-            <conditions>
-                <condition id="3" name="On touched object" sid="368713680844057" type="Touch">
-                    <param id="0" name="Object">SoundOn</param>
-                </condition>
-            </conditions>
-            <actions />
+        <event-group description="" sid="120783780226096" title="Pertombolan">
             <sub-events>
-                <event-block sid="390146206278286">
+                <event-block sid="777935788794049">
                     <conditions>
-                        <condition id="3" inverted="1" name="Is silent" sid="599166472284822" type="Audio" />
+                        <condition id="3" name="On touched object" sid="319118165857961" type="Touch">
+                            <param id="0" name="Object">ArsipMateriBtn</param>
+                        </condition>
                     </conditions>
                     <actions>
-                        <action id="5" name="Set frame" sid="992244261794667" type="SoundOn">
+                        <action id="-2" name="Go to layout" sid="688775654340262" type="System">
+                            <param id="0" name="Layout">Arsip Materi</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="107350429634128">
+                            <conditions>
+                                <condition id="3" inverted="1" name="Is silent" sid="854653712204403" type="Audio" />
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Play" sid="232668426564804" type="Audio">
+                                    <param id="0" name="Audio file">Clicked</param>
+                                    <param id="2" name="Loop">0</param>
+                                    <param id="3" name="Volume">0</param>
+                                    <param id="1" name="Tag (optional)">&quot;Clicked&quot;</param>
+                                </action>
+                                <action id="-2" name="Go to layout" sid="363029165314176" type="System">
+                                    <param id="0" name="Layout">Arsip Materi</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="393717200047870">
+                            <conditions>
+                                <condition id="-22" name="Else" sid="352441099425404" type="System" />
+                            </conditions>
+                            <actions>
+                                <action id="-2" name="Go to layout" sid="319014082147012" type="System">
+                                    <param id="0" name="Layout">Arsip Materi</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="182088588417507">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="563420751721167" type="Touch">
+                            <param id="0" name="Object">PenghargaanBtn</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="190888214143025">
+                            <conditions>
+                                <condition id="3" inverted="1" name="Is silent" sid="150089692528326" type="Audio" />
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Play" sid="741162196672737" type="Audio">
+                                    <param id="0" name="Audio file">Clicked</param>
+                                    <param id="2" name="Loop">0</param>
+                                    <param id="3" name="Volume">0</param>
+                                    <param id="1" name="Tag (optional)">&quot;Clicked&quot;</param>
+                                </action>
+                                <action id="-2" name="Go to layout" sid="735746266921538" type="System">
+                                    <param id="0" name="Layout">Penghargaan #1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="405075839712451">
+                            <conditions>
+                                <condition id="-22" name="Else" sid="934673558514232" type="System" />
+                            </conditions>
+                            <actions>
+                                <action id="-2" name="Go to layout" sid="864902067606776" type="System">
+                                    <param id="0" name="Layout">Penghargaan #1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="245100339466492">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="223004702132887" type="Touch">
+                            <param id="0" name="Object">ProfileBtn2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="223298671056061" type="System">
+                            <param id="0" name="Layout">Profile</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="926994937581748">
+                            <conditions>
+                                <condition id="3" inverted="1" name="Is silent" sid="459473000838848" type="Audio" />
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Play" sid="749134480902367" type="Audio">
+                                    <param id="0" name="Audio file">Clicked</param>
+                                    <param id="2" name="Loop">0</param>
+                                    <param id="3" name="Volume">0</param>
+                                    <param id="1" name="Tag (optional)">&quot;Clicked&quot;</param>
+                                </action>
+                                <action id="-2" name="Go to layout" sid="284584001519098" type="System">
+                                    <param id="0" name="Layout">Profile</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="333354608594052">
+                            <conditions>
+                                <condition id="-22" name="Else" sid="246288487483689" type="System" />
+                            </conditions>
+                            <actions>
+                                <action id="-2" name="Go to layout" sid="227949793706245" type="System">
+                                    <param id="0" name="Layout">Profile</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="607728048221914">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="368713680844057" type="Touch">
+                            <param id="0" name="Object">SoundOn</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="390146206278286">
+                            <conditions>
+                                <condition id="3" inverted="1" name="Is silent" sid="599166472284822" type="Audio" />
+                            </conditions>
+                            <actions>
+                                <action id="5" name="Set frame" sid="992244261794667" type="SoundOn">
+                                    <param id="0" name="Frame number">1</param>
+                                </action>
+                                <action id="8" name="Set silent" sid="286562302513129" type="Audio">
+                                    <param id="0" name="Mode">0</param>
+                                </action>
+                                <action id="0" name="Play" sid="887643208795444" type="Audio">
+                                    <param id="0" name="Audio file">Clicked</param>
+                                    <param id="2" name="Loop">0</param>
+                                    <param id="3" name="Volume">0</param>
+                                    <param id="1" name="Tag (optional)">&quot;Clicked&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="866391910090321">
+                            <conditions>
+                                <condition id="-22" name="Else" sid="263940523839029" type="System" />
+                            </conditions>
+                            <actions>
+                                <action id="5" name="Set frame" sid="450722235116576" type="SoundOn">
+                                    <param id="0" name="Frame number">0</param>
+                                </action>
+                                <action id="8" name="Set silent" sid="302524900590362" type="Audio">
+                                    <param id="0" name="Mode">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <variable constant="0" name="LevelPlayer" sid="403311298397662" static="0" type="number">1</variable>
+        <variable constant="0" name="Experience" sid="255301994665231" static="0" type="number">0</variable>
+        <variable constant="0" name="ExperienceNextLevel" sid="226608292107562" static="0" type="number">100</variable>
+        <variable constant="0" name="LevelGameHighest" sid="593922607321844" static="0" type="number">0</variable>
+        <variable constant="0" name="TooEasyToStartACV" sid="306211760881772" static="0" type="number">0</variable>
+        <variable constant="0" name="TotalAchievement" sid="320781843749389" static="0" type="number">0</variable>
+        <variable constant="0" name="AnomaliSawitACV" sid="834116734786768" static="0" type="number">0</variable>
+        <event-group description="" sid="829115569158875" title="Storage System Get">
+            <sub-events>
+                <event-block sid="678074846534313">
+                    <conditions>
+                        <condition id="1" name="On item get" sid="679510127490623" type="LocalStorage">
+                            <param id="0" name="Key">&quot;TotalAchievement&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                </event-block>
+                <event-block sid="636123113296303">
+                    <conditions>
+                        <condition id="1" name="On item get" sid="364137482988772" type="LocalStorage">
+                            <param id="0" name="Key">&quot;TooEasyToStartACV&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="353554877955343" type="System">
+                            <param id="0" name="Variable">TooEasyToStartACV</param>
+                            <param id="1" name="Value">int(LocalStorage.ItemValue)</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="283189926075583">
+                    <conditions>
+                        <condition id="1" name="On item get" sid="729455791206078" type="LocalStorage">
+                            <param id="0" name="Key">&quot;AnomaliSawitACV&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="267725190852233" type="System">
+                            <param id="0" name="Variable">AnomaliSawitACV</param>
+                            <param id="1" name="Value">int(LocalStorage.ItemValue)</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="355141960329700">
+                    <conditions>
+                        <condition id="1" name="On item get" sid="470873939689069" type="LocalStorage">
+                            <param id="0" name="Key">&quot;LevelGame&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="944907328314240" type="System">
+                            <param id="0" name="Variable">LevelGameHighest</param>
+                            <param id="1" name="Value">int(LocalStorage.ItemValue)</param>
+                        </action>
+                        <action id="0" name="Set text" sid="841795076862313" type="LevelGameHighestTxt">
+                            <param id="0" name="Text">LevelGameHighest&amp;&quot;/20&quot;</param>
+                        </action>
+                        <action id="3" name="Set progress" sid="615310194351874" type="LevelGameBar">
+                            <param id="0" name="Value">LevelGameHighest</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="776814278904184">
+                    <conditions>
+                        <condition id="1" name="On item get" sid="404719496523949" type="LocalStorage">
+                            <param id="0" name="Key">&quot;Level&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="350248313561784" type="System">
+                            <param id="0" name="Variable">LevelPlayer</param>
+                            <param id="1" name="Value">int(LocalStorage.ItemValue)</param>
+                        </action>
+                        <action id="0" name="Set text" sid="270396848456807" type="RankTxt">
+                            <param id="0" name="Text">&quot;Rank &quot;&amp;LevelPlayer</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="113492942790813">
+                    <conditions>
+                        <condition id="1" name="On item get" sid="793675514054989" type="LocalStorage">
+                            <param id="0" name="Key">&quot;EXP&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="203613679736885" type="System">
+                            <param id="0" name="Variable">Experience</param>
+                            <param id="1" name="Value">int(LocalStorage.ItemValue)</param>
+                        </action>
+                        <action id="0" name="Set text" sid="425111231172436" type="RankEXPTxt">
+                            <param id="0" name="Text">Experience&amp;&quot;/&quot;&amp;ExperienceNextLevel</param>
+                        </action>
+                        <action id="3" name="Set progress" sid="776353204282149" type="RankEXPBar">
+                            <param id="0" name="Value">Experience</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="787875980595282">
+                    <conditions>
+                        <condition id="10" name="On item missing" sid="341000723101869" type="LocalStorage">
+                            <param id="0" name="Key">&quot;LevelPlayer&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="799189266925765" type="System">
+                            <param id="0" name="Variable">LevelPlayer</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="268424247642422" title="Achievement System">
+            <sub-events>
+                <event-block sid="761654435324079">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="991060835990245" type="System">
+                            <param id="0" name="Variable">AnomaliSawitACV</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Set frame" sid="265181487519378" type="AnomaliSawitProfile">
                             <param id="0" name="Frame number">1</param>
                         </action>
-                        <action id="8" name="Set silent" sid="286562302513129" type="Audio">
-                            <param id="0" name="Mode">0</param>
-                        </action>
-                        <action id="0" name="Play" sid="887643208795444" type="Audio">
-                            <param id="0" name="Audio file">Clicked</param>
-                            <param id="2" name="Loop">0</param>
-                            <param id="3" name="Volume">0</param>
-                            <param id="1" name="Tag (optional)">&quot;Clicked&quot;</param>
-                        </action>
                     </actions>
                 </event-block>
-                <event-block sid="866391910090321">
+                <event-block sid="547902069726580">
                     <conditions>
-                        <condition id="-22" name="Else" sid="263940523839029" type="System" />
+                        <condition id="-14" name="Compare variable" sid="130605167038122" type="System">
+                            <param id="0" name="Variable">TooEasyToStartACV</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
                     </conditions>
                     <actions>
-                        <action id="5" name="Set frame" sid="450722235116576" type="SoundOn">
-                            <param id="0" name="Frame number">0</param>
-                        </action>
-                        <action id="8" name="Set silent" sid="302524900590362" type="Audio">
-                            <param id="0" name="Mode">1</param>
+                        <action id="5" name="Set frame" sid="790553235091996" type="TerlaluPintarToStartProfile">
+                            <param id="0" name="Frame number">1</param>
                         </action>
                     </actions>
                 </event-block>
             </sub-events>
-        </event-block>
-        <event-block sid="245100339466492">
-            <conditions>
-                <condition id="3" name="On touched object" sid="223004702132887" type="Touch">
-                    <param id="0" name="Object">ProfileBtn2</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-2" name="Go to layout" sid="223298671056061" type="System">
-                    <param id="0" name="Layout">Profile</param>
-                </action>
-            </actions>
-            <sub-events>
-                <event-block sid="926994937581748">
-                    <conditions>
-                        <condition id="3" inverted="1" name="Is silent" sid="459473000838848" type="Audio" />
-                    </conditions>
-                    <actions>
-                        <action id="0" name="Play" sid="749134480902367" type="Audio">
-                            <param id="0" name="Audio file">Clicked</param>
-                            <param id="2" name="Loop">0</param>
-                            <param id="3" name="Volume">0</param>
-                            <param id="1" name="Tag (optional)">&quot;Clicked&quot;</param>
-                        </action>
-                        <action id="-2" name="Go to layout" sid="284584001519098" type="System">
-                            <param id="0" name="Layout">Profile</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="333354608594052">
-                    <conditions>
-                        <condition id="-22" name="Else" sid="246288487483689" type="System" />
-                    </conditions>
-                    <actions>
-                        <action id="-2" name="Go to layout" sid="227949793706245" type="System">
-                            <param id="0" name="Layout">Profile</param>
-                        </action>
-                    </actions>
-                </event-block>
-            </sub-events>
-        </event-block>
-        <event-block sid="182088588417507">
-            <conditions>
-                <condition id="3" name="On touched object" sid="563420751721167" type="Touch">
-                    <param id="0" name="Object">PenghargaanBtn</param>
-                </condition>
-            </conditions>
-            <actions />
-            <sub-events>
-                <event-block sid="190888214143025">
-                    <conditions>
-                        <condition id="3" inverted="1" name="Is silent" sid="150089692528326" type="Audio" />
-                    </conditions>
-                    <actions>
-                        <action id="0" name="Play" sid="741162196672737" type="Audio">
-                            <param id="0" name="Audio file">Clicked</param>
-                            <param id="2" name="Loop">0</param>
-                            <param id="3" name="Volume">0</param>
-                            <param id="1" name="Tag (optional)">&quot;Clicked&quot;</param>
-                        </action>
-                        <action id="-2" name="Go to layout" sid="735746266921538" type="System">
-                            <param id="0" name="Layout">Penghargaan</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="405075839712451">
-                    <conditions>
-                        <condition id="-22" name="Else" sid="934673558514232" type="System" />
-                    </conditions>
-                    <actions>
-                        <action id="-2" name="Go to layout" sid="864902067606776" type="System">
-                            <param id="0" name="Layout">Penghargaan</param>
-                        </action>
-                    </actions>
-                </event-block>
-            </sub-events>
-        </event-block>
-        <event-block sid="777935788794049">
-            <conditions>
-                <condition id="3" name="On touched object" sid="319118165857961" type="Touch">
-                    <param id="0" name="Object">ArsipMateriBtn</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-2" name="Go to layout" sid="688775654340262" type="System">
-                    <param id="0" name="Layout">Arsip Materi</param>
-                </action>
-            </actions>
-            <sub-events>
-                <event-block sid="107350429634128">
-                    <conditions>
-                        <condition id="3" inverted="1" name="Is silent" sid="854653712204403" type="Audio" />
-                    </conditions>
-                    <actions>
-                        <action id="0" name="Play" sid="232668426564804" type="Audio">
-                            <param id="0" name="Audio file">Clicked</param>
-                            <param id="2" name="Loop">0</param>
-                            <param id="3" name="Volume">0</param>
-                            <param id="1" name="Tag (optional)">&quot;Clicked&quot;</param>
-                        </action>
-                        <action id="-2" name="Go to layout" sid="363029165314176" type="System">
-                            <param id="0" name="Layout">Arsip Materi</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="393717200047870">
-                    <conditions>
-                        <condition id="-22" name="Else" sid="352441099425404" type="System" />
-                    </conditions>
-                    <actions>
-                        <action id="-2" name="Go to layout" sid="319014082147012" type="System">
-                            <param id="0" name="Layout">Arsip Materi</param>
-                        </action>
-                    </actions>
-                </event-block>
-            </sub-events>
-        </event-block>
+        </event-group>
     </events>
 </c2eventsheet>

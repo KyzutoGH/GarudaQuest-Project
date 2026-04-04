@@ -12,6 +12,7 @@
     <used-plugins>
         <plugin author="Scirra" id="Audio" version="1">Audio</plugin>
         <plugin author="Scirra" id="Browser" version="1">Browser</plugin>
+        <plugin author="Scirra" id="LocalStorage" version="1">Local storage</plugin>
         <plugin author="Scirra" id="Particles" version="1">Particles</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
         <plugin author="Scirra" id="Text" version="1">Text</plugin>
@@ -1127,8 +1128,127 @@
         <object-type name="MateriCountTxt" sid="371126275578227">
             <plugin id="Text" />
         </object-type>
-        <object-type name="Text" sid="870899918114490">
+        <object-type name="LevelGameHighestTxt" sid="870899918114490">
             <plugin id="Text" />
+        </object-type>
+        <object-type name="TerlaluPintarToStartProfile" sid="404772952216830">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="962194330980112" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Achievement\AChievement #1.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Achievement\AChievement #1 (2).png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="SiPalingPancasilaProfile" sid="965253661751860">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="964357634623379" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Achievement\Achievement #2.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Achievement\Achievement #2 (2).png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="PenaklukGQProfile" sid="470562695162514">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="881899946231269" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Achievement\Achievement #2 (4).png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Achievement\Achievement #2 (5).png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="MaafSayaButaProfile" sid="178181856382766">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="674752925200103" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Achievement\Achievement #2 (7).png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.498807" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Achievement\Achievement #2 (8).png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite3" sid="231985953349673">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="933360403262282" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TerlaluMudahProfile" sid="813944730505436">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="537813530434507" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Achievement\Achievement #2 (10).png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Achievement\Achievement #2 (11).png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="AnomaliSawitProfile" sid="145169414951381">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="571705110139488" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Achievement\Achievement #2 (13).png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Achievement\Achievement #2 (14).png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Halaman1AchBtn" sid="901712364872696">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="861298551720100" speed="5">
+                    <frame duration="1" hotspotX="0.499501" hotspotY="0.507981" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Tombol &amp; Misc\Jawaban.png" />
+                    <frame duration="1" hotspotX="0.499501" hotspotY="0.507981" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Tombol &amp; Misc\Jawaban.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Halaman2AchBtn" sid="790335195147976">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="913634052262460" speed="5">
+                    <frame duration="1" hotspotX="0.499499" hotspotY="0.507996" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Tombol &amp; Misc\Jawaban (2) 100.png" />
+                    <frame duration="1" hotspotX="0.499501" hotspotY="0.507981" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Tombol &amp; Misc\Jawaban (2).png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="ToleranKolabProfile" sid="510330540271065">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="145996685333477" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Achievement\Achievement #2 (16).png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Achievement\Achievement #2 (17).png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="SiPalingAlimProfile" sid="332515830372833">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="453869387085101" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Achievement\Achievement #2 (19).png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Achievement\Achievement #2 (20).png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite2" sid="581924797049595">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="933115596237137" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Achievement\Achievement #2 (22).png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Achievement\Achievement #2 (23).png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite4" sid="329167285733004">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="228076548063805" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Achievement\Achievement #2 (25).png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Achievement\Achievement #2 (26).png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="LocalStorage" sid="995609054061977">
+            <plugin id="LocalStorage" />
         </object-type>
     </object-folder>
     <families />
@@ -1140,7 +1260,8 @@
         <layout>Splash Screen.xml</layout>
         <layout>Main Menu.xml</layout>
         <layout>Profile.xml</layout>
-        <layout>Penghargaan.xml</layout>
+        <layout>Penghargaan #1.xml</layout>
+        <layout>Penghargaan #2.xml</layout>
         <layout>Arsip Materi.xml</layout>
         <layout>GoodLuck Screen.xml</layout>
         <layout>New Update.xml</layout>
@@ -1174,6 +1295,7 @@
                 <roll-off-factor>1</roll-off-factor>
             </properties>
         </global-instance>
+        <global-instance type="LocalStorage" uid="134" />
     </global-instances>
     <sounds-folder>
         <file name="BGM Garuda Quest Alpha.ogg" />

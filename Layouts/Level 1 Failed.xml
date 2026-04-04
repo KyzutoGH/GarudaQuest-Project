@@ -117,41 +117,6 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="ACV_TerlaluPintarToStart" uid="73">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="LiteTween">
-                            <properties>
-                                <active-on-start>No</active-on-start>
-                                <tweened-property>Position</tweened-property>
-                                <function>EaseOutBounce</function>
-                                <target>960, 93</target>
-                                <target-mode>Absolute</target-mode>
-                                <duration>2.5</duration>
-                                <enforce-mode>Enforce</enforce-mode>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>960</x>
-                        <y>-108</y>
-                        <z>0</z>
-                        <width>455.967010498</width>
-                        <height>176.992996216</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
                 <instance type="Exit" uid="60">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
