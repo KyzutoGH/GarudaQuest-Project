@@ -96,7 +96,7 @@
                     </conditions>
                     <actions>
                         <action id="0" name="Play" sid="443439865361983" type="Audio">
-                            <param id="0" name="Audio file">Salah</param>
+                            <param id="0" name="Audio file">Ketawa Burung</param>
                             <param id="2" name="Loop">0</param>
                             <param id="3" name="Volume">0</param>
                             <param id="1" name="Tag (optional)">&quot;Salah&quot;</param>
@@ -123,7 +123,7 @@
                     </conditions>
                     <actions>
                         <action id="0" name="Play" sid="688173762203108" type="Audio">
-                            <param id="0" name="Audio file">Salah</param>
+                            <param id="0" name="Audio file">Ketawa Burung</param>
                             <param id="2" name="Loop">0</param>
                             <param id="3" name="Volume">0</param>
                             <param id="1" name="Tag (optional)">&quot;Salah&quot;</param>
@@ -239,14 +239,14 @@
                     <param id="1" name="dB">-15</param>
                 </action>
                 <action id="-16" name="Wait" sid="771165898958650" type="System">
-                    <param id="0" name="Seconds">1.5</param>
+                    <param id="0" name="Seconds">1</param>
                 </action>
                 <action id="3" name="Set volume" sid="126293086193166" type="Audio">
                     <param id="0" name="Tag">&quot;BGM&quot;</param>
                     <param id="1" name="dB">-5</param>
                 </action>
                 <action id="-16" name="Wait" sid="463259359537722" type="System">
-                    <param id="0" name="Seconds">3</param>
+                    <param id="0" name="Seconds">1</param>
                 </action>
                 <action id="-2" name="Go to layout" sid="977552186466519" type="System">
                     <param id="0" name="Layout">Level 1 Victory</param>
@@ -274,6 +274,7 @@
                     <param id="1" name="Comparison">0</param>
                     <param id="2" name="Second value">&quot;Level 1 Failed&quot;</param>
                 </condition>
+                <condition id="-4" name="Trigger once while true" sid="559718175298457" type="System" />
             </conditions>
             <actions>
                 <action id="5" name="Set frame" sid="681930705102881" type="GarudaResult">

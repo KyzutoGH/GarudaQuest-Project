@@ -14,8 +14,8 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <layout order="4">Splash Screen</layout>
         <layout order="5">Level 1 Failed</layout>
         <layout order="6">Level 1</layout>
-        <event-sheet order="2">Global Event</event-sheet>
         <event-sheet order="0">MenuEvent</event-sheet>
+        <event-sheet order="2">Global Event</event-sheet>
         <event-sheet active="1" order="3">Level Pancasila Event</event-sheet>
     </open-tabs>
     <properties>

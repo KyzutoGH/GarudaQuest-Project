@@ -22,10 +22,10 @@
                     <param id="0" name="Audio file">Clicked</param>
                 </action>
                 <action id="4" name="Preload" sid="438607365015230" type="Audio">
-                    <param id="0" name="Audio file">Salah</param>
+                    <param id="0" name="Audio file">Ketawa Burung</param>
                 </action>
                 <action id="4" name="Preload" sid="884662891435937" type="Audio">
-                    <param id="0" name="Audio file">Resident Evil 4 HD You Are Dead</param>
+                    <param id="0" name="Audio file">Acumalaka sound effect (mp3cut.net)</param>
                 </action>
                 <action id="1" name="Get item" sid="441936601120336" type="LocalStorage">
                     <param id="0" name="Key">&quot;EXP&quot;</param>
@@ -84,11 +84,11 @@
                     </conditions>
                     <actions>
                         <action id="33" name="Stop all" sid="278597795950646" type="Audio" />
-                        <action id="0" name="Play" sid="610836119396384" type="Audio">
-                            <param id="0" name="Audio file">Resident Evil 4 HD You Are Dead</param>
+                        <action id="0" name="Play" sid="496651382625708" type="Audio">
+                            <param id="0" name="Audio file">Acumalaka sound effect (mp3cut.net)</param>
                             <param id="2" name="Loop">0</param>
-                            <param id="3" name="Volume">-5</param>
-                            <param id="1" name="Tag (optional)">&quot;Failed&quot;</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;Kalah&quot;</param>
                         </action>
                     </actions>
                 </event-block>
