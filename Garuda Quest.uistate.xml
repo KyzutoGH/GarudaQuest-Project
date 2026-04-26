@@ -10,13 +10,15 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
+        <layout order="7">Level 1 Failed</layout>
+        <layout active="1" order="4">Level 1</layout>
+        <layout order="5">Level 2</layout>
+        <layout order="0">Level 1 Victory</layout>
         <layout order="1">Profile</layout>
-        <layout order="4">Splash Screen</layout>
-        <layout order="5">Level 1 Failed</layout>
-        <layout order="6">Level 1</layout>
-        <event-sheet order="0">MenuEvent</event-sheet>
+        <layout order="9">Splash Screen</layout>
         <event-sheet order="2">Global Event</event-sheet>
-        <event-sheet active="1" order="3">Level Pancasila Event</event-sheet>
+        <event-sheet order="3">Level Pancasila Event</event-sheet>
+        <event-sheet order="8">MenuEvent</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -73,10 +75,10 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/TxtSisaNyawa/" />
         <folder expanded="1" path="animation-folder/CobaLagi/" />
         <folder expanded="1" path="animation-folder/GarudaResult/" />
-        <folder expanded="1" path="animation-folder/GameOver/" />
+        <folder expanded="1" path="animation-folder/GameOverLevel1/" />
         <folder expanded="1" path="animation-folder/EvaluasiLevel1/" />
         <folder expanded="1" path="animation-folder/BenarArea/" />
-        <folder expanded="1" path="animation-folder/Victory/" />
+        <folder expanded="1" path="animation-folder/VictoryLevel1/" />
         <folder expanded="1" path="animation-folder/PenjelasanLevel1/" />
         <folder expanded="1" path="animation-folder/Lanjut/" />
         <folder expanded="1" path="animation-folder/BeringinFixed/" />
@@ -111,5 +113,21 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/SiPalingAlimProfile/" />
         <folder expanded="1" path="animation-folder/Sprite2/" />
         <folder expanded="1" path="animation-folder/Sprite4/" />
+        <folder expanded="1" path="animation-folder/Sprite5/" />
+        <folder expanded="1" path="animation-folder/TxtLevel2/" />
+        <folder expanded="1" path="animation-folder/TxtSoalLevel2/" />
+        <folder expanded="1" path="animation-folder/ObjLevel2/" />
+        <folder expanded="1" path="animation-folder/ObjTasLevel2/" />
+        <folder expanded="1" path="animation-folder/PentungLevel2/" />
+        <folder expanded="1" path="animation-folder/BukaTasLevel2/" />
+        <folder expanded="1" path="animation-folder/AmbilObat/" />
+        <folder expanded="1" path="animation-folder/Sprite6/" />
+        <folder expanded="1" path="animation-folder/SalahLevel2/" />
+        <folder expanded="1" path="animation-folder/BenarLevel2/" />
+        <folder expanded="1" path="animation-folder/NyawaTambahan/" />
+        <folder expanded="1" path="animation-folder/PenjelasanLevel2/" />
+        <folder expanded="1" path="animation-folder/VictoryLevel2/" />
+        <folder expanded="1" path="animation-folder/GameOverLevel2/" />
+        <folder expanded="1" path="animation-folder/EvaluasiLevel2/" />
     </folders-expanded>
 </c2uistate>

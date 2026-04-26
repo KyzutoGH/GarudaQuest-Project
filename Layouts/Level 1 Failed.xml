@@ -31,7 +31,7 @@
             <instances>
                 <instance type="MainMenuBG" uid="58">
                     <properties>
-                        <initial-visibility>Visible</initial-visibility>
+                        <initial-visibility>Invisible</initial-visibility>
                         <initial-animation>Default</initial-animation>
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
@@ -73,9 +73,9 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="GameOver" uid="63">
+                <instance type="GameOverLevel1" uid="63">
                     <properties>
-                        <initial-visibility>Visible</initial-visibility>
+                        <initial-visibility>Invisible</initial-visibility>
                         <initial-animation>Default</initial-animation>
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
@@ -97,7 +97,7 @@
                 </instance>
                 <instance type="EvaluasiLevel1" uid="64">
                     <properties>
-                        <initial-visibility>Visible</initial-visibility>
+                        <initial-visibility>Invisible</initial-visibility>
                         <initial-animation>Default</initial-animation>
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
@@ -157,6 +157,50 @@
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="GameOverLevel2" uid="176">
+                    <properties>
+                        <initial-visibility>Invisible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>722.315979004</x>
+                        <y>257.614990234</y>
+                        <z>0</z>
+                        <width>673.710998535</width>
+                        <height>159.582000732</height>
+                        <depth>0</depth>
+                        <hotspotX>0.498424381</hotspotX>
+                        <hotspotY>0.470066518</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="EvaluasiLevel2" uid="177">
+                    <properties>
+                        <initial-visibility>Invisible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>968</x>
+                        <y>649</y>
+                        <z>0</z>
+                        <width>1175.20703125</width>
+                        <height>256.808990479</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.349999994</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>

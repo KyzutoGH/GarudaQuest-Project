@@ -764,7 +764,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="GameOver" sid="957903966143028">
+        <object-type name="GameOverLevel1" sid="957903966143028">
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="699760967893749" speed="5">
@@ -808,7 +808,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Victory" sid="893346139288519">
+        <object-type name="VictoryLevel1" sid="893346139288519">
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="810049366629842" speed="5">
@@ -1250,11 +1250,154 @@
         <object-type name="LocalStorage" sid="995609054061977">
             <plugin id="LocalStorage" />
         </object-type>
+        <object-type name="Sprite5" sid="671591242288179">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="733520381850192" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level 2\2.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TxtLevel2" sid="238241292258683">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="315872110886042" speed="5">
+                    <frame duration="1" hotspotX="0.501765" hotspotY="0.513308" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level 2\3.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TxtSoalLevel2" sid="388408041419708">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="713888330210471" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.475806" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level 2\4.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="ObjLevel2" sid="138972258083501">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="856496571360225" speed="5">
+                    <frame duration="1" hotspotX="0.477541" hotspotY="0.502896" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level 2\5.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="ObjTasLevel2" sid="678614642883708">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="721197189706069" speed="5">
+                    <frame duration="1" hotspotX="0.455882" hotspotY="0.496744" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level 2\6.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="PentungLevel2" sid="351903558765157">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="300294733950122" speed="5">
+                    <frame duration="1" hotspotX="0.501043" hotspotY="0.449048" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level 2\7.png">
+                        <collision-poly>
+                            <point x="0.248175" y="0.609183" />
+                            <point x="0.501043" y="0.349384" />
+                            <point x="0.649374" y="0.18589" />
+                            <point x="0.927007" y="0.00447928" />
+                            <point x="0.986966" y="0.112542" />
+                            <point x="0.98853" y="0.292273" />
+                            <point x="0.751303" y="0.516237" />
+                            <point x="0.501043" y="0.642777" />
+                            <point x="0.24635" y="0.772676" />
+                            <point x="0.0291971" y="0.992161" />
+                            <point x="0.000521366" y="0.744681" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="BukaTasLevel2" sid="724355040381183">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="282749141580610" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="AmbilObat" sid="603982484051624">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="861180987681237" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite6" sid="655006721759465">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="195593447123434" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="SalahLevel2" sid="646809688380835">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="255852310707509" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="BenarLevel2" sid="366395310136531">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="631856268358088" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="NyawaTambahan" sid="901731000865130">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="773665590356500" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="PenjelasanLevel2" sid="394113817634757">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="959900318000543" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level 2\10.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="VictoryLevel2" sid="710445174433516">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="950261821182348" speed="5">
+                    <frame duration="1" hotspotX="0.502242" hotspotY="0.47836" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level 2\9.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="GameOverLevel2" sid="363552969454559">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="139407395209101" speed="5">
+                    <frame duration="1" hotspotX="0.498424" hotspotY="0.470067" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level 2\12.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="EvaluasiLevel2" sid="292130889007755">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="668520796870667" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.35" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level 2\13.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
         <layout>Level Intro - Pancasila.xml</layout>
         <layout>Level 1.xml</layout>
+        <layout>Level 2.xml</layout>
         <layout>Level 1 Failed.xml</layout>
         <layout>Level 1 Victory.xml</layout>
         <layout>Splash Screen.xml</layout>

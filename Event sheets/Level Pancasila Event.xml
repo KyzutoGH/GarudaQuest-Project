@@ -12,7 +12,7 @@
                 <condition id="-2" name="On start of layout" sid="902196962658897" type="System" />
             </conditions>
             <actions>
-                <action id="5" name="Set frame" sid="514242023165234" type="TxtSisaNyawa">
+                <action id="5" name="Set frame" sid="377694902922406" type="TxtSisaNyawa">
                     <param id="0" name="Frame number">Nyawa</param>
                 </action>
             </actions>
@@ -83,59 +83,48 @@
                         </event-block>
                     </sub-events>
                 </event-group>
-                <event-block sid="263078059764966">
+                <event-block any="1" sid="263078059764966">
                     <conditions>
                         <condition id="3" name="On touched object" sid="708563920005698" type="Touch">
                             <param id="0" name="Object">JawabBtn</param>
                         </condition>
-                        <condition id="-14" name="Compare variable" sid="400390500534712" type="System">
-                            <param id="0" name="Variable">GamePlay</param>
-                            <param id="1" name="Comparison">0</param>
-                            <param id="2" name="Value">1</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="0" name="Play" sid="443439865361983" type="Audio">
-                            <param id="0" name="Audio file">Ketawa Burung</param>
-                            <param id="2" name="Loop">0</param>
-                            <param id="3" name="Volume">0</param>
-                            <param id="1" name="Tag (optional)">&quot;Salah&quot;</param>
-                        </action>
-                        <action id="-11" name="Subtract from" sid="804771795487305" type="System">
-                            <param id="0" name="Variable">Nyawa</param>
-                            <param id="1" name="Value">1</param>
-                        </action>
-                        <action id="5" name="Set frame" sid="982969598279814" type="TxtSisaNyawa">
-                            <param id="0" name="Frame number">Nyawa</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="723517834655209">
-                    <conditions>
-                        <condition id="3" name="On touched object" sid="802485122057929" type="Touch">
+                        <condition id="3" name="On touched object" sid="887524794338092" type="Touch">
                             <param id="0" name="Object">Salah</param>
                         </condition>
-                        <condition id="-14" name="Compare variable" sid="674628929968498" type="System">
-                            <param id="0" name="Variable">GamePlay</param>
-                            <param id="1" name="Comparison">0</param>
-                            <param id="2" name="Value">1</param>
+                        <condition id="3" name="On touched object" sid="635328319132003" type="Touch">
+                            <param id="0" name="Object">PentungLevel2</param>
+                        </condition>
+                        <condition id="3" name="On touched object" sid="950507704072130" type="Touch">
+                            <param id="0" name="Object">SalahLevel2</param>
                         </condition>
                     </conditions>
-                    <actions>
-                        <action id="0" name="Play" sid="688173762203108" type="Audio">
-                            <param id="0" name="Audio file">Ketawa Burung</param>
-                            <param id="2" name="Loop">0</param>
-                            <param id="3" name="Volume">0</param>
-                            <param id="1" name="Tag (optional)">&quot;Salah&quot;</param>
-                        </action>
-                        <action id="-11" name="Subtract from" sid="960555515888823" type="System">
-                            <param id="0" name="Variable">Nyawa</param>
-                            <param id="1" name="Value">1</param>
-                        </action>
-                        <action id="5" name="Set frame" sid="832068957437915" type="TxtSisaNyawa">
-                            <param id="0" name="Frame number">Nyawa</param>
-                        </action>
-                    </actions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="723517834655209">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="674628929968498" type="System">
+                                    <param id="0" name="Variable">GamePlay</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">1</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Play" sid="688173762203108" type="Audio">
+                                    <param id="0" name="Audio file">Ketawa Burung</param>
+                                    <param id="2" name="Loop">0</param>
+                                    <param id="3" name="Volume">0</param>
+                                    <param id="1" name="Tag (optional)">&quot;Salah&quot;</param>
+                                </action>
+                                <action id="-11" name="Subtract from" sid="960555515888823" type="System">
+                                    <param id="0" name="Variable">Nyawa</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                                <action id="5" name="Set frame" sid="832068957437915" type="TxtSisaNyawa">
+                                    <param id="0" name="Frame number">Nyawa</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
                 </event-block>
                 <event-block sid="500195370253601">
                     <conditions>
@@ -228,6 +217,14 @@
                 <action id="-15" name="Set visible" sid="602018806609925" type="BeringinFixed">
                     <param id="0" name="Visibility">1</param>
                 </action>
+                <action id="-10" name="Add to" sid="375897842741493" type="System">
+                    <param id="0" name="Variable">Experience</param>
+                    <param id="1" name="Value">100</param>
+                </action>
+                <action id="0" name="Set item" sid="723295277870899" type="LocalStorage">
+                    <param id="0" name="Key">&quot;EXP&quot;</param>
+                    <param id="1" name="Value">&quot;&quot;&amp;Experience</param>
+                </action>
                 <action id="0" name="Play" sid="416330493781137" type="Audio">
                     <param id="0" name="Audio file">Radio-man-ohyeah</param>
                     <param id="2" name="Loop">0</param>
@@ -253,119 +250,396 @@
                 </action>
             </actions>
         </event-block>
-        <event-block sid="897571247379095">
+        <event-block sid="839746381431179">
             <conditions>
-                <condition id="-8" name="Compare two values" sid="322941785602184" type="System">
-                    <param id="0" name="First value">LayoutName</param>
-                    <param id="1" name="Comparison">0</param>
-                    <param id="2" name="Second value">&quot;Level 1 Victory&quot;</param>
+                <condition id="3" name="On touched object" sid="569820958050424" type="Touch">
+                    <param id="0" name="Object">BenarLevel2</param>
                 </condition>
             </conditions>
             <actions>
-                <action id="5" name="Set frame" sid="894735774323811" type="GarudaResult">
-                    <param id="0" name="Frame number">1</param>
+                <action id="0" name="Play" sid="524531949560300" type="Audio">
+                    <param id="0" name="Audio file">Clicked</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;Clicked&quot;</param>
+                </action>
+                <action id="-3" name="Create object" sid="118007669159484" type="System">
+                    <param id="0" name="Object to create">PartikelMenang</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="X">BeringinFixed.X</param>
+                    <param id="3" name="Y">BeringinFixed.Y</param>
+                </action>
+                <action id="-10" name="Add to" sid="643820150597899" type="System">
+                    <param id="0" name="Variable">Experience</param>
+                    <param id="1" name="Value">100</param>
+                </action>
+                <action id="0" name="Set item" sid="524129292232795" type="LocalStorage">
+                    <param id="0" name="Key">&quot;EXP&quot;</param>
+                    <param id="1" name="Value">&quot;&quot;&amp;Experience</param>
+                </action>
+                <action id="0" name="Play" sid="515757851408509" type="Audio">
+                    <param id="0" name="Audio file">Radio-man-ohyeah</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;Victory&quot;</param>
+                </action>
+                <action id="3" name="Set volume" sid="865646767088690" type="Audio">
+                    <param id="0" name="Tag">&quot;BGM&quot;</param>
+                    <param id="1" name="dB">-15</param>
+                </action>
+                <action id="-16" name="Wait" sid="968346448192773" type="System">
+                    <param id="0" name="Seconds">1</param>
+                </action>
+                <action id="3" name="Set volume" sid="684942480621633" type="Audio">
+                    <param id="0" name="Tag">&quot;BGM&quot;</param>
+                    <param id="1" name="dB">-5</param>
+                </action>
+                <action id="-16" name="Wait" sid="962658541860644" type="System">
+                    <param id="0" name="Seconds">1</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="650804050144006" type="System">
+                    <param id="0" name="Layout">Level 1 Victory</param>
                 </action>
             </actions>
         </event-block>
-        <event-block sid="115978524588504">
+        <event-block sid="690240551640046">
             <conditions>
-                <condition id="-8" name="Compare two values" sid="427798883988287" type="System">
-                    <param id="0" name="First value">LayoutName</param>
-                    <param id="1" name="Comparison">0</param>
-                    <param id="2" name="Second value">&quot;Level 1 Failed&quot;</param>
-                </condition>
-                <condition id="-4" name="Trigger once while true" sid="559718175298457" type="System" />
-            </conditions>
-            <actions>
-                <action id="5" name="Set frame" sid="681930705102881" type="GarudaResult">
-                    <param id="0" name="Frame number">0</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="407340779547700">
-            <conditions>
-                <condition id="3" name="On touched object" sid="966848561474646" type="Touch">
-                    <param id="0" name="Object">Pause</param>
+                <condition id="3" name="On touched object" sid="697484259546321" type="Touch">
+                    <param id="0" name="Object">NyawaTambahan</param>
                 </condition>
             </conditions>
             <actions>
-                <action id="-13" name="Set time scale" sid="128569160336195" type="System">
-                    <param id="0" name="Time scale">0</param>
+                <action id="0" name="Play" sid="490362815330747" type="Audio">
+                    <param id="0" name="Audio file">Clicked</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;Clicked&quot;</param>
                 </action>
-                <action id="-9" name="Set value" sid="633034574895474" type="System">
-                    <param id="0" name="Variable">GamePlay</param>
-                    <param id="1" name="Value">0</param>
-                </action>
-                <action behavior="DragDrop" id="0" name="Set enabled" sid="928279890758507" type="BeringinLevel1">
-                    <param id="0" name="State">0</param>
-                </action>
-                <action id="-3" name="Create object" sid="181025884142485" type="System">
-                    <param id="0" name="Object to create">PauseScreen</param>
-                    <param id="1" name="Layer">0</param>
-                    <param id="2" name="X">960</param>
-                    <param id="3" name="Y">540</param>
-                </action>
-                <action id="-3" name="Create object" sid="119800566812211" type="System">
-                    <param id="0" name="Object to create">BackPaused</param>
-                    <param id="1" name="Layer">0</param>
-                    <param id="2" name="X">963.271</param>
-                    <param id="3" name="Y">472.844</param>
-                </action>
-                <action id="-3" name="Create object" sid="636243535500225" type="System">
-                    <param id="0" name="Object to create">ExitPaused</param>
-                    <param id="1" name="Layer">0</param>
-                    <param id="2" name="X">965.762</param>
-                    <param id="3" name="Y">683.943</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="239287012114096">
-            <conditions>
-                <condition id="3" name="On touched object" sid="808846144384141" type="Touch">
-                    <param id="0" name="Object">BackPaused</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-9" name="Destroy" sid="144583697353724" type="BackPaused" />
-                <action id="-9" name="Destroy" sid="937871960553800" type="ExitPaused" />
-                <action id="-9" name="Destroy" sid="343688633247175" type="PauseScreen" />
-                <action id="-13" name="Set time scale" sid="181358043192367" type="System">
-                    <param id="0" name="Time scale">1.0</param>
-                </action>
-                <action id="-9" name="Set value" sid="298490211130590" type="System">
-                    <param id="0" name="Variable">GamePlay</param>
+                <action id="-9" name="Destroy" sid="654899884043431" type="NyawaTambahan" />
+                <action id="-10" name="Add to" sid="140261865085499" type="System">
+                    <param id="0" name="Variable">Nyawa</param>
                     <param id="1" name="Value">1</param>
                 </action>
-                <action behavior="DragDrop" id="0" name="Set enabled" sid="642267159539328" type="BeringinLevel1">
-                    <param id="0" name="State">1</param>
-                </action>
             </actions>
         </event-block>
-        <event-block sid="322387912743906">
-            <conditions>
-                <condition id="3" name="On touched object" sid="706127585976187" type="Touch">
-                    <param id="0" name="Object">ExitPaused</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-9" name="Destroy" sid="629718307488967" type="BackPaused" />
-                <action id="-9" name="Destroy" sid="229092326518050" type="ExitPaused" />
-                <action id="-9" name="Destroy" sid="275586166108984" type="PauseScreen" />
-                <action id="-13" name="Set time scale" sid="545047852671948" type="System">
-                    <param id="0" name="Time scale">1.0</param>
-                </action>
-                <action id="-9" name="Set value" sid="754366509227219" type="System">
-                    <param id="0" name="Variable">GamePlay</param>
-                    <param id="1" name="Value">1</param>
-                </action>
-                <action behavior="DragDrop" id="0" name="Set enabled" sid="394114503306214" type="BeringinLevel1">
-                    <param id="0" name="State">1</param>
-                </action>
-                <action id="-2" name="Go to layout" sid="357582130007339" type="System">
-                    <param id="0" name="Layout">Main Menu</param>
-                </action>
-            </actions>
-        </event-block>
+        <event-group description="" sid="870426046770192" title="Victory &amp; Defeat Screen">
+            <sub-events>
+                <event-block sid="897571247379095">
+                    <conditions>
+                        <condition id="-8" name="Compare two values" sid="322941785602184" type="System">
+                            <param id="0" name="First value">LayoutName</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Second value">&quot;Level 1 Victory&quot;</param>
+                        </condition>
+                        <condition id="-4" name="Trigger once while true" sid="380712960937229" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Set frame" sid="894735774323811" type="GarudaResult">
+                            <param id="0" name="Frame number">1</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="364728390989844">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="232526238310446" type="System">
+                                    <param id="0" name="Variable">Level</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">1</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-15" name="Set visible" sid="936276881519498" type="PenjelasanLevel1">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="580245936952206" type="VictoryLevel1">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="305527976721817">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="274483142087657" type="System">
+                                    <param id="0" name="Variable">Level</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">2</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-15" name="Set visible" sid="831066548045354" type="PenjelasanLevel2">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="195024992399575" type="VictoryLevel2">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="764761964530889" type="PenjelasanLevel1">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="529881623072590" type="VictoryLevel1">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="115978524588504">
+                    <conditions>
+                        <condition id="-8" name="Compare two values" sid="427798883988287" type="System">
+                            <param id="0" name="First value">LayoutName</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Second value">&quot;Level 1 Failed&quot;</param>
+                        </condition>
+                        <condition id="-4" name="Trigger once while true" sid="559718175298457" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Set frame" sid="681930705102881" type="GarudaResult">
+                            <param id="0" name="Frame number">0</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="843312588149327">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="682785319437626" type="System">
+                                    <param id="0" name="Variable">Level</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">1</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-15" name="Set visible" sid="856537840779054" type="EvaluasiLevel1">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="798312866184554" type="GameOverLevel1">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="684297589624689">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="834871623363141" type="System">
+                                    <param id="0" name="Variable">Level</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">2</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-15" name="Set visible" sid="484890126498920" type="EvaluasiLevel2">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="724628600912921" type="GameOverLevel2">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="521085049302341" type="EvaluasiLevel1">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="941553614668646" type="GameOverLevel1">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="542830187534156">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="745482432786026" type="Touch">
+                            <param id="0" name="Object">Lanjut</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="794623886138013" type="Audio">
+                            <param id="0" name="Audio file">Clicked</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;Clicked&quot;</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="645145081054656">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="829851999800892" type="System">
+                                    <param id="0" name="Variable">Level</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">1</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-2" name="Go to layout" sid="534887612951101" type="System">
+                                    <param id="0" name="Layout">Level 2</param>
+                                </action>
+                                <action id="-10" name="Add to" sid="903942147557426" type="System">
+                                    <param id="0" name="Variable">Level</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                                <action id="5" name="Set frame" sid="369540786554384" type="TxtSisaNyawa">
+                                    <param id="0" name="Frame number">Nyawa</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block disabled="1" sid="229080364134632">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="335386600722081" type="System">
+                                    <param id="0" name="Variable">Level</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">2</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-2" name="Go to layout" sid="187394769478271" type="System">
+                                    <param id="0" name="Layout">Level 2</param>
+                                </action>
+                                <action id="-10" name="Add to" sid="958195339608294" type="System">
+                                    <param id="0" name="Variable">Level</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                                <action id="5" name="Set frame" sid="445481857280616" type="TxtSisaNyawa">
+                                    <param id="0" name="Frame number">Nyawa</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="511510143069143" title="Level 2">
+            <sub-events>
+                <event-block sid="895789494136938">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="536100761476294" type="Touch">
+                            <param id="0" name="Object">BukaTasLevel2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="994801727735435" type="Audio">
+                            <param id="0" name="Audio file">Clicked</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;Clicked&quot;</param>
+                        </action>
+                        <action id="-3" name="Create object" sid="128802705357421" type="System">
+                            <param id="0" name="Object to create">ObjTasLevel2</param>
+                            <param id="1" name="Layer">0</param>
+                            <param id="2" name="X">726</param>
+                            <param id="3" name="Y">842</param>
+                        </action>
+                        <action id="-3" name="Create object" sid="299282016328895" type="System">
+                            <param id="0" name="Object to create">AmbilObat</param>
+                            <param id="1" name="Layer">0</param>
+                            <param id="2" name="X">738</param>
+                            <param id="3" name="Y">884</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="345308582911965">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="785767385229378" type="Touch">
+                            <param id="0" name="Object">AmbilObat</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="873029824306237" type="Audio">
+                            <param id="0" name="Audio file">Clicked</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;Clicked&quot;</param>
+                        </action>
+                        <action id="-9" name="Destroy" sid="903632167325368" type="SalahLevel2" />
+                        <action id="-3" name="Create object" sid="762173049903131" type="System">
+                            <param id="0" name="Object to create">BenarLevel2</param>
+                            <param id="1" name="Layer">0</param>
+                            <param id="2" name="X">999</param>
+                            <param id="3" name="Y">714</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="963288104077016" title="EPause">
+            <sub-events>
+                <event-block sid="407340779547700">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="966848561474646" type="Touch">
+                            <param id="0" name="Object">Pause</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-13" name="Set time scale" sid="128569160336195" type="System">
+                            <param id="0" name="Time scale">0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="633034574895474" type="System">
+                            <param id="0" name="Variable">GamePlay</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action behavior="DragDrop" id="0" name="Set enabled" sid="928279890758507" type="BeringinLevel1">
+                            <param id="0" name="State">0</param>
+                        </action>
+                        <action id="-3" name="Create object" sid="181025884142485" type="System">
+                            <param id="0" name="Object to create">PauseScreen</param>
+                            <param id="1" name="Layer">0</param>
+                            <param id="2" name="X">960</param>
+                            <param id="3" name="Y">540</param>
+                        </action>
+                        <action id="-3" name="Create object" sid="119800566812211" type="System">
+                            <param id="0" name="Object to create">BackPaused</param>
+                            <param id="1" name="Layer">0</param>
+                            <param id="2" name="X">963.271</param>
+                            <param id="3" name="Y">472.844</param>
+                        </action>
+                        <action id="-3" name="Create object" sid="636243535500225" type="System">
+                            <param id="0" name="Object to create">ExitPaused</param>
+                            <param id="1" name="Layer">0</param>
+                            <param id="2" name="X">965.762</param>
+                            <param id="3" name="Y">683.943</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="239287012114096">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="808846144384141" type="Touch">
+                            <param id="0" name="Object">BackPaused</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Destroy" sid="144583697353724" type="BackPaused" />
+                        <action id="-9" name="Destroy" sid="937871960553800" type="ExitPaused" />
+                        <action id="-9" name="Destroy" sid="343688633247175" type="PauseScreen" />
+                        <action id="-13" name="Set time scale" sid="181358043192367" type="System">
+                            <param id="0" name="Time scale">1.0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="298490211130590" type="System">
+                            <param id="0" name="Variable">GamePlay</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action behavior="DragDrop" id="0" name="Set enabled" sid="642267159539328" type="BeringinLevel1">
+                            <param id="0" name="State">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="322387912743906">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="706127585976187" type="Touch">
+                            <param id="0" name="Object">ExitPaused</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Destroy" sid="629718307488967" type="BackPaused" />
+                        <action id="-9" name="Destroy" sid="229092326518050" type="ExitPaused" />
+                        <action id="-9" name="Destroy" sid="275586166108984" type="PauseScreen" />
+                        <action id="-13" name="Set time scale" sid="545047852671948" type="System">
+                            <param id="0" name="Time scale">1.0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="754366509227219" type="System">
+                            <param id="0" name="Variable">GamePlay</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action behavior="DragDrop" id="0" name="Set enabled" sid="394114503306214" type="BeringinLevel1">
+                            <param id="0" name="State">1</param>
+                        </action>
+                        <action id="-2" name="Go to layout" sid="357582130007339" type="System">
+                            <param id="0" name="Layout">Main Menu</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
         <event-group description="" sid="111177142796335" title="Game Over">
             <sub-events>
                 <event-block sid="642949268384309">
@@ -449,6 +723,5 @@
                 </event-block>
             </sub-events>
         </event-group>
-        <comment></comment>
     </events>
 </c2eventsheet>

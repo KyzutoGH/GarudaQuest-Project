@@ -3,6 +3,159 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Global Event</name>
     <events>
+        <variable constant="0" name="LevelPlayer" sid="403311298397662" static="0" type="number">1</variable>
+        <variable constant="0" name="Experience" sid="255301994665231" static="0" type="number">0</variable>
+        <variable constant="0" name="ExperienceNextLevel" sid="226608292107562" static="0" type="number">100</variable>
+        <variable constant="0" name="LevelGameHighest" sid="593922607321844" static="0" type="number">0</variable>
+        <variable constant="0" name="TooEasyToStartACV" sid="306211760881772" static="0" type="number">0</variable>
+        <variable constant="0" name="TotalAchievement" sid="320781843749389" static="0" type="number">0</variable>
+        <variable constant="0" name="AnomaliSawitACV" sid="834116734786768" static="0" type="number">0</variable>
+        <event-group description="" sid="829115569158875" title="Storage System Get">
+            <sub-events>
+                <event-block sid="678074846534313">
+                    <conditions>
+                        <condition id="1" name="On item get" sid="679510127490623" type="LocalStorage">
+                            <param id="0" name="Key">&quot;TotalAchievement&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                </event-block>
+                <event-block sid="636123113296303">
+                    <conditions>
+                        <condition id="1" name="On item get" sid="364137482988772" type="LocalStorage">
+                            <param id="0" name="Key">&quot;TooEasyToStartACV&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="353554877955343" type="System">
+                            <param id="0" name="Variable">TooEasyToStartACV</param>
+                            <param id="1" name="Value">int(LocalStorage.ItemValue)</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="283189926075583">
+                    <conditions>
+                        <condition id="1" name="On item get" sid="729455791206078" type="LocalStorage">
+                            <param id="0" name="Key">&quot;AnomaliSawitACV&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="267725190852233" type="System">
+                            <param id="0" name="Variable">AnomaliSawitACV</param>
+                            <param id="1" name="Value">int(LocalStorage.ItemValue)</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="355141960329700">
+                    <conditions>
+                        <condition id="1" name="On item get" sid="470873939689069" type="LocalStorage">
+                            <param id="0" name="Key">&quot;LevelGame&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="944907328314240" type="System">
+                            <param id="0" name="Variable">LevelGameHighest</param>
+                            <param id="1" name="Value">int(LocalStorage.ItemValue)</param>
+                        </action>
+                        <action id="0" name="Set text" sid="841795076862313" type="LevelGameHighestTxt">
+                            <param id="0" name="Text">LevelGameHighest&amp;&quot;/20&quot;</param>
+                        </action>
+                        <action id="3" name="Set progress" sid="615310194351874" type="LevelGameBar">
+                            <param id="0" name="Value">LevelGameHighest</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="776814278904184">
+                    <conditions>
+                        <condition id="1" name="On item get" sid="404719496523949" type="LocalStorage">
+                            <param id="0" name="Key">&quot;Level&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="350248313561784" type="System">
+                            <param id="0" name="Variable">LevelPlayer</param>
+                            <param id="1" name="Value">int(LocalStorage.ItemValue)</param>
+                        </action>
+                        <action id="0" name="Set text" sid="270396848456807" type="RankTxt">
+                            <param id="0" name="Text">&quot;Rank &quot;&amp;LevelPlayer</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="113492942790813">
+                    <conditions>
+                        <condition id="1" name="On item get" sid="793675514054989" type="LocalStorage">
+                            <param id="0" name="Key">&quot;EXP&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="203613679736885" type="System">
+                            <param id="0" name="Variable">Experience</param>
+                            <param id="1" name="Value">int(LocalStorage.ItemValue)</param>
+                        </action>
+                        <action id="0" name="Set text" sid="425111231172436" type="RankEXPTxt">
+                            <param id="0" name="Text">Experience&amp;&quot;/&quot;&amp;ExperienceNextLevel</param>
+                        </action>
+                        <action id="3" name="Set progress" sid="776353204282149" type="RankEXPBar">
+                            <param id="0" name="Value">Experience</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="287354627991280">
+                    <conditions>
+                        <condition id="1" name="On item get" sid="569981329737569" type="LocalStorage">
+                            <param id="0" name="Key">&quot;ExperienceNextLevel&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="762646367728425" type="System">
+                            <param id="0" name="Variable">ExperienceNextLevel</param>
+                            <param id="1" name="Value">int(LocalStorage.ItemValue)</param>
+                        </action>
+                        <action id="0" name="Set text" sid="220554879399670" type="RankEXPTxt">
+                            <param id="0" name="Text">&quot;Butuh &quot;&amp;ExperienceNextLevel&amp;&quot; Untuk Naik Level&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="560484911188318">
+                    <conditions>
+                        <condition id="-8" name="Compare two values" sid="538490681245562" type="System">
+                            <param id="0" name="First value">Experience</param>
+                            <param id="1" name="Comparison">5</param>
+                            <param id="2" name="Second value">ExperienceNextLevel</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Add to" sid="321243356472598" type="System">
+                            <param id="0" name="Variable">LevelPlayer</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="894270456193121" type="System">
+                            <param id="0" name="Variable">ExperienceNextLevel</param>
+                            <param id="1" name="Value">int(100 * (1.5 ^ LevelPlayer))</param>
+                        </action>
+                        <action id="-11" name="Subtract from" sid="202295075774016" type="System">
+                            <param id="0" name="Variable">ExperienceNextLevel</param>
+                            <param id="1" name="Value">Experience</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="736952350168623" type="System">
+                            <param id="0" name="Variable">Experience</param>
+                            <param id="1" name="Value">max(0, Experience)</param>
+                        </action>
+                        <action id="0" name="Set item" sid="989585571692663" type="LocalStorage">
+                            <param id="0" name="Key">&quot;Level&quot;</param>
+                            <param id="1" name="Value">LevelPlayer</param>
+                        </action>
+                        <action id="0" name="Set item" sid="848740782678917" type="LocalStorage">
+                            <param id="0" name="Key">&quot;EXP&quot;</param>
+                            <param id="1" name="Value">Experience</param>
+                        </action>
+                        <action id="0" name="Set text" sid="602561420488417" type="RankTxt">
+                            <param id="0" name="Text">&quot;Rank &quot;&amp;LevelPlayer</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
         <event-block sid="264525644247529">
             <conditions>
                 <condition id="-2" name="On start of layout" sid="785797152234477" type="System" />
@@ -27,23 +180,14 @@
                 <action id="4" name="Preload" sid="884662891435937" type="Audio">
                     <param id="0" name="Audio file">Acumalaka sound effect (mp3cut.net)</param>
                 </action>
-                <action id="1" name="Get item" sid="441936601120336" type="LocalStorage">
-                    <param id="0" name="Key">&quot;EXP&quot;</param>
+                <action id="0" name="Set text" sid="926796073721511" type="RankTxt">
+                    <param id="0" name="Text">&quot;Rank &quot;&amp;LevelPlayer</param>
                 </action>
-                <action id="1" name="Get item" sid="237633621192644" type="LocalStorage">
-                    <param id="0" name="Key">&quot;Level&quot;</param>
+                <action id="0" name="Set text" sid="518292191364343" type="RankEXPTxt">
+                    <param id="0" name="Text">Experience&amp;&quot;/&quot;&amp;ExperienceNextLevel</param>
                 </action>
-                <action id="1" name="Get item" sid="644208054938105" type="LocalStorage">
-                    <param id="0" name="Key">&quot;LevelGame&quot;</param>
-                </action>
-                <action id="1" name="Get item" sid="472612794456078" type="LocalStorage">
-                    <param id="0" name="Key">&quot;AnomaliSawitACV&quot;</param>
-                </action>
-                <action id="1" name="Get item" sid="615854864764918" type="LocalStorage">
-                    <param id="0" name="Key">&quot;TooEasyToStartACV&quot;</param>
-                </action>
-                <action id="1" name="Get item" sid="912776898159748" type="LocalStorage">
-                    <param id="0" name="Key">&quot;TotalAchievement&quot;</param>
+                <action id="0" name="Set text" sid="386268734589311" type="EXPReqTxt">
+                    <param id="0" name="Text">&quot;Butuh &quot;&amp;ExperienceNextLevel&amp;&quot; Untuk Naik Level&quot;</param>
                 </action>
             </actions>
             <sub-events>
@@ -269,118 +413,6 @@
                             </actions>
                         </event-block>
                     </sub-events>
-                </event-block>
-            </sub-events>
-        </event-group>
-        <variable constant="0" name="LevelPlayer" sid="403311298397662" static="0" type="number">1</variable>
-        <variable constant="0" name="Experience" sid="255301994665231" static="0" type="number">0</variable>
-        <variable constant="0" name="ExperienceNextLevel" sid="226608292107562" static="0" type="number">100</variable>
-        <variable constant="0" name="LevelGameHighest" sid="593922607321844" static="0" type="number">0</variable>
-        <variable constant="0" name="TooEasyToStartACV" sid="306211760881772" static="0" type="number">0</variable>
-        <variable constant="0" name="TotalAchievement" sid="320781843749389" static="0" type="number">0</variable>
-        <variable constant="0" name="AnomaliSawitACV" sid="834116734786768" static="0" type="number">0</variable>
-        <event-group description="" sid="829115569158875" title="Storage System Get">
-            <sub-events>
-                <event-block sid="678074846534313">
-                    <conditions>
-                        <condition id="1" name="On item get" sid="679510127490623" type="LocalStorage">
-                            <param id="0" name="Key">&quot;TotalAchievement&quot;</param>
-                        </condition>
-                    </conditions>
-                    <actions />
-                </event-block>
-                <event-block sid="636123113296303">
-                    <conditions>
-                        <condition id="1" name="On item get" sid="364137482988772" type="LocalStorage">
-                            <param id="0" name="Key">&quot;TooEasyToStartACV&quot;</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="-9" name="Set value" sid="353554877955343" type="System">
-                            <param id="0" name="Variable">TooEasyToStartACV</param>
-                            <param id="1" name="Value">int(LocalStorage.ItemValue)</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="283189926075583">
-                    <conditions>
-                        <condition id="1" name="On item get" sid="729455791206078" type="LocalStorage">
-                            <param id="0" name="Key">&quot;AnomaliSawitACV&quot;</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="-9" name="Set value" sid="267725190852233" type="System">
-                            <param id="0" name="Variable">AnomaliSawitACV</param>
-                            <param id="1" name="Value">int(LocalStorage.ItemValue)</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="355141960329700">
-                    <conditions>
-                        <condition id="1" name="On item get" sid="470873939689069" type="LocalStorage">
-                            <param id="0" name="Key">&quot;LevelGame&quot;</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="-9" name="Set value" sid="944907328314240" type="System">
-                            <param id="0" name="Variable">LevelGameHighest</param>
-                            <param id="1" name="Value">int(LocalStorage.ItemValue)</param>
-                        </action>
-                        <action id="0" name="Set text" sid="841795076862313" type="LevelGameHighestTxt">
-                            <param id="0" name="Text">LevelGameHighest&amp;&quot;/20&quot;</param>
-                        </action>
-                        <action id="3" name="Set progress" sid="615310194351874" type="LevelGameBar">
-                            <param id="0" name="Value">LevelGameHighest</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="776814278904184">
-                    <conditions>
-                        <condition id="1" name="On item get" sid="404719496523949" type="LocalStorage">
-                            <param id="0" name="Key">&quot;Level&quot;</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="-9" name="Set value" sid="350248313561784" type="System">
-                            <param id="0" name="Variable">LevelPlayer</param>
-                            <param id="1" name="Value">int(LocalStorage.ItemValue)</param>
-                        </action>
-                        <action id="0" name="Set text" sid="270396848456807" type="RankTxt">
-                            <param id="0" name="Text">&quot;Rank &quot;&amp;LevelPlayer</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="113492942790813">
-                    <conditions>
-                        <condition id="1" name="On item get" sid="793675514054989" type="LocalStorage">
-                            <param id="0" name="Key">&quot;EXP&quot;</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="-9" name="Set value" sid="203613679736885" type="System">
-                            <param id="0" name="Variable">Experience</param>
-                            <param id="1" name="Value">int(LocalStorage.ItemValue)</param>
-                        </action>
-                        <action id="0" name="Set text" sid="425111231172436" type="RankEXPTxt">
-                            <param id="0" name="Text">Experience&amp;&quot;/&quot;&amp;ExperienceNextLevel</param>
-                        </action>
-                        <action id="3" name="Set progress" sid="776353204282149" type="RankEXPBar">
-                            <param id="0" name="Value">Experience</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="787875980595282">
-                    <conditions>
-                        <condition id="10" name="On item missing" sid="341000723101869" type="LocalStorage">
-                            <param id="0" name="Key">&quot;LevelPlayer&quot;</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="-9" name="Set value" sid="799189266925765" type="System">
-                            <param id="0" name="Variable">LevelPlayer</param>
-                            <param id="1" name="Value">1</param>
-                        </action>
-                    </actions>
                 </event-block>
             </sub-events>
         </event-group>

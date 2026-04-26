@@ -95,9 +95,9 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Victory" uid="71">
+                <instance type="VictoryLevel1" uid="71">
                     <properties>
-                        <initial-visibility>Visible</initial-visibility>
+                        <initial-visibility>Invisible</initial-visibility>
                         <initial-animation>Default</initial-animation>
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
@@ -119,7 +119,7 @@
                 </instance>
                 <instance type="PenjelasanLevel1" uid="67">
                     <properties>
-                        <initial-visibility>Visible</initial-visibility>
+                        <initial-visibility>Invisible</initial-visibility>
                         <initial-animation>Default</initial-animation>
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
@@ -157,6 +157,50 @@
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="PenjelasanLevel2" uid="174">
+                    <properties>
+                        <initial-visibility>Invisible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>972.251708984</x>
+                        <y>681.219421387</y>
+                        <z>0</z>
+                        <width>1169.496704102</width>
+                        <height>255.561203003</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="VictoryLevel2" uid="175">
+                    <properties>
+                        <initial-visibility>Invisible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>721</x>
+                        <y>260</y>
+                        <z>0</z>
+                        <width>678.184020996</width>
+                        <height>167.171005249</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502242148</hotspotX>
+                        <hotspotY>0.478359908</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
