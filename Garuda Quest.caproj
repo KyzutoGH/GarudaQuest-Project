@@ -674,30 +674,22 @@
         <object-type name="TxtSisaNyawa" sid="809326583194765">
             <plugin id="Sprite" />
             <animation-folder>
-                <animation framecount="4" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="635359382376935" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.51076" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Garuda Quest Font\10.png">
+                <animation framecount="1" loop="0" name="3Life" pingpong="0" repeatcount="1" repeatto="0" sid="105195542543529" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.511494">
                         <collision-poly>
-                            <point x="0.0817121" y="0.202296" />
-                            <point x="0.5" y="0.00143472" />
-                            <point x="0.918288" y="0.202296" />
-                            <point x="0.996109" y="0.51076" />
-                            <point x="0.910506" y="0.813486" />
-                            <point x="0.5" y="0.998565" />
-                            <point x="0.0875486" y="0.814921" />
-                            <point x="0.00194553" y="0.51076" />
+                            <point x="0.07393" y="0.196839" />
+                            <point x="0.5" y="0.00143678" />
+                            <point x="0.935798" y="0.189655" />
+                            <point x="0.892996" y="0.511494" />
+                            <point x="0.937743" y="0.83477" />
+                            <point x="0.5" y="0.998563" />
+                            <point x="0.0622568" y="0.83477" />
+                            <point x="0.361868" y="0.511494" />
                         </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="0.535385" hotspotY="0.512555" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Garuda Quest Font\1.png">
-                        <collision-poly>
-                            <point x="0.04" y="0.274742" />
-                            <point x="0.535385" y="0.0531758" />
-                            <point x="0.996923" y="0.29099" />
-                            <point x="0.996923" y="0.734121" />
-                            <point x="0.535385" y="0.968981" />
-                            <point x="0.495385" y="0.512555" />
-                        </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="0.492366" hotspotY="0.51895" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Garuda Quest Font\2.png">
+                </animation>
+                <animation framecount="1" loop="0" name="2Life" pingpong="0" repeatcount="1" repeatto="0" sid="250599412674451" speed="5">
+                    <frame duration="1" hotspotX="0.492366" hotspotY="0.51895">
                         <collision-poly>
                             <point x="0.0610687" y="0.189504" />
                             <point x="0.492366" y="0.00291545" />
@@ -709,16 +701,30 @@
                             <point x="0.480916" y="0.51895" />
                         </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.511494" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Garuda Quest Font\3.png">
+                </animation>
+                <animation framecount="1" loop="0" name="1Life" pingpong="0" repeatcount="1" repeatto="0" sid="403978803665260" speed="5">
+                    <frame duration="1" hotspotX="0.535385" hotspotY="0.512555">
                         <collision-poly>
-                            <point x="0.07393" y="0.196839" />
-                            <point x="0.5" y="0.00143678" />
-                            <point x="0.935798" y="0.189655" />
-                            <point x="0.892996" y="0.511494" />
-                            <point x="0.937743" y="0.83477" />
-                            <point x="0.5" y="0.998563" />
-                            <point x="0.0622568" y="0.83477" />
-                            <point x="0.361868" y="0.511494" />
+                            <point x="0.04" y="0.274742" />
+                            <point x="0.535385" y="0.0531758" />
+                            <point x="0.996923" y="0.29099" />
+                            <point x="0.996923" y="0.734121" />
+                            <point x="0.535385" y="0.968981" />
+                            <point x="0.495385" y="0.512555" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="0Life" pingpong="0" repeatcount="1" repeatto="0" sid="679956588929737" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.51076">
+                        <collision-poly>
+                            <point x="0.0817121" y="0.202296" />
+                            <point x="0.5" y="0.00143472" />
+                            <point x="0.918288" y="0.202296" />
+                            <point x="0.996109" y="0.51076" />
+                            <point x="0.910506" y="0.813486" />
+                            <point x="0.5" y="0.998565" />
+                            <point x="0.0875486" y="0.814921" />
+                            <point x="0.00194553" y="0.51076" />
                         </collision-poly>
                     </frame>
                 </animation>
