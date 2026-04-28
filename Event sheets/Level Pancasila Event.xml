@@ -60,6 +60,14 @@
                                             <param id="0" name="Variable">Experience</param>
                                             <param id="1" name="Value">58</param>
                                         </action>
+                                        <action id="-10" name="Add to" sid="603610942078388" type="System">
+                                            <param id="0" name="Variable">TotalAchievement</param>
+                                            <param id="1" name="Value">1</param>
+                                        </action>
+                                        <action id="0" name="Set item" sid="165157369139878" type="LocalStorage">
+                                            <param id="0" name="Key">&quot;TotalAchievement&quot;</param>
+                                            <param id="1" name="Value">&quot;&quot;&amp;TotalAchievement</param>
+                                        </action>
                                         <action id="0" name="Set item" sid="726694996910697" type="LocalStorage">
                                             <param id="0" name="Key">&quot;AnomaliSawitACV&quot;</param>
                                             <param id="1" name="Value">&quot;&quot;&amp;AnomaliSawitACV</param>
@@ -132,63 +140,67 @@
                     <conditions>
                         <condition id="-14" name="Compare variable" sid="595148884601474" type="System">
                             <param id="0" name="Variable">Nyawa</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="501773661708605" type="System">
+                            <param id="0" name="Variable">TooEasyToStartACV</param>
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">0</param>
                         </condition>
-                        <condition id="-4" name="Trigger once while true" sid="702617248998724" type="System" />
+                        <condition id="-14" name="Compare variable" sid="452063779735070" type="System">
+                            <param id="0" name="Variable">Level</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
                     </conditions>
-                    <actions />
+                    <actions>
+                        <action behavior="LiteTween" id="10" name="Start" sid="997211478570947" type="ACV_TerlaluPintarToStart">
+                            <param id="0" name="Start Mode">0</param>
+                            <param id="1" name="Force use current">0</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="912230793171000" type="System">
+                            <param id="0" name="Seconds">3.5</param>
+                        </action>
+                        <action behavior="LiteTween" id="11" name="Reverse" sid="639854928708464" type="ACV_TerlaluPintarToStart">
+                            <param id="0" name="Reverse mode">0</param>
+                        </action>
+                        <action id="-10" name="Add to" sid="904257465607070" type="System">
+                            <param id="0" name="Variable">TooEasyToStartACV</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="-10" name="Add to" sid="993966893413173" type="System">
+                            <param id="0" name="Variable">Experience</param>
+                            <param id="1" name="Value">50</param>
+                        </action>
+                        <action id="-10" name="Add to" sid="205032418037399" type="System">
+                            <param id="0" name="Variable">TotalAchievement</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="0" name="Set item" sid="323819769474644" type="LocalStorage">
+                            <param id="0" name="Key">&quot;TooEasyToStartACV&quot;</param>
+                            <param id="1" name="Value">&quot;&quot;&amp;TooEasyToStartACV</param>
+                        </action>
+                        <action id="0" name="Set item" sid="527194305970220" type="LocalStorage">
+                            <param id="0" name="Key">&quot;EXP&quot;</param>
+                            <param id="1" name="Value">&quot;&quot;&amp;Experience</param>
+                        </action>
+                        <action id="0" name="Set item" sid="436074528559790" type="LocalStorage">
+                            <param id="0" name="Key">&quot;TotalAchievement&quot;</param>
+                            <param id="1" name="Value">&quot;&quot;&amp;TotalAchievement</param>
+                        </action>
+                    </actions>
                     <sub-events>
-                        <event-block sid="110464098999668">
+                        <event-block sid="570571902644955">
                             <conditions>
-                                <condition id="-14" name="Compare variable" sid="501773661708605" type="System">
+                                <condition id="-14" name="Compare variable" sid="939705867826517" type="System">
                                     <param id="0" name="Variable">TooEasyToStartACV</param>
-                                    <param id="1" name="Comparison">0</param>
-                                    <param id="2" name="Value">0</param>
+                                    <param id="1" name="Comparison">5</param>
+                                    <param id="2" name="Value">1</param>
                                 </condition>
                             </conditions>
                             <actions>
-                                <action behavior="LiteTween" id="10" name="Start" sid="997211478570947" type="ACV_TerlaluPintarToStart">
-                                    <param id="0" name="Start Mode">0</param>
-                                    <param id="1" name="Force use current">0</param>
-                                </action>
-                                <action id="-16" name="Wait" sid="912230793171000" type="System">
-                                    <param id="0" name="Seconds">3.5</param>
-                                </action>
-                                <action behavior="LiteTween" id="11" name="Reverse" sid="639854928708464" type="ACV_TerlaluPintarToStart">
-                                    <param id="0" name="Reverse mode">0</param>
-                                </action>
-                                <action id="-10" name="Add to" sid="904257465607070" type="System">
-                                    <param id="0" name="Variable">TooEasyToStartACV</param>
-                                    <param id="1" name="Value">1</param>
-                                </action>
-                                <action id="-10" name="Add to" sid="993966893413173" type="System">
-                                    <param id="0" name="Variable">Experience</param>
-                                    <param id="1" name="Value">50</param>
-                                </action>
-                                <action id="0" name="Set item" sid="323819769474644" type="LocalStorage">
-                                    <param id="0" name="Key">&quot;TooEasyToStartACV&quot;</param>
-                                    <param id="1" name="Value">&quot;&quot;&amp;TooEasyToStartACV</param>
-                                </action>
-                                <action id="0" name="Set item" sid="527194305970220" type="LocalStorage">
-                                    <param id="0" name="Key">&quot;EXP&quot;</param>
-                                    <param id="1" name="Value">&quot;&quot;&amp;Experience</param>
-                                </action>
-                                <action id="-2" name="Go to layout" sid="443871377556647" type="System">
-                                    <param id="0" name="Layout">Level 1 Failed</param>
-                                </action>
-                            </actions>
-                        </event-block>
-                        <event-block sid="138089217757478">
-                            <conditions>
-                                <condition id="-14" name="Compare variable" sid="938238682998041" type="System">
-                                    <param id="0" name="Variable">TooEasyToStartACV</param>
-                                    <param id="1" name="Comparison">4</param>
-                                    <param id="2" name="Value">0</param>
-                                </condition>
-                            </conditions>
-                            <actions>
-                                <action id="-2" name="Go to layout" sid="424206482164522" type="System">
+                                <action id="-2" name="Go to layout" sid="966551408796041" type="System">
                                     <param id="0" name="Layout">Level 1 Failed</param>
                                 </action>
                             </actions>
@@ -213,8 +225,8 @@
                 <action id="-3" name="Create object" sid="333653158224685" type="System">
                     <param id="0" name="Object to create">PartikelMenang</param>
                     <param id="1" name="Layer">0</param>
-                    <param id="2" name="X">BeringinFixed.X</param>
-                    <param id="3" name="Y">BeringinFixed.Y</param>
+                    <param id="2" name="X">960</param>
+                    <param id="3" name="Y">540</param>
                 </action>
                 <action id="-15" name="Set visible" sid="602018806609925" type="BeringinFixed">
                     <param id="0" name="Visibility">1</param>
@@ -223,9 +235,17 @@
                     <param id="0" name="Variable">Experience</param>
                     <param id="1" name="Value">100</param>
                 </action>
+                <action id="-10" name="Add to" sid="391492905521845" type="System">
+                    <param id="0" name="Variable">LevelGameHighest</param>
+                    <param id="1" name="Value">1</param>
+                </action>
                 <action id="0" name="Set item" sid="723295277870899" type="LocalStorage">
                     <param id="0" name="Key">&quot;EXP&quot;</param>
                     <param id="1" name="Value">&quot;&quot;&amp;Experience</param>
+                </action>
+                <action id="0" name="Set item" sid="184572916398606" type="LocalStorage">
+                    <param id="0" name="Key">&quot;LevelGameHighest&quot;</param>
+                    <param id="1" name="Value">&quot;&quot;&amp;LevelGameHighest</param>
                 </action>
                 <action id="0" name="Play" sid="416330493781137" type="Audio">
                     <param id="0" name="Audio file">Radio-man-ohyeah</param>
@@ -265,11 +285,11 @@
                     <param id="3" name="Volume">0</param>
                     <param id="1" name="Tag (optional)">&quot;Clicked&quot;</param>
                 </action>
-                <action id="-3" name="Create object" sid="118007669159484" type="System">
+                <action id="-3" name="Create object" sid="124216253626805" type="System">
                     <param id="0" name="Object to create">PartikelMenang</param>
                     <param id="1" name="Layer">0</param>
-                    <param id="2" name="X">BeringinFixed.X</param>
-                    <param id="3" name="Y">BeringinFixed.Y</param>
+                    <param id="2" name="X">960</param>
+                    <param id="3" name="Y">540</param>
                 </action>
                 <action id="-10" name="Add to" sid="643820150597899" type="System">
                     <param id="0" name="Variable">Experience</param>
@@ -340,8 +360,9 @@
                         <condition id="-4" name="Trigger once while true" sid="380712960937229" type="System" />
                     </conditions>
                     <actions>
-                        <action id="5" name="Set frame" sid="894735774323811" type="GarudaResult">
-                            <param id="0" name="Frame number">1</param>
+                        <action id="4" name="Set animation" sid="894735774323811" type="GarudaResult">
+                            <param id="0" name="Animation">&quot;Benar&quot;</param>
+                            <param id="1" name="From">1</param>
                         </action>
                     </actions>
                     <sub-events>
@@ -397,8 +418,9 @@
                         <condition id="-4" name="Trigger once while true" sid="559718175298457" type="System" />
                     </conditions>
                     <actions>
-                        <action id="5" name="Set frame" sid="681930705102881" type="GarudaResult">
-                            <param id="0" name="Frame number">0</param>
+                        <action id="4" name="Set animation" sid="290674353670464" type="GarudaResult">
+                            <param id="0" name="Animation">&quot;Salah&quot;</param>
+                            <param id="1" name="From">1</param>
                         </action>
                     </actions>
                     <sub-events>
@@ -729,5 +751,15 @@
                 </event-block>
             </sub-events>
         </event-group>
+        <event-block sid="972589901689566">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="229538614644841" type="System">
+                    <param id="0" name="Variable">Nyawa</param>
+                    <param id="1" name="Comparison">3</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+            </conditions>
+            <actions />
+        </event-block>
     </events>
 </c2eventsheet>
