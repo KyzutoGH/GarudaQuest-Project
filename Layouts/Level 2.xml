@@ -342,14 +342,14 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1802</x>
-                        <y>-435</y>
+                        <x>1995</x>
+                        <y>-356</y>
                         <z>0</z>
-                        <width>250.106048584</width>
-                        <height>282.420166016</height>
+                        <width>250.631484985</width>
+                        <height>282.157440186</height>
                         <depth>0</depth>
-                        <hotspotX>0.455882341</hotspotX>
-                        <hotspotY>0.496744186</hotspotY>
+                        <hotspotX>0.365828097</hotspotX>
+                        <hotspotY>0.492551208</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -364,36 +364,14 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>764.110290527</x>
-                        <y>817.429748535</y>
+                        <x>757</x>
+                        <y>824</y>
                         <z>0</z>
-                        <width>166.501586914</width>
-                        <height>220.874023438</height>
+                        <width>250.630996704</width>
+                        <height>282.157012939</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="AmbilObat" uid="157">
-                    <properties>
-                        <initial-visibility>Invisible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>1796.5</x>
-                        <y>-396.5</y>
-                        <z>0</z>
-                        <width>83</width>
-                        <height>65</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
+                        <hotspotY>0.497211903</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -432,28 +410,6 @@
                     <world>
                         <x>999</x>
                         <y>714</y>
-                        <z>0</z>
-                        <width>55</width>
-                        <height>55</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="BenarLevel2" uid="162">
-                    <properties>
-                        <initial-visibility>Invisible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>1027</x>
-                        <y>-141</y>
                         <z>0</z>
                         <width>55</width>
                         <height>55</height>
@@ -570,6 +526,36 @@
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="AmbilObat" uid="157">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="DragDrop">
+                            <properties>
+                                <axes>Both</axes>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1999</x>
+                        <y>-304</y>
+                        <z>0</z>
+                        <width>76.739013672</width>
+                        <height>73.265205383</height>
+                        <depth>0</depth>
+                        <hotspotX>0.499534011</hotspotX>
+                        <hotspotY>0.533797204</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>

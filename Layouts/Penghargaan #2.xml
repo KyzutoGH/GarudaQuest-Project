@@ -205,33 +205,6 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="PlayerName" uid="130">
-                    <properties>
-                        <text>PENGHARGAAN</text>
-                        <initial-visibility>Visible</initial-visibility>
-                        <font>Arial Rounded MT Bold,-96,400,0</font>
-                        <color>0,0,0</color>
-                        <horizontal-alignment>Center</horizontal-alignment>
-                        <vertical-alignment>Top</vertical-alignment>
-                        <hotspot>Top-left</hotspot>
-                        <wrapping>Word</wrapping>
-                        <line-height>0</line-height>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>771</x>
-                        <y>93</y>
-                        <z>0</z>
-                        <width>852</width>
-                        <height>113</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
                 <instance type="Halaman1AchBtn" uid="147">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
@@ -362,6 +335,39 @@
                         <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="PenghargaanHeader" uid="91">
+                    <properties>
+                        <tag>div</tag>
+                        <content>Penghargaan</content>
+                        <content-type>HTML</content-type>
+                        <initial-visibility>Visible</initial-visibility>
+                        <id-optional></id-optional>
+                        <class-optional></class-optional>
+                        <allow-context-menu>No</allow-context-menu>
+                        <stop-input-events>No</stop-input-events>
+                        <hotspot>Top-left</hotspot>
+                        <styling></styling>
+                        <set-color>Yes</set-color>
+                        <default-color>0,0,0</default-color>
+                        <set-background-color>No</set-background-color>
+                        <default-background-color>255,255,255</default-background-color>
+                        <auto-font-size>Yes</auto-font-size>
+                        <allow-text-selection>No</allow-text-selection>
+                        <style-attribute></style-attribute>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>964</x>
+                        <y>102</y>
+                        <z>0</z>
+                        <width>580</width>
+                        <height>100</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
                     </world>
                 </instance>
             </instances>

@@ -205,6 +205,50 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
+                <instance type="VictoryLevel3" uid="207">
+                    <properties>
+                        <initial-visibility>Invisible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>721</x>
+                        <y>260</y>
+                        <z>0</z>
+                        <width>678.184020996</width>
+                        <height>167.171005249</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502242148</hotspotX>
+                        <hotspotY>0.443974644</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="PenjelasanLevel3" uid="208">
+                    <properties>
+                        <initial-visibility>Invisible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>972.25201416</x>
+                        <y>681.218994141</y>
+                        <z>0</z>
+                        <width>1169.496948242</width>
+                        <height>255.561004639</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.471428573</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
             </instances>
             <effects />
         </layer>
