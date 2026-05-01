@@ -133,6 +133,53 @@
                                 <action id="-15" name="Set visible" sid="649064389181940" type="VictoryLevel3">
                                     <param id="0" name="Visibility">0</param>
                                 </action>
+                                <action id="-15" name="Set visible" sid="692371593126050" type="PenjelasanLevel4">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="218866633859774" type="VictoryLevel4">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="210448296880494">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="639008202542812" type="System">
+                                    <param id="0" name="Variable">Level</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">5</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-15" name="Set visible" sid="182491466357673" type="PenjelasanLevel2">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="383480093477745" type="VictoryLevel2">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="105801669981698" type="PenjelasanLevel1">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="484107268355146" type="VictoryLevel1">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="616926097865093" type="PenjelasanLevel3">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="791390889488609" type="VictoryLevel3">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="379480193452016" type="PenjelasanLevel4">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="809133336099356" type="VictoryLevel4">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="943040869152767" type="PenjelasanLevel5">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="846069516651549" type="VictoryLevel5">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
                             </actions>
                         </event-block>
                     </sub-events>
@@ -157,18 +204,60 @@
                                 <condition id="-14" name="Compare variable" sid="416164827743041" type="System">
                                     <param id="0" name="Variable">Level</param>
                                     <param id="1" name="Comparison">0</param>
-                                    <param id="2" name="Value">3</param>
+                                    <param id="2" name="Value">5</param>
                                 </condition>
                             </conditions>
                             <actions>
                                 <action id="-2" name="Go to layout" sid="894143458489602" type="System">
-                                    <param id="0" name="Layout">Level 4</param>
+                                    <param id="0" name="Layout">Level 5</param>
                                 </action>
                                 <action id="-10" name="Add to" sid="121394096203185" type="System">
                                     <param id="0" name="Variable">Level</param>
                                     <param id="1" name="Value">1</param>
                                 </action>
                                 <action id="5" name="Set frame" sid="710862929747429" type="TxtSisaNyawa">
+                                    <param id="0" name="Frame number">Nyawa</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="362229207836788">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="791179863805296" type="System">
+                                    <param id="0" name="Variable">Level</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">4</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-2" name="Go to layout" sid="459620255005281" type="System">
+                                    <param id="0" name="Layout">Level 5</param>
+                                </action>
+                                <action id="-10" name="Add to" sid="885078844743817" type="System">
+                                    <param id="0" name="Variable">Level</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                                <action id="5" name="Set frame" sid="363127248606058" type="TxtSisaNyawa">
+                                    <param id="0" name="Frame number">Nyawa</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="731053872568257">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="518889617852358" type="System">
+                                    <param id="0" name="Variable">Level</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">3</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-2" name="Go to layout" sid="641616041658022" type="System">
+                                    <param id="0" name="Layout">Level 4</param>
+                                </action>
+                                <action id="-10" name="Add to" sid="791988197338916" type="System">
+                                    <param id="0" name="Variable">Level</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                                <action id="5" name="Set frame" sid="184429255603619" type="TxtSisaNyawa">
                                     <param id="0" name="Frame number">Nyawa</param>
                                 </action>
                             </actions>
@@ -772,6 +861,128 @@
                         </event-block>
                     </sub-events>
                 </event-group>
+                <event-group description="" sid="504723008475910" title="Level 5">
+                    <sub-events>
+                        <event-block sid="173683691572388">
+                            <conditions>
+                                <condition id="0" name="On collision with another object" sid="830476760584728" type="KunciLevel5">
+                                    <param id="0" name="Object">BorgolLevel5</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Play" sid="279683742198403" type="Audio">
+                                    <param id="0" name="Audio file">Jump</param>
+                                    <param id="2" name="Loop">0</param>
+                                    <param id="3" name="Volume">0</param>
+                                    <param id="1" name="Tag (optional)">&quot;Collected&quot;</param>
+                                </action>
+                                <action id="-3" name="Create object" sid="816450733777101" type="System">
+                                    <param id="0" name="Object to create">PartikelMenang</param>
+                                    <param id="1" name="Layer">0</param>
+                                    <param id="2" name="X">BorgolLevel5.X</param>
+                                    <param id="3" name="Y">BorgolLevel5.Y</param>
+                                </action>
+                                <action id="-9" name="Destroy" sid="235791534153722" type="KunciLevel5" />
+                                <action behavior="DragDrop" id="0" name="Set enabled" sid="472819252092840" type="BorgolLevel5">
+                                    <param id="0" name="State">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="988820074520855">
+                            <conditions>
+                                <condition id="0" name="On collision with another object" sid="221186088639972" type="BorgolLevel5">
+                                    <param id="0" name="Object">SalahLevel5</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Destroy" sid="638476665645118" type="BorgolLevel5" />
+                                <action id="0" name="Play" sid="614539931531286" type="Audio">
+                                    <param id="0" name="Audio file">Clicked</param>
+                                    <param id="2" name="Loop">0</param>
+                                    <param id="3" name="Volume">0</param>
+                                    <param id="1" name="Tag (optional)">&quot;Clicked&quot;</param>
+                                </action>
+                                <action id="-3" name="Create object" sid="354953420274903" type="System">
+                                    <param id="0" name="Object to create">PartikelMenang</param>
+                                    <param id="1" name="Layer">0</param>
+                                    <param id="2" name="X">960</param>
+                                    <param id="3" name="Y">540</param>
+                                </action>
+                                <action id="-10" name="Add to" sid="573513959675305" type="System">
+                                    <param id="0" name="Variable">Experience</param>
+                                    <param id="1" name="Value">100</param>
+                                </action>
+                                <action id="0" name="Set item" sid="936399701259440" type="LocalStorage">
+                                    <param id="0" name="Key">&quot;EXP&quot;</param>
+                                    <param id="1" name="Value">&quot;&quot;&amp;Experience</param>
+                                </action>
+                                <action id="0" name="Play" sid="778424348700124" type="Audio">
+                                    <param id="0" name="Audio file">Radio-man-ohyeah</param>
+                                    <param id="2" name="Loop">0</param>
+                                    <param id="3" name="Volume">0</param>
+                                    <param id="1" name="Tag (optional)">&quot;Victory&quot;</param>
+                                </action>
+                                <action id="3" name="Set volume" sid="579167105420655" type="Audio">
+                                    <param id="0" name="Tag">&quot;BGM&quot;</param>
+                                    <param id="1" name="dB">-15</param>
+                                </action>
+                                <action id="-16" name="Wait" sid="465563027492044" type="System">
+                                    <param id="0" name="Seconds">1</param>
+                                </action>
+                                <action id="3" name="Set volume" sid="895942845039309" type="Audio">
+                                    <param id="0" name="Tag">&quot;BGM&quot;</param>
+                                    <param id="1" name="dB">-5</param>
+                                </action>
+                                <action id="-16" name="Wait" sid="565128766791408" type="System">
+                                    <param id="0" name="Seconds">1</param>
+                                </action>
+                                <action id="-2" name="Go to layout" sid="645527487917666" type="System">
+                                    <param id="0" name="Layout">Level 1 Victory</param>
+                                </action>
+                            </actions>
+                            <sub-events>
+                                <event-block sid="614086091678524">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="538255426647294" type="System">
+                                            <param id="0" name="Variable">LevelGameHighest</param>
+                                            <param id="1" name="Comparison">2</param>
+                                            <param id="2" name="Value">5</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-9" name="Set value" sid="164280864596458" type="System">
+                                            <param id="0" name="Variable">LevelGameHighest</param>
+                                            <param id="1" name="Value">5</param>
+                                        </action>
+                                        <action id="0" name="Set item" sid="986699371933107" type="LocalStorage">
+                                            <param id="0" name="Key">&quot;LevelGameHighest&quot;</param>
+                                            <param id="1" name="Value">&quot;&quot;&amp;LevelGameHighest</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="464368350748313">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="679604858176775" type="System">
+                                            <param id="0" name="Variable">MateriUnlock</param>
+                                            <param id="1" name="Comparison">2</param>
+                                            <param id="2" name="Value">5</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-9" name="Set value" sid="856242389043351" type="System">
+                                            <param id="0" name="Variable">MateriUnlock</param>
+                                            <param id="1" name="Value">5</param>
+                                        </action>
+                                        <action id="0" name="Set item" sid="376380659882961" type="LocalStorage">
+                                            <param id="0" name="Key">&quot;MateriUnlock&quot;</param>
+                                            <param id="1" name="Value">&quot;&quot;&amp;MateriUnlock</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                    </sub-events>
+                </event-group>
             </sub-events>
         </event-group>
         <event-group description="" sid="468238273838591" title="Salah">
@@ -798,6 +1009,12 @@
                         </condition>
                         <condition id="0" name="On collision with another object" sid="690409380297251" type="KertasSuaraLeft">
                             <param id="0" name="Object">KotakIndomie</param>
+                        </condition>
+                        <condition id="3" name="On touched object" sid="220740794227935" type="Touch">
+                            <param id="0" name="Object">SalahLevel5</param>
+                        </condition>
+                        <condition id="3" name="On touched object" sid="331556683681152" type="Touch">
+                            <param id="0" name="Object">HaTeLevel5</param>
                         </condition>
                     </conditions>
                     <actions />
@@ -966,6 +1183,34 @@
                                 </action>
                             </actions>
                         </event-block>
+                        <event-block sid="816619376200259">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="935801202998544" type="System">
+                                    <param id="0" name="Variable">Level</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">4</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-2" name="Go to layout" sid="283763437498424" type="System">
+                                    <param id="0" name="Layout">Level 1 Failed</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="876247495459863">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="900587069314112" type="System">
+                                    <param id="0" name="Variable">Level</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">5</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-2" name="Go to layout" sid="973201739931347" type="System">
+                                    <param id="0" name="Layout">Level 1 Failed</param>
+                                </action>
+                            </actions>
+                        </event-block>
                     </sub-events>
                 </event-block>
                 <event-block sid="115978524588504">
@@ -1034,16 +1279,98 @@
                             </conditions>
                             <actions>
                                 <action id="-15" name="Set visible" sid="682943594326323" type="EvaluasiLevel2">
-                                    <param id="0" name="Visibility">1</param>
+                                    <param id="0" name="Visibility">0</param>
                                 </action>
                                 <action id="-15" name="Set visible" sid="163031427937485" type="GameOverLevel2">
-                                    <param id="0" name="Visibility">1</param>
+                                    <param id="0" name="Visibility">0</param>
                                 </action>
                                 <action id="-15" name="Set visible" sid="743099490020654" type="EvaluasiLevel1">
                                     <param id="0" name="Visibility">0</param>
                                 </action>
                                 <action id="-15" name="Set visible" sid="740080913170749" type="GameOverLevel1">
                                     <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="980033128633042" type="EvaluasiLevel3">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="285736852996496" type="GameOverLevel3">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="205273770330714">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="747583697528723" type="System">
+                                    <param id="0" name="Variable">Level</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">4</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-15" name="Set visible" sid="851177991269991" type="EvaluasiLevel2">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="833033098631458" type="GameOverLevel2">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="505974093908754" type="EvaluasiLevel1">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="573836305165963" type="GameOverLevel1">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="644323135380475" type="EvaluasiLevel3">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="207695852322242" type="GameOverLevel3">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="794066606928242" type="EvaluasiLevel4">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="238883739173866" type="GameOverLevel4">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="941704290284090">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="501218536658520" type="System">
+                                    <param id="0" name="Variable">Level</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">5</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-15" name="Set visible" sid="476579579875551" type="EvaluasiLevel2">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="790034364326925" type="GameOverLevel2">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="897768272630778" type="EvaluasiLevel1">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="505336301053731" type="GameOverLevel1">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="694246319739526" type="EvaluasiLevel3">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="422758206917549" type="GameOverLevel3">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="959174117437201" type="EvaluasiLevel4">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="848846609863277" type="GameOverLevel4">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="131143938935063" type="EvaluasiLevel5">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="657582271886076" type="GameOverLevel5">
+                                    <param id="0" name="Visibility">1</param>
                                 </action>
                             </actions>
                         </event-block>
@@ -1246,5 +1573,19 @@
                 </event-block>
             </sub-events>
         </event-group>
+        <event-block sid="830110758530668">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="366728896703935" type="System">
+                    <param id="0" name="Variable">Level</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">3</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="345998050417285" type="System">
+                    <param id="0" name="Layout">Level 1 Failed</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>
