@@ -9,6 +9,7 @@
         <variable constant="0" name="GamePlay" sid="719456207417067" static="0" type="number">1</variable>
         <variable constant="0" name="Level7Uang" sid="663077133451161" static="0" type="number">0</variable>
         <variable constant="0" name="SuaraLevel3" sid="776526646090991" static="0" type="number">7</variable>
+        <variable constant="0" name="JawabanLevel12" sid="449018692769317" static="0" type="number">0</variable>
         <event-block sid="646592585383563">
             <conditions>
                 <condition id="-2" name="On start of layout" sid="902196962658897" type="System" />
@@ -95,6 +96,30 @@
                                 <action id="-15" name="Set visible" sid="648179688286034" type="VictoryLevel8">
                                     <param id="0" name="Visibility">0</param>
                                 </action>
+                                <action id="-15" name="Set visible" sid="844945539083998" type="PenjelasanLevel9">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="586156737077413" type="VictoryLevel9">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="117428239161706" type="PenjelasanLevel10">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="394199806542477" type="VictoryLevel10">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="219275615049413" type="PenjelasanLevel11">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="693793538779871" type="VictoryLevel11">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="122246237025943" type="PenjelasanLevel12">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="471340049015655" type="VictoryLevel12">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
                             </actions>
                         </event-block>
                         <event-block sid="305527976721817">
@@ -152,6 +177,30 @@
                                     <param id="0" name="Visibility">0</param>
                                 </action>
                                 <action id="-15" name="Set visible" sid="793229115211043" type="VictoryLevel8">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="688577692314659" type="PenjelasanLevel9">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="311270694314651" type="VictoryLevel9">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="806591208728645" type="PenjelasanLevel10">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="307515784696760" type="VictoryLevel10">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="853826586657744" type="PenjelasanLevel11">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="677866324416379" type="VictoryLevel11">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="872495334117117" type="PenjelasanLevel12">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="446669502378233" type="VictoryLevel12">
                                     <param id="0" name="Visibility">0</param>
                                 </action>
                             </actions>
@@ -213,6 +262,30 @@
                                 <action id="-15" name="Set visible" sid="134920469725911" type="VictoryLevel8">
                                     <param id="0" name="Visibility">0</param>
                                 </action>
+                                <action id="-15" name="Set visible" sid="726760671086453" type="PenjelasanLevel9">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="431666205190024" type="VictoryLevel9">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="691690610426441" type="PenjelasanLevel10">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="492234946405660" type="VictoryLevel10">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="530405615943868" type="PenjelasanLevel11">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="888388601575059" type="VictoryLevel11">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="831948740918066" type="PenjelasanLevel12">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="262981005103769" type="VictoryLevel12">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
                             </actions>
                         </event-block>
                         <event-block sid="428160219750838">
@@ -270,6 +343,30 @@
                                     <param id="0" name="Visibility">0</param>
                                 </action>
                                 <action id="-15" name="Set visible" sid="922816998290370" type="VictoryLevel8">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="415735593252387" type="PenjelasanLevel9">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="226183544206383" type="VictoryLevel9">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="382742160610539" type="PenjelasanLevel10">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="641949291638162" type="VictoryLevel10">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="463487940788314" type="PenjelasanLevel11">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="906889373551306" type="VictoryLevel11">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="139634544673062" type="PenjelasanLevel12">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="758677106713482" type="VictoryLevel12">
                                     <param id="0" name="Visibility">0</param>
                                 </action>
                             </actions>
@@ -331,6 +428,30 @@
                                 <action id="-15" name="Set visible" sid="799702943067536" type="VictoryLevel8">
                                     <param id="0" name="Visibility">0</param>
                                 </action>
+                                <action id="-15" name="Set visible" sid="574355078834793" type="PenjelasanLevel9">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="456534202419296" type="VictoryLevel9">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="844803483063337" type="PenjelasanLevel10">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="913592511017802" type="VictoryLevel10">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="513447937380542" type="PenjelasanLevel11">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="848500760571942" type="VictoryLevel11">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="448308439108004" type="PenjelasanLevel12">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="939180880866043" type="VictoryLevel12">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
                             </actions>
                         </event-block>
                         <event-block sid="319198908731203">
@@ -388,6 +509,30 @@
                                     <param id="0" name="Visibility">0</param>
                                 </action>
                                 <action id="-15" name="Set visible" sid="701361446644054" type="VictoryLevel8">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="607422490441599" type="PenjelasanLevel9">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="709263156127461" type="VictoryLevel9">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="812915168632549" type="PenjelasanLevel10">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="194558381101900" type="VictoryLevel10">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="738192297685593" type="PenjelasanLevel11">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="542497162891053" type="VictoryLevel11">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="339857797498658" type="PenjelasanLevel12">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="430372280414673" type="VictoryLevel12">
                                     <param id="0" name="Visibility">0</param>
                                 </action>
                             </actions>
@@ -449,6 +594,30 @@
                                 <action id="-15" name="Set visible" sid="921296025971841" type="VictoryLevel8">
                                     <param id="0" name="Visibility">0</param>
                                 </action>
+                                <action id="-15" name="Set visible" sid="739910158037755" type="PenjelasanLevel9">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="283169318243134" type="VictoryLevel9">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="575987559768636" type="PenjelasanLevel10">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="824311712304307" type="VictoryLevel10">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="996596152683124" type="PenjelasanLevel11">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="868585579248703" type="VictoryLevel11">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="811714996680100" type="PenjelasanLevel12">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="601799989001753" type="VictoryLevel12">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
                             </actions>
                         </event-block>
                         <event-block sid="744124919212994">
@@ -508,6 +677,362 @@
                                 <action id="-15" name="Set visible" sid="813281418872135" type="VictoryLevel8">
                                     <param id="0" name="Visibility">1</param>
                                 </action>
+                                <action id="-15" name="Set visible" sid="422966640819965" type="PenjelasanLevel9">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="744049247539715" type="VictoryLevel9">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="275296027297644" type="PenjelasanLevel10">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="578657024143316" type="VictoryLevel10">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="737120635588351" type="PenjelasanLevel11">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="878837721641505" type="VictoryLevel11">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="726413052504043" type="PenjelasanLevel12">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="497025732425684" type="VictoryLevel12">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="712295994846271">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="429197709176399" type="System">
+                                    <param id="0" name="Variable">Level</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">9</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-15" name="Set visible" sid="630584934655471" type="PenjelasanLevel2">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="597683272181577" type="VictoryLevel2">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="708178761698720" type="PenjelasanLevel1">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="445836319974536" type="VictoryLevel1">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="790430360408667" type="PenjelasanLevel3">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="519406533752864" type="VictoryLevel3">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="912009378197736" type="PenjelasanLevel4">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="410230168113131" type="VictoryLevel4">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="388142260278994" type="PenjelasanLevel5">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="330900337912544" type="VictoryLevel5">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="838321716463812" type="PenjelasanLevel6">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="639089841265694" type="VictoryLevel6">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="591807814634446" type="PenjelasanLevel7">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="284180332330961" type="VictoryLevel7">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="351876444239393" type="PenjelasanLevel8">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="597500954154238" type="VictoryLevel8">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="863347290729669" type="PenjelasanLevel9">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="531884346675360" type="VictoryLevel9">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="807544490578014" type="PenjelasanLevel10">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="339655098288216" type="VictoryLevel10">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="914121567872519" type="PenjelasanLevel11">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="614768632929961" type="VictoryLevel11">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="265804100457061" type="PenjelasanLevel12">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="279347748057034" type="VictoryLevel12">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="856654491761622">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="770661747047987" type="System">
+                                    <param id="0" name="Variable">Level</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">10</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-15" name="Set visible" sid="146626451450183" type="PenjelasanLevel2">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="584237563332529" type="VictoryLevel2">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="682002651133394" type="PenjelasanLevel1">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="270254922969559" type="VictoryLevel1">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="617400863573078" type="PenjelasanLevel3">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="530159321680750" type="VictoryLevel3">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="251948298903598" type="PenjelasanLevel4">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="898583539859838" type="VictoryLevel4">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="374379939252265" type="PenjelasanLevel5">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="740859619466399" type="VictoryLevel5">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="588054860144820" type="PenjelasanLevel6">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="694601469486766" type="VictoryLevel6">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="652737085139510" type="PenjelasanLevel7">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="875877828484596" type="VictoryLevel7">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="576855793850090" type="PenjelasanLevel8">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="193206655596611" type="VictoryLevel8">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="307835659698837" type="PenjelasanLevel9">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="411826950478482" type="VictoryLevel9">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="126819528120031" type="PenjelasanLevel10">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="781846699508840" type="VictoryLevel10">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="442188060698043" type="PenjelasanLevel11">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="376025692628408" type="VictoryLevel11">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="733799206993531" type="PenjelasanLevel12">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="257813481413410" type="VictoryLevel12">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="846492488263304">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="641804566019040" type="System">
+                                    <param id="0" name="Variable">Level</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">11</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-15" name="Set visible" sid="197740086071777" type="PenjelasanLevel2">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="463073302480096" type="VictoryLevel2">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="485507769669569" type="PenjelasanLevel1">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="692618583356139" type="VictoryLevel1">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="176828080156133" type="PenjelasanLevel3">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="293177771397473" type="VictoryLevel3">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="536229206087198" type="PenjelasanLevel4">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="589557751162508" type="VictoryLevel4">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="128407021008287" type="PenjelasanLevel5">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="503767745675451" type="VictoryLevel5">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="920427816576823" type="PenjelasanLevel6">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="902741249101983" type="VictoryLevel6">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="447764010544158" type="PenjelasanLevel7">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="772756887756231" type="VictoryLevel7">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="644887452407986" type="PenjelasanLevel8">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="933695036989420" type="VictoryLevel8">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="264620863817054" type="PenjelasanLevel9">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="639286778629649" type="VictoryLevel9">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="551812262609192" type="PenjelasanLevel10">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="203142505839605" type="VictoryLevel10">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="631518605162697" type="PenjelasanLevel11">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="329967902997810" type="VictoryLevel11">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="494460411810326" type="PenjelasanLevel12">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="328955807137446" type="VictoryLevel12">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="294204523645890">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="355376586983298" type="System">
+                                    <param id="0" name="Variable">Level</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">12</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-15" name="Set visible" sid="216286245334963" type="PenjelasanLevel2">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="675303530747704" type="VictoryLevel2">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="112538026519094" type="PenjelasanLevel1">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="402226221842330" type="VictoryLevel1">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="835224289262445" type="PenjelasanLevel3">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="370823397514815" type="VictoryLevel3">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="652312916712961" type="PenjelasanLevel4">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="515906995036097" type="VictoryLevel4">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="442555776476053" type="PenjelasanLevel5">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="272947476969443" type="VictoryLevel5">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="340616604455593" type="PenjelasanLevel6">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="295418845888755" type="VictoryLevel6">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="135652470657837" type="PenjelasanLevel7">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="275520947188624" type="VictoryLevel7">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="905058706593177" type="PenjelasanLevel8">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="397788232915639" type="VictoryLevel8">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="260775121306369" type="PenjelasanLevel9">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="204212125842455" type="VictoryLevel9">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="323855658106283" type="PenjelasanLevel10">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="622880648919765" type="VictoryLevel10">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="231972464464038" type="PenjelasanLevel11">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="656868917363473" type="VictoryLevel11">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="943188556632849" type="PenjelasanLevel12">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="142755036745007" type="VictoryLevel12">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
                             </actions>
                         </event-block>
                     </sub-events>
@@ -527,23 +1052,107 @@
                         </action>
                     </actions>
                     <sub-events>
+                        <event-block sid="428515680312618">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="916141619764226" type="System">
+                                    <param id="0" name="Variable">Level</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">11</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-2" name="Go to layout" sid="539667627791588" type="System">
+                                    <param id="0" name="Layout">Level 12</param>
+                                </action>
+                                <action id="-10" name="Add to" sid="532750082531076" type="System">
+                                    <param id="0" name="Variable">Level</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                                <action id="5" name="Set frame" sid="778516747171504" type="TxtSisaNyawa">
+                                    <param id="0" name="Frame number">Nyawa</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="588173535603957">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="927953982907416" type="System">
+                                    <param id="0" name="Variable">Level</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">10</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-2" name="Go to layout" sid="486595764421019" type="System">
+                                    <param id="0" name="Layout">Level 11</param>
+                                </action>
+                                <action id="-10" name="Add to" sid="330846193175022" type="System">
+                                    <param id="0" name="Variable">Level</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                                <action id="5" name="Set frame" sid="684409356073658" type="TxtSisaNyawa">
+                                    <param id="0" name="Frame number">Nyawa</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="615945314699434">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="138063242526413" type="System">
+                                    <param id="0" name="Variable">Level</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">9</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-2" name="Go to layout" sid="660026178981909" type="System">
+                                    <param id="0" name="Layout">Level 10</param>
+                                </action>
+                                <action id="-10" name="Add to" sid="454424617126330" type="System">
+                                    <param id="0" name="Variable">Level</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                                <action id="5" name="Set frame" sid="738523872423966" type="TxtSisaNyawa">
+                                    <param id="0" name="Frame number">Nyawa</param>
+                                </action>
+                            </actions>
+                        </event-block>
                         <event-block sid="342125285616404">
                             <conditions>
                                 <condition id="-14" name="Compare variable" sid="507556578585375" type="System">
                                     <param id="0" name="Variable">Level</param>
                                     <param id="1" name="Comparison">0</param>
-                                    <param id="2" name="Value">7</param>
+                                    <param id="2" name="Value">8</param>
                                 </condition>
                             </conditions>
                             <actions>
                                 <action id="-2" name="Go to layout" sid="153515163364157" type="System">
-                                    <param id="0" name="Layout">Level 8</param>
+                                    <param id="0" name="Layout">Level 9</param>
                                 </action>
                                 <action id="-10" name="Add to" sid="503397146219022" type="System">
                                     <param id="0" name="Variable">Level</param>
                                     <param id="1" name="Value">1</param>
                                 </action>
                                 <action id="5" name="Set frame" sid="628744815164478" type="TxtSisaNyawa">
+                                    <param id="0" name="Frame number">Nyawa</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="731806437939384">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="999434115933072" type="System">
+                                    <param id="0" name="Variable">Level</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">7</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-2" name="Go to layout" sid="682368404010517" type="System">
+                                    <param id="0" name="Layout">Level 8</param>
+                                </action>
+                                <action id="-10" name="Add to" sid="304803151273468" type="System">
+                                    <param id="0" name="Variable">Level</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                                <action id="5" name="Set frame" sid="774652501293195" type="TxtSisaNyawa">
                                     <param id="0" name="Frame number">Nyawa</param>
                                 </action>
                             </actions>
@@ -1462,10 +2071,6 @@
                                 </condition>
                             </conditions>
                             <actions>
-                                <action id="-11" name="Subtract from" sid="223741315721267" type="System">
-                                    <param id="0" name="Variable">SuaraLevel3</param>
-                                    <param id="1" name="Value">1</param>
-                                </action>
                                 <action id="0" name="Play" sid="451997439995438" type="Audio">
                                     <param id="0" name="Audio file">Jump</param>
                                     <param id="2" name="Loop">0</param>
@@ -1492,10 +2097,6 @@
                                 </condition>
                             </conditions>
                             <actions>
-                                <action id="-11" name="Subtract from" sid="362351643104676" type="System">
-                                    <param id="0" name="Variable">SuaraLevel3</param>
-                                    <param id="1" name="Value">1</param>
-                                </action>
                                 <action id="0" name="Play" sid="464683690894382" type="Audio">
                                     <param id="0" name="Audio file">Jump</param>
                                     <param id="2" name="Loop">0</param>
@@ -1734,6 +2335,488 @@
                                             <param id="1" name="Value">8</param>
                                         </action>
                                         <action id="0" name="Set item" sid="916333170137364" type="LocalStorage">
+                                            <param id="0" name="Key">&quot;MateriUnlock&quot;</param>
+                                            <param id="1" name="Value">&quot;&quot;&amp;MateriUnlock</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                    </sub-events>
+                </event-group>
+                <event-group description="" sid="905457601149617" title="Level 9">
+                    <sub-events>
+                        <event-block sid="405352222160302">
+                            <conditions>
+                                <condition id="3" name="On touched object" sid="344093113449572" type="Touch">
+                                    <param id="0" name="Object">BenarLevel9</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-16" name="Wait" sid="755934450350190" type="System">
+                                    <param id="0" name="Seconds">0.5</param>
+                                </action>
+                                <action id="0" name="Play" sid="627741164911806" type="Audio">
+                                    <param id="0" name="Audio file">Clicked</param>
+                                    <param id="2" name="Loop">0</param>
+                                    <param id="3" name="Volume">0</param>
+                                    <param id="1" name="Tag (optional)">&quot;Clicked&quot;</param>
+                                </action>
+                                <action id="-3" name="Create object" sid="209657525089934" type="System">
+                                    <param id="0" name="Object to create">PartikelMenang</param>
+                                    <param id="1" name="Layer">0</param>
+                                    <param id="2" name="X">960</param>
+                                    <param id="3" name="Y">540</param>
+                                </action>
+                                <action id="-10" name="Add to" sid="989520854653249" type="System">
+                                    <param id="0" name="Variable">Experience</param>
+                                    <param id="1" name="Value">100</param>
+                                </action>
+                                <action id="0" name="Set item" sid="908671054053041" type="LocalStorage">
+                                    <param id="0" name="Key">&quot;EXP&quot;</param>
+                                    <param id="1" name="Value">&quot;&quot;&amp;Experience</param>
+                                </action>
+                                <action id="0" name="Play" sid="400311420444239" type="Audio">
+                                    <param id="0" name="Audio file">Radio-man-ohyeah</param>
+                                    <param id="2" name="Loop">0</param>
+                                    <param id="3" name="Volume">0</param>
+                                    <param id="1" name="Tag (optional)">&quot;Victory&quot;</param>
+                                </action>
+                                <action id="3" name="Set volume" sid="540761589678158" type="Audio">
+                                    <param id="0" name="Tag">&quot;BGM&quot;</param>
+                                    <param id="1" name="dB">-15</param>
+                                </action>
+                                <action id="-16" name="Wait" sid="928720862197355" type="System">
+                                    <param id="0" name="Seconds">1</param>
+                                </action>
+                                <action id="3" name="Set volume" sid="347950761741044" type="Audio">
+                                    <param id="0" name="Tag">&quot;BGM&quot;</param>
+                                    <param id="1" name="dB">-5</param>
+                                </action>
+                                <action id="-16" name="Wait" sid="800883048561847" type="System">
+                                    <param id="0" name="Seconds">1</param>
+                                </action>
+                                <action id="-2" name="Go to layout" sid="430834913489980" type="System">
+                                    <param id="0" name="Layout">Level 1 Victory</param>
+                                </action>
+                            </actions>
+                            <sub-events>
+                                <event-block sid="841762064979681">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="311539792959428" type="System">
+                                            <param id="0" name="Variable">LevelGameHighest</param>
+                                            <param id="1" name="Comparison">2</param>
+                                            <param id="2" name="Value">9</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-9" name="Set value" sid="838415355627176" type="System">
+                                            <param id="0" name="Variable">LevelGameHighest</param>
+                                            <param id="1" name="Value">9</param>
+                                        </action>
+                                        <action id="0" name="Set item" sid="933667961451758" type="LocalStorage">
+                                            <param id="0" name="Key">&quot;LevelGameHighest&quot;</param>
+                                            <param id="1" name="Value">&quot;&quot;&amp;LevelGameHighest</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="802183539711732">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="201708502220528" type="System">
+                                            <param id="0" name="Variable">MateriUnlock</param>
+                                            <param id="1" name="Comparison">2</param>
+                                            <param id="2" name="Value">9</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-9" name="Set value" sid="546553899179287" type="System">
+                                            <param id="0" name="Variable">MateriUnlock</param>
+                                            <param id="1" name="Value">9</param>
+                                        </action>
+                                        <action id="0" name="Set item" sid="824815227268335" type="LocalStorage">
+                                            <param id="0" name="Key">&quot;MateriUnlock&quot;</param>
+                                            <param id="1" name="Value">&quot;&quot;&amp;MateriUnlock</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                    </sub-events>
+                </event-group>
+                <event-group description="" sid="217418349754723" title="Level 10">
+                    <sub-events>
+                        <event-block sid="722352772056919">
+                            <conditions>
+                                <condition id="3" name="On touched object" sid="720463727112575" type="Touch">
+                                    <param id="0" name="Object">BenarLevel10</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-16" name="Wait" sid="966847461802298" type="System">
+                                    <param id="0" name="Seconds">0.5</param>
+                                </action>
+                                <action id="0" name="Play" sid="397434654512370" type="Audio">
+                                    <param id="0" name="Audio file">Clicked</param>
+                                    <param id="2" name="Loop">0</param>
+                                    <param id="3" name="Volume">0</param>
+                                    <param id="1" name="Tag (optional)">&quot;Clicked&quot;</param>
+                                </action>
+                                <action id="-3" name="Create object" sid="588750211874035" type="System">
+                                    <param id="0" name="Object to create">PartikelMenang</param>
+                                    <param id="1" name="Layer">0</param>
+                                    <param id="2" name="X">960</param>
+                                    <param id="3" name="Y">540</param>
+                                </action>
+                                <action id="-10" name="Add to" sid="667884404605010" type="System">
+                                    <param id="0" name="Variable">Experience</param>
+                                    <param id="1" name="Value">100</param>
+                                </action>
+                                <action id="0" name="Set item" sid="935273715881048" type="LocalStorage">
+                                    <param id="0" name="Key">&quot;EXP&quot;</param>
+                                    <param id="1" name="Value">&quot;&quot;&amp;Experience</param>
+                                </action>
+                                <action id="0" name="Play" sid="552907303538545" type="Audio">
+                                    <param id="0" name="Audio file">Radio-man-ohyeah</param>
+                                    <param id="2" name="Loop">0</param>
+                                    <param id="3" name="Volume">0</param>
+                                    <param id="1" name="Tag (optional)">&quot;Victory&quot;</param>
+                                </action>
+                                <action id="3" name="Set volume" sid="952635167848398" type="Audio">
+                                    <param id="0" name="Tag">&quot;BGM&quot;</param>
+                                    <param id="1" name="dB">-15</param>
+                                </action>
+                                <action id="-16" name="Wait" sid="512769060449807" type="System">
+                                    <param id="0" name="Seconds">1</param>
+                                </action>
+                                <action id="3" name="Set volume" sid="668536836401586" type="Audio">
+                                    <param id="0" name="Tag">&quot;BGM&quot;</param>
+                                    <param id="1" name="dB">-5</param>
+                                </action>
+                                <action id="-16" name="Wait" sid="928834427465047" type="System">
+                                    <param id="0" name="Seconds">1</param>
+                                </action>
+                                <action id="-2" name="Go to layout" sid="880058866362450" type="System">
+                                    <param id="0" name="Layout">Level 1 Victory</param>
+                                </action>
+                            </actions>
+                            <sub-events>
+                                <event-block sid="836563617689493">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="742499766893663" type="System">
+                                            <param id="0" name="Variable">LevelGameHighest</param>
+                                            <param id="1" name="Comparison">2</param>
+                                            <param id="2" name="Value">10</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-9" name="Set value" sid="582967572569597" type="System">
+                                            <param id="0" name="Variable">LevelGameHighest</param>
+                                            <param id="1" name="Value">10</param>
+                                        </action>
+                                        <action id="0" name="Set item" sid="178531352407300" type="LocalStorage">
+                                            <param id="0" name="Key">&quot;LevelGameHighest&quot;</param>
+                                            <param id="1" name="Value">&quot;&quot;&amp;LevelGameHighest</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="134575820006296">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="298044115369023" type="System">
+                                            <param id="0" name="Variable">MateriUnlock</param>
+                                            <param id="1" name="Comparison">2</param>
+                                            <param id="2" name="Value">10</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-9" name="Set value" sid="707083839607185" type="System">
+                                            <param id="0" name="Variable">MateriUnlock</param>
+                                            <param id="1" name="Value">10</param>
+                                        </action>
+                                        <action id="0" name="Set item" sid="749254402989996" type="LocalStorage">
+                                            <param id="0" name="Key">&quot;MateriUnlock&quot;</param>
+                                            <param id="1" name="Value">&quot;&quot;&amp;MateriUnlock</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                    </sub-events>
+                </event-group>
+                <event-group description="" sid="923871263732982" title="Level 11">
+                    <sub-events>
+                        <event-block sid="488197499973755">
+                            <conditions>
+                                <condition id="3" name="On touched object" sid="336491005858707" type="Touch">
+                                    <param id="0" name="Object">BenarLevel11</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-16" name="Wait" sid="949437868389936" type="System">
+                                    <param id="0" name="Seconds">0.5</param>
+                                </action>
+                                <action id="0" name="Play" sid="926831308701483" type="Audio">
+                                    <param id="0" name="Audio file">Clicked</param>
+                                    <param id="2" name="Loop">0</param>
+                                    <param id="3" name="Volume">0</param>
+                                    <param id="1" name="Tag (optional)">&quot;Clicked&quot;</param>
+                                </action>
+                                <action id="-3" name="Create object" sid="547085094485661" type="System">
+                                    <param id="0" name="Object to create">PartikelMenang</param>
+                                    <param id="1" name="Layer">0</param>
+                                    <param id="2" name="X">960</param>
+                                    <param id="3" name="Y">540</param>
+                                </action>
+                                <action id="-10" name="Add to" sid="887819853487963" type="System">
+                                    <param id="0" name="Variable">Experience</param>
+                                    <param id="1" name="Value">100</param>
+                                </action>
+                                <action id="0" name="Set item" sid="481134724331458" type="LocalStorage">
+                                    <param id="0" name="Key">&quot;EXP&quot;</param>
+                                    <param id="1" name="Value">&quot;&quot;&amp;Experience</param>
+                                </action>
+                                <action id="0" name="Play" sid="502207530547603" type="Audio">
+                                    <param id="0" name="Audio file">Radio-man-ohyeah</param>
+                                    <param id="2" name="Loop">0</param>
+                                    <param id="3" name="Volume">0</param>
+                                    <param id="1" name="Tag (optional)">&quot;Victory&quot;</param>
+                                </action>
+                                <action id="3" name="Set volume" sid="954138084926306" type="Audio">
+                                    <param id="0" name="Tag">&quot;BGM&quot;</param>
+                                    <param id="1" name="dB">-15</param>
+                                </action>
+                                <action id="-16" name="Wait" sid="717435674030103" type="System">
+                                    <param id="0" name="Seconds">1</param>
+                                </action>
+                                <action id="3" name="Set volume" sid="604496640695913" type="Audio">
+                                    <param id="0" name="Tag">&quot;BGM&quot;</param>
+                                    <param id="1" name="dB">-5</param>
+                                </action>
+                                <action id="-16" name="Wait" sid="994753247151815" type="System">
+                                    <param id="0" name="Seconds">1</param>
+                                </action>
+                                <action id="-2" name="Go to layout" sid="692710154614958" type="System">
+                                    <param id="0" name="Layout">Level 1 Victory</param>
+                                </action>
+                            </actions>
+                            <sub-events>
+                                <event-block sid="158591400621582">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="700107604916722" type="System">
+                                            <param id="0" name="Variable">LevelGameHighest</param>
+                                            <param id="1" name="Comparison">2</param>
+                                            <param id="2" name="Value">11</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-9" name="Set value" sid="734672690974425" type="System">
+                                            <param id="0" name="Variable">LevelGameHighest</param>
+                                            <param id="1" name="Value">11</param>
+                                        </action>
+                                        <action id="0" name="Set item" sid="370777383350504" type="LocalStorage">
+                                            <param id="0" name="Key">&quot;LevelGameHighest&quot;</param>
+                                            <param id="1" name="Value">&quot;&quot;&amp;LevelGameHighest</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="799484333350267">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="649945476330527" type="System">
+                                            <param id="0" name="Variable">MateriUnlock</param>
+                                            <param id="1" name="Comparison">2</param>
+                                            <param id="2" name="Value">11</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-9" name="Set value" sid="128041383595756" type="System">
+                                            <param id="0" name="Variable">MateriUnlock</param>
+                                            <param id="1" name="Value">11</param>
+                                        </action>
+                                        <action id="0" name="Set item" sid="917967443894067" type="LocalStorage">
+                                            <param id="0" name="Key">&quot;MateriUnlock&quot;</param>
+                                            <param id="1" name="Value">&quot;&quot;&amp;MateriUnlock</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                    </sub-events>
+                </event-group>
+                <event-group description="" sid="489556376883318" title="Level 12">
+                    <sub-events>
+                        <event-block sid="109756749196207">
+                            <conditions>
+                                <condition id="3" name="On touched object" sid="223701650690783" type="Touch">
+                                    <param id="0" name="Object">BenarLevel12</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-10" name="Add to" sid="819296336959685" type="System">
+                                    <param id="0" name="Variable">JawabanLevel12</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                                <action id="0" name="Play" sid="976307891120277" type="Audio">
+                                    <param id="0" name="Audio file">Jump</param>
+                                    <param id="2" name="Loop">0</param>
+                                    <param id="3" name="Volume">0</param>
+                                    <param id="1" name="Tag (optional)">&quot;Collected&quot;</param>
+                                </action>
+                                <action id="-3" name="Create object" sid="457056121240233" type="System">
+                                    <param id="0" name="Object to create">PartikelMenang</param>
+                                    <param id="1" name="Layer">0</param>
+                                    <param id="2" name="X">BenarLevel12.X</param>
+                                    <param id="3" name="Y">BenarLevel12.Y</param>
+                                </action>
+                                <action id="-9" name="Destroy" sid="911089834303669" type="BenarLevel12" />
+                            </actions>
+                        </event-block>
+                        <event-block sid="502150915233824">
+                            <conditions>
+                                <condition id="3" name="On touched object" sid="757387143426747" type="Touch">
+                                    <param id="0" name="Object">BenarLevel12b</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-10" name="Add to" sid="150013412923930" type="System">
+                                    <param id="0" name="Variable">JawabanLevel12</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                                <action id="0" name="Play" sid="724288278525437" type="Audio">
+                                    <param id="0" name="Audio file">Jump</param>
+                                    <param id="2" name="Loop">0</param>
+                                    <param id="3" name="Volume">0</param>
+                                    <param id="1" name="Tag (optional)">&quot;Collected&quot;</param>
+                                </action>
+                                <action id="-3" name="Create object" sid="458393833476094" type="System">
+                                    <param id="0" name="Object to create">PartikelMenang</param>
+                                    <param id="1" name="Layer">0</param>
+                                    <param id="2" name="X">BenarLevel12b.X</param>
+                                    <param id="3" name="Y">BenarLevel12b.Y</param>
+                                </action>
+                                <action id="-9" name="Destroy" sid="602408541790921" type="BenarLevel12b" />
+                            </actions>
+                        </event-block>
+                        <event-block sid="908125619987813">
+                            <conditions>
+                                <condition id="3" name="On touched object" sid="179295577578521" type="Touch">
+                                    <param id="0" name="Object">BenarLevel12c</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-10" name="Add to" sid="705337974905544" type="System">
+                                    <param id="0" name="Variable">JawabanLevel12</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                                <action id="0" name="Play" sid="957795883404919" type="Audio">
+                                    <param id="0" name="Audio file">Jump</param>
+                                    <param id="2" name="Loop">0</param>
+                                    <param id="3" name="Volume">0</param>
+                                    <param id="1" name="Tag (optional)">&quot;Collected&quot;</param>
+                                </action>
+                                <action id="-3" name="Create object" sid="880287709006933" type="System">
+                                    <param id="0" name="Object to create">PartikelMenang</param>
+                                    <param id="1" name="Layer">0</param>
+                                    <param id="2" name="X">BenarLevel12c.X</param>
+                                    <param id="3" name="Y">BenarLevel12c.Y</param>
+                                </action>
+                                <action id="-9" name="Destroy" sid="741324527565845" type="BenarLevel12c" />
+                            </actions>
+                        </event-block>
+                        <event-block sid="305431492848112">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="174433978102218" type="System">
+                                    <param id="0" name="Variable">JawabanLevel12</param>
+                                    <param id="1" name="Comparison">5</param>
+                                    <param id="2" name="Value">3</param>
+                                </condition>
+                                <condition id="-4" name="Trigger once while true" sid="192474375087637" type="System" />
+                                <condition id="-8" name="Compare two values" sid="978634959947414" type="System">
+                                    <param id="0" name="First value">LayoutName</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Second value">&quot;Level 12&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-16" name="Wait" sid="288175129564994" type="System">
+                                    <param id="0" name="Seconds">0.5</param>
+                                </action>
+                                <action id="0" name="Play" sid="627751532757178" type="Audio">
+                                    <param id="0" name="Audio file">Clicked</param>
+                                    <param id="2" name="Loop">0</param>
+                                    <param id="3" name="Volume">0</param>
+                                    <param id="1" name="Tag (optional)">&quot;Clicked&quot;</param>
+                                </action>
+                                <action id="-3" name="Create object" sid="377339119061580" type="System">
+                                    <param id="0" name="Object to create">PartikelMenang</param>
+                                    <param id="1" name="Layer">0</param>
+                                    <param id="2" name="X">960</param>
+                                    <param id="3" name="Y">540</param>
+                                </action>
+                                <action id="-10" name="Add to" sid="301897826587189" type="System">
+                                    <param id="0" name="Variable">Experience</param>
+                                    <param id="1" name="Value">100</param>
+                                </action>
+                                <action id="0" name="Set item" sid="462906422137266" type="LocalStorage">
+                                    <param id="0" name="Key">&quot;EXP&quot;</param>
+                                    <param id="1" name="Value">&quot;&quot;&amp;Experience</param>
+                                </action>
+                                <action id="0" name="Play" sid="101616725997013" type="Audio">
+                                    <param id="0" name="Audio file">Radio-man-ohyeah</param>
+                                    <param id="2" name="Loop">0</param>
+                                    <param id="3" name="Volume">0</param>
+                                    <param id="1" name="Tag (optional)">&quot;Victory&quot;</param>
+                                </action>
+                                <action id="3" name="Set volume" sid="373105521586623" type="Audio">
+                                    <param id="0" name="Tag">&quot;BGM&quot;</param>
+                                    <param id="1" name="dB">-15</param>
+                                </action>
+                                <action id="-16" name="Wait" sid="630877365251846" type="System">
+                                    <param id="0" name="Seconds">1</param>
+                                </action>
+                                <action id="3" name="Set volume" sid="616878733177366" type="Audio">
+                                    <param id="0" name="Tag">&quot;BGM&quot;</param>
+                                    <param id="1" name="dB">-5</param>
+                                </action>
+                                <action id="-16" name="Wait" sid="681065045843097" type="System">
+                                    <param id="0" name="Seconds">1</param>
+                                </action>
+                                <action id="-2" name="Go to layout" sid="583876912734437" type="System">
+                                    <param id="0" name="Layout">Level 1 Victory</param>
+                                </action>
+                            </actions>
+                            <sub-events>
+                                <event-block sid="318251025442055">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="769895051844889" type="System">
+                                            <param id="0" name="Variable">LevelGameHighest</param>
+                                            <param id="1" name="Comparison">2</param>
+                                            <param id="2" name="Value">12</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-9" name="Set value" sid="917307304795726" type="System">
+                                            <param id="0" name="Variable">LevelGameHighest</param>
+                                            <param id="1" name="Value">12</param>
+                                        </action>
+                                        <action id="0" name="Set item" sid="393849147580635" type="LocalStorage">
+                                            <param id="0" name="Key">&quot;LevelGameHighest&quot;</param>
+                                            <param id="1" name="Value">&quot;&quot;&amp;LevelGameHighest</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="982565848118066">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="169276909662779" type="System">
+                                            <param id="0" name="Variable">MateriUnlock</param>
+                                            <param id="1" name="Comparison">2</param>
+                                            <param id="2" name="Value">12</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-9" name="Set value" sid="163654116704964" type="System">
+                                            <param id="0" name="Variable">MateriUnlock</param>
+                                            <param id="1" name="Value">12</param>
+                                        </action>
+                                        <action id="0" name="Set item" sid="103145790875804" type="LocalStorage">
                                             <param id="0" name="Key">&quot;MateriUnlock&quot;</param>
                                             <param id="1" name="Value">&quot;&quot;&amp;MateriUnlock</param>
                                         </action>
@@ -2174,6 +3257,76 @@
                                 </action>
                             </actions>
                         </event-block>
+                        <event-block sid="912061306915521">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="332674972635548" type="System">
+                                    <param id="0" name="Variable">Level</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">8</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-2" name="Go to layout" sid="880780876769076" type="System">
+                                    <param id="0" name="Layout">Level 1 Failed</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="778355168446602">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="888733689983386" type="System">
+                                    <param id="0" name="Variable">Level</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">9</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-2" name="Go to layout" sid="501667274427839" type="System">
+                                    <param id="0" name="Layout">Level 1 Failed</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="381413137306822">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="164862142911338" type="System">
+                                    <param id="0" name="Variable">Level</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">10</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-2" name="Go to layout" sid="862072473343242" type="System">
+                                    <param id="0" name="Layout">Level 1 Failed</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="827903230136139">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="464539303580267" type="System">
+                                    <param id="0" name="Variable">Level</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">11</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-2" name="Go to layout" sid="509055027225229" type="System">
+                                    <param id="0" name="Layout">Level 1 Failed</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="885704133249040">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="846530365284943" type="System">
+                                    <param id="0" name="Variable">Level</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">12</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-2" name="Go to layout" sid="493088345036650" type="System">
+                                    <param id="0" name="Layout">Level 1 Failed</param>
+                                </action>
+                            </actions>
+                        </event-block>
                     </sub-events>
                 </event-block>
                 <event-block sid="115978524588504">
@@ -2243,6 +3396,36 @@
                                 <action id="-15" name="Set visible" sid="613052075303006" type="GameOverLevel7">
                                     <param id="0" name="Visibility">0</param>
                                 </action>
+                                <action id="-15" name="Set visible" sid="277027544149287" type="EvaluasiLevel8">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="522403023084210" type="GameOverLevel8">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="200237990398673" type="EvaluasiLevel9">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="202950870782973" type="GameOverLevel9">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="617839599322022" type="EvaluasiLevel10">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="799974607600075" type="GameOverLevel10">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="691862211887538" type="EvaluasiLevel11">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="688990586253056" type="GameOverLevel11">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="446354356607533" type="EvaluasiLevel12">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="543608396428052" type="GameOverLevel12">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
                             </actions>
                         </event-block>
                         <event-block sid="684297589624689">
@@ -2294,6 +3477,36 @@
                                     <param id="0" name="Visibility">0</param>
                                 </action>
                                 <action id="-15" name="Set visible" sid="249314560149450" type="GameOverLevel7">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="658332708135925" type="EvaluasiLevel8">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="450789012818273" type="GameOverLevel8">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="145163436356306" type="EvaluasiLevel9">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="131361127247720" type="GameOverLevel9">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="370814304902691" type="EvaluasiLevel10">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="933045189026058" type="GameOverLevel10">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="625667479314440" type="EvaluasiLevel11">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="282691381440073" type="GameOverLevel11">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="342378380541174" type="EvaluasiLevel12">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="975505624843109" type="GameOverLevel12">
                                     <param id="0" name="Visibility">0</param>
                                 </action>
                             </actions>
@@ -2349,6 +3562,36 @@
                                 <action id="-15" name="Set visible" sid="476109317613853" type="GameOverLevel7">
                                     <param id="0" name="Visibility">0</param>
                                 </action>
+                                <action id="-15" name="Set visible" sid="506706687222762" type="EvaluasiLevel8">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="695695592785483" type="GameOverLevel8">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="953780920659131" type="EvaluasiLevel9">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="156600034915901" type="GameOverLevel9">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="891177633595816" type="EvaluasiLevel10">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="733762519935845" type="GameOverLevel10">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="727357944816029" type="EvaluasiLevel11">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="780713648062416" type="GameOverLevel11">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="410282355908316" type="EvaluasiLevel12">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="164563171969533" type="GameOverLevel12">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
                             </actions>
                         </event-block>
                         <event-block sid="205273770330714">
@@ -2400,6 +3643,36 @@
                                     <param id="0" name="Visibility">0</param>
                                 </action>
                                 <action id="-15" name="Set visible" sid="322127798244499" type="GameOverLevel7">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="669657145273519" type="EvaluasiLevel8">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="176038553185799" type="GameOverLevel8">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="224353395076009" type="EvaluasiLevel9">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="148237613469718" type="GameOverLevel9">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="156728752406948" type="EvaluasiLevel10">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="756136675907661" type="GameOverLevel10">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="316454415857250" type="EvaluasiLevel11">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="498488253507686" type="GameOverLevel11">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="758563983522897" type="EvaluasiLevel12">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="275391443374619" type="GameOverLevel12">
                                     <param id="0" name="Visibility">0</param>
                                 </action>
                             </actions>
@@ -2455,6 +3728,36 @@
                                 <action id="-15" name="Set visible" sid="486867758916190" type="GameOverLevel7">
                                     <param id="0" name="Visibility">0</param>
                                 </action>
+                                <action id="-15" name="Set visible" sid="370626158591214" type="EvaluasiLevel8">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="291665620888627" type="GameOverLevel8">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="834864705123977" type="EvaluasiLevel9">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="131521418352175" type="GameOverLevel9">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="999119931524903" type="EvaluasiLevel10">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="835903848202232" type="GameOverLevel10">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="391855917000402" type="EvaluasiLevel11">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="434624457099467" type="GameOverLevel11">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="924944986043351" type="EvaluasiLevel12">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="133805759032393" type="GameOverLevel12">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
                             </actions>
                         </event-block>
                         <event-block sid="838160122153306">
@@ -2508,6 +3811,36 @@
                                 <action id="-15" name="Set visible" sid="376036387385991" type="GameOverLevel7">
                                     <param id="0" name="Visibility">0</param>
                                 </action>
+                                <action id="-15" name="Set visible" sid="687889163381286" type="EvaluasiLevel8">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="344931495742566" type="GameOverLevel8">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="584728002205724" type="EvaluasiLevel9">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="127256393043342" type="GameOverLevel9">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="668348623137817" type="EvaluasiLevel10">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="533799987183461" type="GameOverLevel10">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="346786408757676" type="EvaluasiLevel11">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="286217081891986" type="GameOverLevel11">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="273302408005969" type="EvaluasiLevel12">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="379317977081301" type="GameOverLevel12">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
                             </actions>
                         </event-block>
                         <event-block sid="634620254197440">
@@ -2559,6 +3892,451 @@
                                     <param id="0" name="Visibility">1</param>
                                 </action>
                                 <action id="-15" name="Set visible" sid="717150406083417" type="GameOverLevel7">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="379249209809070" type="EvaluasiLevel8">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="999202114262650" type="GameOverLevel8">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="166847696974938" type="EvaluasiLevel9">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="943742901648448" type="GameOverLevel9">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="816298288302143" type="EvaluasiLevel10">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="317819517885383" type="GameOverLevel10">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="897825521611223" type="EvaluasiLevel11">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="385037859548495" type="GameOverLevel11">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="650635714564057" type="EvaluasiLevel12">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="434853145415358" type="GameOverLevel12">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="989569704666251">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="929677583797737" type="System">
+                                    <param id="0" name="Variable">Level</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">8</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-15" name="Set visible" sid="522708940464700" type="EvaluasiLevel2">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="950126426658173" type="GameOverLevel2">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="173873366927627" type="EvaluasiLevel1">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="709554051002243" type="GameOverLevel1">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="273320403573265" type="EvaluasiLevel3">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="964435343664304" type="GameOverLevel3">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="143642357274786" type="EvaluasiLevel4">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="482814933532921" type="GameOverLevel4">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="862699221422495" type="EvaluasiLevel5">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="916410632100915" type="GameOverLevel5">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="300912579441824" type="EvaluasiLevel6">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="969540695007642" type="GameOverLevel6">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="767965053320932" type="EvaluasiLevel7">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="564760238984146" type="GameOverLevel7">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="861187251186043" type="EvaluasiLevel8">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="241749450814085" type="GameOverLevel8">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="470666305638481" type="EvaluasiLevel9">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="597706131929901" type="GameOverLevel9">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="691713049298825" type="EvaluasiLevel10">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="349156394190163" type="GameOverLevel10">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="909253744114045" type="EvaluasiLevel11">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="775646427289791" type="GameOverLevel11">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="599921269432268" type="EvaluasiLevel12">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="541031278368839" type="GameOverLevel12">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="646634192203629">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="234479102338260" type="System">
+                                    <param id="0" name="Variable">Level</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">9</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-15" name="Set visible" sid="338098770193053" type="EvaluasiLevel2">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="539910111455743" type="GameOverLevel2">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="733914170616179" type="EvaluasiLevel1">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="435935873020358" type="GameOverLevel1">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="683440577168911" type="EvaluasiLevel3">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="360051791190720" type="GameOverLevel3">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="337239964223227" type="EvaluasiLevel4">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="404343579334412" type="GameOverLevel4">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="160625064870577" type="EvaluasiLevel5">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="237041905234377" type="GameOverLevel5">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="706852194654415" type="EvaluasiLevel6">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="212035489296839" type="GameOverLevel6">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="427186968754325" type="EvaluasiLevel7">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="661692010523644" type="GameOverLevel7">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="493035234216812" type="EvaluasiLevel8">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="654463422938286" type="GameOverLevel8">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="423169711952924" type="EvaluasiLevel9">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="992150926795684" type="GameOverLevel9">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="426154351251242" type="EvaluasiLevel10">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="992632803849693" type="GameOverLevel10">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="244611562862711" type="EvaluasiLevel11">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="208416866916045" type="GameOverLevel11">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="638221935057623" type="EvaluasiLevel12">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="945726167262143" type="GameOverLevel12">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="932342528321130">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="766378921743595" type="System">
+                                    <param id="0" name="Variable">Level</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">10</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-15" name="Set visible" sid="213941397002586" type="EvaluasiLevel2">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="392355109185947" type="GameOverLevel2">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="108491872010121" type="EvaluasiLevel1">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="666356668403434" type="GameOverLevel1">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="781388147261353" type="EvaluasiLevel3">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="981939585190366" type="GameOverLevel3">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="318260739360079" type="EvaluasiLevel4">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="429891294200982" type="GameOverLevel4">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="909788395097921" type="EvaluasiLevel5">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="277070998406918" type="GameOverLevel5">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="869607645607069" type="EvaluasiLevel6">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="891465466080196" type="GameOverLevel6">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="443551445634520" type="EvaluasiLevel7">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="318405211052145" type="GameOverLevel7">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="543978256534829" type="EvaluasiLevel8">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="501667851713790" type="GameOverLevel8">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="903659184579072" type="EvaluasiLevel9">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="457404695967149" type="GameOverLevel9">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="836517582378100" type="EvaluasiLevel10">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="184030793508536" type="GameOverLevel10">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="891721544493545" type="EvaluasiLevel11">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="356506490459490" type="GameOverLevel11">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="185418558159269" type="EvaluasiLevel12">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="825507724875615" type="GameOverLevel12">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="806902120731714">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="500911398747698" type="System">
+                                    <param id="0" name="Variable">Level</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">11</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-15" name="Set visible" sid="227409734373385" type="EvaluasiLevel2">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="877803061398033" type="GameOverLevel2">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="998039799342926" type="EvaluasiLevel1">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="788599065076671" type="GameOverLevel1">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="529468697709522" type="EvaluasiLevel3">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="600844637411872" type="GameOverLevel3">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="703162191317857" type="EvaluasiLevel4">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="420406644298026" type="GameOverLevel4">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="957658810198294" type="EvaluasiLevel5">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="560758602295698" type="GameOverLevel5">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="363779494690187" type="EvaluasiLevel6">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="816209520303654" type="GameOverLevel6">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="984373357166050" type="EvaluasiLevel7">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="170608510824774" type="GameOverLevel7">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="962303443229256" type="EvaluasiLevel8">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="178698927773975" type="GameOverLevel8">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="876888383013226" type="EvaluasiLevel9">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="371519253655073" type="GameOverLevel9">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="354868772486050" type="EvaluasiLevel10">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="113301385425420" type="GameOverLevel10">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="149355508220951" type="EvaluasiLevel11">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="761048299861533" type="GameOverLevel11">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="579161126411941" type="EvaluasiLevel12">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="331225326075177" type="GameOverLevel12">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="712815932691991">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="296279623150665" type="System">
+                                    <param id="0" name="Variable">Level</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">12</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-15" name="Set visible" sid="539290967730407" type="EvaluasiLevel2">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="787711907395240" type="GameOverLevel2">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="647647252818302" type="EvaluasiLevel1">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="195590158079894" type="GameOverLevel1">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="185681789282615" type="EvaluasiLevel3">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="842424929708178" type="GameOverLevel3">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="198663658090269" type="EvaluasiLevel4">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="125563245886456" type="GameOverLevel4">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="938382957543445" type="EvaluasiLevel5">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="989007372575915" type="GameOverLevel5">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="497584045068039" type="EvaluasiLevel6">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="393732723041804" type="GameOverLevel6">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="975857287867204" type="EvaluasiLevel7">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="299890530000070" type="GameOverLevel7">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="326100047701478" type="EvaluasiLevel8">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="122356990394503" type="GameOverLevel8">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="303834140184198" type="EvaluasiLevel9">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="631977353110594" type="GameOverLevel9">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="408602822112119" type="EvaluasiLevel10">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="946283342335562" type="GameOverLevel10">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="388726757235908" type="EvaluasiLevel11">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="747216618567086" type="GameOverLevel11">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="893752473844897" type="EvaluasiLevel12">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="119245601180083" type="GameOverLevel12">
                                     <param id="0" name="Visibility">1</param>
                                 </action>
                             </actions>
@@ -2666,6 +4444,10 @@
                             <param id="0" name="Variable">Nyawa</param>
                             <param id="1" name="Value">1</param>
                         </action>
+                        <action id="-9" name="Set value" sid="400968428069697" type="System">
+                            <param id="0" name="Variable">Nyawa</param>
+                            <param id="1" name="Value">clamp(Nyawa, 0, 9)</param>
+                        </action>
                         <action id="4" name="Set animation" sid="369273746520737" type="TxtSisaNyawa">
                             <param id="0" name="Animation">Nyawa&amp;&quot;Life&quot;</param>
                             <param id="1" name="From">1</param>
@@ -2690,6 +4472,10 @@
                             <param id="0" name="Variable">Nyawa</param>
                             <param id="1" name="Value">1</param>
                         </action>
+                        <action id="-9" name="Set value" sid="953928803945434" type="System">
+                            <param id="0" name="Variable">Nyawa</param>
+                            <param id="1" name="Value">clamp(Nyawa, 0, 9)</param>
+                        </action>
                         <action id="4" name="Set animation" sid="876055404614951" type="TxtSisaNyawa">
                             <param id="0" name="Animation">Nyawa&amp;&quot;Life&quot;</param>
                             <param id="1" name="From">1</param>
@@ -2713,6 +4499,10 @@
                         <action id="-10" name="Add to" sid="753333755063054" type="System">
                             <param id="0" name="Variable">Nyawa</param>
                             <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="289092000965021" type="System">
+                            <param id="0" name="Variable">Nyawa</param>
+                            <param id="1" name="Value">clamp(Nyawa, 0, 9)</param>
                         </action>
                         <action id="4" name="Set animation" sid="802547855185726" type="TxtSisaNyawa">
                             <param id="0" name="Animation">Nyawa&amp;&quot;Life&quot;</param>

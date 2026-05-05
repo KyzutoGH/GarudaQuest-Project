@@ -86,11 +86,11 @@
                         <x>1841.896972656</x>
                         <y>100.48311615</y>
                         <z>0</z>
-                        <width>65.284545898</width>
-                        <height>88.400863647</height>
+                        <width>59.695983887</width>
+                        <height>87.130737305</height>
                         <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.511494279</hotspotY>
+                        <hotspotX>2.217021227</hotspotX>
+                        <hotspotY>0.947521865</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -266,28 +266,6 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Salah" uid="320">
-                    <properties>
-                        <initial-visibility>Invisible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>1928</x>
-                        <y>-183</y>
-                        <z>0</z>
-                        <width>303</width>
-                        <height>157</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
                 <instance type="TxtLevel8" uid="298">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
@@ -420,6 +398,28 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
+                <instance type="Salah" uid="320">
+                    <properties>
+                        <initial-visibility>Invisible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>708.5</x>
+                        <y>718.5</y>
+                        <z>0</z>
+                        <width>682</width>
+                        <height>646</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
                 <instance type="BenarLevel8" uid="329">
                     <properties>
                         <initial-visibility>Invisible</initial-visibility>
@@ -439,6 +439,28 @@
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
                         <angle>-0.110713549</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Salah" uid="342">
+                    <properties>
+                        <initial-visibility>Invisible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1322</x>
+                        <y>591.5</y>
+                        <z>0</z>
+                        <width>533</width>
+                        <height>415</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
