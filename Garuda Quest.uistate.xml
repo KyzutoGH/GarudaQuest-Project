@@ -10,9 +10,10 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout order="1">Level 1 Victory</layout>
-        <layout order="2">Level 1 Failed</layout>
-        <layout order="4">Level 12</layout>
+        <layout order="2">Level 1 Victory</layout>
+        <layout order="1">Level 1 Failed</layout>
+        <layout order="4">Level 20</layout>
+        <layout order="5">Credit Scene</layout>
         <event-sheet order="0">Global Event</event-sheet>
         <event-sheet active="1" order="3">Level Pancasila Event</event-sheet>
     </open-tabs>
@@ -24,7 +25,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     </properties>
     <families-expanded root="1" />
     <folders-expanded>
-        <folder expanded="1" path="object-folder/" />
+        <folder expanded="0" path="object-folder/" />
         <folder expanded="1" path="layout-folder/" />
         <folder expanded="1" path="event-folder/" />
         <folder expanded="0" path="file-folder/" />
@@ -71,11 +72,10 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/TxtSisaNyawa/" />
         <folder expanded="1" path="animation-folder/CobaLagi/" />
         <folder expanded="1" path="animation-folder/GarudaResult/" />
-        <folder expanded="1" path="animation-folder/GameOverLevel1/" />
-        <folder expanded="1" path="animation-folder/EvaluasiLevel1/" />
+        <folder expanded="1" path="animation-folder/GameOverTXT/" />
+        <folder expanded="1" path="animation-folder/EvaluasiSPR/" />
         <folder expanded="1" path="animation-folder/BenarArea/" />
-        <folder expanded="1" path="animation-folder/VictoryLevel1/" />
-        <folder expanded="1" path="animation-folder/PenjelasanLevel1/" />
+        <folder expanded="1" path="animation-folder/PenjelasanSPR/" />
         <folder expanded="1" path="animation-folder/Lanjut/" />
         <folder expanded="1" path="animation-folder/BeringinFixed/" />
         <folder expanded="1" path="animation-folder/ACV_AnomaliSawit/" />
@@ -120,10 +120,6 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/SalahLevel2/" />
         <folder expanded="1" path="animation-folder/BenarLevel2/" />
         <folder expanded="1" path="animation-folder/NyawaTambahan/" />
-        <folder expanded="1" path="animation-folder/PenjelasanLevel2/" />
-        <folder expanded="1" path="animation-folder/VictoryLevel2/" />
-        <folder expanded="1" path="animation-folder/GameOverLevel2/" />
-        <folder expanded="1" path="animation-folder/EvaluasiLevel2/" />
         <folder expanded="1" path="animation-folder/TxtLevel3/" />
         <folder expanded="1" path="animation-folder/TxtSoalLevel3/" />
         <folder expanded="1" path="animation-folder/HintLevel3/" />
@@ -132,19 +128,11 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/KertasSuaraLeft/" />
         <folder expanded="1" path="animation-folder/KotakSuara/" />
         <folder expanded="1" path="animation-folder/KotakIndomie/" />
-        <folder expanded="1" path="animation-folder/VictoryLevel3/" />
-        <folder expanded="1" path="animation-folder/PenjelasanLevel3/" />
-        <folder expanded="1" path="animation-folder/GameOverLevel3/" />
-        <folder expanded="1" path="animation-folder/EvaluasiLevel3/" />
         <folder expanded="1" path="animation-folder/TxtLevel4/" />
         <folder expanded="1" path="animation-folder/TxtSoalLevel4/" />
         <folder expanded="1" path="animation-folder/BGLevel4/" />
         <folder expanded="1" path="animation-folder/SalahLevel4/" />
         <folder expanded="1" path="animation-folder/BenarLevel4/" />
-        <folder expanded="1" path="animation-folder/VictoryLevel4/" />
-        <folder expanded="1" path="animation-folder/PenjelasanLevel4/" />
-        <folder expanded="1" path="animation-folder/GameOverLevel4/" />
-        <folder expanded="1" path="animation-folder/EvaluasiLevel4/" />
         <folder expanded="1" path="animation-folder/Sprite8/" />
         <folder expanded="1" path="animation-folder/TxtLevel5/" />
         <folder expanded="1" path="animation-folder/Sprite9/" />
@@ -154,18 +142,10 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/HaTeLevel5/" />
         <folder expanded="1" path="animation-folder/KunciLevel5/" />
         <folder expanded="1" path="animation-folder/SalahLevel5/" />
-        <folder expanded="1" path="animation-folder/VictoryLevel5/" />
-        <folder expanded="1" path="animation-folder/PenjelasanLevel5/" />
-        <folder expanded="1" path="animation-folder/GameOverLevel5/" />
-        <folder expanded="1" path="animation-folder/EvaluasiLevel5/" />
         <folder expanded="1" path="animation-folder/TxtLevel6/" />
         <folder expanded="1" path="animation-folder/TxtSoalLevel6/" />
         <folder expanded="1" path="animation-folder/BGLevel6/" />
         <folder expanded="1" path="animation-folder/BenarLevel6/" />
-        <folder expanded="1" path="animation-folder/VictoryLevel6/" />
-        <folder expanded="1" path="animation-folder/PenjelasanLevel6/" />
-        <folder expanded="1" path="animation-folder/GameOverLevel6/" />
-        <folder expanded="1" path="animation-folder/EvaluasiLevel6/" />
         <folder expanded="1" path="animation-folder/TxtLevel7/" />
         <folder expanded="1" path="animation-folder/TxtSoalLevel7/" />
         <folder expanded="1" path="animation-folder/HaPeLevel7/" />
@@ -175,45 +155,26 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/BocilSDLevel7/" />
         <folder expanded="1" path="animation-folder/AnakSMPLevel7/" />
         <folder expanded="1" path="animation-folder/KartuKreditLevel7/" />
-        <folder expanded="1" path="animation-folder/VictoryLevel7/" />
-        <folder expanded="1" path="animation-folder/PenjelasanLevel7/" />
-        <folder expanded="1" path="animation-folder/GameOverLevel7/" />
-        <folder expanded="1" path="animation-folder/EvaluasiLevel7/" />
         <folder expanded="1" path="animation-folder/TxtLevel8/" />
         <folder expanded="1" path="animation-folder/TxtSoalLevel8/" />
         <folder expanded="1" path="animation-folder/BGLevel8/" />
         <folder expanded="1" path="animation-folder/TasTutupLevel8/" />
         <folder expanded="1" path="animation-folder/TasBukaLevel8/" />
-        <folder expanded="1" path="animation-folder/VictoryLevel8/" />
-        <folder expanded="1" path="animation-folder/PenjelasanLevel8/" />
-        <folder expanded="1" path="animation-folder/GameOverLevel8/" />
-        <folder expanded="1" path="animation-folder/EvaluasiLevel8/" />
         <folder expanded="1" path="animation-folder/KopyahLevel8/" />
         <folder expanded="1" path="animation-folder/BenarLevel8/" />
         <folder expanded="1" path="animation-folder/TxtLevel9/" />
         <folder expanded="1" path="animation-folder/TxtSoalLevel9/" />
         <folder expanded="1" path="animation-folder/BGLevel9/" />
         <folder expanded="1" path="animation-folder/BenarLevel9/" />
-        <folder expanded="1" path="animation-folder/VictoryLevel9/" />
-        <folder expanded="1" path="animation-folder/PenjelasanLevel9/" />
-        <folder expanded="1" path="animation-folder/GameOverLevel9/" />
-        <folder expanded="1" path="animation-folder/EvaluasiLevel9/" />
+        <folder expanded="1" path="animation-folder/VictoryTXT/" />
         <folder expanded="1" path="animation-folder/TxtLevel10/" />
         <folder expanded="1" path="animation-folder/TxtSoalLevel10/" />
         <folder expanded="1" path="animation-folder/BGLevel10/" />
         <folder expanded="1" path="animation-folder/BenarLevel10/" />
-        <folder expanded="1" path="animation-folder/VictoryLevel10/" />
-        <folder expanded="1" path="animation-folder/PenjelasanLevel10/" />
-        <folder expanded="1" path="animation-folder/GameOverLevel10/" />
-        <folder expanded="1" path="animation-folder/EvaluasiLevel10/" />
         <folder expanded="1" path="animation-folder/TxtLevel11/" />
         <folder expanded="1" path="animation-folder/TxtSoalLevel11/" />
         <folder expanded="1" path="animation-folder/BGLevel11/" />
         <folder expanded="1" path="animation-folder/BenarLevel11/" />
-        <folder expanded="1" path="animation-folder/VictoryLevel11/" />
-        <folder expanded="1" path="animation-folder/PenjelasanLevel11/" />
-        <folder expanded="1" path="animation-folder/GameOverLevel11/" />
-        <folder expanded="1" path="animation-folder/EvaluasiLevel11/" />
         <folder expanded="1" path="animation-folder/TxtLevel12/" />
         <folder expanded="1" path="animation-folder/TxtSoalLevel12/" />
         <folder expanded="1" path="animation-folder/BGLevel12/" />
@@ -221,9 +182,42 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/BenarLevel12b/" />
         <folder expanded="1" path="animation-folder/SalahLevel12/" />
         <folder expanded="1" path="animation-folder/BenarLevel12c/" />
-        <folder expanded="1" path="animation-folder/GameOverLevel12/" />
-        <folder expanded="1" path="animation-folder/EvaluasiLevel12/" />
-        <folder expanded="1" path="animation-folder/VictoryLevel12/" />
-        <folder expanded="1" path="animation-folder/PenjelasanLevel12/" />
+        <folder expanded="1" path="animation-folder/TxtLevel13/" />
+        <folder expanded="1" path="animation-folder/TxtSoalLevel13/" />
+        <folder expanded="1" path="animation-folder/BGLevel13/" />
+        <folder expanded="1" path="animation-folder/BenarLevel13/" />
+        <folder expanded="1" path="animation-folder/TxtLevel14/" />
+        <folder expanded="1" path="animation-folder/TxtSoalLevel14/" />
+        <folder expanded="1" path="animation-folder/BGLevel14/" />
+        <folder expanded="1" path="animation-folder/BenarLevel14/" />
+        <folder expanded="1" path="animation-folder/TxtLevel15/" />
+        <folder expanded="1" path="animation-folder/TxtSoalLevel15/" />
+        <folder expanded="1" path="animation-folder/BGLevel15/" />
+        <folder expanded="1" path="animation-folder/BenarLevel15/" />
+        <folder expanded="1" path="animation-folder/TxtLevel16/" />
+        <folder expanded="1" path="animation-folder/TxtSoalLevel16/" />
+        <folder expanded="1" path="animation-folder/BGLevel16/" />
+        <folder expanded="1" path="animation-folder/BenarLevel16/" />
+        <folder expanded="1" path="animation-folder/TxtLevel17/" />
+        <folder expanded="1" path="animation-folder/TxtSoalLevel17/" />
+        <folder expanded="1" path="animation-folder/GarudaLevel17/" />
+        <folder expanded="1" path="animation-folder/Sprite5/" />
+        <folder expanded="1" path="animation-folder/SalahLevel17a/" />
+        <folder expanded="1" path="animation-folder/SalahLevel17b/" />
+        <folder expanded="1" path="animation-folder/SalahLevel17c/" />
+        <folder expanded="1" path="animation-folder/SalahLevel17d/" />
+        <folder expanded="1" path="animation-folder/BenarLevel17/" />
+        <folder expanded="1" path="animation-folder/TxtLevel18/" />
+        <folder expanded="1" path="animation-folder/TxtSoalLevel18/" />
+        <folder expanded="1" path="animation-folder/BGLevel18/" />
+        <folder expanded="1" path="animation-folder/BenarLevel18/" />
+        <folder expanded="1" path="animation-folder/TxtLevel19/" />
+        <folder expanded="1" path="animation-folder/TxtSoalLevel19/" />
+        <folder expanded="1" path="animation-folder/BGLevel19/" />
+        <folder expanded="1" path="animation-folder/BenarLevel19/" />
+        <folder expanded="1" path="animation-folder/TxtLevel20/" />
+        <folder expanded="1" path="animation-folder/TxtSoalLevel20/" />
+        <folder expanded="1" path="animation-folder/BGLevel20/" />
+        <folder expanded="1" path="animation-folder/BenarLevel20/" />
     </folders-expanded>
 </c2uistate>

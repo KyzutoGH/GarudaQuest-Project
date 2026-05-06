@@ -62,7 +62,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>1222.710327148</x>
-                        <y>357.091552734</y>
+                        <y>367.091552734</y>
                         <z>0</z>
                         <width>639.620544434</width>
                         <height>400.090332031</height>
@@ -84,7 +84,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>612.956237793</x>
-                        <y>880.471618652</y>
+                        <y>902.471618652</y>
                         <z>0</z>
                         <width>453</width>
                         <height>116</height>
@@ -95,31 +95,9 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="VictoryLevel1" uid="71">
+                <instance type="PenjelasanSPR" uid="67">
                     <properties>
-                        <initial-visibility>Invisible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>721</x>
-                        <y>260</y>
-                        <z>0</z>
-                        <width>678.184020996</width>
-                        <height>167.171417236</height>
-                        <depth>0</depth>
-                        <hotspotX>0.501960814</hotspotX>
-                        <hotspotY>0.479545444</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="PenjelasanLevel1" uid="67">
-                    <properties>
-                        <initial-visibility>Invisible</initial-visibility>
+                        <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
@@ -150,7 +128,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>1311.447021484</x>
-                        <y>878.444885254</y>
+                        <y>900.444885254</y>
                         <z>0</z>
                         <width>459.105987549</width>
                         <height>117.110214233</height>
@@ -161,117 +139,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="PenjelasanLevel2" uid="174">
-                    <properties>
-                        <initial-visibility>Invisible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>972.251708984</x>
-                        <y>681.219421387</y>
-                        <z>0</z>
-                        <width>1169.496704102</width>
-                        <height>255.561203003</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="VictoryLevel2" uid="175">
-                    <properties>
-                        <initial-visibility>Invisible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>721</x>
-                        <y>260</y>
-                        <z>0</z>
-                        <width>678.184020996</width>
-                        <height>167.171005249</height>
-                        <depth>0</depth>
-                        <hotspotX>0.502242148</hotspotX>
-                        <hotspotY>0.478359908</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="VictoryLevel3" uid="207">
-                    <properties>
-                        <initial-visibility>Invisible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>721</x>
-                        <y>260</y>
-                        <z>0</z>
-                        <width>678.184020996</width>
-                        <height>167.171005249</height>
-                        <depth>0</depth>
-                        <hotspotX>0.502242148</hotspotX>
-                        <hotspotY>0.443974644</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="PenjelasanLevel3" uid="208">
-                    <properties>
-                        <initial-visibility>Invisible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>972.25201416</x>
-                        <y>681.218994141</y>
-                        <z>0</z>
-                        <width>1169.496948242</width>
-                        <height>255.561004639</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.471428573</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="VictoryLevel4" uid="253">
-                    <properties>
-                        <initial-visibility>Invisible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>721</x>
-                        <y>260</y>
-                        <z>0</z>
-                        <width>678.184020996</width>
-                        <height>167.171005249</height>
-                        <depth>0</depth>
-                        <hotspotX>0.502242148</hotspotX>
-                        <hotspotY>0.443974644</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="PenjelasanLevel4" uid="254">
+                <instance type="VictoryTXT" uid="349">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -281,366 +149,14 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>972.25201416</x>
-                        <y>681.218994141</y>
+                        <x>721.748657227</x>
+                        <y>290.410186768</y>
                         <z>0</z>
-                        <width>1169.496948242</width>
-                        <height>255.561004639</height>
+                        <width>663.727111816</width>
+                        <height>167.773773193</height>
                         <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="VictoryLevel5" uid="250">
-                    <properties>
-                        <initial-visibility>Invisible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>614.629882813</x>
-                        <y>263.332458496</y>
-                        <z>0</z>
-                        <width>844</width>
-                        <height>170</height>
-                        <depth>0</depth>
-                        <hotspotX>0.47898677</hotspotX>
-                        <hotspotY>0.444141686</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="PenjelasanLevel5" uid="251">
-                    <properties>
-                        <initial-visibility>Invisible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>972.25201416</x>
-                        <y>670.218994141</y>
-                        <z>0</z>
-                        <width>1169.496948242</width>
-                        <height>255.561004639</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.454761893</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="VictoryLevel6" uid="281">
-                    <properties>
-                        <initial-visibility>Invisible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>616.601806641</x>
-                        <y>258.329284668</y>
-                        <z>0</z>
-                        <width>679</width>
-                        <height>179</height>
-                        <depth>0</depth>
-                        <hotspotX>0.34562546</hotspotX>
-                        <hotspotY>0.444141686</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="PenjelasanLevel6" uid="282">
-                    <properties>
-                        <initial-visibility>Invisible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>972.25201416</x>
-                        <y>686.218994141</y>
-                        <z>0</z>
-                        <width>1169.496948242</width>
-                        <height>255.561004639</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="VictoryLevel7" uid="296">
-                    <properties>
-                        <initial-visibility>Invisible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>614.562866211</x>
-                        <y>260.544250488</y>
-                        <z>0</z>
-                        <width>675</width>
-                        <height>179</height>
-                        <depth>0</depth>
-                        <hotspotX>0.34562546</hotspotX>
-                        <hotspotY>0.444141686</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="PenjelasanLevel7" uid="306">
-                    <properties>
-                        <initial-visibility>Invisible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>972.25201416</x>
-                        <y>686.218994141</y>
-                        <z>0</z>
-                        <width>1169.496948242</width>
-                        <height>255.561004639</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="VictoryLevel8" uid="310">
-                    <properties>
-                        <initial-visibility>Invisible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>617.576782227</x>
-                        <y>262.89251709</y>
-                        <z>0</z>
-                        <width>779</width>
-                        <height>171</height>
-                        <depth>0</depth>
-                        <hotspotX>0.431889504</hotspotX>
-                        <hotspotY>0.478005856</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="PenjelasanLevel8" uid="325">
-                    <properties>
-                        <initial-visibility>Invisible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>972.25201416</x>
-                        <y>686.218994141</y>
-                        <z>0</z>
-                        <width>1169.496948242</width>
-                        <height>255.561004639</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="VictoryLevel9" uid="349">
-                    <properties>
-                        <initial-visibility>Invisible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>617.577026367</x>
-                        <y>262.893005371</y>
-                        <z>0</z>
-                        <width>779</width>
-                        <height>171</height>
-                        <depth>0</depth>
-                        <hotspotX>0.431889504</hotspotX>
-                        <hotspotY>0.478005856</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="PenjelasanLevel9" uid="350">
-                    <properties>
-                        <initial-visibility>Invisible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>972.25201416</x>
-                        <y>686.218994141</y>
-                        <z>0</z>
-                        <width>1169.496948242</width>
-                        <height>255.561004639</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="VictoryLevel10" uid="372">
-                    <properties>
-                        <initial-visibility>Invisible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>618.219848633</x>
-                        <y>258.838470459</y>
-                        <z>0</z>
-                        <width>676</width>
-                        <height>180</height>
-                        <depth>0</depth>
-                        <hotspotX>0.34562546</hotspotX>
-                        <hotspotY>0.444141686</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="PenjelasanLevel10" uid="373">
-                    <properties>
-                        <initial-visibility>Invisible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>972.25201416</x>
-                        <y>686.218994141</y>
-                        <z>0</z>
-                        <width>1169.496948242</width>
-                        <height>255.561004639</height>
-                        <depth>0</depth>
-                        <hotspotX>0.494210511</hotspotX>
-                        <hotspotY>0.506024122</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="VictoryLevel11" uid="394">
-                    <properties>
-                        <initial-visibility>Invisible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>616.517089844</x>
-                        <y>262.227722168</y>
-                        <z>0</z>
-                        <width>675</width>
-                        <height>181</height>
-                        <depth>0</depth>
-                        <hotspotX>0.34562546</hotspotX>
-                        <hotspotY>0.444141686</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="PenjelasanLevel11" uid="395">
-                    <properties>
-                        <initial-visibility>Invisible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>972.25201416</x>
-                        <y>686.218994141</y>
-                        <z>0</z>
-                        <width>1169.496948242</width>
-                        <height>255.561004639</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="VictoryLevel12" uid="419">
-                    <properties>
-                        <initial-visibility>Invisible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>574.633422852</x>
-                        <y>257.389038086</y>
-                        <z>0</z>
-                        <width>908</width>
-                        <height>172</height>
-                        <depth>0</depth>
-                        <hotspotX>0.464018434</hotspotX>
-                        <hotspotY>0.426553667</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="PenjelasanLevel12" uid="420">
-                    <properties>
-                        <initial-visibility>Invisible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>972.25201416</x>
-                        <y>686.218994141</y>
-                        <z>0</z>
-                        <width>1169.496948242</width>
-                        <height>255.561004639</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
+                        <hotspotX>0.501960814</hotspotX>
+                        <hotspotY>0.479545444</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>

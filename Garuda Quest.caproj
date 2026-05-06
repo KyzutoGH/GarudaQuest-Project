@@ -857,10 +857,10 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="GameOverLevel1" sid="957903966143028">
+        <object-type name="GameOverTXT" sid="957903966143028">
             <plugin id="Sprite" />
             <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="699760967893749" speed="5">
+                <animation framecount="1" loop="0" name="Level1" pingpong="0" repeatcount="1" repeatto="0" sid="699760967893749" speed="5">
                     <frame duration="1" hotspotX="0.498424" hotspotY="0.470067" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Salah (4).png">
                         <collision-poly>
                             <point x="0.169118" y="0.0110865" />
@@ -874,13 +874,504 @@
                         </collision-poly>
                     </frame>
                 </animation>
+                <animation framecount="1" loop="0" name="Level2" pingpong="0" repeatcount="1" repeatto="0" sid="790045153568693" speed="5">
+                    <frame duration="1" hotspotX="0.498424" hotspotY="0.470067" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level Done\Level 2\12.png">
+                        <collision-poly>
+                            <point x="0.169118" y="0.0110865" />
+                            <point x="0.827731" y="0.0110865" />
+                            <point x="0.993172" y="0.470067" />
+                            <point x="0.816702" y="0.882483" />
+                            <point x="0.159664" y="0.968958" />
+                            <point x="0.0294118" y="0.470067" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Level3" pingpong="0" repeatcount="1" repeatto="0" sid="472281570413879" speed="5">
+                    <frame duration="1" hotspotX="0.498424" hotspotY="0.470067" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level Done\Level 3\26.png">
+                        <collision-poly>
+                            <point x="0.169118" y="0.0110865" />
+                            <point x="0.498424" y="0.83592" />
+                            <point x="0.827731" y="0.0110865" />
+                            <point x="0.993172" y="0.470067" />
+                            <point x="0.843487" y="0.995565" />
+                            <point x="0.498424" y="0.924612" />
+                            <point x="0.30042" y="0.374723" />
+                            <point x="0.0294118" y="0.470067" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Level4" pingpong="0" repeatcount="1" repeatto="0" sid="233316239503265" speed="5">
+                    <frame duration="1" hotspotX="0.498424" hotspotY="0.470067" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level Done\Level 4\39.png">
+                        <collision-poly>
+                            <point x="0.169118" y="0.0110865" />
+                            <point x="0.498424" y="0.804878" />
+                            <point x="0.827731" y="0.0110865" />
+                            <point x="0.993172" y="0.470067" />
+                            <point x="0.842437" y="0.991131" />
+                            <point x="0.498424" y="0.997783" />
+                            <point x="0.30042" y="0.374723" />
+                            <point x="0.0294118" y="0.470067" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Level5" pingpong="0" repeatcount="1" repeatto="0" sid="315483371488703" speed="5">
+                    <frame duration="1" hotspotX="0.472376" hotspotY="0.470862" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level Done\Level 5\53.png">
+                        <collision-poly>
+                            <point x="0.151934" y="0.0979021" />
+                            <point x="0.472376" y="0.734266" />
+                            <point x="0.81326" y="0.011655" />
+                            <point x="0.99337" y="0.470862" />
+                            <point x="0.828177" y="0.993007" />
+                            <point x="0.472376" y="0.785548" />
+                            <point x="0.121547" y="0.972028" />
+                            <point x="0.0292818" y="0.470862" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Level6" pingpong="0" repeatcount="1" repeatto="0" sid="979038519307572" speed="5">
+                    <frame duration="1" hotspotX="0.472376" hotspotY="0.470862" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level Done\Level 6\64.png">
+                        <collision-poly>
+                            <point x="0.151934" y="0.0979021" />
+                            <point x="0.472376" y="0.736597" />
+                            <point x="0.81326" y="0.011655" />
+                            <point x="0.99337" y="0.470862" />
+                            <point x="0.823757" y="0.974359" />
+                            <point x="0.472376" y="0.993007" />
+                            <point x="0.238674" y="0.477855" />
+                            <point x="0.0292818" y="0.470862" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Level7" pingpong="0" repeatcount="1" repeatto="0" sid="893962176754562" speed="5">
+                    <frame duration="1" hotspotX="0.472376" hotspotY="0.690476" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level Done\Level 7\80.png">
+                        <collision-poly>
+                            <point x="0.0646409" y="0.0021645" />
+                            <point x="0.472376" y="0.699134" />
+                            <point x="0.877901" y="0.0108225" />
+                            <point x="0.998343" y="0.690476" />
+                            <point x="0.620442" y="0.361472" />
+                            <point x="0.472376" y="0.902597" />
+                            <point x="0.18011" y="0.926407" />
+                            <point x="0.107182" y="0.690476" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Level8" pingpong="0" repeatcount="1" repeatto="0" sid="176938423001581" speed="5">
+                    <frame duration="1" hotspotX="0.472376" hotspotY="0.437229" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level Done\Level 8\93.png">
+                        <collision-poly>
+                            <point x="0.151934" y="0.0909091" />
+                            <point x="0.472376" y="0.861472" />
+                            <point x="0.81326" y="0.0108225" />
+                            <point x="0.99337" y="0.437229" />
+                            <point x="0.841436" y="0.974026" />
+                            <point x="0.472376" y="0.915584" />
+                            <point x="0.238674" y="0.443723" />
+                            <point x="0.0292818" y="0.437229" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Level9" pingpong="0" repeatcount="1" repeatto="0" sid="985611892088081" speed="5">
+                    <frame duration="1" hotspotX="0.491219" hotspotY="0.437071" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level Done\Level 9\104.png">
+                        <collision-poly>
+                            <point x="0.213411" y="0.203661" />
+                            <point x="0.491219" y="0.0114416" />
+                            <point x="0.813731" y="0.0114416" />
+                            <point x="0.993614" y="0.437071" />
+                            <point x="0.827568" y="0.922197" />
+                            <point x="0.491219" y="0.91762" />
+                            <point x="0.141565" y="0.979405" />
+                            <point x="0.11389" y="0.437071" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Level10" pingpong="0" repeatcount="1" repeatto="0" sid="394784269854999" speed="5">
+                    <frame duration="1" hotspotX="0.442566" hotspotY="0.437071" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level Done\Level 10\115.png">
+                        <collision-poly>
+                            <point x="0.138192" y="0.203661" />
+                            <point x="0.442566" y="0.0114416" />
+                            <point x="0.795918" y="0.0114416" />
+                            <point x="0.993003" y="0.437071" />
+                            <point x="0.811662" y="0.924485" />
+                            <point x="0.442566" y="0.919908" />
+                            <point x="0.199417" y="0.430206" />
+                            <point x="0.0291545" y="0.437071" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Level11" pingpong="0" repeatcount="1" repeatto="0" sid="486837626973209" speed="5">
+                    <frame duration="1" hotspotX="0.447647" hotspotY="0.471464" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level Done\Level 11\126.png">
+                        <collision-poly>
+                            <point x="0.138824" y="0.210918" />
+                            <point x="0.447647" y="0.0124069" />
+                            <point x="0.803529" y="0.0124069" />
+                            <point x="0.992941" y="0.471464" />
+                            <point x="0.817647" y="0.990074" />
+                            <point x="0.447647" y="0.992556" />
+                            <point x="0.200588" y="0.471464" />
+                            <point x="0.0294118" y="0.471464" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Level12" pingpong="0" repeatcount="1" repeatto="0" sid="122308310616348" speed="5">
+                    <frame duration="1" hotspotX="0.442566" hotspotY="0.437071" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level Done\Level 12\141.png">
+                        <collision-poly>
+                            <point x="0.137609" y="0.201373" />
+                            <point x="0.442566" y="0.0114416" />
+                            <point x="0.795918" y="0.0114416" />
+                            <point x="0.993003" y="0.437071" />
+                            <point x="0.806997" y="0.906178" />
+                            <point x="0.442566" y="0.466819" />
+                            <point x="0.199417" y="0.430206" />
+                            <point x="0.0291545" y="0.437071" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Level13" pingpong="0" repeatcount="1" repeatto="0" sid="289094034706637" speed="5">
+                    <frame duration="1" hotspotX="0.442566" hotspotY="0.736842" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level 13\151.png">
+                        <collision-poly>
+                            <point x="0.0233236" y="0.0526316" />
+                            <point x="0.872303" y="0.0114416" />
+                            <point x="0.998834" y="0.736842" />
+                            <point x="0.734694" y="0.922197" />
+                            <point x="0.442566" y="0.922197" />
+                            <point x="0.163848" y="0.869565" />
+                            <point x="0.189504" y="0.736842" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Level14" pingpong="0" repeatcount="1" repeatto="0" sid="899230437080721" speed="5">
+                    <frame duration="1" hotspotX="0.442566" hotspotY="0.436073" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level 14\161.png">
+                        <collision-poly>
+                            <point x="0.137609" y="0.200913" />
+                            <point x="0.442566" y="0.0114155" />
+                            <point x="0.795918" y="0.0114155" />
+                            <point x="0.993003" y="0.436073" />
+                            <point x="0.8" y="0.876712" />
+                            <point x="0.442566" y="0.915525" />
+                            <point x="0.199417" y="0.429224" />
+                            <point x="0.0291545" y="0.436073" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Level15" pingpong="0" repeatcount="1" repeatto="0" sid="523500863044521" speed="5">
+                    <frame duration="1" hotspotX="0.442566" hotspotY="0.437071" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level 15\172.png">
+                        <collision-poly>
+                            <point x="0.137609" y="0.201373" />
+                            <point x="0.442566" y="0.00915332" />
+                            <point x="0.796501" y="0.00915332" />
+                            <point x="0.993003" y="0.437071" />
+                            <point x="0.811079" y="0.922197" />
+                            <point x="0.442566" y="0.922197" />
+                            <point x="0.199417" y="0.430206" />
+                            <point x="0.0285714" y="0.437071" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Level16" pingpong="0" repeatcount="1" repeatto="0" sid="566610754863995" speed="5">
+                    <frame duration="1" hotspotX="0.442566" hotspotY="0.436073" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level 16\182.png">
+                        <collision-poly>
+                            <point x="0.155685" y="0.27169" />
+                            <point x="0.442566" y="0.175799" />
+                            <point x="0.755102" y="0.171233" />
+                            <point x="0.96793" y="0.436073" />
+                            <point x="0.797085" y="0.865297" />
+                            <point x="0.442566" y="0.77169" />
+                            <point x="0.210496" y="0.385845" />
+                            <point x="0.139942" y="0.436073" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Level17" pingpong="0" repeatcount="1" repeatto="0" sid="675479170401890" speed="5">
+                    <frame duration="1" hotspotX="0.442566" hotspotY="0.437071" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level 17\197.png">
+                        <collision-poly>
+                            <point x="0.137609" y="0.201373" />
+                            <point x="0.442566" y="0.00915332" />
+                            <point x="0.796501" y="0.00915332" />
+                            <point x="0.993003" y="0.437071" />
+                            <point x="0.810496" y="0.919908" />
+                            <point x="0.442566" y="0.466819" />
+                            <point x="0.199417" y="0.430206" />
+                            <point x="0.0285714" y="0.437071" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Level18" pingpong="0" repeatcount="1" repeatto="0" sid="686586196697367" speed="5">
+                    <frame duration="1" hotspotX="0.44205" hotspotY="0.471605" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level 18\207.png">
+                        <collision-poly>
+                            <point x="0.137449" y="0.217284" />
+                            <point x="0.44205" y="0.00987654" />
+                            <point x="0.795574" y="0.00987654" />
+                            <point x="0.991846" y="0.471605" />
+                            <point x="0.810134" y="0.995062" />
+                            <point x="0.44205" y="0.965432" />
+                            <point x="0.199185" y="0.464198" />
+                            <point x="0.0285381" y="0.471605" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Level19" pingpong="0" repeatcount="1" repeatto="0" sid="752536006620485" speed="5">
+                    <frame duration="1" hotspotX="0.442566" hotspotY="0.472289" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level 19\217.png">
+                        <collision-poly>
+                            <point x="0.137026" y="0.221687" />
+                            <point x="0.442566" y="0.0120482" />
+                            <point x="0.798834" y="0.0120482" />
+                            <point x="0.991837" y="0.472289" />
+                            <point x="0.809329" y="0.975904" />
+                            <point x="0.442566" y="0.992771" />
+                            <point x="0.200583" y="0.460241" />
+                            <point x="0.0332362" y="0.472289" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Level20" pingpong="0" repeatcount="1" repeatto="0" sid="508686451728187" speed="5">
+                    <frame duration="1" hotspotX="0.442566" hotspotY="0.437071" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level 20\227.png">
+                        <collision-poly>
+                            <point x="0.137609" y="0.201373" />
+                            <point x="0.442566" y="0.00915332" />
+                            <point x="0.796501" y="0.00915332" />
+                            <point x="0.993003" y="0.437071" />
+                            <point x="0.8" y="0.878719" />
+                            <point x="0.442566" y="0.80778" />
+                            <point x="0.199417" y="0.430206" />
+                            <point x="0.0285714" y="0.437071" />
+                        </collision-poly>
+                    </frame>
+                </animation>
             </animation-folder>
         </object-type>
-        <object-type name="EvaluasiLevel1" sid="350966560514869">
+        <object-type name="EvaluasiSPR" sid="350966560514869">
             <plugin id="Sprite" />
             <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="166597199997997" speed="5">
+                <animation framecount="1" loop="0" name="Level1" pingpong="0" repeatcount="1" repeatto="0" sid="166597199997997" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Salah (2).png">
+                        <collision-poly>
+                            <point x="0.172737" y="0.00238095" />
+                            <point x="0.827263" y="0.00238095" />
+                            <point x="0.99948" y="0.5" />
+                            <point x="0.827263" y="0.997619" />
+                            <point x="0.172737" y="0.997619" />
+                            <point x="0.000520291" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Level2" pingpong="0" repeatcount="1" repeatto="0" sid="436542292114049" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.35" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level Done\Level 2\13.png">
+                        <collision-poly>
+                            <point x="0.205515" y="0.00238095" />
+                            <point x="0.794485" y="0.00238095" />
+                            <point x="0.99948" y="0.35" />
+                            <point x="0.860042" y="0.997619" />
+                            <point x="0.139958" y="0.997619" />
+                            <point x="0.000520291" y="0.35" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Level3" pingpong="0" repeatcount="1" repeatto="0" sid="428236561455959" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level Done\Level 3\27.png">
+                        <collision-poly>
+                            <point x="0.172737" y="0.00238095" />
+                            <point x="0.827263" y="0.00238095" />
+                            <point x="0.99948" y="0.5" />
+                            <point x="0.827263" y="0.997619" />
+                            <point x="0.172737" y="0.997619" />
+                            <point x="0.000520291" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Level4" pingpong="0" repeatcount="1" repeatto="0" sid="936204615130577" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level Done\Level 4\40.png">
+                        <collision-poly>
+                            <point x="0.172737" y="0.00238095" />
+                            <point x="0.827263" y="0.00238095" />
+                            <point x="0.99948" y="0.5" />
+                            <point x="0.827263" y="0.997619" />
+                            <point x="0.172737" y="0.997619" />
+                            <point x="0.000520291" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Level5" pingpong="0" repeatcount="1" repeatto="0" sid="101764024904326" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level Done\Level 5\54.png">
+                        <collision-poly>
+                            <point x="0.172737" y="0.00238095" />
+                            <point x="0.827263" y="0.00238095" />
+                            <point x="0.99948" y="0.5" />
+                            <point x="0.827263" y="0.997619" />
+                            <point x="0.172737" y="0.997619" />
+                            <point x="0.000520291" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Level6" pingpong="0" repeatcount="1" repeatto="0" sid="670688429708389" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level Done\Level 6\65.png">
+                        <collision-poly>
+                            <point x="0.172737" y="0.00238095" />
+                            <point x="0.827263" y="0.00238095" />
+                            <point x="0.99948" y="0.5" />
+                            <point x="0.827263" y="0.997619" />
+                            <point x="0.172737" y="0.997619" />
+                            <point x="0.000520291" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Level7" pingpong="0" repeatcount="1" repeatto="0" sid="762075661169455" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level Done\Level 7\81.png">
+                        <collision-poly>
+                            <point x="0.172737" y="0.00238095" />
+                            <point x="0.827263" y="0.00238095" />
+                            <point x="0.99948" y="0.5" />
+                            <point x="0.827263" y="0.997619" />
+                            <point x="0.172737" y="0.997619" />
+                            <point x="0.000520291" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Level8" pingpong="0" repeatcount="1" repeatto="0" sid="366856100113501" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.35" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level Done\Level 8\94.png">
+                        <collision-poly>
+                            <point x="0.205515" y="0.00238095" />
+                            <point x="0.794485" y="0.00238095" />
+                            <point x="0.99948" y="0.35" />
+                            <point x="0.860042" y="0.997619" />
+                            <point x="0.139958" y="0.997619" />
+                            <point x="0.000520291" y="0.35" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Level9" pingpong="0" repeatcount="1" repeatto="0" sid="773944945354853" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level Done\Level 9\105.png">
+                        <collision-poly>
+                            <point x="0.172737" y="0.00238095" />
+                            <point x="0.827263" y="0.00238095" />
+                            <point x="0.99948" y="0.5" />
+                            <point x="0.827263" y="0.997619" />
+                            <point x="0.172737" y="0.997619" />
+                            <point x="0.000520291" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Level10" pingpong="0" repeatcount="1" repeatto="0" sid="806705153080551" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level Done\Level 10\116.png">
+                        <collision-poly>
+                            <point x="0.172737" y="0.00238095" />
+                            <point x="0.827263" y="0.00238095" />
+                            <point x="0.99948" y="0.5" />
+                            <point x="0.827263" y="0.997619" />
+                            <point x="0.172737" y="0.997619" />
+                            <point x="0.000520291" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Level11" pingpong="0" repeatcount="1" repeatto="0" sid="330308546482636" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level Done\Level 11\127.png">
+                        <collision-poly>
+                            <point x="0.172737" y="0.00238095" />
+                            <point x="0.827263" y="0.00238095" />
+                            <point x="0.99948" y="0.5" />
+                            <point x="0.827263" y="0.997619" />
+                            <point x="0.172737" y="0.997619" />
+                            <point x="0.000520291" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Level12" pingpong="0" repeatcount="1" repeatto="0" sid="357755500779894" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level Done\Level 12\142.png">
+                        <collision-poly>
+                            <point x="0.172737" y="0.00238095" />
+                            <point x="0.827263" y="0.00238095" />
+                            <point x="0.99948" y="0.5" />
+                            <point x="0.827263" y="0.997619" />
+                            <point x="0.172737" y="0.997619" />
+                            <point x="0.000520291" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Level13" pingpong="0" repeatcount="1" repeatto="0" sid="458049363158457" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level 13\152.png">
+                        <collision-poly>
+                            <point x="0.172737" y="0.00238095" />
+                            <point x="0.827263" y="0.00238095" />
+                            <point x="0.99948" y="0.5" />
+                            <point x="0.827263" y="0.997619" />
+                            <point x="0.172737" y="0.997619" />
+                            <point x="0.000520291" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Level14" pingpong="0" repeatcount="1" repeatto="0" sid="551367727428197" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.35" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level 14\162.png">
+                        <collision-poly>
+                            <point x="0.205515" y="0.00238095" />
+                            <point x="0.794485" y="0.00238095" />
+                            <point x="0.99948" y="0.35" />
+                            <point x="0.860042" y="0.997619" />
+                            <point x="0.139958" y="0.997619" />
+                            <point x="0.000520291" y="0.35" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Level15" pingpong="0" repeatcount="1" repeatto="0" sid="439394128578403" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.35" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level 15\173.png">
+                        <collision-poly>
+                            <point x="0.205515" y="0.00238095" />
+                            <point x="0.794485" y="0.00238095" />
+                            <point x="0.99948" y="0.35" />
+                            <point x="0.860042" y="0.997619" />
+                            <point x="0.139958" y="0.997619" />
+                            <point x="0.000520291" y="0.35" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Level16" pingpong="0" repeatcount="1" repeatto="0" sid="458591300745893" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level 16\183.png">
+                        <collision-poly>
+                            <point x="0.172737" y="0.00238095" />
+                            <point x="0.827263" y="0.00238095" />
+                            <point x="0.99948" y="0.5" />
+                            <point x="0.827263" y="0.997619" />
+                            <point x="0.172737" y="0.997619" />
+                            <point x="0.000520291" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Level17" pingpong="0" repeatcount="1" repeatto="0" sid="348248414857396" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level 17\198.png">
+                        <collision-poly>
+                            <point x="0.172737" y="0.00238095" />
+                            <point x="0.827263" y="0.00238095" />
+                            <point x="0.99948" y="0.5" />
+                            <point x="0.827263" y="0.997619" />
+                            <point x="0.172737" y="0.997619" />
+                            <point x="0.000520291" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Level18" pingpong="0" repeatcount="1" repeatto="0" sid="346223126711647" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.35" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level 18\208.png">
+                        <collision-poly>
+                            <point x="0.205515" y="0.00238095" />
+                            <point x="0.794485" y="0.00238095" />
+                            <point x="0.99948" y="0.35" />
+                            <point x="0.860042" y="0.997619" />
+                            <point x="0.139958" y="0.997619" />
+                            <point x="0.000520291" y="0.35" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Level19" pingpong="0" repeatcount="1" repeatto="0" sid="168750362836712" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level 19\218.png">
+                        <collision-poly>
+                            <point x="0.172737" y="0.00238095" />
+                            <point x="0.827263" y="0.00238095" />
+                            <point x="0.99948" y="0.5" />
+                            <point x="0.827263" y="0.997619" />
+                            <point x="0.172737" y="0.997619" />
+                            <point x="0.000520291" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Level20" pingpong="0" repeatcount="1" repeatto="0" sid="982973885037197" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level 20\228.png">
                         <collision-poly>
                             <point x="0.172737" y="0.00238095" />
                             <point x="0.827263" y="0.00238095" />
@@ -901,29 +1392,239 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="VictoryLevel1" sid="893346139288519">
+        <object-type name="PenjelasanSPR" sid="364981984129541">
             <plugin id="Sprite" />
             <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="810049366629842" speed="5">
-                    <frame duration="1" hotspotX="0.501961" hotspotY="0.479545" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Benar (2).png">
+                <animation framecount="1" loop="0" name="Level1" pingpong="0" repeatcount="1" repeatto="0" sid="635776571491786" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Benar.png">
                         <collision-poly>
-                            <point x="0.191597" y="0.175" />
-                            <point x="0.501961" y="0.0318182" />
-                            <point x="0.77535" y="0.325" />
-                            <point x="0.99888" y="0.479545" />
-                            <point x="0.859384" y="0.975" />
-                            <point x="0.501961" y="0.534091" />
-                            <point x="0.00112045" y="0.479545" />
+                            <point x="0.172737" y="0.00238095" />
+                            <point x="0.827263" y="0.00238095" />
+                            <point x="0.99948" y="0.5" />
+                            <point x="0.827263" y="0.997619" />
+                            <point x="0.172737" y="0.997619" />
+                            <point x="0.000520291" y="0.5" />
                         </collision-poly>
                     </frame>
                 </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="PenjelasanLevel1" sid="364981984129541">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="635776571491786" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Benar.png">
+                <animation framecount="1" loop="0" name="Level2" pingpong="0" repeatcount="1" repeatto="0" sid="802903328295985" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level Done\Level 2\10.png">
+                        <collision-poly>
+                            <point x="0.172737" y="0.00238095" />
+                            <point x="0.827263" y="0.00238095" />
+                            <point x="0.99948" y="0.5" />
+                            <point x="0.827263" y="0.997619" />
+                            <point x="0.172737" y="0.997619" />
+                            <point x="0.000520291" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Level3" pingpong="0" repeatcount="1" repeatto="0" sid="275823212856962" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.471429" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level Done\Level 3\23.png">
+                        <collision-poly>
+                            <point x="0.17898" y="0.00238095" />
+                            <point x="0.82102" y="0.00238095" />
+                            <point x="0.99948" y="0.471429" />
+                            <point x="0.833507" y="0.997619" />
+                            <point x="0.166493" y="0.997619" />
+                            <point x="0.000520291" y="0.471429" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Level4" pingpong="0" repeatcount="1" repeatto="0" sid="288300796393440" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level Done\Level 4\37.png">
+                        <collision-poly>
+                            <point x="0.172737" y="0.00238095" />
+                            <point x="0.827263" y="0.00238095" />
+                            <point x="0.99948" y="0.5" />
+                            <point x="0.827263" y="0.997619" />
+                            <point x="0.172737" y="0.997619" />
+                            <point x="0.000520291" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Level5" pingpong="0" repeatcount="1" repeatto="0" sid="962030786775135" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.454762" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level Done\Level 5\51.png">
+                        <collision-poly>
+                            <point x="0.182622" y="0.00238088" />
+                            <point x="0.817378" y="0.00238088" />
+                            <point x="0.99948" y="0.454762" />
+                            <point x="0.836628" y="0.995238" />
+                            <point x="0.163371" y="0.995238" />
+                            <point x="0.000520291" y="0.454762" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Level6" pingpong="0" repeatcount="1" repeatto="0" sid="476922088907519" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level Done\Level 6\62.png">
+                        <collision-poly>
+                            <point x="0.172737" y="0.00238095" />
+                            <point x="0.827263" y="0.00238095" />
+                            <point x="0.99948" y="0.5" />
+                            <point x="0.827263" y="0.997619" />
+                            <point x="0.172737" y="0.997619" />
+                            <point x="0.000520291" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Level7" pingpong="0" repeatcount="1" repeatto="0" sid="688783284681654" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level Done\Level 7\78.png">
+                        <collision-poly>
+                            <point x="0.172737" y="0.00238095" />
+                            <point x="0.827263" y="0.00238095" />
+                            <point x="0.99948" y="0.5" />
+                            <point x="0.827263" y="0.997619" />
+                            <point x="0.172737" y="0.997619" />
+                            <point x="0.000520291" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Level8" pingpong="0" repeatcount="1" repeatto="0" sid="118686890762413" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level Done\Level 8\91.png">
+                        <collision-poly>
+                            <point x="0.172737" y="0.00238095" />
+                            <point x="0.827263" y="0.00238095" />
+                            <point x="0.99948" y="0.5" />
+                            <point x="0.827263" y="0.997619" />
+                            <point x="0.172737" y="0.997619" />
+                            <point x="0.000520291" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Level9" pingpong="0" repeatcount="1" repeatto="0" sid="851703575142812" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level Done\Level 9\102.png">
+                        <collision-poly>
+                            <point x="0.172737" y="0.00238095" />
+                            <point x="0.827263" y="0.00238095" />
+                            <point x="0.99948" y="0.5" />
+                            <point x="0.827263" y="0.997619" />
+                            <point x="0.172737" y="0.997619" />
+                            <point x="0.000520291" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Level10" pingpong="0" repeatcount="1" repeatto="0" sid="988228754001149" speed="5">
+                    <frame duration="1" hotspotX="0.494211" hotspotY="0.506024" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level Done\Level 10\113.png">
+                        <collision-poly>
+                            <point x="0.163158" y="0.00240964" />
+                            <point x="0.825263" y="0.00240964" />
+                            <point x="0.999474" y="0.506024" />
+                            <point x="0.822632" y="0.99759" />
+                            <point x="0.165789" y="0.99759" />
+                            <point x="0.000526316" y="0.506024" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Level11" pingpong="0" repeatcount="1" repeatto="0" sid="505595624222954" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level Done\Level 11\124.png">
+                        <collision-poly>
+                            <point x="0.172737" y="0.00238095" />
+                            <point x="0.827263" y="0.00238095" />
+                            <point x="0.99948" y="0.5" />
+                            <point x="0.827263" y="0.997619" />
+                            <point x="0.172737" y="0.997619" />
+                            <point x="0.000520291" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Level12" pingpong="0" repeatcount="1" repeatto="0" sid="305514628402489" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level Done\Level 12\139.png">
+                        <collision-poly>
+                            <point x="0.172737" y="0.00238095" />
+                            <point x="0.827263" y="0.00238095" />
+                            <point x="0.99948" y="0.5" />
+                            <point x="0.827263" y="0.997619" />
+                            <point x="0.172737" y="0.997619" />
+                            <point x="0.000520291" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Level13" pingpong="0" repeatcount="1" repeatto="0" sid="962119879194851" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level 13\149.png">
+                        <collision-poly>
+                            <point x="0.172737" y="0.00238095" />
+                            <point x="0.827263" y="0.00238095" />
+                            <point x="0.99948" y="0.5" />
+                            <point x="0.827263" y="0.997619" />
+                            <point x="0.172737" y="0.997619" />
+                            <point x="0.000520291" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Level14" pingpong="0" repeatcount="1" repeatto="0" sid="791695418275004" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level 14\159.png">
+                        <collision-poly>
+                            <point x="0.172737" y="0.00238095" />
+                            <point x="0.827263" y="0.00238095" />
+                            <point x="0.99948" y="0.5" />
+                            <point x="0.827263" y="0.997619" />
+                            <point x="0.172737" y="0.997619" />
+                            <point x="0.000520291" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Level15" pingpong="0" repeatcount="1" repeatto="0" sid="582811948218069" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.35" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level 15\170.png">
+                        <collision-poly>
+                            <point x="0.205515" y="0.00238095" />
+                            <point x="0.794485" y="0.00238095" />
+                            <point x="0.99948" y="0.35" />
+                            <point x="0.860042" y="0.997619" />
+                            <point x="0.139958" y="0.997619" />
+                            <point x="0.000520291" y="0.35" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Level16" pingpong="0" repeatcount="1" repeatto="0" sid="518025211656298" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.35" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level 16\180.png">
+                        <collision-poly>
+                            <point x="0.205515" y="0.00238095" />
+                            <point x="0.794485" y="0.00238095" />
+                            <point x="0.99948" y="0.35" />
+                            <point x="0.860042" y="0.997619" />
+                            <point x="0.139958" y="0.997619" />
+                            <point x="0.000520291" y="0.35" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Level17" pingpong="0" repeatcount="1" repeatto="0" sid="228869103515019" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level 17\195.png">
+                        <collision-poly>
+                            <point x="0.172737" y="0.00238095" />
+                            <point x="0.827263" y="0.00238095" />
+                            <point x="0.99948" y="0.5" />
+                            <point x="0.827263" y="0.997619" />
+                            <point x="0.172737" y="0.997619" />
+                            <point x="0.000520291" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Level18" pingpong="0" repeatcount="1" repeatto="0" sid="591356433508872" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level 18\205.png">
+                        <collision-poly>
+                            <point x="0.172737" y="0.00238095" />
+                            <point x="0.827263" y="0.00238095" />
+                            <point x="0.99948" y="0.5" />
+                            <point x="0.827263" y="0.997619" />
+                            <point x="0.172737" y="0.997619" />
+                            <point x="0.000520291" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Level19" pingpong="0" repeatcount="1" repeatto="0" sid="822132071153059" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level 19\215.png">
+                        <collision-poly>
+                            <point x="0.172737" y="0.00238095" />
+                            <point x="0.827263" y="0.00238095" />
+                            <point x="0.99948" y="0.5" />
+                            <point x="0.827263" y="0.997619" />
+                            <point x="0.172737" y="0.997619" />
+                            <point x="0.000520291" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Level20" pingpong="0" repeatcount="1" repeatto="0" sid="419680374426251" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level 20\225.png">
                         <collision-poly>
                             <point x="0.172737" y="0.00238095" />
                             <point x="0.827263" y="0.00238095" />
@@ -1446,38 +2147,6 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="PenjelasanLevel2" sid="394113817634757">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="959900318000543" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level 2\10.png" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="VictoryLevel2" sid="710445174433516">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="950261821182348" speed="5">
-                    <frame duration="1" hotspotX="0.502242" hotspotY="0.47836" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level 2\9.png" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="GameOverLevel2" sid="363552969454559">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="139407395209101" speed="5">
-                    <frame duration="1" hotspotX="0.498424" hotspotY="0.470067" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level 2\12.png" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="EvaluasiLevel2" sid="292130889007755">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="668520796870667" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.35" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level 2\13.png" />
-                </animation>
-            </animation-folder>
-        </object-type>
         <object-type name="PenghargaanTerbukaCountTxt" sid="169959910025905">
             <plugin id="skwp_htmlelement" />
         </object-type>
@@ -1640,38 +2309,6 @@
         <object-type name="HTMLElement" sid="536587805345925">
             <plugin id="skwp_htmlelement" />
         </object-type>
-        <object-type name="VictoryLevel3" sid="223811561384356">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="976042766850905" speed="5">
-                    <frame duration="1" hotspotX="0.502242" hotspotY="0.443975" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level 3\24.png" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="PenjelasanLevel3" sid="872664682006259">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="663088824889214" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.471429" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level 3\23.png" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="GameOverLevel3" sid="814611958402524">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="366365242911403" speed="5">
-                    <frame duration="1" hotspotX="0.498424" hotspotY="0.470067" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level 3\26.png" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="EvaluasiLevel3" sid="282889937383022">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="409374418846653" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level 3\27.png" />
-                </animation>
-            </animation-folder>
-        </object-type>
         <object-type name="TxtLevel4" sid="505657665821908">
             <plugin id="Sprite" />
             <animation-folder>
@@ -1735,78 +2372,6 @@
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="674625015900962" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="VictoryLevel4" sid="170562212141816">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="973661258184835" speed="5">
-                    <frame duration="1" hotspotX="0.502242" hotspotY="0.443975" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level 4\36.png">
-                        <collision-poly>
-                            <point x="0.191704" y="0.160677" />
-                            <point x="0.502242" y="0.0274841" />
-                            <point x="0.801009" y="0.205074" />
-                            <point x="0.999439" y="0.443975" />
-                            <point x="0.861547" y="0.911205" />
-                            <point x="0.502242" y="0.913319" />
-                            <point x="0.258408" y="0.475687" />
-                            <point x="0.00112108" y="0.443975" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="PenjelasanLevel4" sid="446849076614556">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="801053509605755" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level 4\37.png">
-                        <collision-poly>
-                            <point x="0.172737" y="0.00238095" />
-                            <point x="0.827263" y="0.00238095" />
-                            <point x="0.99948" y="0.5" />
-                            <point x="0.827263" y="0.997619" />
-                            <point x="0.172737" y="0.997619" />
-                            <point x="0.000520291" y="0.5" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="GameOverLevel4" sid="828351157657421">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="988625404831268" speed="5">
-                    <frame duration="1" hotspotX="0.498424" hotspotY="0.470067" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level 4\39.png">
-                        <collision-poly>
-                            <point x="0.169118" y="0.0110865" />
-                            <point x="0.498424" y="0.804878" />
-                            <point x="0.827731" y="0.0110865" />
-                            <point x="0.993172" y="0.470067" />
-                            <point x="0.842437" y="0.991131" />
-                            <point x="0.498424" y="0.997783" />
-                            <point x="0.30042" y="0.374723" />
-                            <point x="0.0294118" y="0.470067" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="EvaluasiLevel4" sid="712195279906215">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="905331290836168" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level 4\40.png">
-                        <collision-poly>
-                            <point x="0.172737" y="0.00238095" />
-                            <point x="0.827263" y="0.00238095" />
-                            <point x="0.99948" y="0.5" />
-                            <point x="0.827263" y="0.997619" />
-                            <point x="0.172737" y="0.997619" />
-                            <point x="0.000520291" y="0.5" />
-                        </collision-poly>
-                    </frame>
                 </animation>
             </animation-folder>
         </object-type>
@@ -1954,78 +2519,6 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="VictoryLevel5" sid="804192284981496">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="907070212913252" speed="5">
-                    <frame duration="1" hotspotX="0.478987" hotspotY="0.444142" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level 5\50.png">
-                        <collision-poly>
-                            <point x="0.214738" y="0.337875" />
-                            <point x="0.478987" y="0.217984" />
-                            <point x="0.773748" y="0.19346" />
-                            <point x="0.999424" y="0.444142" />
-                            <point x="0.820956" y="0.918256" />
-                            <point x="0.478987" y="0.435967" />
-                            <point x="0.143351" y="0.888283" />
-                            <point x="0.204375" y="0.444142" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="PenjelasanLevel5" sid="459291471291861">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="915730617946868" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.454762" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level 5\51.png">
-                        <collision-poly>
-                            <point x="0.182622" y="0.00238088" />
-                            <point x="0.817378" y="0.00238088" />
-                            <point x="0.99948" y="0.454762" />
-                            <point x="0.836628" y="0.995238" />
-                            <point x="0.163371" y="0.995238" />
-                            <point x="0.000520291" y="0.454762" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="GameOverLevel5" sid="409136384764694">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="307877449861145" speed="5">
-                    <frame duration="1" hotspotX="0.472376" hotspotY="0.470862" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level 5\53.png">
-                        <collision-poly>
-                            <point x="0.151934" y="0.0979021" />
-                            <point x="0.472376" y="0.734266" />
-                            <point x="0.81326" y="0.011655" />
-                            <point x="0.99337" y="0.470862" />
-                            <point x="0.828177" y="0.993007" />
-                            <point x="0.472376" y="0.785548" />
-                            <point x="0.121547" y="0.972028" />
-                            <point x="0.0292818" y="0.470862" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="EvaluasiLevel5" sid="261965629659689">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="952662043607428" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level 5\54.png">
-                        <collision-poly>
-                            <point x="0.172737" y="0.00238095" />
-                            <point x="0.827263" y="0.00238095" />
-                            <point x="0.99948" y="0.5" />
-                            <point x="0.827263" y="0.997619" />
-                            <point x="0.172737" y="0.997619" />
-                            <point x="0.000520291" y="0.5" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
         <object-type name="TxtLevel6" sid="229113257057848">
             <plugin id="Sprite" />
             <animation-folder>
@@ -2081,78 +2574,6 @@
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="621455078462828" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="VictoryLevel6" sid="641668105783300">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="811442464988621" speed="5">
-                    <frame duration="1" hotspotX="0.345625" hotspotY="0.444142" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level 6\61.png">
-                        <collision-poly>
-                            <point x="0.0137383" y="0.337875" />
-                            <point x="0.345625" y="0.217984" />
-                            <point x="0.715835" y="0.19346" />
-                            <point x="0.999277" y="0.444142" />
-                            <point x="0.769342" y="0.896458" />
-                            <point x="0.345625" y="0.880109" />
-                            <point x="0.0542299" y="0.39782" />
-                            <point x="0.000723066" y="0.444142" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="PenjelasanLevel6" sid="399481901964350">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="779456881659727" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level 6\62.png">
-                        <collision-poly>
-                            <point x="0.172737" y="0.00238095" />
-                            <point x="0.827263" y="0.00238095" />
-                            <point x="0.99948" y="0.5" />
-                            <point x="0.827263" y="0.997619" />
-                            <point x="0.172737" y="0.997619" />
-                            <point x="0.000520291" y="0.5" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="GameOverLevel6" sid="163719928245457">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="695665742080430" speed="5">
-                    <frame duration="1" hotspotX="0.472376" hotspotY="0.470862" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level 6\64.png">
-                        <collision-poly>
-                            <point x="0.151934" y="0.0979021" />
-                            <point x="0.472376" y="0.736597" />
-                            <point x="0.81326" y="0.011655" />
-                            <point x="0.99337" y="0.470862" />
-                            <point x="0.823757" y="0.974359" />
-                            <point x="0.472376" y="0.993007" />
-                            <point x="0.238674" y="0.477855" />
-                            <point x="0.0292818" y="0.470862" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="EvaluasiLevel6" sid="283232270519227">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="931537133330204" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level 6\65.png">
-                        <collision-poly>
-                            <point x="0.172737" y="0.00238095" />
-                            <point x="0.827263" y="0.00238095" />
-                            <point x="0.99948" y="0.5" />
-                            <point x="0.827263" y="0.997619" />
-                            <point x="0.172737" y="0.997619" />
-                            <point x="0.000520291" y="0.5" />
-                        </collision-poly>
-                    </frame>
                 </animation>
             </animation-folder>
         </object-type>
@@ -2339,78 +2760,6 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="VictoryLevel7" sid="761293884087044">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="565225337117503" speed="5">
-                    <frame duration="1" hotspotX="0.345625" hotspotY="0.444142" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level 7\77.png">
-                        <collision-poly>
-                            <point x="0.0137383" y="0.337875" />
-                            <point x="0.345625" y="0.217984" />
-                            <point x="0.715835" y="0.19346" />
-                            <point x="0.999277" y="0.444142" />
-                            <point x="0.77585" y="0.920981" />
-                            <point x="0.345625" y="0.918256" />
-                            <point x="0.0542299" y="0.39782" />
-                            <point x="0.000723066" y="0.444142" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="PenjelasanLevel7" sid="497982922538231">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="545312643638814" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level 7\78.png">
-                        <collision-poly>
-                            <point x="0.172737" y="0.00238095" />
-                            <point x="0.827263" y="0.00238095" />
-                            <point x="0.99948" y="0.5" />
-                            <point x="0.827263" y="0.997619" />
-                            <point x="0.172737" y="0.997619" />
-                            <point x="0.000520291" y="0.5" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="GameOverLevel7" sid="447784876687667">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="299356179085764" speed="5">
-                    <frame duration="1" hotspotX="0.472376" hotspotY="0.690476" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level 7\80.png">
-                        <collision-poly>
-                            <point x="0.0646409" y="0.0021645" />
-                            <point x="0.472376" y="0.699134" />
-                            <point x="0.877901" y="0.0108225" />
-                            <point x="0.998343" y="0.690476" />
-                            <point x="0.620442" y="0.361472" />
-                            <point x="0.472376" y="0.902597" />
-                            <point x="0.18011" y="0.926407" />
-                            <point x="0.107182" y="0.690476" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="EvaluasiLevel7" sid="241059678749970">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="411753967165590" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level 7\81.png">
-                        <collision-poly>
-                            <point x="0.172737" y="0.00238095" />
-                            <point x="0.827263" y="0.00238095" />
-                            <point x="0.99948" y="0.5" />
-                            <point x="0.827263" y="0.997619" />
-                            <point x="0.172737" y="0.997619" />
-                            <point x="0.000520291" y="0.5" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
         <object-type name="TxtLevel8" sid="960126450131032">
             <plugin id="Sprite" />
             <animation-folder>
@@ -2485,78 +2834,6 @@
                             <point x="0.963931" y="0.639589" />
                             <point x="0.445446" y="0.999066" />
                             <point x="0.121731" y="0.437909" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="VictoryLevel8" sid="930211211816260">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="951844012066459" speed="5">
-                    <frame duration="1" hotspotX="0.43189" hotspotY="0.478006" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level 8\90.png">
-                        <collision-poly>
-                            <point x="0.143754" y="0.363636" />
-                            <point x="0.43189" y="0.234604" />
-                            <point x="0.753296" y="0.208211" />
-                            <point x="0.999372" y="0.478006" />
-                            <point x="0.788449" y="0.912023" />
-                            <point x="0.43189" y="0.98827" />
-                            <point x="0.0621469" y="0.973607" />
-                            <point x="0.132454" y="0.478006" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="PenjelasanLevel8" sid="851916248903521">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="224586172984265" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level 8\91.png">
-                        <collision-poly>
-                            <point x="0.172737" y="0.00238095" />
-                            <point x="0.827263" y="0.00238095" />
-                            <point x="0.99948" y="0.5" />
-                            <point x="0.827263" y="0.997619" />
-                            <point x="0.172737" y="0.997619" />
-                            <point x="0.000520291" y="0.5" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="GameOverLevel8" sid="229499725263127">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="182005019064102" speed="5">
-                    <frame duration="1" hotspotX="0.472376" hotspotY="0.437229" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level 8\93.png">
-                        <collision-poly>
-                            <point x="0.151934" y="0.0909091" />
-                            <point x="0.472376" y="0.861472" />
-                            <point x="0.81326" y="0.0108225" />
-                            <point x="0.99337" y="0.437229" />
-                            <point x="0.841436" y="0.974026" />
-                            <point x="0.472376" y="0.915584" />
-                            <point x="0.238674" y="0.443723" />
-                            <point x="0.0292818" y="0.437229" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="EvaluasiLevel8" sid="684300849638575">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="910760629721311" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.35" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level 8\94.png">
-                        <collision-poly>
-                            <point x="0.205515" y="0.00238095" />
-                            <point x="0.794485" y="0.00238095" />
-                            <point x="0.99948" y="0.35" />
-                            <point x="0.860042" y="0.997619" />
-                            <point x="0.139958" y="0.997619" />
-                            <point x="0.000520291" y="0.35" />
                         </collision-poly>
                     </frame>
                 </animation>
@@ -2648,11 +2925,107 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="VictoryLevel9" sid="115452600362129">
+        <object-type name="VictoryTXT" sid="115452600362129">
             <plugin id="Sprite" />
             <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="916633328393314" speed="5">
-                    <frame duration="1" hotspotX="0.43189" hotspotY="0.478006" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level 9\101.png">
+                <animation framecount="1" loop="0" name="Level1" pingpong="0" repeatcount="1" repeatto="0" sid="264911151968379" speed="5">
+                    <frame duration="1" hotspotX="0.501961" hotspotY="0.479545" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Benar (2).png">
+                        <collision-poly>
+                            <point x="0.191597" y="0.175" />
+                            <point x="0.501961" y="0.0318182" />
+                            <point x="0.77535" y="0.325" />
+                            <point x="0.99888" y="0.479545" />
+                            <point x="0.859384" y="0.975" />
+                            <point x="0.501961" y="0.534091" />
+                            <point x="0.00112045" y="0.479545" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Level2" pingpong="0" repeatcount="1" repeatto="0" sid="841502669862491" speed="5">
+                    <frame duration="1" hotspotX="0.502242" hotspotY="0.47836" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level Done\Level 2\9.png">
+                        <collision-poly>
+                            <point x="0.191704" y="0.173121" />
+                            <point x="0.502242" y="0.0296128" />
+                            <point x="0.801009" y="0.220957" />
+                            <point x="0.999439" y="0.47836" />
+                            <point x="0.859865" y="0.974943" />
+                            <point x="0.502242" y="0.53303" />
+                            <point x="0.00112108" y="0.47836" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Level3" pingpong="0" repeatcount="1" repeatto="0" sid="125764030612515" speed="5">
+                    <frame duration="1" hotspotX="0.502242" hotspotY="0.443975" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level Done\Level 3\24.png">
+                        <collision-poly>
+                            <point x="0.191704" y="0.160677" />
+                            <point x="0.502242" y="0.0274841" />
+                            <point x="0.801009" y="0.205074" />
+                            <point x="0.999439" y="0.443975" />
+                            <point x="0.863789" y="0.919662" />
+                            <point x="0.502242" y="0.890063" />
+                            <point x="0.258408" y="0.475687" />
+                            <point x="0.00112108" y="0.443975" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Level4" pingpong="0" repeatcount="1" repeatto="0" sid="350714765048884" speed="5">
+                    <frame duration="1" hotspotX="0.502242" hotspotY="0.443975" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level Done\Level 4\36.png">
+                        <collision-poly>
+                            <point x="0.191704" y="0.160677" />
+                            <point x="0.502242" y="0.0274841" />
+                            <point x="0.801009" y="0.205074" />
+                            <point x="0.999439" y="0.443975" />
+                            <point x="0.861547" y="0.911205" />
+                            <point x="0.502242" y="0.913319" />
+                            <point x="0.258408" y="0.475687" />
+                            <point x="0.00112108" y="0.443975" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Level5" pingpong="0" repeatcount="1" repeatto="0" sid="616196589132430" speed="5">
+                    <frame duration="1" hotspotX="0.478987" hotspotY="0.444142" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level Done\Level 5\50.png">
+                        <collision-poly>
+                            <point x="0.214738" y="0.337875" />
+                            <point x="0.478987" y="0.217984" />
+                            <point x="0.773748" y="0.19346" />
+                            <point x="0.999424" y="0.444142" />
+                            <point x="0.820956" y="0.918256" />
+                            <point x="0.478987" y="0.435967" />
+                            <point x="0.143351" y="0.888283" />
+                            <point x="0.204375" y="0.444142" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Level6" pingpong="0" repeatcount="1" repeatto="0" sid="658638004838393" speed="5">
+                    <frame duration="1" hotspotX="0.345625" hotspotY="0.444142" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level Done\Level 6\61.png">
+                        <collision-poly>
+                            <point x="0.0137383" y="0.337875" />
+                            <point x="0.345625" y="0.217984" />
+                            <point x="0.715835" y="0.19346" />
+                            <point x="0.999277" y="0.444142" />
+                            <point x="0.769342" y="0.896458" />
+                            <point x="0.345625" y="0.880109" />
+                            <point x="0.0542299" y="0.39782" />
+                            <point x="0.000723066" y="0.444142" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Level7" pingpong="0" repeatcount="1" repeatto="0" sid="617711006148028" speed="5">
+                    <frame duration="1" hotspotX="0.345625" hotspotY="0.444142" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level Done\Level 7\77.png">
+                        <collision-poly>
+                            <point x="0.0137383" y="0.337875" />
+                            <point x="0.345625" y="0.217984" />
+                            <point x="0.715835" y="0.19346" />
+                            <point x="0.999277" y="0.444142" />
+                            <point x="0.77585" y="0.920981" />
+                            <point x="0.345625" y="0.918256" />
+                            <point x="0.0542299" y="0.39782" />
+                            <point x="0.000723066" y="0.444142" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Level8" pingpong="0" repeatcount="1" repeatto="0" sid="837265667708962" speed="5">
+                    <frame duration="1" hotspotX="0.43189" hotspotY="0.478006" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level Done\Level 8\90.png">
                         <collision-poly>
                             <point x="0.143754" y="0.363636" />
                             <point x="0.43189" y="0.234604" />
@@ -2665,56 +3038,169 @@
                         </collision-poly>
                     </frame>
                 </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="PenjelasanLevel9" sid="458501683322316">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="963001446638818" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level 9\102.png">
+                <animation framecount="1" loop="0" name="Level9" pingpong="0" repeatcount="1" repeatto="0" sid="947444233083474" speed="5">
+                    <frame duration="1" hotspotX="0.43189" hotspotY="0.478006" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level Done\Level 9\101.png">
                         <collision-poly>
-                            <point x="0.172737" y="0.00238095" />
-                            <point x="0.827263" y="0.00238095" />
-                            <point x="0.99948" y="0.5" />
-                            <point x="0.827263" y="0.997619" />
-                            <point x="0.172737" y="0.997619" />
-                            <point x="0.000520291" y="0.5" />
+                            <point x="0.143754" y="0.363636" />
+                            <point x="0.43189" y="0.234604" />
+                            <point x="0.753296" y="0.208211" />
+                            <point x="0.999372" y="0.478006" />
+                            <point x="0.788449" y="0.912023" />
+                            <point x="0.43189" y="0.98827" />
+                            <point x="0.0621469" y="0.973607" />
+                            <point x="0.132454" y="0.478006" />
                         </collision-poly>
                     </frame>
                 </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="GameOverLevel9" sid="830880227013463">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="163950912290970" speed="5">
-                    <frame duration="1" hotspotX="0.491219" hotspotY="0.437071" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level 9\104.png">
+                <animation framecount="1" loop="0" name="Level10" pingpong="0" repeatcount="1" repeatto="0" sid="200494145967281" speed="5">
+                    <frame duration="1" hotspotX="0.345625" hotspotY="0.444142" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level Done\Level 10\112.png">
                         <collision-poly>
-                            <point x="0.213411" y="0.203661" />
-                            <point x="0.491219" y="0.0114416" />
-                            <point x="0.813731" y="0.0114416" />
-                            <point x="0.993614" y="0.437071" />
-                            <point x="0.827568" y="0.922197" />
-                            <point x="0.491219" y="0.91762" />
-                            <point x="0.141565" y="0.979405" />
-                            <point x="0.11389" y="0.437071" />
+                            <point x="0.0137383" y="0.337875" />
+                            <point x="0.345625" y="0.217984" />
+                            <point x="0.715835" y="0.19346" />
+                            <point x="0.999277" y="0.444142" />
+                            <point x="0.77585" y="0.920981" />
+                            <point x="0.345625" y="0.435967" />
+                            <point x="0.0542299" y="0.39782" />
+                            <point x="0.000723066" y="0.444142" />
                         </collision-poly>
                     </frame>
                 </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="EvaluasiLevel9" sid="133375741702582">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="454617724038509" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level 9\105.png">
+                <animation framecount="1" loop="0" name="Level11" pingpong="0" repeatcount="1" repeatto="0" sid="860854419563962" speed="5">
+                    <frame duration="1" hotspotX="0.345625" hotspotY="0.444142" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level Done\Level 11\123.png">
                         <collision-poly>
-                            <point x="0.172737" y="0.00238095" />
-                            <point x="0.827263" y="0.00238095" />
-                            <point x="0.99948" y="0.5" />
-                            <point x="0.827263" y="0.997619" />
-                            <point x="0.172737" y="0.997619" />
-                            <point x="0.000520291" y="0.5" />
+                            <point x="0.0137383" y="0.337875" />
+                            <point x="0.345625" y="0.217984" />
+                            <point x="0.715835" y="0.19346" />
+                            <point x="0.999277" y="0.444142" />
+                            <point x="0.760665" y="0.86376" />
+                            <point x="0.345625" y="0.899183" />
+                            <point x="0.0542299" y="0.39782" />
+                            <point x="0.000723066" y="0.444142" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Level12" pingpong="0" repeatcount="1" repeatto="0" sid="489056117613383" speed="5">
+                    <frame duration="1" hotspotX="0.464018" hotspotY="0.426554" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level Done\Level 12\138.png">
+                        <collision-poly>
+                            <point x="0.288428" y="0.751412" />
+                            <point x="0.464018" y="0.161017" />
+                            <point x="0.747841" y="0.220339" />
+                            <point x="0.986759" y="0.426554" />
+                            <point x="0.805987" y="0.918079" />
+                            <point x="0.464018" y="0.466102" />
+                            <point x="0.12205" y="0.918079" />
+                            <point x="0.255037" y="0.426554" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Level13" pingpong="0" repeatcount="1" repeatto="0" sid="319004144330431" speed="5">
+                    <frame duration="1" hotspotX="0.434654" hotspotY="0.480978" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level 13\148.png">
+                        <collision-poly>
+                            <point x="0.144293" y="0.288043" />
+                            <point x="0.434654" y="0.171196" />
+                            <point x="0.751626" y="0.165761" />
+                            <point x="0.967475" y="0.480978" />
+                            <point x="0.790656" y="0.975543" />
+                            <point x="0.0762862" y="0.986413" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Level14" pingpong="0" repeatcount="1" repeatto="0" sid="986628050502903" speed="5">
+                    <frame duration="1" hotspotX="0.35318" hotspotY="0.480978" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level 14\158.png">
+                        <collision-poly>
+                            <point x="0.0209743" y="0.288043" />
+                            <point x="0.35318" y="0.171196" />
+                            <point x="0.715832" y="0.165761" />
+                            <point x="0.962788" y="0.480978" />
+                            <point x="0.737483" y="0.883152" />
+                            <point x="0.35318" y="0.934783" />
+                            <point x="0.0845737" y="0.418478" />
+                            <point x="0.00202977" y="0.480978" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Level15" pingpong="0" repeatcount="1" repeatto="0" sid="906443243957678" speed="5">
+                    <frame duration="1" hotspotX="0.35318" hotspotY="0.448101" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level 15\169.png">
+                        <collision-poly>
+                            <point x="0.0202977" y="0.265823" />
+                            <point x="0.35318" y="0.159494" />
+                            <point x="0.715832" y="0.15443" />
+                            <point x="0.962788" y="0.448101" />
+                            <point x="0.76184" y="0.913924" />
+                            <point x="0.35318" y="0.913924" />
+                            <point x="0.0838972" y="0.392405" />
+                            <point x="0.00202977" y="0.448101" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Level16" pingpong="0" repeatcount="1" repeatto="0" sid="850968065417390" speed="5">
+                    <frame duration="1" hotspotX="0.35318" hotspotY="0.448101" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level 16\179.png">
+                        <collision-poly>
+                            <point x="0.0202977" y="0.265823" />
+                            <point x="0.35318" y="0.159494" />
+                            <point x="0.715832" y="0.15443" />
+                            <point x="0.962788" y="0.448101" />
+                            <point x="0.764547" y="0.924051" />
+                            <point x="0.35318" y="0.820253" />
+                            <point x="0.0838972" y="0.392405" />
+                            <point x="0.00202977" y="0.448101" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Level17" pingpong="0" repeatcount="1" repeatto="0" sid="869591152442246" speed="5">
+                    <frame duration="1" hotspotX="0.35318" hotspotY="0.448101" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level 17\194.png">
+                        <collision-poly>
+                            <point x="0.0202977" y="0.265823" />
+                            <point x="0.35318" y="0.159494" />
+                            <point x="0.715832" y="0.15443" />
+                            <point x="0.962788" y="0.448101" />
+                            <point x="0.7659" y="0.929114" />
+                            <point x="0.35318" y="0.853164" />
+                            <point x="0.0838972" y="0.392405" />
+                            <point x="0.00202977" y="0.448101" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Level18" pingpong="0" repeatcount="1" repeatto="0" sid="310886697657286" speed="5">
+                    <frame duration="1" hotspotX="0.35318" hotspotY="0.448101" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level 18\204.png">
+                        <collision-poly>
+                            <point x="0.0202977" y="0.265823" />
+                            <point x="0.35318" y="0.159494" />
+                            <point x="0.715832" y="0.15443" />
+                            <point x="0.962788" y="0.448101" />
+                            <point x="0.765223" y="0.926582" />
+                            <point x="0.35318" y="0.855696" />
+                            <point x="0.0838972" y="0.392405" />
+                            <point x="0.00202977" y="0.448101" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Level19" pingpong="0" repeatcount="1" repeatto="0" sid="694295240679407" speed="5">
+                    <frame duration="1" hotspotX="0.35318" hotspotY="0.448101" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level 19\214.png">
+                        <collision-poly>
+                            <point x="0.0202977" y="0.265823" />
+                            <point x="0.35318" y="0.159494" />
+                            <point x="0.715832" y="0.15443" />
+                            <point x="0.962788" y="0.448101" />
+                            <point x="0.764547" y="0.924051" />
+                            <point x="0.35318" y="0.906329" />
+                            <point x="0.0838972" y="0.392405" />
+                            <point x="0.00202977" y="0.448101" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Level20" pingpong="0" repeatcount="1" repeatto="0" sid="596055375440880" speed="5">
+                    <frame duration="1" hotspotX="0.35318" hotspotY="0.44697" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level 20\224.png">
+                        <collision-poly>
+                            <point x="0.0202977" y="0.265152" />
+                            <point x="0.35318" y="0.159091" />
+                            <point x="0.715832" y="0.15404" />
+                            <point x="0.962788" y="0.44697" />
+                            <point x="0.761164" y="0.909091" />
+                            <point x="0.35318" y="0.921717" />
+                            <point x="0.0838972" y="0.391414" />
+                            <point x="0.00202977" y="0.44697" />
                         </collision-poly>
                     </frame>
                 </animation>
@@ -2779,78 +3265,6 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="VictoryLevel10" sid="839554833389897">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="126967982109300" speed="5">
-                    <frame duration="1" hotspotX="0.345625" hotspotY="0.444142" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level 10\112.png">
-                        <collision-poly>
-                            <point x="0.0137383" y="0.337875" />
-                            <point x="0.345625" y="0.217984" />
-                            <point x="0.715835" y="0.19346" />
-                            <point x="0.999277" y="0.444142" />
-                            <point x="0.77585" y="0.920981" />
-                            <point x="0.345625" y="0.435967" />
-                            <point x="0.0542299" y="0.39782" />
-                            <point x="0.000723066" y="0.444142" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="PenjelasanLevel10" sid="139953891879877">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="695758852131612" speed="5">
-                    <frame duration="1" hotspotX="0.494211" hotspotY="0.506024" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level 10\113.png">
-                        <collision-poly>
-                            <point x="0.163158" y="0.00240964" />
-                            <point x="0.825263" y="0.00240964" />
-                            <point x="0.999474" y="0.506024" />
-                            <point x="0.822632" y="0.99759" />
-                            <point x="0.165789" y="0.99759" />
-                            <point x="0.000526316" y="0.506024" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="GameOverLevel10" sid="947102377109521">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="536139605958570" speed="5">
-                    <frame duration="1" hotspotX="0.442566" hotspotY="0.437071" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level 10\115.png">
-                        <collision-poly>
-                            <point x="0.138192" y="0.203661" />
-                            <point x="0.442566" y="0.0114416" />
-                            <point x="0.795918" y="0.0114416" />
-                            <point x="0.993003" y="0.437071" />
-                            <point x="0.811662" y="0.924485" />
-                            <point x="0.442566" y="0.919908" />
-                            <point x="0.199417" y="0.430206" />
-                            <point x="0.0291545" y="0.437071" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="EvaluasiLevel10" sid="511975569327351">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="378615711119376" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level 10\116.png">
-                        <collision-poly>
-                            <point x="0.172737" y="0.00238095" />
-                            <point x="0.827263" y="0.00238095" />
-                            <point x="0.99948" y="0.5" />
-                            <point x="0.827263" y="0.997619" />
-                            <point x="0.172737" y="0.997619" />
-                            <point x="0.000520291" y="0.5" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
         <object-type name="TxtLevel11" sid="376467943527325">
             <plugin id="Sprite" />
             <animation-folder>
@@ -2909,78 +3323,6 @@
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="858132338888391" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="VictoryLevel11" sid="650412086691213">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="978487871838401" speed="5">
-                    <frame duration="1" hotspotX="0.345625" hotspotY="0.444142" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level 11\123.png">
-                        <collision-poly>
-                            <point x="0.0137383" y="0.337875" />
-                            <point x="0.345625" y="0.217984" />
-                            <point x="0.715835" y="0.19346" />
-                            <point x="0.999277" y="0.444142" />
-                            <point x="0.760665" y="0.86376" />
-                            <point x="0.345625" y="0.899183" />
-                            <point x="0.0542299" y="0.39782" />
-                            <point x="0.000723066" y="0.444142" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="PenjelasanLevel11" sid="773643820779806">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="494361789558459" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level 11\124.png">
-                        <collision-poly>
-                            <point x="0.172737" y="0.00238095" />
-                            <point x="0.827263" y="0.00238095" />
-                            <point x="0.99948" y="0.5" />
-                            <point x="0.827263" y="0.997619" />
-                            <point x="0.172737" y="0.997619" />
-                            <point x="0.000520291" y="0.5" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="GameOverLevel11" sid="514987575583256">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="440075374986641" speed="5">
-                    <frame duration="1" hotspotX="0.447647" hotspotY="0.471464" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level 11\126.png">
-                        <collision-poly>
-                            <point x="0.138824" y="0.210918" />
-                            <point x="0.447647" y="0.0124069" />
-                            <point x="0.803529" y="0.0124069" />
-                            <point x="0.992941" y="0.471464" />
-                            <point x="0.817647" y="0.990074" />
-                            <point x="0.447647" y="0.992556" />
-                            <point x="0.200588" y="0.471464" />
-                            <point x="0.0294118" y="0.471464" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="EvaluasiLevel11" sid="771187590115879">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="166132775967782" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level 11\127.png">
-                        <collision-poly>
-                            <point x="0.172737" y="0.00238095" />
-                            <point x="0.827263" y="0.00238095" />
-                            <point x="0.99948" y="0.5" />
-                            <point x="0.827263" y="0.997619" />
-                            <point x="0.172737" y="0.997619" />
-                            <point x="0.000520291" y="0.5" />
-                        </collision-poly>
-                    </frame>
                 </animation>
             </animation-folder>
         </object-type>
@@ -3287,92 +3629,608 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="GameOverLevel12" sid="862985978206479">
+        <object-type name="TxtLevel13" sid="339752127381857">
             <plugin id="Sprite" />
             <animation-folder>
-                <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="361056717754429" speed="5">
-                    <frame duration="1" hotspotX="0.442566" hotspotY="0.437071" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level 12\141.png">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="260224704480971" speed="5">
+                    <frame duration="1" hotspotX="0.502469" hotspotY="0.512676" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level 13\144.png">
                         <collision-poly>
-                            <point x="0.137609" y="0.201373" />
-                            <point x="0.442566" y="0.0114416" />
-                            <point x="0.795918" y="0.0114416" />
-                            <point x="0.993003" y="0.437071" />
-                            <point x="0.806997" y="0.906178" />
-                            <point x="0.442566" y="0.466819" />
-                            <point x="0.199417" y="0.430206" />
-                            <point x="0.0291545" y="0.437071" />
-                        </collision-poly>
-                    </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level 12\142.png">
-                        <collision-poly>
-                            <point x="0.172396" y="0.306481" />
-                            <point x="0.827604" y="0.306481" />
-                            <point x="1" y="0.5" />
-                            <point x="0.827604" y="0.693519" />
-                            <point x="0.172396" y="0.693519" />
-                            <point x="0" y="0.5" />
+                            <point x="0.0654321" y="0.698592" />
+                            <point x="0.502469" y="0.107042" />
+                            <point x="0.933333" y="0.712676" />
+                            <point x="0.84321" y="0.107042" />
+                            <point x="0.502469" y="0.309859" />
+                            <point x="0.161728" y="0.107042" />
                         </collision-poly>
                     </frame>
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="EvaluasiLevel12" sid="367391148010205">
+        <object-type name="TxtSoalLevel13" sid="479612159630379">
             <plugin id="Sprite" />
             <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="283240883568411" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level 12\142.png">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="833809782409136" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.482587" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level 13\145.png">
                         <collision-poly>
-                            <point x="0.172737" y="0.00238095" />
-                            <point x="0.827263" y="0.00238095" />
-                            <point x="0.99948" y="0.5" />
-                            <point x="0.827263" y="0.997619" />
-                            <point x="0.172737" y="0.997619" />
-                            <point x="0.000520291" y="0.5" />
+                            <point x="0.22807" y="0.104478" />
+                            <point x="0.776864" y="0.0597015" />
+                            <point x="0.989583" y="0.482587" />
+                            <point x="0.776316" y="0.900497" />
+                            <point x="0.219846" y="0.935323" />
+                            <point x="0.0104167" y="0.482587" />
                         </collision-poly>
                     </frame>
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="VictoryLevel12" sid="299239969153464">
+        <object-type name="BGLevel13" sid="835448582689188">
             <plugin id="Sprite" />
             <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="840680582090137" speed="5">
-                    <frame duration="1" hotspotX="0.464018" hotspotY="0.426554" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level 12\138.png">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="821838529101958" speed="5">
+                    <frame duration="1" hotspotX="0.502352" hotspotY="0.400886" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level 13\146.png">
                         <collision-poly>
-                            <point x="0.288428" y="0.751412" />
-                            <point x="0.464018" y="0.161017" />
-                            <point x="0.747841" y="0.220339" />
-                            <point x="0.986759" y="0.426554" />
-                            <point x="0.805987" y="0.918079" />
-                            <point x="0.464018" y="0.466102" />
-                            <point x="0.12205" y="0.918079" />
-                            <point x="0.255037" y="0.426554" />
+                            <point x="0.094093" y="0.00110742" />
+                            <point x="0.910612" y="0.00110742" />
+                            <point x="0.999477" y="0.400886" />
+                            <point x="0.998955" y="0.987818" />
+                            <point x="0.000522739" y="0.998893" />
+                            <point x="0.000522739" y="0.400886" />
                         </collision-poly>
                     </frame>
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="PenjelasanLevel12" sid="711368892308586">
+        <object-type name="BenarLevel13" sid="806535493100039">
             <plugin id="Sprite" />
             <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="142284837389099" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level 12\139.png">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="647189935043992" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TxtLevel14" sid="729346741996134">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="898038464362695" speed="5">
+                    <frame duration="1" hotspotX="0.500442" hotspotY="0.512676" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level 14\154.png">
                         <collision-poly>
-                            <point x="0.172737" y="0.00238095" />
-                            <point x="0.827263" y="0.00238095" />
-                            <point x="0.99948" y="0.5" />
-                            <point x="0.827263" y="0.997619" />
-                            <point x="0.172737" y="0.997619" />
-                            <point x="0.000520291" y="0.5" />
+                            <point x="0.222812" y="0.811268" />
+                            <point x="0.500442" y="0.109859" />
+                            <point x="0.812555" y="0.701408" />
+                            <point x="0.998232" y="0.915493" />
+                            <point x="0.500442" y="0.983099" />
+                            <point x="0.0335986" y="0.816901" />
                         </collision-poly>
                     </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TxtSoalLevel14" sid="837288324686985">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="132342237005968" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.482587" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level 14\155.png">
+                        <collision-poly>
+                            <point x="0.229947" y="0.0597015" />
+                            <point x="0.767914" y="0.079602" />
+                            <point x="0.997861" y="0.482587" />
+                            <point x="0.770588" y="0.910447" />
+                            <point x="0.226738" y="0.935323" />
+                            <point x="0.00106952" y="0.482587" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="BGLevel14" sid="228517605417092">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="436182079876124" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.400886" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level 14\156.png">
+                        <collision-poly>
+                            <point x="0.0941727" y="0.00221484" />
+                            <point x="0.905827" y="0.00221484" />
+                            <point x="0.99948" y="0.400886" />
+                            <point x="0.99948" y="0.998893" />
+                            <point x="0.000520291" y="0.998893" />
+                            <point x="0.000520291" y="0.400886" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="BenarLevel14" sid="932720630773524">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="161720513551987" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TxtLevel15" sid="882950123748011">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="871363470027759" speed="5">
+                    <frame duration="1" hotspotX="0.502469" hotspotY="0.512676" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level 15\164.png">
+                        <collision-poly>
+                            <point x="0.0654321" y="0.698592" />
+                            <point x="0.502469" y="0.115493" />
+                            <point x="0.933333" y="0.712676" />
+                            <point x="0.833333" y="0.084507" />
+                            <point x="0.502469" y="0.301408" />
+                            <point x="0.167901" y="0.0929577" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TxtSoalLevel15" sid="249338919167616">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="144785779041182" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.482587" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level 15\165.png">
+                        <collision-poly>
+                            <point x="0.226776" y="0.0845773" />
+                            <point x="0.775956" y="0.0597015" />
+                            <point x="0.995082" y="0.482587" />
+                            <point x="0.775956" y="0.905473" />
+                            <point x="0.224044" y="0.905473" />
+                            <point x="0.00382514" y="0.482587" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="BGLevel15" sid="536862371646623">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="921876740815238" speed="5">
+                    <frame duration="1" hotspotX="0.522851" hotspotY="0.381714" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level 15\166.png">
+                        <collision-poly>
+                            <point x="0.113711" y="0.00228571" />
+                            <point x="0.931991" y="0.00228571" />
+                            <point x="0.999456" y="0.381714" />
+                            <point x="0.999456" y="0.902857" />
+                            <point x="0.522851" y="0.998857" />
+                            <point x="0.00054407" y="0.998857" />
+                            <point x="0.00054407" y="0.381714" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="BenarLevel15" sid="660146917216095">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="300913433742999" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.505689" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level 15\167.png">
+                        <collision-poly>
+                            <point x="0.0574651" y="0.356511" />
+                            <point x="0.0175886" y="0.283186" />
+                            <point x="0.00268528" y="0.197851" />
+                            <point x="0.00926421" y="0.0957649" />
+                            <point x="0.0388695" y="0.0232301" />
+                            <point x="0.0724691" y="0.000869151" />
+                            <point x="0.102158" y="0.0111805" />
+                            <point x="0.130773" y="0.0594184" />
+                            <point x="0.261681" y="0.0707965" />
+                            <point x="0.5" y="0.309735" />
+                            <point x="0.553974" y="0.36536" />
+                            <point x="0.581096" y="0.31732" />
+                            <point x="0.618689" y="0.310999" />
+                            <point x="0.72261" y="0.419722" />
+                            <point x="0.763292" y="0.475348" />
+                            <point x="0.915212" y="0.587864" />
+                            <point x="0.946059" y="0.651707" />
+                            <point x="0.989947" y="0.726612" />
+                            <point x="1" y="0.823483" />
+                            <point x="0.993824" y="0.900996" />
+                            <point x="0.967642" y="0.970093" />
+                            <point x="0.933942" y="0.996207" />
+                            <point x="0.837809" y="0.977244" />
+                            <point x="0.752148" y="0.974083" />
+                            <point x="0.593314" y="0.911821" />
+                            <point x="0.520341" y="0.850348" />
+                            <point x="0.293737" y="0.847424" />
+                            <point x="0.233066" y="0.823206" />
+                            <point x="0.176692" y="0.733249" />
+                            <point x="0.116139" y="0.585651" />
+                            <point x="0.0738453" y="0.513907" />
+                            <point x="0.0547798" y="0.451327" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TxtLevel16" sid="240834380839334">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="603445612373875" speed="5">
+                    <frame duration="1" hotspotX="0.501581" hotspotY="0.512676" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level 16\175.png">
+                        <collision-poly>
+                            <point x="0.157007" y="0.774648" />
+                            <point x="0.501581" y="0.109859" />
+                            <point x="0.844046" y="0.780282" />
+                            <point x="0.785037" y="0.0873239" />
+                            <point x="0.501581" y="0.307042" />
+                            <point x="0.213909" y="0.0985916" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TxtSoalLevel16" sid="604792857791231">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="870381532957415" speed="5">
+                    <frame duration="1" hotspotX="0.50027" hotspotY="0.485849" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level 16\176.png">
+                        <collision-poly>
+                            <point x="0.219407" y="0.00943396" />
+                            <point x="0.50027" y="0.0754717" />
+                            <point x="0.774663" y="0.0660377" />
+                            <point x="0.998922" y="0.485849" />
+                            <point x="0.742857" y="0.627358" />
+                            <point x="0.50027" y="0.943396" />
+                            <point x="0.262534" y="0.584906" />
+                            <point x="0.00700809" y="0.485849" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="BGLevel16" sid="474814165961489">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="219316892053554" speed="5">
+                    <frame duration="1" hotspotX="0.489527" hotspotY="0.269906" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level 16\177.png">
+                        <collision-poly>
+                            <point x="0.11909" y="0.00134953" />
+                            <point x="0.859964" y="0.00134953" />
+                            <point x="0.999402" y="0.269906" />
+                            <point x="0.999402" y="0.852901" />
+                            <point x="0.489527" y="0.99865" />
+                            <point x="0.000598444" y="0.805668" />
+                            <point x="0.000598444" y="0.269906" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="BenarLevel16" sid="248754814132315">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="436220431465734" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TxtLevel17" sid="189211007463315">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="972723769280432" speed="5">
+                    <frame duration="1" hotspotX="0.50147" hotspotY="0.513308" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level 17\185.png">
+                        <collision-poly>
+                            <point x="0.380364" y="0.920152" />
+                            <point x="0.50147" y="0.121673" />
+                            <point x="0.650206" y="0.830799" />
+                            <point x="0.884774" y="0.954373" />
+                            <point x="0.50147" y="0.86692" />
+                            <point x="0.10876" y="0.984791" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TxtSoalLevel17" sid="370428335304139">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="945815368496480" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.421875" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level 17\186.png">
+                        <collision-poly>
+                            <point x="0.5" y="0.265625" />
+                            <point x="0.999057" y="0.421875" />
+                            <point x="0.909434" y="0.640625" />
+                            <point x="0.0867925" y="0.703125" />
+                            <point x="0.000943396" y="0.421875" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="GarudaLevel17" sid="990322800594162">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="668072920662566" speed="5">
+                    <frame duration="1" hotspotX="0.375764" hotspotY="0.49435" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level 17\187.png">
+                        <collision-poly>
+                            <point x="0.264766" y="0.787194" />
+                            <point x="0.375764" y="0.13936" />
+                            <point x="0.996945" y="0.315443" />
+                            <point x="0.955193" y="0.49435" />
+                            <point x="0.892057" y="0.576271" />
+                            <point x="0.375764" y="0.984934" />
+                            <point x="0.0183299" y="0.429379" />
+                            <point x="0.0437882" y="0.49435" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite5" sid="475231664202822">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="568720758317136" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level 17\184.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="SalahLevel17a" sid="882125995404826">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="743207853183194" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level 17\189.png">
+                        <collision-poly>
+                            <point x="0.0425926" y="0.0425926" />
+                            <point x="0.5" y="0" />
+                            <point x="0.909259" y="0.0907407" />
+                            <point x="0.962963" y="0.5" />
+                            <point x="0.951852" y="0.951852" />
+                            <point x="0.5" y="0.984259" />
+                            <point x="0.0824074" y="0.917593" />
+                            <point x="0.037037" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="SalahLevel17b" sid="520994905488675">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="978372251217746" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level 17\190.png">
+                        <collision-poly>
+                            <point x="0.0425926" y="0.0425926" />
+                            <point x="0.5" y="0" />
+                            <point x="0.909259" y="0.0907407" />
+                            <point x="0.962963" y="0.5" />
+                            <point x="0.951852" y="0.951852" />
+                            <point x="0.5" y="0.984259" />
+                            <point x="0.0824074" y="0.917593" />
+                            <point x="0.037037" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="SalahLevel17c" sid="273483632346794">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="231731431744842" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level 17\191.png">
+                        <collision-poly>
+                            <point x="0.0425926" y="0.0425926" />
+                            <point x="0.5" y="0" />
+                            <point x="0.909259" y="0.0907407" />
+                            <point x="0.962963" y="0.5" />
+                            <point x="0.951852" y="0.951852" />
+                            <point x="0.5" y="0.984259" />
+                            <point x="0.0824074" y="0.917593" />
+                            <point x="0.037037" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="SalahLevel17d" sid="882626986315649">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="149332694607079" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level 17\192.png">
+                        <collision-poly>
+                            <point x="0.0425926" y="0.0425926" />
+                            <point x="0.5" y="0" />
+                            <point x="0.909259" y="0.0907407" />
+                            <point x="0.962963" y="0.5" />
+                            <point x="0.951852" y="0.951852" />
+                            <point x="0.5" y="0.984259" />
+                            <point x="0.0824074" y="0.917593" />
+                            <point x="0.037037" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="BenarLevel17" sid="661480763323074">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="998727543623284" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TxtLevel18" sid="814635643136203">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="665871450311536" speed="5">
+                    <frame duration="1" hotspotX="0.501439" hotspotY="0.512676" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level 18\200.png">
+                        <collision-poly>
+                            <point x="0.267626" y="0.780282" />
+                            <point x="0.501439" y="0.109859" />
+                            <point x="0.754676" y="0.704225" />
+                            <point x="0.925899" y="0.991549" />
+                            <point x="0.0841727" y="0.96338" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TxtSoalLevel18" sid="184600797283715">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="478846684822314" speed="5">
+                    <frame duration="1" hotspotX="0.500262" hotspotY="0.483568" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level 18\201.png">
+                        <collision-poly>
+                            <point x="0.227344" y="0.00938967" />
+                            <point x="0.767417" y="0.0610329" />
+                            <point x="0.999476" y="0.483568" />
+                            <point x="0.770561" y="0.934272" />
+                            <point x="0.228916" y="0.943662" />
+                            <point x="0.00104767" y="0.483568" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="BGLevel18" sid="224821473652220">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="835047589495678" speed="5">
+                    <frame duration="1" hotspotX="0.523313" hotspotY="0.309068" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level 18\202.png">
+                        <collision-poly>
+                            <point x="0.118405" y="0.00255428" />
+                            <point x="0.928221" y="0.00255428" />
+                            <point x="0.999386" y="0.309068" />
+                            <point x="0.999386" y="0.763729" />
+                            <point x="0.523313" y="0.998723" />
+                            <point x="0.000613497" y="0.860792" />
+                            <point x="0.000613497" y="0.309068" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="BenarLevel18" sid="757278099024182">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="508474559320246" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TxtLevel19" sid="578076958221248">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="828909677575779" speed="5">
+                    <frame duration="1" hotspotX="0.501032" hotspotY="0.512676" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level 19\210.png">
+                        <collision-poly>
+                            <point x="0.501032" y="0.109859" />
+                            <point x="0.74329" y="0.704225" />
+                            <point x="0.907089" y="0.991549" />
+                            <point x="0.501032" y="0.850704" />
+                            <point x="0.0942877" y="0.994366" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TxtSoalLevel19" sid="132055331103411">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="379817575889483" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.483568" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level 19\211.png">
+                        <collision-poly>
+                            <point x="0.219231" y="0.056338" />
+                            <point x="0.782967" y="0.0375587" />
+                            <point x="0.998901" y="0.483568" />
+                            <point x="0.784066" y="0.938967" />
+                            <point x="0.216484" y="0.934272" />
+                            <point x="0.0010989" y="0.483568" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="BGLevel19" sid="160528520471713">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="298896135577476" speed="5">
+                    <frame duration="1" hotspotX="0.502948" hotspotY="0.362028" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level 19\212.png">
+                        <collision-poly>
+                            <point x="0.0754717" y="0.00235849" />
+                            <point x="0.930425" y="0.00235849" />
+                            <point x="0.99941" y="0.362028" />
+                            <point x="0.99941" y="0.85967" />
+                            <point x="0.502948" y="0.998821" />
+                            <point x="0.000589623" y="0.871462" />
+                            <point x="0.000589623" y="0.362028" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="BenarLevel19" sid="390689196905061">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="283642749166703" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TxtLevel20" sid="193790956992266">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="659621673895549" speed="5">
+                    <frame duration="1" hotspotX="0.501364" hotspotY="0.471503" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level 20\220.png">
+                        <collision-poly>
+                            <point x="0.292633" y="0.766839" />
+                            <point x="0.501364" y="0.0906736" />
+                            <point x="0.725784" y="0.707254" />
+                            <point x="0.90382" y="0.911917" />
+                            <point x="0.501364" y="0.784974" />
+                            <point x="0.0975443" y="0.917098" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TxtSoalLevel20" sid="597484209546777">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="408028001071866" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.485849" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level 20\221.png">
+                        <collision-poly>
+                            <point x="0.231579" y="0.0613208" />
+                            <point x="0.768947" y="0.0566038" />
+                            <point x="0.998421" y="0.485849" />
+                            <point x="0.732105" y="0.584906" />
+                            <point x="0.5" y="0.938679" />
+                            <point x="0.274211" y="0.528302" />
+                            <point x="0.00105263" y="0.485849" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="BGLevel20" sid="949284362027030">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="219735533033387" speed="5">
+                    <frame duration="1" hotspotX="0.480294" hotspotY="0.250693" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level 20\222.png">
+                        <collision-poly>
+                            <point x="0.0794923" y="0.00138504" />
+                            <point x="0.881096" y="0.00138504" />
+                            <point x="0.998664" y="0.250693" />
+                            <point x="0.998664" y="0.743767" />
+                            <point x="0.480294" y="0.998615" />
+                            <point x="0.000668003" y="0.663435" />
+                            <point x="0.000668003" y="0.250693" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="BenarLevel20" sid="968362620839547">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="297910777196874" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                 </animation>
             </animation-folder>
         </object-type>
     </object-folder>
     <families />
     <layout-folder>
-        <layout>Level Intro - Pancasila.xml</layout>
+        <layout>Credit Scene.xml</layout>
         <layout>Level 1.xml</layout>
         <layout>Level 2.xml</layout>
         <layout>Level 3.xml</layout>
@@ -3385,6 +4243,14 @@
         <layout>Level 10.xml</layout>
         <layout>Level 11.xml</layout>
         <layout>Level 12.xml</layout>
+        <layout>Level 13.xml</layout>
+        <layout>Level 14.xml</layout>
+        <layout>Level 15.xml</layout>
+        <layout>Level 16.xml</layout>
+        <layout>Level 17.xml</layout>
+        <layout>Level 18.xml</layout>
+        <layout>Level 19.xml</layout>
+        <layout>Level 20.xml</layout>
         <layout>Level 1 Failed.xml</layout>
         <layout>Level 1 Victory.xml</layout>
         <layout>Splash Screen.xml</layout>
@@ -3400,7 +4266,7 @@
     <event-folder>
         <event-sheet>SplashScreenEvent.xml</event-sheet>
         <event-sheet>MenuEvent.xml</event-sheet>
-        <event-sheet>LevelTemaIntro.xml</event-sheet>
+        <event-sheet>EndingSceneGame.xml</event-sheet>
         <event-sheet>Level Pancasila Event.xml</event-sheet>
         <event-sheet>Global Event.xml</event-sheet>
     </event-folder>
