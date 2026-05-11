@@ -146,6 +146,19 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
+                    <behavior-instances>
+                        <behavior-instance type="LiteTween">
+                            <properties>
+                                <active-on-start>No</active-on-start>
+                                <tweened-property>Scale</tweened-property>
+                                <function>EaseOutQuart</function>
+                                <target>0.9</target>
+                                <target-mode>Absolute</target-mode>
+                                <duration>0.1</duration>
+                                <enforce-mode>Enforce</enforce-mode>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
@@ -155,8 +168,8 @@
                         <width>585</width>
                         <height>151</height>
                         <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
+                        <hotspotX>0.500854731</hotspotX>
+                        <hotspotY>0.503311276</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -168,6 +181,19 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
+                    <behavior-instances>
+                        <behavior-instance type="LiteTween">
+                            <properties>
+                                <active-on-start>No</active-on-start>
+                                <tweened-property>Scale</tweened-property>
+                                <function>EaseOutQuart</function>
+                                <target>0.9</target>
+                                <target-mode>Absolute</target-mode>
+                                <duration>0.1</duration>
+                                <enforce-mode>Enforce</enforce-mode>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
@@ -177,8 +203,8 @@
                         <width>585</width>
                         <height>151</height>
                         <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
+                        <hotspotX>0.500854731</hotspotX>
+                        <hotspotY>0.503311276</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -190,6 +216,19 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
+                    <behavior-instances>
+                        <behavior-instance type="LiteTween">
+                            <properties>
+                                <active-on-start>No</active-on-start>
+                                <tweened-property>Scale</tweened-property>
+                                <function>EaseOutQuart</function>
+                                <target>0.9</target>
+                                <target-mode>Absolute</target-mode>
+                                <duration>0.1</duration>
+                                <enforce-mode>Enforce</enforce-mode>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
@@ -199,8 +238,8 @@
                         <width>585</width>
                         <height>151</height>
                         <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
+                        <hotspotX>0.500854731</hotspotX>
+                        <hotspotY>0.503311276</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -212,14 +251,27 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
+                    <behavior-instances>
+                        <behavior-instance type="LiteTween">
+                            <properties>
+                                <active-on-start>No</active-on-start>
+                                <tweened-property>Scale</tweened-property>
+                                <function>EaseOutQuart</function>
+                                <target>0.9</target>
+                                <target-mode>Absolute</target-mode>
+                                <duration>0.1</duration>
+                                <enforce-mode>Enforce</enforce-mode>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1554.362670898</x>
-                        <y>108.269958496</y>
+                        <x>1554.363037109</x>
+                        <y>108</y>
                         <z>0</z>
-                        <width>108.979057312</width>
-                        <height>108.979057312</height>
+                        <width>108</width>
+                        <height>108</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -234,14 +286,27 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
+                    <behavior-instances>
+                        <behavior-instance type="LiteTween">
+                            <properties>
+                                <active-on-start>No</active-on-start>
+                                <tweened-property>Scale</tweened-property>
+                                <function>EaseOutQuart</function>
+                                <target>0.9</target>
+                                <target-mode>Absolute</target-mode>
+                                <duration>0.1</duration>
+                                <enforce-mode>Enforce</enforce-mode>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1683.194824219</x>
-                        <y>108.455276489</y>
+                        <x>1683.194946289</x>
+                        <y>108</y>
                         <z>0</z>
-                        <width>108.978996277</width>
-                        <height>108.978996277</height>
+                        <width>108</width>
+                        <height>108</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -256,14 +321,27 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
+                    <behavior-instances>
+                        <behavior-instance type="LiteTween">
+                            <properties>
+                                <active-on-start>No</active-on-start>
+                                <tweened-property>Scale</tweened-property>
+                                <function>EaseOutQuart</function>
+                                <target>0.9</target>
+                                <target-mode>Absolute</target-mode>
+                                <duration>0.1</duration>
+                                <enforce-mode>Enforce</enforce-mode>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>1815.634033203</x>
-                        <y>106.216705322</y>
+                        <y>108</y>
                         <z>0</z>
-                        <width>108.978996277</width>
-                        <height>108.978996277</height>
+                        <width>107.800369263</width>
+                        <height>107.800369263</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>

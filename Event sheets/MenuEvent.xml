@@ -36,6 +36,13 @@
                                     <param id="3" name="Volume">0</param>
                                     <param id="1" name="Tag (optional)">&quot;Clicked&quot;</param>
                                 </action>
+                                <action behavior="LiteTween" id="10" name="Start" sid="445654944397120" type="Play">
+                                    <param id="0" name="Start Mode">0</param>
+                                    <param id="1" name="Force use current">0</param>
+                                </action>
+                                <action id="-16" name="Wait" sid="119023412660927" type="System">
+                                    <param id="0" name="Seconds">0.2</param>
+                                </action>
                                 <action id="-2" name="Go to layout" sid="265962616924842" type="System">
                                     <param id="0" name="Layout">GoodLuck Screen</param>
                                 </action>
@@ -46,6 +53,13 @@
                                 <condition id="-22" name="Else" sid="998505682235573" type="System" />
                             </conditions>
                             <actions>
+                                <action behavior="LiteTween" id="10" name="Start" sid="260658050687269" type="Play">
+                                    <param id="0" name="Start Mode">0</param>
+                                    <param id="1" name="Force use current">0</param>
+                                </action>
+                                <action id="-16" name="Wait" sid="291208526849010" type="System">
+                                    <param id="0" name="Seconds">0.2</param>
+                                </action>
                                 <action id="-2" name="Go to layout" sid="715032703985857" type="System">
                                     <param id="0" name="Layout">GoodLuck Screen</param>
                                 </action>
@@ -76,6 +90,13 @@
                                     <param id="3" name="Volume">0</param>
                                     <param id="1" name="Tag (optional)">&quot;Clicked&quot;</param>
                                 </action>
+                                <action behavior="LiteTween" id="10" name="Start" sid="482399491519042" type="Profile">
+                                    <param id="0" name="Start Mode">0</param>
+                                    <param id="1" name="Force use current">0</param>
+                                </action>
+                                <action id="-16" name="Wait" sid="938795580114500" type="System">
+                                    <param id="0" name="Seconds">0.2</param>
+                                </action>
                                 <action id="-2" name="Go to layout" sid="213286917894505" type="System">
                                     <param id="0" name="Layout">Profile</param>
                                 </action>
@@ -86,7 +107,64 @@
                                 <condition id="-22" name="Else" sid="152957187795813" type="System" />
                             </conditions>
                             <actions>
+                                <action behavior="LiteTween" id="10" name="Start" sid="594253750178564" type="Profile">
+                                    <param id="0" name="Start Mode">0</param>
+                                    <param id="1" name="Force use current">0</param>
+                                </action>
+                                <action id="-16" name="Wait" sid="862335648947123" type="System">
+                                    <param id="0" name="Seconds">0.2</param>
+                                </action>
                                 <action id="-2" name="Go to layout" sid="197133972408600" type="System">
+                                    <param id="0" name="Layout">Profile</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="459565158738012">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="115282713783510" type="Touch">
+                            <param id="0" name="Object">ProfileBtn2</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="200502044745311">
+                            <conditions>
+                                <condition id="3" inverted="1" name="Is silent" sid="717630749089735" type="Audio" />
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Play" sid="418594461925039" type="Audio">
+                                    <param id="0" name="Audio file">Clicked</param>
+                                    <param id="2" name="Loop">0</param>
+                                    <param id="3" name="Volume">0</param>
+                                    <param id="1" name="Tag (optional)">&quot;Clicked&quot;</param>
+                                </action>
+                                <action behavior="LiteTween" id="10" name="Start" sid="277891678818928" type="ProfileBtn2">
+                                    <param id="0" name="Start Mode">0</param>
+                                    <param id="1" name="Force use current">0</param>
+                                </action>
+                                <action id="-16" name="Wait" sid="823605892745603" type="System">
+                                    <param id="0" name="Seconds">0.2</param>
+                                </action>
+                                <action id="-2" name="Go to layout" sid="245040778460892" type="System">
+                                    <param id="0" name="Layout">Profile</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="461057732614689">
+                            <conditions>
+                                <condition id="-22" name="Else" sid="225258309478316" type="System" />
+                            </conditions>
+                            <actions>
+                                <action behavior="LiteTween" id="10" name="Start" sid="347097229876498" type="ProfileBtn2">
+                                    <param id="0" name="Start Mode">0</param>
+                                    <param id="1" name="Force use current">0</param>
+                                </action>
+                                <action id="-16" name="Wait" sid="112277110982526" type="System">
+                                    <param id="0" name="Seconds">0.2</param>
+                                </action>
+                                <action id="-2" name="Go to layout" sid="700300334019964" type="System">
                                     <param id="0" name="Layout">Profile</param>
                                 </action>
                             </actions>
@@ -112,6 +190,13 @@
                                     <param id="3" name="Volume">0</param>
                                     <param id="1" name="Tag (optional)">&quot;Clicked&quot;</param>
                                 </action>
+                                <action behavior="LiteTween" id="10" name="Start" sid="508176273878452" type="TombolNewUpdate">
+                                    <param id="0" name="Start Mode">0</param>
+                                    <param id="1" name="Force use current">0</param>
+                                </action>
+                                <action id="-16" name="Wait" sid="109816730569904" type="System">
+                                    <param id="0" name="Seconds">0.2</param>
+                                </action>
                                 <action id="-2" name="Go to layout" sid="591475104849964" type="System">
                                     <param id="0" name="Layout">New Update</param>
                                 </action>
@@ -122,6 +207,13 @@
                                 <condition id="-22" name="Else" sid="903937454575037" type="System" />
                             </conditions>
                             <actions>
+                                <action behavior="LiteTween" id="10" name="Start" sid="798027934105747" type="TombolNewUpdate">
+                                    <param id="0" name="Start Mode">0</param>
+                                    <param id="1" name="Force use current">0</param>
+                                </action>
+                                <action id="-16" name="Wait" sid="767480701412042" type="System">
+                                    <param id="0" name="Seconds">0.2</param>
+                                </action>
                                 <action id="-2" name="Go to layout" sid="662285176148388" type="System">
                                     <param id="0" name="Layout">New Update</param>
                                 </action>
@@ -148,6 +240,13 @@
                                     <param id="3" name="Volume">0</param>
                                     <param id="1" name="Tag (optional)">&quot;Clicked&quot;</param>
                                 </action>
+                                <action behavior="LiteTween" id="10" name="Start" sid="774843980287703" type="Back">
+                                    <param id="0" name="Start Mode">0</param>
+                                    <param id="1" name="Force use current">0</param>
+                                </action>
+                                <action id="-16" name="Wait" sid="698971544404282" type="System">
+                                    <param id="0" name="Seconds">0.2</param>
+                                </action>
                                 <action id="-2" name="Go to layout" sid="804881451975802" type="System">
                                     <param id="0" name="Layout">Main Menu</param>
                                 </action>
@@ -158,6 +257,13 @@
                                 <condition id="-22" name="Else" sid="817805382356308" type="System" />
                             </conditions>
                             <actions>
+                                <action behavior="LiteTween" id="10" name="Start" sid="344738872002828" type="Back">
+                                    <param id="0" name="Start Mode">0</param>
+                                    <param id="1" name="Force use current">0</param>
+                                </action>
+                                <action id="-16" name="Wait" sid="651471758350387" type="System">
+                                    <param id="0" name="Seconds">0.2</param>
+                                </action>
                                 <action id="-2" name="Go to layout" sid="864480853068426" type="System">
                                     <param id="0" name="Layout">Main Menu</param>
                                 </action>
@@ -184,6 +290,13 @@
                                     <param id="3" name="Volume">0</param>
                                     <param id="1" name="Tag (optional)">&quot;Clicked&quot;</param>
                                 </action>
+                                <action behavior="LiteTween" id="10" name="Start" sid="439861426977517" type="TombolInformasi">
+                                    <param id="0" name="Start Mode">0</param>
+                                    <param id="1" name="Force use current">0</param>
+                                </action>
+                                <action id="-16" name="Wait" sid="217422727525583" type="System">
+                                    <param id="0" name="Seconds">0.2</param>
+                                </action>
                                 <action id="-2" name="Go to layout" sid="687789265950454" type="System">
                                     <param id="0" name="Layout">Credit</param>
                                 </action>
@@ -194,6 +307,13 @@
                                 <condition id="-22" name="Else" sid="834062581779027" type="System" />
                             </conditions>
                             <actions>
+                                <action behavior="LiteTween" id="10" name="Start" sid="545273434590383" type="TombolInformasi">
+                                    <param id="0" name="Start Mode">0</param>
+                                    <param id="1" name="Force use current">0</param>
+                                </action>
+                                <action id="-16" name="Wait" sid="497724865022984" type="System">
+                                    <param id="0" name="Seconds">0.2</param>
+                                </action>
                                 <action id="-2" name="Go to layout" sid="355643296182825" type="System">
                                     <param id="0" name="Layout">Credit</param>
                                 </action>
@@ -203,6 +323,106 @@
                 </event-block>
             </sub-events>
         </event-group>
+        <event-block sid="506577292135383">
+            <conditions>
+                <condition id="3" name="On touched object" sid="546778140514338" type="Touch">
+                    <param id="0" name="Object">ArsipMateriBtn</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="361812564307340">
+                    <conditions>
+                        <condition id="3" inverted="1" name="Is silent" sid="953337115092889" type="Audio" />
+                    </conditions>
+                    <actions>
+                        <action behavior="LiteTween" id="10" name="Start" sid="267051792495731" type="ArsipMateriBtn">
+                            <param id="0" name="Start Mode">0</param>
+                            <param id="1" name="Force use current">0</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="763103904660433" type="System">
+                            <param id="0" name="Seconds">0.2</param>
+                        </action>
+                        <action id="0" name="Play" sid="690833672448975" type="Audio">
+                            <param id="0" name="Audio file">Clicked</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;Clicked&quot;</param>
+                        </action>
+                        <action id="-2" name="Go to layout" sid="544157607527103" type="System">
+                            <param id="0" name="Layout">Arsip Materi</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="920826390651665">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="197144587174866" type="System" />
+                    </conditions>
+                    <actions>
+                        <action behavior="LiteTween" id="10" name="Start" sid="648272444658033" type="ArsipMateriBtn">
+                            <param id="0" name="Start Mode">0</param>
+                            <param id="1" name="Force use current">0</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="299920425874066" type="System">
+                            <param id="0" name="Seconds">0.2</param>
+                        </action>
+                        <action id="-2" name="Go to layout" sid="208913697697040" type="System">
+                            <param id="0" name="Layout">Arsip Materi</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="651557916091416">
+            <conditions>
+                <condition id="3" name="On touched object" sid="790215678673262" type="Touch">
+                    <param id="0" name="Object">PenghargaanBtn</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="660012095854185">
+                    <conditions>
+                        <condition id="3" inverted="1" name="Is silent" sid="291953743861332" type="Audio" />
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="176710140153577" type="Audio">
+                            <param id="0" name="Audio file">Clicked</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;Clicked&quot;</param>
+                        </action>
+                        <action behavior="LiteTween" id="10" name="Start" sid="643717078670136" type="PenghargaanBtn">
+                            <param id="0" name="Start Mode">0</param>
+                            <param id="1" name="Force use current">0</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="856701123509737" type="System">
+                            <param id="0" name="Seconds">0.2</param>
+                        </action>
+                        <action id="-2" name="Go to layout" sid="948761422191096" type="System">
+                            <param id="0" name="Layout">Penghargaan #1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="901742588318258">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="750514369325886" type="System" />
+                    </conditions>
+                    <actions>
+                        <action behavior="LiteTween" id="10" name="Start" sid="500844489282219" type="PenghargaanBtn">
+                            <param id="0" name="Start Mode">0</param>
+                            <param id="1" name="Force use current">0</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="779232974013696" type="System">
+                            <param id="0" name="Seconds">0.2</param>
+                        </action>
+                        <action id="-2" name="Go to layout" sid="205136679350878" type="System">
+                            <param id="0" name="Layout">Penghargaan #1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
         <event-group description="" sid="334441567287569" title="Achievement Profile">
             <sub-events>
                 <event-block sid="718312017092920">
@@ -211,11 +431,7 @@
                             <param id="0" name="Object">Halaman2AchBtn</param>
                         </condition>
                     </conditions>
-                    <actions>
-                        <action id="-2" name="Go to layout" sid="715344915778851" type="System">
-                            <param id="0" name="Layout">Penghargaan #2</param>
-                        </action>
-                    </actions>
+                    <actions />
                     <sub-events>
                         <event-block sid="587588760076447">
                             <conditions>
@@ -228,6 +444,13 @@
                                     <param id="3" name="Volume">0</param>
                                     <param id="1" name="Tag (optional)">&quot;Clicked&quot;</param>
                                 </action>
+                                <action behavior="LiteTween" id="10" name="Start" sid="724899652795710" type="Halaman2AchBtn">
+                                    <param id="0" name="Start Mode">0</param>
+                                    <param id="1" name="Force use current">0</param>
+                                </action>
+                                <action id="-16" name="Wait" sid="434004187742305" type="System">
+                                    <param id="0" name="Seconds">0.2</param>
+                                </action>
                                 <action id="-2" name="Go to layout" sid="176271200412395" type="System">
                                     <param id="0" name="Layout">Penghargaan #2</param>
                                 </action>
@@ -238,6 +461,13 @@
                                 <condition id="-22" name="Else" sid="954519488919673" type="System" />
                             </conditions>
                             <actions>
+                                <action behavior="LiteTween" id="10" name="Start" sid="759806056924475" type="Halaman2AchBtn">
+                                    <param id="0" name="Start Mode">0</param>
+                                    <param id="1" name="Force use current">0</param>
+                                </action>
+                                <action id="-16" name="Wait" sid="468412837381411" type="System">
+                                    <param id="0" name="Seconds">0.2</param>
+                                </action>
                                 <action id="-2" name="Go to layout" sid="128298169772911" type="System">
                                     <param id="0" name="Layout">Penghargaan #2</param>
                                 </action>
@@ -268,11 +498,7 @@
                                     <param id="0" name="Object">Halaman1AchBtn</param>
                                 </condition>
                             </conditions>
-                            <actions>
-                                <action id="-2" name="Go to layout" sid="307307445427200" type="System">
-                                    <param id="0" name="Layout">Penghargaan #1</param>
-                                </action>
-                            </actions>
+                            <actions />
                             <sub-events>
                                 <event-block sid="505035595780307">
                                     <conditions>
@@ -285,6 +511,13 @@
                                             <param id="3" name="Volume">0</param>
                                             <param id="1" name="Tag (optional)">&quot;Clicked&quot;</param>
                                         </action>
+                                        <action behavior="LiteTween" id="10" name="Start" sid="239664473837517" type="Halaman1AchBtn">
+                                            <param id="0" name="Start Mode">0</param>
+                                            <param id="1" name="Force use current">0</param>
+                                        </action>
+                                        <action id="-16" name="Wait" sid="574867145718801" type="System">
+                                            <param id="0" name="Seconds">0.2</param>
+                                        </action>
                                         <action id="-2" name="Go to layout" sid="398508408463253" type="System">
                                             <param id="0" name="Layout">Penghargaan #1</param>
                                         </action>
@@ -295,6 +528,13 @@
                                         <condition id="-22" name="Else" sid="860770323574063" type="System" />
                                     </conditions>
                                     <actions>
+                                        <action behavior="LiteTween" id="10" name="Start" sid="684669970606060" type="Halaman1AchBtn">
+                                            <param id="0" name="Start Mode">0</param>
+                                            <param id="1" name="Force use current">0</param>
+                                        </action>
+                                        <action id="-16" name="Wait" sid="364928864639520" type="System">
+                                            <param id="0" name="Seconds">0.2</param>
+                                        </action>
                                         <action id="-2" name="Go to layout" sid="298648172343104" type="System">
                                             <param id="0" name="Layout">Penghargaan #1</param>
                                         </action>

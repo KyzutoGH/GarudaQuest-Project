@@ -460,168 +460,6 @@
                 </action>
             </actions>
         </event-block>
-        <event-group description="" sid="120783780226096" title="Pertombolan">
-            <sub-events>
-                <event-block sid="777935788794049">
-                    <conditions>
-                        <condition id="3" name="On touched object" sid="319118165857961" type="Touch">
-                            <param id="0" name="Object">ArsipMateriBtn</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="-2" name="Go to layout" sid="688775654340262" type="System">
-                            <param id="0" name="Layout">Arsip Materi</param>
-                        </action>
-                    </actions>
-                    <sub-events>
-                        <event-block sid="107350429634128">
-                            <conditions>
-                                <condition id="3" inverted="1" name="Is silent" sid="854653712204403" type="Audio" />
-                            </conditions>
-                            <actions>
-                                <action id="0" name="Play" sid="232668426564804" type="Audio">
-                                    <param id="0" name="Audio file">Clicked</param>
-                                    <param id="2" name="Loop">0</param>
-                                    <param id="3" name="Volume">0</param>
-                                    <param id="1" name="Tag (optional)">&quot;Clicked&quot;</param>
-                                </action>
-                                <action id="-2" name="Go to layout" sid="363029165314176" type="System">
-                                    <param id="0" name="Layout">Arsip Materi</param>
-                                </action>
-                            </actions>
-                        </event-block>
-                        <event-block sid="393717200047870">
-                            <conditions>
-                                <condition id="-22" name="Else" sid="352441099425404" type="System" />
-                            </conditions>
-                            <actions>
-                                <action id="-2" name="Go to layout" sid="319014082147012" type="System">
-                                    <param id="0" name="Layout">Arsip Materi</param>
-                                </action>
-                            </actions>
-                        </event-block>
-                    </sub-events>
-                </event-block>
-                <event-block sid="182088588417507">
-                    <conditions>
-                        <condition id="3" name="On touched object" sid="563420751721167" type="Touch">
-                            <param id="0" name="Object">PenghargaanBtn</param>
-                        </condition>
-                    </conditions>
-                    <actions />
-                    <sub-events>
-                        <event-block sid="190888214143025">
-                            <conditions>
-                                <condition id="3" inverted="1" name="Is silent" sid="150089692528326" type="Audio" />
-                            </conditions>
-                            <actions>
-                                <action id="0" name="Play" sid="741162196672737" type="Audio">
-                                    <param id="0" name="Audio file">Clicked</param>
-                                    <param id="2" name="Loop">0</param>
-                                    <param id="3" name="Volume">0</param>
-                                    <param id="1" name="Tag (optional)">&quot;Clicked&quot;</param>
-                                </action>
-                                <action id="-2" name="Go to layout" sid="735746266921538" type="System">
-                                    <param id="0" name="Layout">Penghargaan #1</param>
-                                </action>
-                            </actions>
-                        </event-block>
-                        <event-block sid="405075839712451">
-                            <conditions>
-                                <condition id="-22" name="Else" sid="934673558514232" type="System" />
-                            </conditions>
-                            <actions>
-                                <action id="-2" name="Go to layout" sid="864902067606776" type="System">
-                                    <param id="0" name="Layout">Penghargaan #1</param>
-                                </action>
-                            </actions>
-                        </event-block>
-                    </sub-events>
-                </event-block>
-                <event-block sid="245100339466492">
-                    <conditions>
-                        <condition id="3" name="On touched object" sid="223004702132887" type="Touch">
-                            <param id="0" name="Object">ProfileBtn2</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="-2" name="Go to layout" sid="223298671056061" type="System">
-                            <param id="0" name="Layout">Profile</param>
-                        </action>
-                    </actions>
-                    <sub-events>
-                        <event-block sid="926994937581748">
-                            <conditions>
-                                <condition id="3" inverted="1" name="Is silent" sid="459473000838848" type="Audio" />
-                            </conditions>
-                            <actions>
-                                <action id="0" name="Play" sid="749134480902367" type="Audio">
-                                    <param id="0" name="Audio file">Clicked</param>
-                                    <param id="2" name="Loop">0</param>
-                                    <param id="3" name="Volume">0</param>
-                                    <param id="1" name="Tag (optional)">&quot;Clicked&quot;</param>
-                                </action>
-                                <action id="-2" name="Go to layout" sid="284584001519098" type="System">
-                                    <param id="0" name="Layout">Profile</param>
-                                </action>
-                            </actions>
-                        </event-block>
-                        <event-block sid="333354608594052">
-                            <conditions>
-                                <condition id="-22" name="Else" sid="246288487483689" type="System" />
-                            </conditions>
-                            <actions>
-                                <action id="-2" name="Go to layout" sid="227949793706245" type="System">
-                                    <param id="0" name="Layout">Profile</param>
-                                </action>
-                            </actions>
-                        </event-block>
-                    </sub-events>
-                </event-block>
-                <event-block sid="607728048221914">
-                    <conditions>
-                        <condition id="3" name="On touched object" sid="368713680844057" type="Touch">
-                            <param id="0" name="Object">SoundOn</param>
-                        </condition>
-                    </conditions>
-                    <actions />
-                    <sub-events>
-                        <event-block sid="390146206278286">
-                            <conditions>
-                                <condition id="3" inverted="1" name="Is silent" sid="599166472284822" type="Audio" />
-                            </conditions>
-                            <actions>
-                                <action id="5" name="Set frame" sid="992244261794667" type="SoundOn">
-                                    <param id="0" name="Frame number">1</param>
-                                </action>
-                                <action id="8" name="Set silent" sid="286562302513129" type="Audio">
-                                    <param id="0" name="Mode">0</param>
-                                </action>
-                                <action id="0" name="Play" sid="887643208795444" type="Audio">
-                                    <param id="0" name="Audio file">Clicked</param>
-                                    <param id="2" name="Loop">0</param>
-                                    <param id="3" name="Volume">0</param>
-                                    <param id="1" name="Tag (optional)">&quot;Clicked&quot;</param>
-                                </action>
-                            </actions>
-                        </event-block>
-                        <event-block sid="866391910090321">
-                            <conditions>
-                                <condition id="-22" name="Else" sid="263940523839029" type="System" />
-                            </conditions>
-                            <actions>
-                                <action id="5" name="Set frame" sid="450722235116576" type="SoundOn">
-                                    <param id="0" name="Frame number">0</param>
-                                </action>
-                                <action id="8" name="Set silent" sid="302524900590362" type="Audio">
-                                    <param id="0" name="Mode">1</param>
-                                </action>
-                            </actions>
-                        </event-block>
-                    </sub-events>
-                </event-block>
-            </sub-events>
-        </event-group>
         <event-group description="" sid="268424247642422" title="Achievement System">
             <sub-events>
                 <event-block sid="761654435324079">
@@ -654,5 +492,176 @@
                 </event-block>
             </sub-events>
         </event-group>
+        <event-group description="" sid="586975572196802" title="Tombol Global">
+            <sub-events>
+                <event-block sid="326032070075413">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="173251720169105" type="Touch">
+                            <param id="0" name="Object">SoundOn</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="474723162287387">
+                            <conditions>
+                                <condition id="3" inverted="1" name="Is silent" sid="205056672064703" type="Audio" />
+                            </conditions>
+                            <actions>
+                                <action behavior="LiteTween" id="10" name="Start" sid="644862389014108" type="SoundOn">
+                                    <param id="0" name="Start Mode">0</param>
+                                    <param id="1" name="Force use current">0</param>
+                                </action>
+                                <action id="-16" name="Wait" sid="199015640485905" type="System">
+                                    <param id="0" name="Seconds">0.2</param>
+                                </action>
+                                <action id="5" name="Set frame" sid="901006753419017" type="SoundOn">
+                                    <param id="0" name="Frame number">1</param>
+                                </action>
+                                <action id="8" name="Set silent" sid="673948819789265" type="Audio">
+                                    <param id="0" name="Mode">0</param>
+                                </action>
+                                <action id="0" name="Play" sid="887625805675324" type="Audio">
+                                    <param id="0" name="Audio file">Clicked</param>
+                                    <param id="2" name="Loop">0</param>
+                                    <param id="3" name="Volume">0</param>
+                                    <param id="1" name="Tag (optional)">&quot;Clicked&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="626982583615881">
+                            <conditions>
+                                <condition id="-22" name="Else" sid="602937167461933" type="System" />
+                            </conditions>
+                            <actions>
+                                <action behavior="LiteTween" id="10" name="Start" sid="187694561379127" type="SoundOn">
+                                    <param id="0" name="Start Mode">0</param>
+                                    <param id="1" name="Force use current">0</param>
+                                </action>
+                                <action id="-16" name="Wait" sid="748883231107922" type="System">
+                                    <param id="0" name="Seconds">0.2</param>
+                                </action>
+                                <action id="5" name="Set frame" sid="334578190068817" type="SoundOn">
+                                    <param id="0" name="Frame number">0</param>
+                                </action>
+                                <action id="8" name="Set silent" sid="132333966763749" type="Audio">
+                                    <param id="0" name="Mode">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="972647982929425" title="Tier System" />
+        <event-block sid="605452744093588">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="863739708708978" type="System">
+                    <param id="0" name="Variable">LevelPlayer</param>
+                    <param id="1" name="Comparison">3</param>
+                    <param id="2" name="Value">5</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="673212477339102" type="TierIcon">
+                    <param id="0" name="Animation">&quot;Rookie&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+                <action id="4" name="Set animation" sid="191786506018526" type="TierNameTxt">
+                    <param id="0" name="Animation">&quot;Rookie&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="579151688345322">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="448365931722445" type="System">
+                    <param id="0" name="Variable">LevelPlayer</param>
+                    <param id="1" name="Comparison">4</param>
+                    <param id="2" name="Value">5</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="707379719749358" type="System">
+                    <param id="0" name="Variable">LevelPlayer</param>
+                    <param id="1" name="Comparison">3</param>
+                    <param id="2" name="Value">14</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="648959080534566" type="TierIcon">
+                    <param id="0" name="Animation">&quot;Amateur&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+                <action id="4" name="Set animation" sid="434330101676181" type="TierNameTxt">
+                    <param id="0" name="Animation">&quot;Amateur&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="322902521184561">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="990628349723686" type="System">
+                    <param id="0" name="Variable">LevelPlayer</param>
+                    <param id="1" name="Comparison">4</param>
+                    <param id="2" name="Value">14</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="724744924200341" type="System">
+                    <param id="0" name="Variable">LevelPlayer</param>
+                    <param id="1" name="Comparison">3</param>
+                    <param id="2" name="Value">25</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="925277851297943" type="TierIcon">
+                    <param id="0" name="Animation">&quot;Semipro&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+                <action id="4" name="Set animation" sid="278256891398872" type="TierNameTxt">
+                    <param id="0" name="Animation">&quot;Semipro&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="573051467474122">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="330636975547361" type="System">
+                    <param id="0" name="Variable">LevelPlayer</param>
+                    <param id="1" name="Comparison">4</param>
+                    <param id="2" name="Value">25</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="704651788178424" type="System">
+                    <param id="0" name="Variable">LevelPlayer</param>
+                    <param id="1" name="Comparison">3</param>
+                    <param id="2" name="Value">49</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="317512000645411" type="TierIcon">
+                    <param id="0" name="Animation">&quot;Probgt&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+                <action id="4" name="Set animation" sid="898107751346838" type="TierNameTxt">
+                    <param id="0" name="Animation">&quot;Probgt&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="573768616004049">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="617232108575107" type="System">
+                    <param id="0" name="Variable">LevelPlayer</param>
+                    <param id="1" name="Comparison">4</param>
+                    <param id="2" name="Value">49</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="856941211985334" type="TierIcon">
+                    <param id="0" name="Animation">&quot;Godofquest&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+                <action id="4" name="Set animation" sid="894958324703075" type="TierNameTxt">
+                    <param id="0" name="Animation">&quot;Godofquest&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>

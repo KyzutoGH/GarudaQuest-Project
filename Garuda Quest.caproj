@@ -35,9 +35,11 @@
     </window-size>
     <pixel-rounding>0</pixel-rounding>
     <preview-effects>1</preview-effects>
+    <first-layout>Splash Screen</first-layout>
     <use-loader-layout>0</use-loader-layout>
     <configuration-settings>
         <prop name="Clear background">Yes</prop>
+        <prop name="Downscaling">High quality</prop>
         <prop name="Enable WebGL">On</prop>
         <prop name="Fullscreen in browser">Letterbox scale</prop>
         <prop name="Fullscreen scaling">High quality</prop>
@@ -188,9 +190,14 @@
         </object-type>
         <object-type name="Play" sid="257582397430243">
             <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="LiteTween" sid="717879290843397">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="926072506496921" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Tombol &amp; Misc\Play.png">
+                    <frame duration="1" hotspotX="0.500855" hotspotY="0.503311" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Tombol &amp; Misc\Play.png">
                         <collision-poly>
                             <point x="0.373617" y="0" />
                             <point x="0.626383" y="0" />
@@ -205,9 +212,14 @@
         </object-type>
         <object-type name="Profile" sid="571935144336263">
             <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="LiteTween" sid="980938536544821">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="302509981339985" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Tombol &amp; Misc\Profile.png">
+                    <frame duration="1" hotspotX="0.500855" hotspotY="0.503311" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Tombol &amp; Misc\Profile.png">
                         <collision-poly>
                             <point x="0.373617" y="0" />
                             <point x="0.626383" y="0" />
@@ -222,9 +234,14 @@
         </object-type>
         <object-type name="Help" sid="541131939042355">
             <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="LiteTween" sid="432813807698579">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="718995293606932" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Tombol &amp; Misc\Help.png">
+                    <frame duration="1" hotspotX="0.500855" hotspotY="0.503311" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Tombol &amp; Misc\Help.png">
                         <collision-poly>
                             <point x="0.373617" y="0" />
                             <point x="0.626383" y="0" />
@@ -239,14 +256,24 @@
         </object-type>
         <object-type name="Exit" sid="703122783857664">
             <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="LiteTween" sid="640701949275316">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="158608415786334" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Tombol &amp; Misc\Exit.png" />
+                    <frame duration="1" hotspotX="0.501089" hotspotY="0.504274" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Tombol &amp; Misc\Exit.png" />
                 </animation>
             </animation-folder>
         </object-type>
         <object-type name="SoundOn" sid="862465938168649">
             <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="LiteTween" sid="332259233859792">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
             <animation-folder>
                 <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="670526429586961" speed="0">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Tombol &amp; Misc\Sound On.png">
@@ -278,6 +305,11 @@
         </object-type>
         <object-type name="TombolNewUpdate" sid="539150009439320">
             <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="LiteTween" sid="504973745218357">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="746472445013773" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Tombol &amp; Misc\Tombol New Update.png">
@@ -297,18 +329,23 @@
         </object-type>
         <object-type name="TombolInformasi" sid="195916101157364">
             <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="LiteTween" sid="485692017413176">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="252255278541557" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Tombol &amp; Misc\Tombol Informasi.png">
                         <collision-poly>
-                            <point x="0.0203704" y="0.0203704" />
-                            <point x="0.5" y="0" />
-                            <point x="0.97963" y="0.0203704" />
-                            <point x="1" y="0.5" />
-                            <point x="0.97963" y="0.97963" />
-                            <point x="0.5" y="1" />
-                            <point x="0.0203704" y="0.97963" />
-                            <point x="0" y="0.5" />
+                            <point x="0.021257" y="0.021257" />
+                            <point x="0.5" y="0.000924214" />
+                            <point x="0.978743" y="0.021257" />
+                            <point x="0.999076" y="0.5" />
+                            <point x="0.978743" y="0.978743" />
+                            <point x="0.5" y="0.999076" />
+                            <point x="0.021257" y="0.978743" />
+                            <point x="0.000924214" y="0.5" />
                         </collision-poly>
                     </frame>
                 </animation>
@@ -388,6 +425,11 @@
         </object-type>
         <object-type name="Back" sid="784981379796026">
             <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="LiteTween" sid="494311234627810">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="270996643745102" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Tombol &amp; Misc\Back.png">
@@ -570,9 +612,14 @@
         </object-type>
         <object-type name="SawitLevel1" sid="858114998447106">
             <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="LiteTween" sid="193927622132635">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="571064740598439" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Intro Tema- Pancasila Modified (2).png">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.507246" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Intro Tema- Pancasila Modified (2).png">
                         <collision-poly>
                             <point x="0.0902778" y="0.506469" />
                             <point x="0.5" y="0.2061" />
@@ -636,9 +683,14 @@
         </object-type>
         <object-type name="Pause" sid="934894782609605">
             <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="LiteTween" sid="193606968725872">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="968198332416381" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.505135" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Tombol &amp; Misc\Pause.png">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.509259" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Tombol &amp; Misc\Pause.png">
                         <collision-poly>
                             <point x="0.0203327" y="0.0205416" />
                             <point x="0.5" y="0.000933707" />
@@ -655,9 +707,14 @@
         </object-type>
         <object-type name="JawabBtn" sid="631274959618381">
             <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="LiteTween" sid="671157142314849">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="753166168511433" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Tombol &amp; Misc\Achievements (2).png" />
+                    <frame duration="1" hotspotX="0.500861" hotspotY="0.503356" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Tombol &amp; Misc\Achievements (2).png" />
                 </animation>
             </animation-folder>
         </object-type>
@@ -820,9 +877,14 @@
         </object-type>
         <object-type name="CobaLagi" sid="729972567948221">
             <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="LiteTween" sid="480287592899400">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="504305796499353" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Tombol &amp; Misc\Coba Lagi.png" />
+                    <frame duration="1" hotspotX="0.501089" hotspotY="0.504274" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Tombol &amp; Misc\Coba Lagi.png" />
                 </animation>
             </animation-folder>
         </object-type>
@@ -1155,7 +1217,7 @@
                     </frame>
                 </animation>
                 <animation framecount="1" loop="0" name="Level2" pingpong="0" repeatcount="1" repeatto="0" sid="436542292114049" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.35" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level Done\Level 2\13.png">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level Done\Level 2\13.png">
                         <collision-poly>
                             <point x="0.205515" y="0.00238095" />
                             <point x="0.794485" y="0.00238095" />
@@ -1227,7 +1289,7 @@
                     </frame>
                 </animation>
                 <animation framecount="1" loop="0" name="Level8" pingpong="0" repeatcount="1" repeatto="0" sid="366856100113501" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.35" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level Done\Level 8\94.png">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level Done\Level 8\94.png">
                         <collision-poly>
                             <point x="0.205515" y="0.00238095" />
                             <point x="0.794485" y="0.00238095" />
@@ -1251,7 +1313,7 @@
                     </frame>
                 </animation>
                 <animation framecount="1" loop="0" name="Level10" pingpong="0" repeatcount="1" repeatto="0" sid="806705153080551" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level Done\Level 10\116.png">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.502381" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level Done\Level 10\116.png">
                         <collision-poly>
                             <point x="0.172737" y="0.00238095" />
                             <point x="0.827263" y="0.00238095" />
@@ -1299,7 +1361,7 @@
                     </frame>
                 </animation>
                 <animation framecount="1" loop="0" name="Level14" pingpong="0" repeatcount="1" repeatto="0" sid="551367727428197" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.35" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level 14\162.png">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level 14\162.png">
                         <collision-poly>
                             <point x="0.205515" y="0.00238095" />
                             <point x="0.794485" y="0.00238095" />
@@ -1311,7 +1373,7 @@
                     </frame>
                 </animation>
                 <animation framecount="1" loop="0" name="Level15" pingpong="0" repeatcount="1" repeatto="0" sid="439394128578403" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.35" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level 15\173.png">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level 15\173.png">
                         <collision-poly>
                             <point x="0.205515" y="0.00238095" />
                             <point x="0.794485" y="0.00238095" />
@@ -1347,7 +1409,7 @@
                     </frame>
                 </animation>
                 <animation framecount="1" loop="0" name="Level18" pingpong="0" repeatcount="1" repeatto="0" sid="346223126711647" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.35" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level 18\208.png">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level 18\208.png">
                         <collision-poly>
                             <point x="0.205515" y="0.00238095" />
                             <point x="0.794485" y="0.00238095" />
@@ -1639,9 +1701,14 @@
         </object-type>
         <object-type name="Lanjut" sid="822000712387507">
             <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="LiteTween" sid="358298237294589">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="363502431020098" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Tombol &amp; Misc\Lanjut.png">
+                    <frame duration="1" hotspotX="0.501089" hotspotY="0.504274" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Tombol &amp; Misc\Lanjut.png">
                         <collision-poly>
                             <point x="0.373383" y="0.00362319" />
                             <point x="0.626617" y="0.00362319" />
@@ -1686,7 +1753,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="ACV_TerlaluPintarToStart" sid="603279030805876">
+        <object-type global="1" name="ACV_TerlaluPintarToStart" sid="603279030805876">
             <plugin id="Sprite" />
             <behaviors>
                 <behavior-type name="LiteTween" sid="820519019257807">
@@ -1722,9 +1789,14 @@
         </object-type>
         <object-type name="BackPaused" sid="215925634557052">
             <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="LiteTween" sid="785112016466984">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="437585828114765" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.501805" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Tombol &amp; Misc\Backbordered.png">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.503817" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Tombol &amp; Misc\Backbordered.png">
                         <collision-poly>
                             <point x="0.00924214" y="0.0361011" />
                             <point x="0.5" y="0.00722022" />
@@ -1741,9 +1813,14 @@
         </object-type>
         <object-type name="ExitPaused" sid="856249166012585">
             <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="LiteTween" sid="131472094942390">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="137417221940382" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.501805" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Tombol &amp; Misc\Exitbordered.png">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.503817" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Tombol &amp; Misc\Exitbordered.png">
                         <collision-poly>
                             <point x="0.00924214" y="0.0361011" />
                             <point x="0.5" y="0.00722022" />
@@ -1760,6 +1837,11 @@
         </object-type>
         <object-type name="ProfileBtn2" sid="841014841265019">
             <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="LiteTween" sid="403700695722966">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="600547839532156" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Tombol &amp; Misc\Profile.png">
@@ -1777,6 +1859,11 @@
         </object-type>
         <object-type name="ArsipMateriBtn" sid="287953162012394">
             <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="LiteTween" sid="347775783645450">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="792673732602842" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Profile\Achievements (2).png" />
@@ -1785,6 +1872,11 @@
         </object-type>
         <object-type name="PenghargaanBtn" sid="217061296389777">
             <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="LiteTween" sid="993534020751937">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="842850429190513" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Profile\Achievements.png" />
@@ -1832,16 +1924,141 @@
         <object-type name="TierIcon" sid="134363462571704">
             <plugin id="Sprite" />
             <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="243272892263652" speed="5">
-                    <frame duration="1" hotspotX="0.49901" hotspotY="0.532563" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Profile\Profil - Profil (12).png" />
+                <animation framecount="1" loop="0" name="Rookie" pingpong="0" repeatcount="1" repeatto="0" sid="243272892263652" speed="5">
+                    <frame duration="1" hotspotX="0.499016" hotspotY="0.539326" original-source="D:\Downloads\Tiering Garuda Quest\Rookie.png">
+                        <collision-poly>
+                            <point x="0.159449" y="0.182584" />
+                            <point x="0.5" y="0.0168539" />
+                            <point x="0.847441" y="0.17603" />
+                            <point x="0.987205" y="0.506554" />
+                            <point x="0.894685" y="0.882023" />
+                            <point x="0.5" y="0.994382" />
+                            <point x="0.0846457" y="0.901685" />
+                            <point x="0.0295276" y="0.506554" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Amateur" pingpong="0" repeatcount="1" repeatto="0" sid="863144345181387" speed="5">
+                    <frame duration="1" hotspotX="0.50368" hotspotY="0.504124" original-source="D:\Downloads\Tiering Garuda Quest\Amateur.png">
+                        <collision-poly>
+                            <point x="0.177708" y="0.184536" />
+                            <point x="0.50368" y="0.0134021" />
+                            <point x="0.832808" y="0.181443" />
+                            <point x="0.977918" y="0.504124" />
+                            <point x="0.945321" y="0.937113" />
+                            <point x="0.50368" y="0.830928" />
+                            <point x="0.0830704" y="0.916495" />
+                            <point x="0.0042061" y="0.504124" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Semipro" pingpong="0" repeatcount="1" repeatto="0" sid="300717143020475" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.507029" original-source="D:\Downloads\Tiering Garuda Quest\Semipro.png">
+                        <collision-poly>
+                            <point x="0.15748" y="0.180881" />
+                            <point x="0.5" y="0.00187441" />
+                            <point x="0.847441" y="0.176195" />
+                            <point x="0.972441" y="0.507029" />
+                            <point x="0.940945" y="0.926898" />
+                            <point x="0.5" y="0.986879" />
+                            <point x="0.0935039" y="0.894096" />
+                            <point x="0.00885827" y="0.507029" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Probgt" pingpong="0" repeatcount="1" repeatto="0" sid="235928917051932" speed="5">
+                    <frame duration="1" hotspotX="0.501121" hotspotY="0.500926" original-source="D:\Downloads\Tiering Garuda Quest\Pro BGT.png">
+                        <collision-poly>
+                            <point x="0.0762332" y="0.15" />
+                            <point x="0.501121" y="0.00277778" />
+                            <point x="0.951794" y="0.128704" />
+                            <point x="0.976457" y="0.500926" />
+                            <point x="0.936099" y="0.860185" />
+                            <point x="0.501121" y="0.978704" />
+                            <point x="0.144619" y="0.79537" />
+                            <point x="0.0179372" y="0.500926" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Godofquest" pingpong="0" repeatcount="1" repeatto="0" sid="465292924140839" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.481304" original-source="D:\Downloads\Tiering Garuda Quest\God of Quest.png">
+                        <collision-poly>
+                            <point x="0.26525" y="0.237776" />
+                            <point x="0.5" y="0.00862896" />
+                            <point x="0.726433" y="0.246405" />
+                            <point x="0.999076" y="0.999041" />
+                            <point x="0.000924214" y="0.999041" />
+                            <point x="0.2061" y="0.481304" />
+                        </collision-poly>
+                    </frame>
                 </animation>
             </animation-folder>
         </object-type>
         <object-type name="TierNameTxt" sid="120855926024559">
             <plugin id="Sprite" />
             <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="795102934376059" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.570423" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Profile\Profil - Profil (13).png" />
+                <animation framecount="1" loop="0" name="Rookie" pingpong="0" repeatcount="1" repeatto="0" sid="795102934376059" speed="5">
+                    <frame duration="1" hotspotX="0.500476" hotspotY="1.01242" original-source="D:\Downloads\Tiering Garuda Quest\Help.png">
+                        <collision-poly>
+                            <point x="0.418649" y="0.00621118" />
+                            <point x="0.500476" y="0.204969" />
+                            <point x="0.575642" y="0.0496894" />
+                            <point x="0.968601" y="0.540373" />
+                            <point x="0.569933" y="0.993789" />
+                            <point x="0.500476" y="0.795031" />
+                            <point x="0.431018" y="0.993789" />
+                            <point x="0.00190295" y="0.540373" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Amateur" pingpong="0" repeatcount="1" repeatto="0" sid="203895302557195" speed="5">
+                    <frame duration="1" hotspotX="0.500476" hotspotY="0.540373" original-source="D:\Downloads\Tiering Garuda Quest\Help.png">
+                        <collision-poly>
+                            <point x="0.418649" y="0.00621118" />
+                            <point x="0.500476" y="0.204969" />
+                            <point x="0.575642" y="0.0496894" />
+                            <point x="0.968601" y="0.540373" />
+                            <point x="0.569933" y="0.993789" />
+                            <point x="0.500476" y="0.795031" />
+                            <point x="0.431018" y="0.993789" />
+                            <point x="0.00190295" y="0.540373" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Semipro" pingpong="0" repeatcount="1" repeatto="0" sid="489361660560287" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.751825" original-source="D:\Downloads\Tiering Garuda Quest\Help (3).png">
+                        <collision-poly>
+                            <point x="0.410038" y="0.0583942" />
+                            <point x="0.5" y="0.00729927" />
+                            <point x="0.596591" y="0.00729927" />
+                            <point x="0.998106" y="0.751825" />
+                            <point x="0.53125" y="0.992701" />
+                            <point x="0.46875" y="0.992701" />
+                            <point x="0.10322" y="0.751825" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Probgt" pingpong="0" repeatcount="1" repeatto="0" sid="233486510660287" speed="5">
+                    <frame duration="1" hotspotX="0.500474" hotspotY="0.723404" original-source="D:\Downloads\Tiering Garuda Quest\Help (4).png">
+                        <collision-poly>
+                            <point x="0.404739" y="0.0070922" />
+                            <point x="0.596209" y="0.0070922" />
+                            <point x="0.945972" y="0.723404" />
+                            <point x="0.448341" y="0.333333" />
+                            <point x="0.552607" y="0.333333" />
+                            <point x="0.00189573" y="0.723404" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Godofquest" pingpong="0" repeatcount="1" repeatto="0" sid="233198707734071" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.547619" original-source="D:\Downloads\Tiering Garuda Quest\Help (5).png">
+                        <collision-poly>
+                            <point x="0.457786" y="0.0119048" />
+                            <point x="0.968105" y="0.547619" />
+                            <point x="0.473734" y="0.214286" />
+                            <point x="0.000938086" y="0.547619" />
+                        </collision-poly>
+                    </frame>
                 </animation>
             </animation-folder>
         </object-type>
@@ -1956,19 +2173,29 @@
         </object-type>
         <object-type name="Halaman1AchBtn" sid="901712364872696">
             <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="LiteTween" sid="850273831432332">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
             <animation-folder>
                 <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="861298551720100" speed="5">
-                    <frame duration="1" hotspotX="0.499501" hotspotY="0.507981" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Tombol &amp; Misc\Jawaban.png" />
-                    <frame duration="1" hotspotX="0.499501" hotspotY="0.507981" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Tombol &amp; Misc\Jawaban.png" />
+                    <frame duration="1" hotspotX="0.495146" hotspotY="0.509091" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Tombol &amp; Misc\Jawaban.png" />
+                    <frame duration="1" hotspotX="0.495146" hotspotY="0.509091" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Tombol &amp; Misc\Jawaban.png" />
                 </animation>
             </animation-folder>
         </object-type>
         <object-type name="Halaman2AchBtn" sid="790335195147976">
             <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="LiteTween" sid="941221836562476">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
             <animation-folder>
                 <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="913634052262460" speed="5">
-                    <frame duration="1" hotspotX="0.499499" hotspotY="0.507996" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Tombol &amp; Misc\Jawaban (2) 100.png" />
-                    <frame duration="1" hotspotX="0.499501" hotspotY="0.507981" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Tombol &amp; Misc\Jawaban (2).png" />
+                    <frame duration="1" hotspotX="0.495146" hotspotY="0.509091" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Tombol &amp; Misc\Jawaban (2) 100.png" />
+                    <frame duration="1" hotspotX="0.495146" hotspotY="0.509091" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Tombol &amp; Misc\Jawaban (2).png" />
                 </animation>
             </animation-folder>
         </object-type>
@@ -2235,16 +2462,7 @@
             </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="998536493488745" speed="5">
-                    <frame duration="1" hotspotX="0.55288" hotspotY="0.531672" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level 3\19.png">
-                        <collision-poly>
-                            <point x="0.0942408" y="0.51298" />
-                            <point x="0.55288" y="0.107996" />
-                            <point x="0.943456" y="0.580478" />
-                            <point x="0.879581" y="0.419522" />
-                            <point x="0.55288" y="0.961578" />
-                            <point x="0.104712" y="0.539979" />
-                        </collision-poly>
-                    </frame>
+                    <frame duration="1" hotspotX="0.55288" hotspotY="0.531672" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level 3\19.png" />
                 </animation>
             </animation-folder>
         </object-type>
@@ -2257,16 +2475,7 @@
             </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="853145260333688" speed="5">
-                    <frame duration="1" hotspotX="0.44712" hotspotY="0.531672" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level 3\19.png">
-                        <collision-poly>
-                            <point x="0.895288" y="0.539979" />
-                            <point x="0.44712" y="0.961578" />
-                            <point x="0.120419" y="0.419522" />
-                            <point x="0.0565445" y="0.580478" />
-                            <point x="0.44712" y="0.107996" />
-                            <point x="0.905759" y="0.51298" />
-                        </collision-poly>
-                    </frame>
+                    <frame duration="1" hotspotX="0.44712" hotspotY="0.531672" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level 3\19.png" />
                 </animation>
             </animation-folder>
         </object-type>
@@ -4227,6 +4436,23 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="Sprite7" sid="973484740024257">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="104129628014637" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Achievement\Achievement #2 (3).png">
+                        <collision-poly>
+                            <point x="0.307763" y="0.00239234" />
+                            <point x="0.692237" y="0.00239234" />
+                            <point x="0.999076" y="0.5" />
+                            <point x="0.692237" y="0.997608" />
+                            <point x="0.307763" y="0.997608" />
+                            <point x="0.000924214" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
@@ -4256,6 +4482,7 @@
         <layout>Splash Screen.xml</layout>
         <layout>Main Menu.xml</layout>
         <layout>Profile.xml</layout>
+        <layout>Petunjuk.xml</layout>
         <layout>Penghargaan #1.xml</layout>
         <layout>Penghargaan #2.xml</layout>
         <layout>Arsip Materi.xml</layout>

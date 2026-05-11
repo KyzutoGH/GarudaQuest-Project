@@ -20,6 +20,20 @@
                     <param id="1" name="From">1</param>
                 </action>
             </actions>
+            <sub-events>
+                <event-block sid="614362538250239">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="379272476928033" type="System">
+                            <param id="0" name="Variable">AnomaliSawitACV</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Destroy" sid="436046984499708" type="SawitLevel1" />
+                    </actions>
+                </event-block>
+            </sub-events>
         </event-block>
         <event-group description="" sid="570900267867953" title="Menang">
             <sub-events>
@@ -435,6 +449,13 @@
                                     <param id="2" name="Loop">0</param>
                                     <param id="3" name="Volume">0</param>
                                     <param id="1" name="Tag (optional)">&quot;Clicked&quot;</param>
+                                </action>
+                                <action behavior="LiteTween" id="10" name="Start" sid="239386273309606" type="Lanjut">
+                                    <param id="0" name="Start Mode">0</param>
+                                    <param id="1" name="Force use current">0</param>
+                                </action>
+                                <action id="-16" name="Wait" sid="650534143869185" type="System">
+                                    <param id="0" name="Seconds">0.2</param>
                                 </action>
                             </actions>
                             <sub-events>
@@ -979,6 +1000,13 @@
                                             <param id="2" name="Loop">0</param>
                                             <param id="3" name="Volume">0</param>
                                             <param id="1" name="Tag (optional)">&quot;Clicked&quot;</param>
+                                        </action>
+                                        <action behavior="LiteTween" id="10" name="Start" sid="822388880249007" type="SawitLevel1">
+                                            <param id="0" name="Start Mode">0</param>
+                                            <param id="1" name="Force use current">0</param>
+                                        </action>
+                                        <action id="-16" name="Wait" sid="845484459759613" type="System">
+                                            <param id="0" name="Seconds">0.5</param>
                                         </action>
                                         <action id="-9" name="Destroy" sid="872374625968530" type="SawitLevel1" />
                                     </actions>
@@ -3248,6 +3276,10 @@
                                 </condition>
                             </conditions>
                             <actions>
+                                <action behavior="LiteTween" id="10" name="Start" sid="148787196332030" type="JawabBtn">
+                                    <param id="0" name="Start Mode">0</param>
+                                    <param id="1" name="Force use current">0</param>
+                                </action>
                                 <action id="0" name="Play" sid="688173762203108" type="Audio">
                                     <param id="0" name="Audio file">Ketawa Burung</param>
                                     <param id="2" name="Loop">0</param>
@@ -3261,6 +3293,12 @@
                                 <action id="4" name="Set animation" sid="683944757867108" type="TxtSisaNyawa">
                                     <param id="0" name="Animation">Nyawa&amp;&quot;Life&quot;</param>
                                     <param id="1" name="From">1</param>
+                                </action>
+                                <action id="-16" name="Wait" sid="693092793591513" type="System">
+                                    <param id="0" name="Seconds">0.2</param>
+                                </action>
+                                <action behavior="LiteTween" id="11" name="Reverse" sid="996520667793608" type="JawabBtn">
+                                    <param id="0" name="Reverse mode">0</param>
                                 </action>
                             </actions>
                         </event-block>
@@ -3503,12 +3541,6 @@
                                     <param id="0" name="Start Mode">0</param>
                                     <param id="1" name="Force use current">0</param>
                                 </action>
-                                <action id="-16" name="Wait" sid="912230793171000" type="System">
-                                    <param id="0" name="Seconds">3.5</param>
-                                </action>
-                                <action behavior="LiteTween" id="11" name="Reverse" sid="639854928708464" type="ACV_TerlaluPintarToStart">
-                                    <param id="0" name="Reverse mode">0</param>
-                                </action>
                                 <action id="-10" name="Add to" sid="904257465607070" type="System">
                                     <param id="0" name="Variable">TooEasyToStartACV</param>
                                     <param id="1" name="Value">1</param>
@@ -3533,18 +3565,30 @@
                                     <param id="0" name="Key">&quot;TotalAchievement&quot;</param>
                                     <param id="1" name="Value">&quot;&quot;&amp;TotalAchievement</param>
                                 </action>
+                                <action id="-16" name="Wait" sid="941890513281143" type="System">
+                                    <param id="0" name="Seconds">0.1</param>
+                                </action>
+                                <action id="-2" name="Go to layout" sid="665295226703399" type="System">
+                                    <param id="0" name="Layout">Level 1 Failed</param>
+                                </action>
+                                <action id="-16" name="Wait" sid="603970957467594" type="System">
+                                    <param id="0" name="Seconds">3.5</param>
+                                </action>
+                                <action behavior="LiteTween" id="11" name="Reverse" sid="554254608371638" type="ACV_TerlaluPintarToStart">
+                                    <param id="0" name="Reverse mode">0</param>
+                                </action>
                             </actions>
                             <sub-events>
-                                <event-block sid="570571902644955">
+                                <event-block sid="471623742856406">
                                     <conditions>
-                                        <condition id="-14" name="Compare variable" sid="939705867826517" type="System">
+                                        <condition id="-14" name="Compare variable" sid="633963852230296" type="System">
                                             <param id="0" name="Variable">TooEasyToStartACV</param>
                                             <param id="1" name="Comparison">5</param>
                                             <param id="2" name="Value">1</param>
                                         </condition>
                                     </conditions>
                                     <actions>
-                                        <action id="-2" name="Go to layout" sid="966551408796041" type="System">
+                                        <action id="-2" name="Go to layout" sid="539097900410776" type="System">
                                             <param id="0" name="Layout">Level 1 Failed</param>
                                         </action>
                                     </actions>
@@ -3819,491 +3863,478 @@
                         </event-block>
                     </sub-events>
                 </event-block>
-                <event-group description="" sid="356793315048211" title="Tampilan Game Over">
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="356793315048211" title="Tampilan Game Over">
+            <sub-events>
+                <event-block sid="115978524588504">
+                    <conditions>
+                        <condition id="-8" name="Compare two values" sid="427798883988287" type="System">
+                            <param id="0" name="First value">LayoutName</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Second value">&quot;Level 1 Failed&quot;</param>
+                        </condition>
+                        <condition id="-4" name="Trigger once while true" sid="559718175298457" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="290674353670464" type="GarudaResult">
+                            <param id="0" name="Animation">&quot;Salah&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
                     <sub-events>
-                        <event-block sid="115978524588504">
+                        <event-block sid="843312588149327">
                             <conditions>
-                                <condition id="-8" name="Compare two values" sid="427798883988287" type="System">
-                                    <param id="0" name="First value">LayoutName</param>
+                                <condition id="-14" name="Compare variable" sid="682785319437626" type="System">
+                                    <param id="0" name="Variable">Level</param>
                                     <param id="1" name="Comparison">0</param>
-                                    <param id="2" name="Second value">&quot;Level 1 Failed&quot;</param>
+                                    <param id="2" name="Value">1</param>
                                 </condition>
-                                <condition id="-4" name="Trigger once while true" sid="559718175298457" type="System" />
                             </conditions>
                             <actions>
-                                <action id="4" name="Set animation" sid="290674353670464" type="GarudaResult">
-                                    <param id="0" name="Animation">&quot;Salah&quot;</param>
+                                <action id="4" name="Set animation" sid="242667173402631" type="GameOverTXT">
+                                    <param id="0" name="Animation">&quot;Level&quot;&amp;Level</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                                <action id="4" name="Set animation" sid="657080953441381" type="EvaluasiSPR">
+                                    <param id="0" name="Animation">&quot;Level&quot;&amp;Level</param>
                                     <param id="1" name="From">1</param>
                                 </action>
                             </actions>
-                            <sub-events>
-                                <event-block sid="843312588149327">
-                                    <conditions>
-                                        <condition id="-14" name="Compare variable" sid="682785319437626" type="System">
-                                            <param id="0" name="Variable">Level</param>
-                                            <param id="1" name="Comparison">0</param>
-                                            <param id="2" name="Value">1</param>
-                                        </condition>
-                                    </conditions>
-                                    <actions>
-                                        <action id="4" name="Set animation" sid="242667173402631" type="GameOverTXT">
-                                            <param id="0" name="Animation">&quot;Level&quot;&amp;Level</param>
-                                            <param id="1" name="From">1</param>
-                                        </action>
-                                        <action id="4" name="Set animation" sid="657080953441381" type="EvaluasiSPR">
-                                            <param id="0" name="Animation">&quot;Level&quot;&amp;Level</param>
-                                            <param id="1" name="From">1</param>
-                                        </action>
-                                    </actions>
-                                </event-block>
-                                <event-block sid="684297589624689">
-                                    <conditions>
-                                        <condition id="-14" name="Compare variable" sid="834871623363141" type="System">
-                                            <param id="0" name="Variable">Level</param>
-                                            <param id="1" name="Comparison">0</param>
-                                            <param id="2" name="Value">2</param>
-                                        </condition>
-                                    </conditions>
-                                    <actions>
-                                        <action id="4" name="Set animation" sid="685561702911109" type="GameOverTXT">
-                                            <param id="0" name="Animation">&quot;Level&quot;&amp;Level</param>
-                                            <param id="1" name="From">1</param>
-                                        </action>
-                                        <action id="4" name="Set animation" sid="556402084443861" type="EvaluasiSPR">
-                                            <param id="0" name="Animation">&quot;Level&quot;&amp;Level</param>
-                                            <param id="1" name="From">1</param>
-                                        </action>
-                                    </actions>
-                                </event-block>
-                                <event-block sid="880374859084435">
-                                    <conditions>
-                                        <condition id="-14" name="Compare variable" sid="752870725512350" type="System">
-                                            <param id="0" name="Variable">Level</param>
-                                            <param id="1" name="Comparison">0</param>
-                                            <param id="2" name="Value">3</param>
-                                        </condition>
-                                    </conditions>
-                                    <actions>
-                                        <action id="4" name="Set animation" sid="210618280129449" type="GameOverTXT">
-                                            <param id="0" name="Animation">&quot;Level&quot;&amp;Level</param>
-                                            <param id="1" name="From">1</param>
-                                        </action>
-                                        <action id="4" name="Set animation" sid="316428408070351" type="EvaluasiSPR">
-                                            <param id="0" name="Animation">&quot;Level&quot;&amp;Level</param>
-                                            <param id="1" name="From">1</param>
-                                        </action>
-                                    </actions>
-                                </event-block>
-                                <event-block sid="205273770330714">
-                                    <conditions>
-                                        <condition id="-14" name="Compare variable" sid="747583697528723" type="System">
-                                            <param id="0" name="Variable">Level</param>
-                                            <param id="1" name="Comparison">0</param>
-                                            <param id="2" name="Value">4</param>
-                                        </condition>
-                                    </conditions>
-                                    <actions>
-                                        <action id="4" name="Set animation" sid="182368050156150" type="GameOverTXT">
-                                            <param id="0" name="Animation">&quot;Level&quot;&amp;Level</param>
-                                            <param id="1" name="From">1</param>
-                                        </action>
-                                        <action id="4" name="Set animation" sid="268477309702320" type="EvaluasiSPR">
-                                            <param id="0" name="Animation">&quot;Level&quot;&amp;Level</param>
-                                            <param id="1" name="From">1</param>
-                                        </action>
-                                    </actions>
-                                </event-block>
-                                <event-block sid="941704290284090">
-                                    <conditions>
-                                        <condition id="-14" name="Compare variable" sid="501218536658520" type="System">
-                                            <param id="0" name="Variable">Level</param>
-                                            <param id="1" name="Comparison">0</param>
-                                            <param id="2" name="Value">5</param>
-                                        </condition>
-                                    </conditions>
-                                    <actions>
-                                        <action id="4" name="Set animation" sid="521665659192150" type="GameOverTXT">
-                                            <param id="0" name="Animation">&quot;Level&quot;&amp;Level</param>
-                                            <param id="1" name="From">1</param>
-                                        </action>
-                                        <action id="4" name="Set animation" sid="448853735391080" type="EvaluasiSPR">
-                                            <param id="0" name="Animation">&quot;Level&quot;&amp;Level</param>
-                                            <param id="1" name="From">1</param>
-                                        </action>
-                                    </actions>
-                                </event-block>
-                                <event-block sid="838160122153306">
-                                    <conditions>
-                                        <condition id="-14" name="Compare variable" sid="790643090419916" type="System">
-                                            <param id="0" name="Variable">Level</param>
-                                            <param id="1" name="Comparison">0</param>
-                                            <param id="2" name="Value">6</param>
-                                        </condition>
-                                    </conditions>
-                                    <actions>
-                                        <action id="4" name="Set animation" sid="219026237293162" type="GameOverTXT">
-                                            <param id="0" name="Animation">&quot;Level&quot;&amp;Level</param>
-                                            <param id="1" name="From">1</param>
-                                        </action>
-                                        <action id="4" name="Set animation" sid="731295819988514" type="EvaluasiSPR">
-                                            <param id="0" name="Animation">&quot;Level&quot;&amp;Level</param>
-                                            <param id="1" name="From">1</param>
-                                        </action>
-                                    </actions>
-                                </event-block>
-                                <event-block sid="634620254197440">
-                                    <conditions>
-                                        <condition id="-14" name="Compare variable" sid="264909163693709" type="System">
-                                            <param id="0" name="Variable">Level</param>
-                                            <param id="1" name="Comparison">0</param>
-                                            <param id="2" name="Value">7</param>
-                                        </condition>
-                                    </conditions>
-                                    <actions>
-                                        <action id="4" name="Set animation" sid="662572072155706" type="GameOverTXT">
-                                            <param id="0" name="Animation">&quot;Level&quot;&amp;Level</param>
-                                            <param id="1" name="From">1</param>
-                                        </action>
-                                        <action id="4" name="Set animation" sid="844690548792503" type="EvaluasiSPR">
-                                            <param id="0" name="Animation">&quot;Level&quot;&amp;Level</param>
-                                            <param id="1" name="From">1</param>
-                                        </action>
-                                    </actions>
-                                </event-block>
-                                <event-block sid="989569704666251">
-                                    <conditions>
-                                        <condition id="-14" name="Compare variable" sid="929677583797737" type="System">
-                                            <param id="0" name="Variable">Level</param>
-                                            <param id="1" name="Comparison">0</param>
-                                            <param id="2" name="Value">8</param>
-                                        </condition>
-                                    </conditions>
-                                    <actions>
-                                        <action id="4" name="Set animation" sid="108501642449867" type="GameOverTXT">
-                                            <param id="0" name="Animation">&quot;Level&quot;&amp;Level</param>
-                                            <param id="1" name="From">1</param>
-                                        </action>
-                                        <action id="4" name="Set animation" sid="355341538257932" type="EvaluasiSPR">
-                                            <param id="0" name="Animation">&quot;Level&quot;&amp;Level</param>
-                                            <param id="1" name="From">1</param>
-                                        </action>
-                                    </actions>
-                                </event-block>
-                                <event-block sid="646634192203629">
-                                    <conditions>
-                                        <condition id="-14" name="Compare variable" sid="234479102338260" type="System">
-                                            <param id="0" name="Variable">Level</param>
-                                            <param id="1" name="Comparison">0</param>
-                                            <param id="2" name="Value">9</param>
-                                        </condition>
-                                    </conditions>
-                                    <actions>
-                                        <action id="4" name="Set animation" sid="991226498676351" type="GameOverTXT">
-                                            <param id="0" name="Animation">&quot;Level&quot;&amp;Level</param>
-                                            <param id="1" name="From">1</param>
-                                        </action>
-                                        <action id="4" name="Set animation" sid="507007067882641" type="EvaluasiSPR">
-                                            <param id="0" name="Animation">&quot;Level&quot;&amp;Level</param>
-                                            <param id="1" name="From">1</param>
-                                        </action>
-                                    </actions>
-                                </event-block>
-                                <event-block sid="932342528321130">
-                                    <conditions>
-                                        <condition id="-14" name="Compare variable" sid="766378921743595" type="System">
-                                            <param id="0" name="Variable">Level</param>
-                                            <param id="1" name="Comparison">0</param>
-                                            <param id="2" name="Value">10</param>
-                                        </condition>
-                                    </conditions>
-                                    <actions>
-                                        <action id="4" name="Set animation" sid="525923677739769" type="GameOverTXT">
-                                            <param id="0" name="Animation">&quot;Level&quot;&amp;Level</param>
-                                            <param id="1" name="From">1</param>
-                                        </action>
-                                        <action id="4" name="Set animation" sid="910560253357572" type="EvaluasiSPR">
-                                            <param id="0" name="Animation">&quot;Level&quot;&amp;Level</param>
-                                            <param id="1" name="From">1</param>
-                                        </action>
-                                    </actions>
-                                </event-block>
-                                <event-block sid="806902120731714">
-                                    <conditions>
-                                        <condition id="-14" name="Compare variable" sid="500911398747698" type="System">
-                                            <param id="0" name="Variable">Level</param>
-                                            <param id="1" name="Comparison">0</param>
-                                            <param id="2" name="Value">11</param>
-                                        </condition>
-                                    </conditions>
-                                    <actions>
-                                        <action id="4" name="Set animation" sid="787494387990556" type="GameOverTXT">
-                                            <param id="0" name="Animation">&quot;Level&quot;&amp;Level</param>
-                                            <param id="1" name="From">1</param>
-                                        </action>
-                                        <action id="4" name="Set animation" sid="618084372492948" type="EvaluasiSPR">
-                                            <param id="0" name="Animation">&quot;Level&quot;&amp;Level</param>
-                                            <param id="1" name="From">1</param>
-                                        </action>
-                                    </actions>
-                                </event-block>
-                                <event-block sid="712815932691991">
-                                    <conditions>
-                                        <condition id="-14" name="Compare variable" sid="296279623150665" type="System">
-                                            <param id="0" name="Variable">Level</param>
-                                            <param id="1" name="Comparison">0</param>
-                                            <param id="2" name="Value">12</param>
-                                        </condition>
-                                    </conditions>
-                                    <actions>
-                                        <action id="4" name="Set animation" sid="901480807062115" type="GameOverTXT">
-                                            <param id="0" name="Animation">&quot;Level&quot;&amp;Level</param>
-                                            <param id="1" name="From">1</param>
-                                        </action>
-                                        <action id="4" name="Set animation" sid="221665292260832" type="EvaluasiSPR">
-                                            <param id="0" name="Animation">&quot;Level&quot;&amp;Level</param>
-                                            <param id="1" name="From">1</param>
-                                        </action>
-                                    </actions>
-                                </event-block>
-                                <event-block sid="561756754138822">
-                                    <conditions>
-                                        <condition id="-14" name="Compare variable" sid="846177599569713" type="System">
-                                            <param id="0" name="Variable">Level</param>
-                                            <param id="1" name="Comparison">0</param>
-                                            <param id="2" name="Value">13</param>
-                                        </condition>
-                                    </conditions>
-                                    <actions>
-                                        <action id="4" name="Set animation" sid="517433793527949" type="GameOverTXT">
-                                            <param id="0" name="Animation">&quot;Level&quot;&amp;Level</param>
-                                            <param id="1" name="From">1</param>
-                                        </action>
-                                        <action id="4" name="Set animation" sid="177542749922235" type="EvaluasiSPR">
-                                            <param id="0" name="Animation">&quot;Level&quot;&amp;Level</param>
-                                            <param id="1" name="From">1</param>
-                                        </action>
-                                    </actions>
-                                </event-block>
-                                <event-block sid="339658677509134">
-                                    <conditions>
-                                        <condition id="-14" name="Compare variable" sid="911381594418628" type="System">
-                                            <param id="0" name="Variable">Level</param>
-                                            <param id="1" name="Comparison">0</param>
-                                            <param id="2" name="Value">14</param>
-                                        </condition>
-                                    </conditions>
-                                    <actions>
-                                        <action id="4" name="Set animation" sid="600080259311546" type="GameOverTXT">
-                                            <param id="0" name="Animation">&quot;Level&quot;&amp;Level</param>
-                                            <param id="1" name="From">1</param>
-                                        </action>
-                                        <action id="4" name="Set animation" sid="558268138590629" type="EvaluasiSPR">
-                                            <param id="0" name="Animation">&quot;Level&quot;&amp;Level</param>
-                                            <param id="1" name="From">1</param>
-                                        </action>
-                                    </actions>
-                                </event-block>
-                                <event-block sid="279517817939417">
-                                    <conditions>
-                                        <condition id="-14" name="Compare variable" sid="813782966380802" type="System">
-                                            <param id="0" name="Variable">Level</param>
-                                            <param id="1" name="Comparison">0</param>
-                                            <param id="2" name="Value">15</param>
-                                        </condition>
-                                    </conditions>
-                                    <actions>
-                                        <action id="4" name="Set animation" sid="668979966940330" type="GameOverTXT">
-                                            <param id="0" name="Animation">&quot;Level&quot;&amp;Level</param>
-                                            <param id="1" name="From">1</param>
-                                        </action>
-                                        <action id="4" name="Set animation" sid="764893559098761" type="EvaluasiSPR">
-                                            <param id="0" name="Animation">&quot;Level&quot;&amp;Level</param>
-                                            <param id="1" name="From">1</param>
-                                        </action>
-                                    </actions>
-                                </event-block>
-                                <event-block sid="343995593143637">
-                                    <conditions>
-                                        <condition id="-14" name="Compare variable" sid="363923683398879" type="System">
-                                            <param id="0" name="Variable">Level</param>
-                                            <param id="1" name="Comparison">0</param>
-                                            <param id="2" name="Value">16</param>
-                                        </condition>
-                                    </conditions>
-                                    <actions>
-                                        <action id="4" name="Set animation" sid="971757343103006" type="GameOverTXT">
-                                            <param id="0" name="Animation">&quot;Level&quot;&amp;Level</param>
-                                            <param id="1" name="From">1</param>
-                                        </action>
-                                        <action id="4" name="Set animation" sid="779465074007175" type="EvaluasiSPR">
-                                            <param id="0" name="Animation">&quot;Level&quot;&amp;Level</param>
-                                            <param id="1" name="From">1</param>
-                                        </action>
-                                    </actions>
-                                </event-block>
-                                <event-block sid="142935569094772">
-                                    <conditions>
-                                        <condition id="-14" name="Compare variable" sid="945687013192212" type="System">
-                                            <param id="0" name="Variable">Level</param>
-                                            <param id="1" name="Comparison">0</param>
-                                            <param id="2" name="Value">17</param>
-                                        </condition>
-                                    </conditions>
-                                    <actions>
-                                        <action id="4" name="Set animation" sid="787067618127944" type="GameOverTXT">
-                                            <param id="0" name="Animation">&quot;Level&quot;&amp;Level</param>
-                                            <param id="1" name="From">1</param>
-                                        </action>
-                                        <action id="4" name="Set animation" sid="708628432595047" type="EvaluasiSPR">
-                                            <param id="0" name="Animation">&quot;Level&quot;&amp;Level</param>
-                                            <param id="1" name="From">1</param>
-                                        </action>
-                                    </actions>
-                                </event-block>
-                                <event-block sid="544192740994050">
-                                    <conditions>
-                                        <condition id="-14" name="Compare variable" sid="685411168706545" type="System">
-                                            <param id="0" name="Variable">Level</param>
-                                            <param id="1" name="Comparison">0</param>
-                                            <param id="2" name="Value">18</param>
-                                        </condition>
-                                    </conditions>
-                                    <actions>
-                                        <action id="4" name="Set animation" sid="627592837278653" type="GameOverTXT">
-                                            <param id="0" name="Animation">&quot;Level&quot;&amp;Level</param>
-                                            <param id="1" name="From">1</param>
-                                        </action>
-                                        <action id="4" name="Set animation" sid="309463665424898" type="EvaluasiSPR">
-                                            <param id="0" name="Animation">&quot;Level&quot;&amp;Level</param>
-                                            <param id="1" name="From">1</param>
-                                        </action>
-                                    </actions>
-                                </event-block>
-                                <event-block sid="257848304854027">
-                                    <conditions>
-                                        <condition id="-14" name="Compare variable" sid="853636017928953" type="System">
-                                            <param id="0" name="Variable">Level</param>
-                                            <param id="1" name="Comparison">0</param>
-                                            <param id="2" name="Value">19</param>
-                                        </condition>
-                                    </conditions>
-                                    <actions>
-                                        <action id="4" name="Set animation" sid="233178958380154" type="GameOverTXT">
-                                            <param id="0" name="Animation">&quot;Level&quot;&amp;Level</param>
-                                            <param id="1" name="From">1</param>
-                                        </action>
-                                        <action id="4" name="Set animation" sid="123264087542059" type="EvaluasiSPR">
-                                            <param id="0" name="Animation">&quot;Level&quot;&amp;Level</param>
-                                            <param id="1" name="From">1</param>
-                                        </action>
-                                    </actions>
-                                </event-block>
-                                <event-block sid="314361653244447">
-                                    <conditions>
-                                        <condition id="-14" name="Compare variable" sid="172088341727292" type="System">
-                                            <param id="0" name="Variable">Level</param>
-                                            <param id="1" name="Comparison">0</param>
-                                            <param id="2" name="Value">20</param>
-                                        </condition>
-                                    </conditions>
-                                    <actions>
-                                        <action id="4" name="Set animation" sid="364329403073540" type="GameOverTXT">
-                                            <param id="0" name="Animation">&quot;Level&quot;&amp;Level</param>
-                                            <param id="1" name="From">1</param>
-                                        </action>
-                                        <action id="4" name="Set animation" sid="341902265393744" type="EvaluasiSPR">
-                                            <param id="0" name="Animation">&quot;Level&quot;&amp;Level</param>
-                                            <param id="1" name="From">1</param>
-                                        </action>
-                                    </actions>
-                                </event-block>
-                            </sub-events>
                         </event-block>
-                    </sub-events>
-                </event-group>
-                <event-group description="" sid="151522342973822" title="Coba Lagi &amp; Keluar">
-                    <sub-events>
-                        <event-block sid="847496884504451">
+                        <event-block sid="684297589624689">
                             <conditions>
-                                <condition id="3" name="On touched object" sid="798878536513374" type="Touch">
-                                    <param id="0" name="Object">CobaLagi</param>
+                                <condition id="-14" name="Compare variable" sid="834871623363141" type="System">
+                                    <param id="0" name="Variable">Level</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">2</param>
                                 </condition>
                             </conditions>
                             <actions>
-                                <action id="0" name="Play" sid="434860858109933" type="Audio">
-                                    <param id="0" name="Audio file">Clicked</param>
-                                    <param id="2" name="Loop">0</param>
-                                    <param id="3" name="Volume">0</param>
-                                    <param id="1" name="Tag (optional)">&quot;Clicked&quot;</param>
+                                <action id="4" name="Set animation" sid="685561702911109" type="GameOverTXT">
+                                    <param id="0" name="Animation">&quot;Level&quot;&amp;Level</param>
+                                    <param id="1" name="From">1</param>
                                 </action>
-                                <action id="-12" name="Set group active" sid="807705941291126" type="System">
-                                    <param id="0" name="Group name">&quot;AnimasiFailed&quot;</param>
-                                    <param id="1" name="State">0</param>
-                                </action>
-                                <action behavior="LiteTween" id="14" name="Stop" sid="575270416704737" type="ACV_TerlaluPintarToStart">
-                                    <param id="0" name="Stop Mode">0</param>
-                                </action>
-                                <action id="-9" name="Set value" sid="829564836451667" type="System">
-                                    <param id="0" name="Variable">Nyawa</param>
-                                    <param id="1" name="Value">3</param>
-                                </action>
-                                <action id="-9" name="Set value" sid="944329295118017" type="System">
-                                    <param id="0" name="Variable">Level</param>
-                                    <param id="1" name="Value">1</param>
-                                </action>
-                                <action id="-16" name="Wait" sid="619775830611690" type="System">
-                                    <param id="0" name="Seconds">0.1</param>
-                                </action>
-                                <action id="-12" name="Set group active" sid="552994195590856" type="System">
-                                    <param id="0" name="Group name">&quot;AnimasiFailed&quot;</param>
-                                    <param id="1" name="State">0</param>
-                                </action>
-                                <action id="6" name="Stop" sid="516161756184700" type="Audio">
-                                    <param id="0" name="Tag">&quot;Failed&quot;</param>
-                                </action>
-                                <action id="-2" name="Go to layout" sid="554478327288775" type="System">
-                                    <param id="0" name="Layout">Level 1</param>
+                                <action id="4" name="Set animation" sid="556402084443861" type="EvaluasiSPR">
+                                    <param id="0" name="Animation">&quot;Level&quot;&amp;Level</param>
+                                    <param id="1" name="From">1</param>
                                 </action>
                             </actions>
                         </event-block>
-                        <event-block sid="642949268384309">
+                        <event-block sid="880374859084435">
                             <conditions>
-                                <condition id="3" name="On touched object" sid="694785924588147" type="Touch">
-                                    <param id="0" name="Object">Exit</param>
+                                <condition id="-14" name="Compare variable" sid="752870725512350" type="System">
+                                    <param id="0" name="Variable">Level</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">3</param>
                                 </condition>
                             </conditions>
                             <actions>
-                                <action id="0" name="Play" sid="483108085556464" type="Audio">
-                                    <param id="0" name="Audio file">Clicked</param>
-                                    <param id="2" name="Loop">0</param>
-                                    <param id="3" name="Volume">0</param>
-                                    <param id="1" name="Tag (optional)">&quot;Clicked&quot;</param>
+                                <action id="4" name="Set animation" sid="210618280129449" type="GameOverTXT">
+                                    <param id="0" name="Animation">&quot;Level&quot;&amp;Level</param>
+                                    <param id="1" name="From">1</param>
                                 </action>
-                                <action id="-12" name="Set group active" sid="473417256835643" type="System">
-                                    <param id="0" name="Group name">&quot;AnimasiFailed&quot;</param>
-                                    <param id="1" name="State">0</param>
+                                <action id="4" name="Set animation" sid="316428408070351" type="EvaluasiSPR">
+                                    <param id="0" name="Animation">&quot;Level&quot;&amp;Level</param>
+                                    <param id="1" name="From">1</param>
                                 </action>
-                                <action behavior="LiteTween" id="14" name="Stop" sid="276993172775872" type="ACV_TerlaluPintarToStart">
-                                    <param id="0" name="Stop Mode">0</param>
-                                </action>
-                                <action id="-9" name="Set value" sid="814783378407570" type="System">
-                                    <param id="0" name="Variable">Nyawa</param>
-                                    <param id="1" name="Value">3</param>
-                                </action>
-                                <action id="-9" name="Set value" sid="403002128810250" type="System">
+                            </actions>
+                        </event-block>
+                        <event-block sid="205273770330714">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="747583697528723" type="System">
                                     <param id="0" name="Variable">Level</param>
-                                    <param id="1" name="Value">1</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">4</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="182368050156150" type="GameOverTXT">
+                                    <param id="0" name="Animation">&quot;Level&quot;&amp;Level</param>
+                                    <param id="1" name="From">1</param>
                                 </action>
-                                <action id="-16" name="Wait" sid="866886741417051" type="System">
-                                    <param id="0" name="Seconds">0.1</param>
+                                <action id="4" name="Set animation" sid="268477309702320" type="EvaluasiSPR">
+                                    <param id="0" name="Animation">&quot;Level&quot;&amp;Level</param>
+                                    <param id="1" name="From">1</param>
                                 </action>
-                                <action id="-2" name="Go to layout" sid="450778150116714" type="System">
-                                    <param id="0" name="Layout">Main Menu</param>
+                            </actions>
+                        </event-block>
+                        <event-block sid="941704290284090">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="501218536658520" type="System">
+                                    <param id="0" name="Variable">Level</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">5</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="521665659192150" type="GameOverTXT">
+                                    <param id="0" name="Animation">&quot;Level&quot;&amp;Level</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                                <action id="4" name="Set animation" sid="448853735391080" type="EvaluasiSPR">
+                                    <param id="0" name="Animation">&quot;Level&quot;&amp;Level</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="838160122153306">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="790643090419916" type="System">
+                                    <param id="0" name="Variable">Level</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">6</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="219026237293162" type="GameOverTXT">
+                                    <param id="0" name="Animation">&quot;Level&quot;&amp;Level</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                                <action id="4" name="Set animation" sid="731295819988514" type="EvaluasiSPR">
+                                    <param id="0" name="Animation">&quot;Level&quot;&amp;Level</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="634620254197440">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="264909163693709" type="System">
+                                    <param id="0" name="Variable">Level</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">7</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="662572072155706" type="GameOverTXT">
+                                    <param id="0" name="Animation">&quot;Level&quot;&amp;Level</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                                <action id="4" name="Set animation" sid="844690548792503" type="EvaluasiSPR">
+                                    <param id="0" name="Animation">&quot;Level&quot;&amp;Level</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="989569704666251">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="929677583797737" type="System">
+                                    <param id="0" name="Variable">Level</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">8</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="108501642449867" type="GameOverTXT">
+                                    <param id="0" name="Animation">&quot;Level&quot;&amp;Level</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                                <action id="4" name="Set animation" sid="355341538257932" type="EvaluasiSPR">
+                                    <param id="0" name="Animation">&quot;Level&quot;&amp;Level</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="646634192203629">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="234479102338260" type="System">
+                                    <param id="0" name="Variable">Level</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">9</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="991226498676351" type="GameOverTXT">
+                                    <param id="0" name="Animation">&quot;Level&quot;&amp;Level</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                                <action id="4" name="Set animation" sid="507007067882641" type="EvaluasiSPR">
+                                    <param id="0" name="Animation">&quot;Level&quot;&amp;Level</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="932342528321130">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="766378921743595" type="System">
+                                    <param id="0" name="Variable">Level</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">10</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="525923677739769" type="GameOverTXT">
+                                    <param id="0" name="Animation">&quot;Level&quot;&amp;Level</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                                <action id="4" name="Set animation" sid="910560253357572" type="EvaluasiSPR">
+                                    <param id="0" name="Animation">&quot;Level&quot;&amp;Level</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="806902120731714">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="500911398747698" type="System">
+                                    <param id="0" name="Variable">Level</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">11</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="787494387990556" type="GameOverTXT">
+                                    <param id="0" name="Animation">&quot;Level&quot;&amp;Level</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                                <action id="4" name="Set animation" sid="618084372492948" type="EvaluasiSPR">
+                                    <param id="0" name="Animation">&quot;Level&quot;&amp;Level</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="712815932691991">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="296279623150665" type="System">
+                                    <param id="0" name="Variable">Level</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">12</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="901480807062115" type="GameOverTXT">
+                                    <param id="0" name="Animation">&quot;Level&quot;&amp;Level</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                                <action id="4" name="Set animation" sid="221665292260832" type="EvaluasiSPR">
+                                    <param id="0" name="Animation">&quot;Level&quot;&amp;Level</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="561756754138822">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="846177599569713" type="System">
+                                    <param id="0" name="Variable">Level</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">13</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="517433793527949" type="GameOverTXT">
+                                    <param id="0" name="Animation">&quot;Level&quot;&amp;Level</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                                <action id="4" name="Set animation" sid="177542749922235" type="EvaluasiSPR">
+                                    <param id="0" name="Animation">&quot;Level&quot;&amp;Level</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="339658677509134">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="911381594418628" type="System">
+                                    <param id="0" name="Variable">Level</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">14</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="600080259311546" type="GameOverTXT">
+                                    <param id="0" name="Animation">&quot;Level&quot;&amp;Level</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                                <action id="4" name="Set animation" sid="558268138590629" type="EvaluasiSPR">
+                                    <param id="0" name="Animation">&quot;Level&quot;&amp;Level</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="279517817939417">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="813782966380802" type="System">
+                                    <param id="0" name="Variable">Level</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">15</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="668979966940330" type="GameOverTXT">
+                                    <param id="0" name="Animation">&quot;Level&quot;&amp;Level</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                                <action id="4" name="Set animation" sid="764893559098761" type="EvaluasiSPR">
+                                    <param id="0" name="Animation">&quot;Level&quot;&amp;Level</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="343995593143637">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="363923683398879" type="System">
+                                    <param id="0" name="Variable">Level</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">16</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="971757343103006" type="GameOverTXT">
+                                    <param id="0" name="Animation">&quot;Level&quot;&amp;Level</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                                <action id="4" name="Set animation" sid="779465074007175" type="EvaluasiSPR">
+                                    <param id="0" name="Animation">&quot;Level&quot;&amp;Level</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="142935569094772">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="945687013192212" type="System">
+                                    <param id="0" name="Variable">Level</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">17</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="787067618127944" type="GameOverTXT">
+                                    <param id="0" name="Animation">&quot;Level&quot;&amp;Level</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                                <action id="4" name="Set animation" sid="708628432595047" type="EvaluasiSPR">
+                                    <param id="0" name="Animation">&quot;Level&quot;&amp;Level</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="544192740994050">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="685411168706545" type="System">
+                                    <param id="0" name="Variable">Level</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">18</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="627592837278653" type="GameOverTXT">
+                                    <param id="0" name="Animation">&quot;Level&quot;&amp;Level</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                                <action id="4" name="Set animation" sid="309463665424898" type="EvaluasiSPR">
+                                    <param id="0" name="Animation">&quot;Level&quot;&amp;Level</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="257848304854027">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="853636017928953" type="System">
+                                    <param id="0" name="Variable">Level</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">19</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="233178958380154" type="GameOverTXT">
+                                    <param id="0" name="Animation">&quot;Level&quot;&amp;Level</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                                <action id="4" name="Set animation" sid="123264087542059" type="EvaluasiSPR">
+                                    <param id="0" name="Animation">&quot;Level&quot;&amp;Level</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="314361653244447">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="172088341727292" type="System">
+                                    <param id="0" name="Variable">Level</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">20</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="364329403073540" type="GameOverTXT">
+                                    <param id="0" name="Animation">&quot;Level&quot;&amp;Level</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                                <action id="4" name="Set animation" sid="341902265393744" type="EvaluasiSPR">
+                                    <param id="0" name="Animation">&quot;Level&quot;&amp;Level</param>
+                                    <param id="1" name="From">1</param>
                                 </action>
                             </actions>
                         </event-block>
                     </sub-events>
-                </event-group>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="151522342973822" title="Coba Lagi &amp; Keluar">
+            <sub-events>
+                <event-block sid="847496884504451">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="798878536513374" type="Touch">
+                            <param id="0" name="Object">CobaLagi</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="434860858109933" type="Audio">
+                            <param id="0" name="Audio file">Clicked</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;Clicked&quot;</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="829564836451667" type="System">
+                            <param id="0" name="Variable">Nyawa</param>
+                            <param id="1" name="Value">3</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="944329295118017" type="System">
+                            <param id="0" name="Variable">Level</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action behavior="LiteTween" id="10" name="Start" sid="697290033813287" type="CobaLagi">
+                            <param id="0" name="Start Mode">0</param>
+                            <param id="1" name="Force use current">0</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="315537850100282" type="System">
+                            <param id="0" name="Seconds">0.2</param>
+                        </action>
+                        <action id="-2" name="Go to layout" sid="554478327288775" type="System">
+                            <param id="0" name="Layout">Level 1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="642949268384309">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="694785924588147" type="Touch">
+                            <param id="0" name="Object">Exit</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="483108085556464" type="Audio">
+                            <param id="0" name="Audio file">Clicked</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;Clicked&quot;</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="841610703593806" type="System">
+                            <param id="0" name="Variable">Nyawa</param>
+                            <param id="1" name="Value">3</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="692214307518436" type="System">
+                            <param id="0" name="Variable">Level</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action behavior="LiteTween" id="10" name="Start" sid="518723463496625" type="Exit">
+                            <param id="0" name="Start Mode">0</param>
+                            <param id="1" name="Force use current">0</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="245422012789061" type="System">
+                            <param id="0" name="Seconds">0.2</param>
+                        </action>
+                        <action id="-2" name="Go to layout" sid="450778150116714" type="System">
+                            <param id="0" name="Layout">Main Menu</param>
+                        </action>
+                    </actions>
+                </event-block>
             </sub-events>
         </event-group>
         <event-group description="" sid="351185403452171" title="HiddenObject">
@@ -4403,6 +4434,13 @@
                         </condition>
                     </conditions>
                     <actions>
+                        <action behavior="LiteTween" id="10" name="Start" sid="832602488838463" type="Pause">
+                            <param id="0" name="Start Mode">0</param>
+                            <param id="1" name="Force use current">0</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="684410365941294" type="System">
+                            <param id="0" name="Seconds">0.2</param>
+                        </action>
                         <action id="-13" name="Set time scale" sid="128569160336195" type="System">
                             <param id="0" name="Time scale">0</param>
                         </action>
@@ -4440,9 +4478,6 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-9" name="Destroy" sid="144583697353724" type="BackPaused" />
-                        <action id="-9" name="Destroy" sid="937871960553800" type="ExitPaused" />
-                        <action id="-9" name="Destroy" sid="343688633247175" type="PauseScreen" />
                         <action id="-13" name="Set time scale" sid="181358043192367" type="System">
                             <param id="0" name="Time scale">1.0</param>
                         </action>
@@ -4450,6 +4485,16 @@
                             <param id="0" name="Variable">GamePlay</param>
                             <param id="1" name="Value">1</param>
                         </action>
+                        <action behavior="LiteTween" id="10" name="Start" sid="178441543824462" type="BackPaused">
+                            <param id="0" name="Start Mode">0</param>
+                            <param id="1" name="Force use current">0</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="136321463785904" type="System">
+                            <param id="0" name="Seconds">0.2</param>
+                        </action>
+                        <action id="-9" name="Destroy" sid="144583697353724" type="BackPaused" />
+                        <action id="-9" name="Destroy" sid="937871960553800" type="ExitPaused" />
+                        <action id="-9" name="Destroy" sid="343688633247175" type="PauseScreen" />
                         <action behavior="DragDrop" id="0" name="Set enabled" sid="642267159539328" type="BeringinLevel1">
                             <param id="0" name="State">1</param>
                         </action>
@@ -4462,9 +4507,6 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-9" name="Destroy" sid="629718307488967" type="BackPaused" />
-                        <action id="-9" name="Destroy" sid="229092326518050" type="ExitPaused" />
-                        <action id="-9" name="Destroy" sid="275586166108984" type="PauseScreen" />
                         <action id="-13" name="Set time scale" sid="545047852671948" type="System">
                             <param id="0" name="Time scale">1.0</param>
                         </action>
@@ -4472,6 +4514,16 @@
                             <param id="0" name="Variable">GamePlay</param>
                             <param id="1" name="Value">1</param>
                         </action>
+                        <action behavior="LiteTween" id="10" name="Start" sid="929732741954543" type="ExitPaused">
+                            <param id="0" name="Start Mode">0</param>
+                            <param id="1" name="Force use current">0</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="401349137557974" type="System">
+                            <param id="0" name="Seconds">0.2</param>
+                        </action>
+                        <action id="-9" name="Destroy" sid="629718307488967" type="BackPaused" />
+                        <action id="-9" name="Destroy" sid="229092326518050" type="ExitPaused" />
+                        <action id="-9" name="Destroy" sid="275586166108984" type="PauseScreen" />
                         <action behavior="DragDrop" id="0" name="Set enabled" sid="394114503306214" type="BeringinLevel1">
                             <param id="0" name="State">1</param>
                         </action>
