@@ -10,6 +10,11 @@
         <variable constant="0" name="TooEasyToStartACV" sid="306211760881772" static="0" type="number">0</variable>
         <variable constant="0" name="TotalAchievement" sid="320781843749389" static="0" type="number">0</variable>
         <variable constant="0" name="MateriUnlock" sid="550258753845310" static="0" type="number">0</variable>
+        <variable constant="0" name="SiPalingPancasilaACV" sid="685508764166360" static="0" type="number">0</variable>
+        <variable constant="0" name="GarudaQuestWinnerACV" sid="336135546528102" static="0" type="number">0</variable>
+        <variable constant="0" name="TooEZACV" sid="648686352424095" static="0" type="number">0</variable>
+        <variable constant="0" name="NKRINihBosACV" sid="709281987608092" static="0" type="number">0</variable>
+        <variable constant="0" name="ToleransiFtKolaborasiACV" sid="558641966782042" static="0" type="number">0</variable>
         <variable constant="0" name="AnomaliSawitACV" sid="834116734786768" static="0" type="number">0</variable>
         <event-block sid="264525644247529">
             <conditions>
@@ -236,6 +241,71 @@
                         </action>
                     </actions>
                 </event-block>
+                <event-block sid="178577633602886">
+                    <conditions>
+                        <condition id="1" name="On item get" sid="206609660131321" type="LocalStorage">
+                            <param id="0" name="Key">&quot;NKRINihBosACV&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="259762858441933" type="System">
+                            <param id="0" name="Variable">NKRINihBosACV</param>
+                            <param id="1" name="Value">int(LocalStorage.ItemValue)</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="407550095498786">
+                    <conditions>
+                        <condition id="1" name="On item get" sid="461564251945579" type="LocalStorage">
+                            <param id="0" name="Key">&quot;SiPalingPancasilaACV&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="929916972739789" type="System">
+                            <param id="0" name="Variable">SiPalingPancasilaACV</param>
+                            <param id="1" name="Value">int(LocalStorage.ItemValue)</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="720235637228472">
+                    <conditions>
+                        <condition id="1" name="On item get" sid="251038088526874" type="LocalStorage">
+                            <param id="0" name="Key">&quot;TooEZACV&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="989051518041956" type="System">
+                            <param id="0" name="Variable">TooEZACV</param>
+                            <param id="1" name="Value">int(LocalStorage.ItemValue)</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="405573358080960">
+                    <conditions>
+                        <condition id="1" name="On item get" sid="979484613082337" type="LocalStorage">
+                            <param id="0" name="Key">&quot;GarudaQuestWinnerACV&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="513595005544212" type="System">
+                            <param id="0" name="Variable">GarudaQuestWinnerACV</param>
+                            <param id="1" name="Value">int(LocalStorage.ItemValue)</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="523261143389444">
+                    <conditions>
+                        <condition id="1" name="On item get" sid="745760837449898" type="LocalStorage">
+                            <param id="0" name="Key">&quot;ToleransiFtKolaborasiACV&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="524960913628244" type="System">
+                            <param id="0" name="Variable">ToleransiFtKolaborasiACV</param>
+                            <param id="1" name="Value">int(LocalStorage.ItemValue)</param>
+                        </action>
+                    </actions>
+                </event-block>
                 <event-block sid="355141960329700">
                     <conditions>
                         <condition id="1" name="On item get" sid="470873939689069" type="LocalStorage">
@@ -332,8 +402,8 @@
                             <param id="1" name="Value">int(100 * (1.15 ^ LevelPlayer))</param>
                         </action>
                         <action id="-11" name="Subtract from" sid="202295075774016" type="System">
-                            <param id="0" name="Variable">ExperienceNextLevel</param>
-                            <param id="1" name="Value">Experience</param>
+                            <param id="0" name="Variable">Experience</param>
+                            <param id="1" name="Value">ExperienceNextLevel</param>
                         </action>
                         <action id="-9" name="Set value" sid="736952350168623" type="System">
                             <param id="0" name="Variable">Experience</param>
@@ -344,6 +414,66 @@
                             <param id="1" name="Value">LevelPlayer</param>
                         </action>
                         <action id="0" name="Set item" sid="848740782678917" type="LocalStorage">
+                            <param id="0" name="Key">&quot;EXP&quot;</param>
+                            <param id="1" name="Value">Experience</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="886560652882450">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="112343143806961" type="System">
+                            <param id="0" name="Variable">Experience</param>
+                            <param id="1" name="Comparison">2</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="199552337456690" type="System">
+                            <param id="0" name="Variable">LevelPlayer</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-11" name="Subtract from" sid="433603116148167" type="System">
+                            <param id="0" name="Variable">LevelPlayer</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="356599989078697" type="System">
+                            <param id="0" name="Variable">ExperienceNextLevel</param>
+                            <param id="1" name="Value">int(100 * (1.15 ^ LevelPlayer))</param>
+                        </action>
+                        <action id="-10" name="Add to" sid="823146784492914" type="System">
+                            <param id="0" name="Variable">Experience</param>
+                            <param id="1" name="Value">ExperienceNextLevel</param>
+                        </action>
+                        <action id="0" name="Set item" sid="805927796331587" type="LocalStorage">
+                            <param id="0" name="Key">&quot;Level&quot;</param>
+                            <param id="1" name="Value">LevelPlayer</param>
+                        </action>
+                        <action id="0" name="Set item" sid="847012664600211" type="LocalStorage">
+                            <param id="0" name="Key">&quot;EXP&quot;</param>
+                            <param id="1" name="Value">Experience</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="205097631179735">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="530028634480981" type="System">
+                            <param id="0" name="Variable">Experience</param>
+                            <param id="1" name="Comparison">2</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="226326690738090" type="System">
+                            <param id="0" name="Variable">LevelPlayer</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="246332494631091" type="System">
+                            <param id="0" name="Variable">Experience</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="0" name="Set item" sid="211122891130600" type="LocalStorage">
                             <param id="0" name="Key">&quot;EXP&quot;</param>
                             <param id="1" name="Value">Experience</param>
                         </action>
@@ -490,6 +620,76 @@
                         </action>
                     </actions>
                 </event-block>
+                <event-block sid="189518818420432">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="141030320759083" type="System">
+                            <param id="0" name="Variable">SiPalingPancasilaACV</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Set frame" sid="355734969289772" type="SiPalingPancasilaProfile">
+                            <param id="0" name="Frame number">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="970173369727354">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="953746737224034" type="System">
+                            <param id="0" name="Variable">TooEZACV</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Set frame" sid="847667864082505" type="TerlaluMudahProfile">
+                            <param id="0" name="Frame number">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="921808797656138">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="492720098136896" type="System">
+                            <param id="0" name="Variable">GarudaQuestWinnerACV</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Set frame" sid="104289729940591" type="PenaklukGQProfile">
+                            <param id="0" name="Frame number">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="225517514073021">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="991267697366003" type="System">
+                            <param id="0" name="Variable">NKRINihBosACV</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Set frame" sid="431386070746866" type="NKRINihBosProfile">
+                            <param id="0" name="Frame number">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="765764392846703">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="377556878550536" type="System">
+                            <param id="0" name="Variable">ToleransiFtKolaborasiACV</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Set frame" sid="755508491914739" type="ToleranKolabProfile">
+                            <param id="0" name="Frame number">1</param>
+                        </action>
+                    </actions>
+                </event-block>
             </sub-events>
         </event-group>
         <event-group description="" sid="586975572196802" title="Tombol Global">
@@ -552,116 +752,119 @@
                 </event-block>
             </sub-events>
         </event-group>
-        <event-group description="" sid="972647982929425" title="Tier System" />
-        <event-block sid="605452744093588">
-            <conditions>
-                <condition id="-14" name="Compare variable" sid="863739708708978" type="System">
-                    <param id="0" name="Variable">LevelPlayer</param>
-                    <param id="1" name="Comparison">3</param>
-                    <param id="2" name="Value">5</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="4" name="Set animation" sid="673212477339102" type="TierIcon">
-                    <param id="0" name="Animation">&quot;Rookie&quot;</param>
-                    <param id="1" name="From">1</param>
-                </action>
-                <action id="4" name="Set animation" sid="191786506018526" type="TierNameTxt">
-                    <param id="0" name="Animation">&quot;Rookie&quot;</param>
-                    <param id="1" name="From">1</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="579151688345322">
-            <conditions>
-                <condition id="-14" name="Compare variable" sid="448365931722445" type="System">
-                    <param id="0" name="Variable">LevelPlayer</param>
-                    <param id="1" name="Comparison">4</param>
-                    <param id="2" name="Value">5</param>
-                </condition>
-                <condition id="-14" name="Compare variable" sid="707379719749358" type="System">
-                    <param id="0" name="Variable">LevelPlayer</param>
-                    <param id="1" name="Comparison">3</param>
-                    <param id="2" name="Value">14</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="4" name="Set animation" sid="648959080534566" type="TierIcon">
-                    <param id="0" name="Animation">&quot;Amateur&quot;</param>
-                    <param id="1" name="From">1</param>
-                </action>
-                <action id="4" name="Set animation" sid="434330101676181" type="TierNameTxt">
-                    <param id="0" name="Animation">&quot;Amateur&quot;</param>
-                    <param id="1" name="From">1</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="322902521184561">
-            <conditions>
-                <condition id="-14" name="Compare variable" sid="990628349723686" type="System">
-                    <param id="0" name="Variable">LevelPlayer</param>
-                    <param id="1" name="Comparison">4</param>
-                    <param id="2" name="Value">14</param>
-                </condition>
-                <condition id="-14" name="Compare variable" sid="724744924200341" type="System">
-                    <param id="0" name="Variable">LevelPlayer</param>
-                    <param id="1" name="Comparison">3</param>
-                    <param id="2" name="Value">25</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="4" name="Set animation" sid="925277851297943" type="TierIcon">
-                    <param id="0" name="Animation">&quot;Semipro&quot;</param>
-                    <param id="1" name="From">1</param>
-                </action>
-                <action id="4" name="Set animation" sid="278256891398872" type="TierNameTxt">
-                    <param id="0" name="Animation">&quot;Semipro&quot;</param>
-                    <param id="1" name="From">1</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="573051467474122">
-            <conditions>
-                <condition id="-14" name="Compare variable" sid="330636975547361" type="System">
-                    <param id="0" name="Variable">LevelPlayer</param>
-                    <param id="1" name="Comparison">4</param>
-                    <param id="2" name="Value">25</param>
-                </condition>
-                <condition id="-14" name="Compare variable" sid="704651788178424" type="System">
-                    <param id="0" name="Variable">LevelPlayer</param>
-                    <param id="1" name="Comparison">3</param>
-                    <param id="2" name="Value">49</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="4" name="Set animation" sid="317512000645411" type="TierIcon">
-                    <param id="0" name="Animation">&quot;Probgt&quot;</param>
-                    <param id="1" name="From">1</param>
-                </action>
-                <action id="4" name="Set animation" sid="898107751346838" type="TierNameTxt">
-                    <param id="0" name="Animation">&quot;Probgt&quot;</param>
-                    <param id="1" name="From">1</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="573768616004049">
-            <conditions>
-                <condition id="-14" name="Compare variable" sid="617232108575107" type="System">
-                    <param id="0" name="Variable">LevelPlayer</param>
-                    <param id="1" name="Comparison">4</param>
-                    <param id="2" name="Value">49</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="4" name="Set animation" sid="856941211985334" type="TierIcon">
-                    <param id="0" name="Animation">&quot;Godofquest&quot;</param>
-                    <param id="1" name="From">1</param>
-                </action>
-                <action id="4" name="Set animation" sid="894958324703075" type="TierNameTxt">
-                    <param id="0" name="Animation">&quot;Godofquest&quot;</param>
-                    <param id="1" name="From">1</param>
-                </action>
-            </actions>
-        </event-block>
+        <event-group description="" sid="972647982929425" title="Tier System">
+            <sub-events>
+                <event-block sid="605452744093588">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="863739708708978" type="System">
+                            <param id="0" name="Variable">LevelPlayer</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">5</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="673212477339102" type="TierIcon">
+                            <param id="0" name="Animation">&quot;Rookie&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="4" name="Set animation" sid="191786506018526" type="TierNameTxt">
+                            <param id="0" name="Animation">&quot;Rookie&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="579151688345322">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="448365931722445" type="System">
+                            <param id="0" name="Variable">LevelPlayer</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">5</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="707379719749358" type="System">
+                            <param id="0" name="Variable">LevelPlayer</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">14</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="648959080534566" type="TierIcon">
+                            <param id="0" name="Animation">&quot;Amateur&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="4" name="Set animation" sid="434330101676181" type="TierNameTxt">
+                            <param id="0" name="Animation">&quot;Amateur&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="322902521184561">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="990628349723686" type="System">
+                            <param id="0" name="Variable">LevelPlayer</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">14</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="724744924200341" type="System">
+                            <param id="0" name="Variable">LevelPlayer</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">25</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="925277851297943" type="TierIcon">
+                            <param id="0" name="Animation">&quot;Semipro&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="4" name="Set animation" sid="278256891398872" type="TierNameTxt">
+                            <param id="0" name="Animation">&quot;Semipro&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="573051467474122">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="330636975547361" type="System">
+                            <param id="0" name="Variable">LevelPlayer</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">25</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="704651788178424" type="System">
+                            <param id="0" name="Variable">LevelPlayer</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">49</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="317512000645411" type="TierIcon">
+                            <param id="0" name="Animation">&quot;Probgt&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="4" name="Set animation" sid="898107751346838" type="TierNameTxt">
+                            <param id="0" name="Animation">&quot;Probgt&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="573768616004049">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="617232108575107" type="System">
+                            <param id="0" name="Variable">LevelPlayer</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">49</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="856941211985334" type="TierIcon">
+                            <param id="0" name="Animation">&quot;Godofquest&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="4" name="Set animation" sid="894958324703075" type="TierNameTxt">
+                            <param id="0" name="Animation">&quot;Godofquest&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
     </events>
 </c2eventsheet>

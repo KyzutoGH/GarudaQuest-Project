@@ -10,14 +10,11 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout order="0">Level 1</layout>
-        <layout order="2">Level 1 Failed</layout>
-        <layout order="3">Level 17</layout>
-        <layout order="4">Level 1 Victory</layout>
-        <layout order="6">GoodLuck Screen</layout>
-        <layout order="7">Main Menu</layout>
-        <event-sheet active="1" order="1">Level Pancasila Event</event-sheet>
-        <event-sheet order="5">MenuEvent</event-sheet>
+        <layout active="1" order="2">Tentang</layout>
+        <layout order="3">Aturan</layout>
+        <layout order="4">Cara Bermain</layout>
+        <layout order="1">Main Menu</layout>
+        <event-sheet order="0">Global Event</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -109,7 +106,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/Halaman2AchBtn/" />
         <folder expanded="1" path="animation-folder/ToleranKolabProfile/" />
         <folder expanded="1" path="animation-folder/SiPalingAlimProfile/" />
-        <folder expanded="1" path="animation-folder/Sprite2/" />
+        <folder expanded="1" path="animation-folder/NKRINihBosProfile/" />
         <folder expanded="1" path="animation-folder/Sprite4/" />
         <folder expanded="1" path="animation-folder/TxtLevel2/" />
         <folder expanded="1" path="animation-folder/TxtSoalLevel2/" />
@@ -221,6 +218,16 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/TxtSoalLevel20/" />
         <folder expanded="1" path="animation-folder/BGLevel20/" />
         <folder expanded="1" path="animation-folder/BenarLevel20/" />
-        <folder expanded="1" path="animation-folder/Sprite7/" />
+        <folder expanded="1" path="animation-folder/ACV_SiPalingPancasila/" />
+        <folder expanded="1" path="animation-folder/ACV_GarudaQuestWinner/" />
+        <folder expanded="1" path="animation-folder/ACV_TooEZ/" />
+        <folder expanded="1" path="animation-folder/ACV_NKRINihBos/" />
+        <folder expanded="1" path="animation-folder/ACV_ToleransiFtKolaborasi/" />
+        <folder expanded="1" path="animation-folder/PetunjukTentangGame/" />
+        <folder expanded="1" path="animation-folder/PetunjukAturan/" />
+        <folder expanded="1" path="animation-folder/PetunjukCaraBermain/" />
+        <folder expanded="1" path="animation-folder/TentangTombol/" />
+        <folder expanded="1" path="animation-folder/HelpTombol/" />
+        <folder expanded="1" path="animation-folder/AturanTombol/" />
     </folders-expanded>
 </c2uistate>
