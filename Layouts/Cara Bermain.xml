@@ -73,28 +73,6 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="ProfileBG" uid="530">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>1183.734985352</x>
-                        <y>452.835998535</y>
-                        <z>0</z>
-                        <width>1396.592041016</width>
-                        <height>791.672973633</height>
-                        <depth>0</depth>
-                        <hotspotX>0.500314653</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
                 <instance type="Back" uid="531">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
@@ -140,11 +118,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1179.29296875</x>
-                        <y>439.519012451</y>
+                        <x>1183.416748047</x>
+                        <y>441.838928223</y>
                         <z>0</z>
-                        <width>1375.615966797</width>
-                        <height>773.874023438</height>
+                        <width>1383.863647461</width>
+                        <height>778.51385498</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>

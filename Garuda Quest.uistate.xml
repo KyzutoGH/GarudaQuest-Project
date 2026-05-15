@@ -10,11 +10,11 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout active="1" order="2">Tentang</layout>
-        <layout order="3">Aturan</layout>
-        <layout order="4">Cara Bermain</layout>
         <layout order="1">Main Menu</layout>
+        <layout order="2">Credit Scene</layout>
         <event-sheet order="0">Global Event</event-sheet>
+        <event-sheet active="1" order="3">EndingSceneGame</event-sheet>
+        <event-sheet order="4">MenuEvent</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -28,7 +28,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="layout-folder/" />
         <folder expanded="1" path="event-folder/" />
         <folder expanded="0" path="file-folder/" />
-        <folder expanded="0" path="sound-folder/" />
+        <folder expanded="1" path="sound-folder/" />
         <folder expanded="1" path="music-folder/" />
         <folder expanded="0" path="file-folder/Icons/" />
         <folder expanded="1" path="animation-folder/GarudaPancasila/" />
@@ -229,5 +229,8 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/TentangTombol/" />
         <folder expanded="1" path="animation-folder/HelpTombol/" />
         <folder expanded="1" path="animation-folder/AturanTombol/" />
+        <folder expanded="1" path="animation-folder/CreditName/" />
+        <folder expanded="1" path="animation-folder/LogoGameCredits/" />
+        <folder expanded="1" path="animation-folder/SkipTombol/" />
     </folders-expanded>
 </c2uistate>

@@ -21,6 +21,7 @@
         <plugin author="Scirra (ported by sakewp)" id="skwp_htmlelement" version="1.100000024">HTML Element</plugin>
     </used-plugins>
     <used-behaviors>
+        <behavior author="Scirra" id="Bullet" version="1">Bullet</behavior>
         <behavior author="Scirra" id="DragnDrop" version="1">Drag &amp; Drop</behavior>
         <behavior author="Scirra" id="Fade" version="1">Fade</behavior>
         <behavior author="lunarray" id="lunarray_LiteTween" version="1.5">LiteTween</behavior>
@@ -4641,6 +4642,74 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="CreditName" sid="536376747754620">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Bullet" sid="245623243396059">
+                    <behavior id="Bullet" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="853928467990094" speed="5">
+                    <frame duration="1" hotspotX="0.500484" hotspotY="0.501321" original-source="F:\Downloads\Desain tanpa judul (5).png">
+                        <collision-poly>
+                            <point x="0.190707" y="0.110407" />
+                            <point x="0.500484" y="0.00158479" />
+                            <point x="0.81607" y="0.107237" />
+                            <point x="0.618587" y="0.787639" />
+                            <point x="0.500484" y="0.997887" />
+                            <point x="0.381413" y="0.788167" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="LogoGameCredits" sid="911212693428934">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Bullet" sid="147243651846304">
+                    <behavior id="Bullet" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="352728951678120" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.673709" original-source="F:\Downloads\Logo Game.png">
+                        <collision-poly>
+                            <point x="0.149844" y="0.0798122" />
+                            <point x="0.5" y="0.0798122" />
+                            <point x="0.835068" y="0.147887" />
+                            <point x="0.881374" y="0.673709" />
+                            <point x="0.773673" y="0.922535" />
+                            <point x="0.5" y="0.561033" />
+                            <point x="0.225806" y="0.924883" />
+                            <point x="0.140999" y="0.673709" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="SkipTombol" sid="924566445353908">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="LiteTween" sid="397412732572419">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="948269799032551" speed="5">
+                    <frame duration="1" hotspotX="0.501484" hotspotY="0.5" original-source="F:\Downloads\Achievements (1).png">
+                        <collision-poly>
+                            <point x="0.373383" y="0.00719424" />
+                            <point x="0.626617" y="0.00719424" />
+                            <point x="0.999076" y="0.5" />
+                            <point x="0.626617" y="0.992806" />
+                            <point x="0.373383" y="0.992806" />
+                            <point x="0.000924214" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
@@ -4711,16 +4780,15 @@
         <global-instance type="LocalStorage" uid="134" />
     </global-instances>
     <sounds-folder>
-        <file name="BGM Garuda Quest Alpha.ogg" />
-        <file name="Pepsimen.ogg" />
         <file name="Radio-man-ohyeah.ogg" />
         <file name="click-5.ogg" />
         <file name="Clicked.ogg" />
-        <file name="Salah.ogg" />
-        <file name="Resident Evil 4 HD You Are Dead.ogg" />
         <file name="Ketawa Burung.ogg" />
         <file name="Acumalaka sound effect (mp3cut.net).ogg" />
         <file name="Jump.ogg" />
+        <file name="BGMGarudaQuestV1.ogg" />
+        <file name="Yayyy! Sound Effect.ogg" />
+        <file name="CreditMusicGarudaQuest.ogg" />
     </sounds-folder>
     <music-folder />
     <files-folder>

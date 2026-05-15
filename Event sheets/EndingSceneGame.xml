@@ -4,5 +4,124 @@
     <name>EndingSceneGame</name>
     <events>
         <include>Global Event</include>
+        <event-block sid="250108581795367">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="995193294989151" type="System" />
+                <condition id="5" name="Is tag playing" sid="814141209659134" type="Audio">
+                    <param id="0" name="Tag">&quot;BGM&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Preload" sid="789097846877739" type="Audio">
+                    <param id="0" name="Audio file">CreditMusicGarudaQuest</param>
+                </action>
+                <action id="6" name="Stop" sid="822334999042415" type="Audio">
+                    <param id="0" name="Tag">&quot;BGM&quot;</param>
+                </action>
+                <action id="0" name="Play" sid="526741366966110" type="Audio">
+                    <param id="0" name="Audio file">CreditMusicGarudaQuest</param>
+                    <param id="2" name="Loop">1</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;Credit&quot;</param>
+                </action>
+                <action behavior="Bullet" id="3" name="Set angle of motion" sid="590721569538337" type="LogoGameCredits">
+                    <param id="0" name="Angle">270</param>
+                </action>
+                <action behavior="Bullet" id="3" name="Set angle of motion" sid="758731630243882" type="CreditName">
+                    <param id="0" name="Angle">270</param>
+                </action>
+                <action id="-16" name="Wait" sid="449199766439572" type="System">
+                    <param id="0" name="Seconds">10</param>
+                </action>
+                <action id="-3" name="Create object" sid="277423967971090" type="System">
+                    <param id="0" name="Object to create">SkipTombol</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="X">1691</param>
+                    <param id="3" name="Y">95</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="218512985154612">
+            <conditions>
+                <condition id="-4" name="Is outside layout" sid="858648905056232" type="CreditName" />
+                <condition id="-2" name="Compare Y" sid="508346479707472" type="CreditName">
+                    <param id="0" name="Comparison">2</param>
+                    <param id="1" name="Y co-ordinate">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-16" name="Wait" sid="179059001894133" type="System">
+                    <param id="0" name="Seconds">2</param>
+                </action>
+                <action id="6" name="Stop" sid="297086801353523" type="Audio">
+                    <param id="0" name="Tag">&quot;Credit&quot;</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="915017554841429" type="System">
+                    <param id="0" name="Layout">Main Menu</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="537587882953424">
+            <conditions>
+                <condition id="3" name="On touched object" sid="152258345431757" type="Touch">
+                    <param id="0" name="Object">SkipTombol</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="925976357669995">
+                    <conditions>
+                        <condition id="3" inverted="1" name="Is silent" sid="164690971723574" type="Audio" />
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="166766000702171" type="Audio">
+                            <param id="0" name="Audio file">Clicked</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;Clicked&quot;</param>
+                        </action>
+                        <action behavior="LiteTween" id="10" name="Start" sid="416800982929784" type="SkipTombol">
+                            <param id="0" name="Start Mode">0</param>
+                            <param id="1" name="Force use current">0</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="247980654821165" type="System">
+                            <param id="0" name="Seconds">0.2</param>
+                        </action>
+                        <action behavior="LiteTween" id="11" name="Reverse" sid="981604623410871" type="SkipTombol">
+                            <param id="0" name="Reverse mode">0</param>
+                        </action>
+                        <action id="6" name="Stop" sid="146170453499726" type="Audio">
+                            <param id="0" name="Tag">&quot;Credit&quot;</param>
+                        </action>
+                        <action id="-2" name="Go to layout" sid="612369980426071" type="System">
+                            <param id="0" name="Layout">Main Menu</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="910626539510709">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="602429914975051" type="System" />
+                    </conditions>
+                    <actions>
+                        <action behavior="LiteTween" id="10" name="Start" sid="878460573733609" type="SkipTombol">
+                            <param id="0" name="Start Mode">0</param>
+                            <param id="1" name="Force use current">0</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="316092282745339" type="System">
+                            <param id="0" name="Seconds">0.2</param>
+                        </action>
+                        <action behavior="LiteTween" id="11" name="Reverse" sid="782978410111976" type="SkipTombol">
+                            <param id="0" name="Reverse mode">0</param>
+                        </action>
+                        <action id="6" name="Stop" sid="378560811943555" type="Audio">
+                            <param id="0" name="Tag">&quot;Credit&quot;</param>
+                        </action>
+                        <action id="-2" name="Go to layout" sid="166801651933098" type="System">
+                            <param id="0" name="Layout">Main Menu</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
     </events>
 </c2eventsheet>

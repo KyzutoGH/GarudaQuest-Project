@@ -33,12 +33,8 @@
                 <action id="5" name="Set frame" sid="554045402443592" type="SoundOn">
                     <param id="0" name="Frame number">0</param>
                 </action>
-                <action id="9" name="Preload (by name)" sid="140006722723801" type="Audio">
-                    <param id="0" name="Folder">0</param>
-                    <param id="1" name="Audio file name">&quot;Pepsimen&quot;</param>
-                </action>
                 <action id="4" name="Preload" sid="968430547720883" type="Audio">
-                    <param id="0" name="Audio file">Radio-man-ohyeah</param>
+                    <param id="0" name="Audio file">Yayyy! Sound Effect</param>
                 </action>
                 <action id="4" name="Preload" sid="827440352633556" type="Audio">
                     <param id="0" name="Audio file">Clicked</param>
@@ -583,7 +579,7 @@
             </conditions>
             <actions>
                 <action id="0" name="Play" sid="873560689067216" type="Audio">
-                    <param id="0" name="Audio file">BGM Garuda Quest Alpha</param>
+                    <param id="0" name="Audio file">BGMGarudaQuestV1</param>
                     <param id="2" name="Loop">0</param>
                     <param id="3" name="Volume">-5</param>
                     <param id="1" name="Tag (optional)">&quot;BGM&quot;</param>
