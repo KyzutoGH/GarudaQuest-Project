@@ -10,10 +10,11 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout order="1">Main Menu</layout>
-        <layout order="2">Credit Scene</layout>
-        <event-sheet order="0">Global Event</event-sheet>
-        <event-sheet active="1" order="3">EndingSceneGame</event-sheet>
+        <layout order="0">Arsip Materi #1</layout>
+        <layout order="2">Arsip Materi #3</layout>
+        <layout order="3">Arsip Materi #4</layout>
+        <layout order="1">Arsip Materi #2</layout>
+        <layout active="1" order="5">Arsip Detail Materi</layout>
         <event-sheet order="4">MenuEvent</event-sheet>
     </open-tabs>
     <properties>
@@ -22,13 +23,15 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <property expanded="0" name="Window Size" />
         <property expanded="1" name="Configuration Settings" />
     </properties>
-    <families-expanded root="1" />
+    <families-expanded root="0">
+        <family expanded="0" name="MateriButtons" />
+    </families-expanded>
     <folders-expanded>
         <folder expanded="0" path="object-folder/" />
         <folder expanded="1" path="layout-folder/" />
-        <folder expanded="1" path="event-folder/" />
+        <folder expanded="0" path="event-folder/" />
         <folder expanded="0" path="file-folder/" />
-        <folder expanded="1" path="sound-folder/" />
+        <folder expanded="0" path="sound-folder/" />
         <folder expanded="1" path="music-folder/" />
         <folder expanded="0" path="file-folder/Icons/" />
         <folder expanded="1" path="animation-folder/GarudaPancasila/" />
@@ -132,7 +135,6 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/BGLevel4/" />
         <folder expanded="1" path="animation-folder/SalahLevel4/" />
         <folder expanded="1" path="animation-folder/BenarLevel4/" />
-        <folder expanded="1" path="animation-folder/Sprite8/" />
         <folder expanded="1" path="animation-folder/TxtLevel5/" />
         <folder expanded="1" path="animation-folder/Sprite9/" />
         <folder expanded="1" path="animation-folder/TxtSoalLevel5/" />
@@ -200,7 +202,6 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/TxtLevel17/" />
         <folder expanded="1" path="animation-folder/TxtSoalLevel17/" />
         <folder expanded="1" path="animation-folder/GarudaLevel17/" />
-        <folder expanded="1" path="animation-folder/Sprite5/" />
         <folder expanded="1" path="animation-folder/SalahLevel17a/" />
         <folder expanded="1" path="animation-folder/SalahLevel17b/" />
         <folder expanded="1" path="animation-folder/SalahLevel17c/" />
@@ -232,5 +233,38 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/CreditName/" />
         <folder expanded="1" path="animation-folder/LogoGameCredits/" />
         <folder expanded="1" path="animation-folder/SkipTombol/" />
+        <folder expanded="1" path="animation-folder/PenghargaanCount/" />
+        <folder expanded="1" path="animation-folder/MateriUnlockTxt/" />
+        <folder expanded="1" path="animation-folder/LevelHighestTxt/" />
+        <folder expanded="1" path="animation-folder/Sprite2/" />
+        <folder expanded="1" path="animation-folder/Sprite5/" />
+        <folder expanded="1" path="animation-folder/MateriHal1/" />
+        <folder expanded="1" path="animation-folder/Sprite8/" />
+        <folder expanded="1" path="animation-folder/MateriHal2/" />
+        <folder expanded="1" path="animation-folder/MateriHal3/" />
+        <folder expanded="1" path="animation-folder/MateriHal4/" />
+        <folder expanded="1" path="animation-folder/MateriLevel1/" />
+        <folder expanded="1" path="animation-folder/MateriLevel2/" />
+        <folder expanded="1" path="animation-folder/MateriLevel3/" />
+        <folder expanded="1" path="animation-folder/MateriLevel4/" />
+        <folder expanded="1" path="animation-folder/MateriLevel5/" />
+        <folder expanded="1" path="animation-folder/MateriLevel6/" />
+        <folder expanded="1" path="animation-folder/MateriLevel7/" />
+        <folder expanded="1" path="animation-folder/MateriLevel8/" />
+        <folder expanded="1" path="animation-folder/MateriLevel9/" />
+        <folder expanded="1" path="animation-folder/MateriLevel10/" />
+        <folder expanded="1" path="animation-folder/MateriLevel11/" />
+        <folder expanded="1" path="animation-folder/MateriLevel12/" />
+        <folder expanded="1" path="animation-folder/MateriLevel13/" />
+        <folder expanded="1" path="animation-folder/MateriLevel14/" />
+        <folder expanded="1" path="animation-folder/MateriLevel15/" />
+        <folder expanded="1" path="animation-folder/MateriLevel16/" />
+        <folder expanded="1" path="animation-folder/MateriLevel17/" />
+        <folder expanded="1" path="animation-folder/MateriLevel18/" />
+        <folder expanded="1" path="animation-folder/MateriLevel19/" />
+        <folder expanded="1" path="animation-folder/MateriLevel20/" />
+        <folder expanded="1" path="animation-folder/BackProfile/" />
+        <folder expanded="1" path="animation-folder/Prev/" />
+        <folder expanded="1" path="animation-folder/Nexdt/" />
     </folders-expanded>
 </c2uistate>

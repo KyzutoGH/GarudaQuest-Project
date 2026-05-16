@@ -156,28 +156,6 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="TxtSoalLevel6" uid="271">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>958.556884766</x>
-                        <y>298.448028564</y>
-                        <z>0</z>
-                        <width>1600</width>
-                        <height>109</height>
-                        <depth>0</depth>
-                        <hotspotX>0.499722987</hotspotX>
-                        <hotspotY>0.472000003</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
                 <instance type="BGLevel6" uid="272">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
@@ -188,14 +166,14 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>970.656982422</x>
-                        <y>608.99987793</y>
+                        <x>959.656982422</x>
+                        <y>390.99987793</y>
                         <z>0</z>
                         <width>1937.313964844</width>
-                        <height>798.310424805</height>
+                        <height>799.31842041</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.316919178</hotspotY>
+                        <hotspotY>0.068095841</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -556,6 +534,28 @@
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.503816783</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="TxtSoalLevel6" uid="271">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>958.556884766</x>
+                        <y>262.448028564</y>
+                        <z>0</z>
+                        <width>1600</width>
+                        <height>109</height>
+                        <depth>0</depth>
+                        <hotspotX>0.499722987</hotspotX>
+                        <hotspotY>0.472000003</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>

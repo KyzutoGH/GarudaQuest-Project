@@ -383,7 +383,7 @@
                         <height>254.775253296</height>
                         <depth>0</depth>
                         <hotspotX>0.499015749</hotspotX>
-                        <hotspotY>0.539325833</hotspotY>
+                        <hotspotY>0.545880139</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -421,10 +421,10 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>533</x>
+                        <x>534</x>
                         <y>619</y>
                         <z>0</z>
-                        <width>1278</width>
+                        <width>1281</width>
                         <height>39</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
@@ -463,11 +463,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>532</x>
+                        <x>534</x>
                         <y>826</y>
                         <z>0</z>
-                        <width>1276</width>
-                        <height>37</height>
+                        <width>1281</width>
+                        <height>39</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
@@ -517,28 +517,6 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="RankServerTxt" uid="103">
-                    <properties>
-                        <initial-visibility>Invisible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>1183.5</x>
-                        <y>932.6171875</y>
-                        <z>0</z>
-                        <width>1196</width>
-                        <height>25</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.558823526</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
                 <instance type="Sprite" uid="104">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
@@ -561,139 +539,13 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="PenghargaanTerbukaCountTxt2" uid="105">
-                    <properties>
-                        <text>0/10</text>
-                        <initial-visibility>Invisible</initial-visibility>
-                        <font>Press Start 2P,-32,400,0</font>
-                        <color>0,0,0</color>
-                        <horizontal-alignment>Right</horizontal-alignment>
-                        <vertical-alignment>Top</vertical-alignment>
-                        <hotspot>Top-left</hotspot>
-                        <wrapping>Word</wrapping>
-                        <line-height>0</line-height>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>1687</x>
-                        <y>577</y>
-                        <z>0</z>
-                        <width>121</width>
-                        <height>39</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="PenghargaanTerbukaCountTxt" uid="154">
-                    <properties>
-                        <tag>div</tag>
-                        <content>0/10</content>
-                        <content-type>HTML</content-type>
-                        <initial-visibility>Visible</initial-visibility>
-                        <id-optional></id-optional>
-                        <class-optional></class-optional>
-                        <allow-context-menu>No</allow-context-menu>
-                        <stop-input-events>No</stop-input-events>
-                        <hotspot>Top-left</hotspot>
-                        <styling></styling>
-                        <set-color>Yes</set-color>
-                        <default-color>0,0,0</default-color>
-                        <set-background-color>No</set-background-color>
-                        <default-background-color>255,255,255</default-background-color>
-                        <auto-font-size>Yes</auto-font-size>
-                        <allow-text-selection>No</allow-text-selection>
-                        <style-attribute></style-attribute>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>1695.395751953</x>
-                        <y>581.103210449</y>
-                        <z>0</z>
-                        <width>89.473632813</width>
-                        <height>38.528625488</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                    </world>
-                </instance>
-                <instance type="MateriCountTxt" uid="178">
-                    <properties>
-                        <tag>div</tag>
-                        <content>0/20</content>
-                        <content-type>HTML</content-type>
-                        <initial-visibility>Visible</initial-visibility>
-                        <id-optional></id-optional>
-                        <class-optional></class-optional>
-                        <allow-context-menu>No</allow-context-menu>
-                        <stop-input-events>No</stop-input-events>
-                        <hotspot>Top-left</hotspot>
-                        <styling></styling>
-                        <set-color>Yes</set-color>
-                        <default-color>0,0,0</default-color>
-                        <set-background-color>No</set-background-color>
-                        <default-background-color>255,255,255</default-background-color>
-                        <auto-font-size>Yes</auto-font-size>
-                        <allow-text-selection>No</allow-text-selection>
-                        <style-attribute></style-attribute>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>1695.607299805</x>
-                        <y>690.849060059</y>
-                        <z>0</z>
-                        <width>93.198974609</width>
-                        <height>20.522277832</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                    </world>
-                </instance>
-                <instance type="LevelGameHighestTxt" uid="106">
-                    <properties>
-                        <tag>div</tag>
-                        <content>0/20</content>
-                        <content-type>HTML</content-type>
-                        <initial-visibility>Visible</initial-visibility>
-                        <id-optional></id-optional>
-                        <class-optional></class-optional>
-                        <allow-context-menu>No</allow-context-menu>
-                        <stop-input-events>No</stop-input-events>
-                        <hotspot>Top-left</hotspot>
-                        <styling></styling>
-                        <set-color>Yes</set-color>
-                        <default-color>0,0,0</default-color>
-                        <set-background-color>No</set-background-color>
-                        <default-background-color>255,255,255</default-background-color>
-                        <auto-font-size>Yes</auto-font-size>
-                        <allow-text-selection>No</allow-text-selection>
-                        <style-attribute></style-attribute>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>1695.914916992</x>
-                        <y>795.199890137</y>
-                        <z>0</z>
-                        <width>92.580566406</width>
-                        <height>22.385009766</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                    </world>
-                </instance>
                 <instance type="PlayerName" uid="92">
                     <properties>
                         <tag>div</tag>
                         <content>Raja Jawa</content>
                         <content-type>HTML</content-type>
                         <initial-visibility>Visible</initial-visibility>
-                        <id-optional></id-optional>
+                        <id-optional>NamaPlayerID</id-optional>
                         <class-optional></class-optional>
                         <allow-context-menu>No</allow-context-menu>
                         <stop-input-events>No</stop-input-events>
@@ -723,10 +575,10 @@
                 <instance type="RankTxt" uid="87">
                     <properties>
                         <tag>div</tag>
-                        <content>Rank 1</content>
+                        <content></content>
                         <content-type>HTML</content-type>
                         <initial-visibility>Visible</initial-visibility>
-                        <id-optional></id-optional>
+                        <id-optional>RankID</id-optional>
                         <class-optional></class-optional>
                         <allow-context-menu>No</allow-context-menu>
                         <stop-input-events>No</stop-input-events>
@@ -744,7 +596,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>526</x>
-                        <y>342</y>
+                        <y>333</y>
                         <z>0</z>
                         <width>617</width>
                         <height>36</height>
@@ -759,7 +611,7 @@
                         <content>Nama Player : </content>
                         <content-type>HTML</content-type>
                         <initial-visibility>Visible</initial-visibility>
-                        <id-optional></id-optional>
+                        <id-optional>NamaPlayerHeader</id-optional>
                         <class-optional></class-optional>
                         <allow-context-menu>No</allow-context-menu>
                         <stop-input-events>No</stop-input-events>
@@ -789,10 +641,10 @@
                 <instance type="RankEXPTxt" uid="107">
                     <properties>
                         <tag>div</tag>
-                        <content>&quot;Butuh &quot;&amp;ExperienceNextLevel - Experience&amp;&quot; Untuk Naik Level&quot;</content>
+                        <content></content>
                         <content-type>HTML</content-type>
                         <initial-visibility>Visible</initial-visibility>
-                        <id-optional></id-optional>
+                        <id-optional>EXPReqID</id-optional>
                         <class-optional></class-optional>
                         <allow-context-menu>No</allow-context-menu>
                         <stop-input-events>No</stop-input-events>
@@ -810,13 +662,79 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>526</x>
-                        <y>417</y>
+                        <y>423</y>
                         <z>0</z>
                         <width>617</width>
                         <height>88</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
+                    </world>
+                </instance>
+                <instance type="PenghargaanCount" uid="105">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1766.433837891</x>
+                        <y>589.294433594</y>
+                        <z>0</z>
+                        <width>98.091003418</width>
+                        <height>39.403999329</height>
+                        <depth>0</depth>
+                        <hotspotX>0.504273534</hotspotX>
+                        <hotspotY>0.510638297</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="MateriUnlockTxt" uid="106">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1764.818481445</x>
+                        <y>691.036376953</y>
+                        <z>0</z>
+                        <width>98.091003418</width>
+                        <height>39.403999329</height>
+                        <depth>0</depth>
+                        <hotspotX>0.504273534</hotspotX>
+                        <hotspotY>0.510638297</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="LevelHighestTxt" uid="178">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1766.092773438</x>
+                        <y>799.102966309</y>
+                        <z>0</z>
+                        <width>98.090965271</width>
+                        <height>39.404064178</height>
+                        <depth>0</depth>
+                        <hotspotX>0.504273534</hotspotX>
+                        <hotspotY>0.510638297</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
                     </world>
                 </instance>
             </instances>

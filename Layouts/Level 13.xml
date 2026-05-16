@@ -211,13 +211,13 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>963.611633301</x>
-                        <y>699</y>
+                        <y>625</y>
                         <z>0</z>
                         <width>1535.357421875</width>
                         <height>724.74005127</height>
                         <depth>0</depth>
-                        <hotspotX>0.502352297</hotspotX>
-                        <hotspotY>0.40088594</hotspotY>
+                        <hotspotX>0.504966021</hotspotX>
+                        <hotspotY>0.282392025</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>

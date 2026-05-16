@@ -25,7 +25,7 @@
                     <param id="0" name="Maximum">ExperienceNextLevel</param>
                 </action>
                 <action id="17" name="Execute Javascript" sid="570269331810886" type="Browser">
-                    <param id="0" name="Javascript">&quot;document.head.insertAdjacentHTML(&apos;beforeend&apos;, &apos;&lt;style&gt;@font-face { font-family: &quot;&quot;Press Start 2P&quot;&quot;; src: url(&quot;&quot;Press Start 2P.ttf&quot;&quot;); } @font-face { font-family: &quot;&quot;Fredoka&quot;&quot;; src: url(&quot;&quot;Fredoka.ttf&quot;&quot;); }&lt;/style&gt;&apos;);&quot;</param>
+                    <param id="0" name="Javascript">&quot;document.head.insertAdjacentHTML(&apos;beforeend&apos;, &apos;&lt;style&gt;@font-face { font-family: \&apos;Press Start 2P\&apos;; src: url(\&apos;Press Start 2P.ttf\&apos;); } @font-face { font-family: \&apos;Fredoka\&apos;; src: url(\&apos;Fredoka.ttf\&apos;); }&lt;/style&gt;&apos;);&quot;</param>
                 </action>
                 <action id="17" name="Execute Javascript" sid="110712382894365" type="Browser">
                     <param id="0" name="Javascript">&quot;document.head.insertAdjacentHTML(&apos;beforeend&apos;, &apos;&lt;style&gt;progress { -webkit-appearance: none; appearance: none; border: none; background: transparent; height: 12px !important; } progress::-webkit-progress-bar { background-color: #1e1e1e; border-radius: 20px; } progress::-webkit-progress-value { background-color: #2ecc71; border-radius: 20px; box-shadow: 0 0 12px #2ecc71; } progress::-moz-progress-bar { background-color: #2ecc71; border-radius: 20px; }&lt;/style&gt;&apos;);&quot;</param>
@@ -48,9 +48,6 @@
                 <action id="4" name="Preload" sid="523164792919708" type="Audio">
                     <param id="0" name="Audio file">Jump</param>
                 </action>
-                <action id="0" name="Set text" sid="492106548600107" type="LevelGameHighestTxt2">
-                    <param id="0" name="Text">LevelGameHighest&amp;&quot;/20&quot;</param>
-                </action>
                 <action id="3" name="Set progress" sid="569988742781656" type="LevelGameBar">
                     <param id="0" name="Value">LevelGameHighest</param>
                 </action>
@@ -66,99 +63,29 @@
                 <action id="3" name="Set progress" sid="718403616584679" type="RankEXPBar">
                     <param id="0" name="Value">Experience</param>
                 </action>
-                <action id="10" name="Set CSS style" sid="324256061920016" type="PenghargaanTerbukaCountTxt">
-                    <param id="0" name="Property name">&quot;font-family&quot;</param>
-                    <param id="1" name="Value">&quot;&apos;Press Start 2P&apos;&quot;</param>
+                <action id="17" name="Execute Javascript" sid="162162333490287" type="Browser">
+                    <param id="0" name="Javascript">&quot;var expEl = document.getElementById(&apos;EXPReqID&apos;); if (expEl) { expEl.innerHTML = &apos;Butuh &apos; + &quot; &amp; (ExperienceNextLevel - Experience) &amp; &quot; + &apos; EXP Untuk Naik Level&apos;; }&quot;</param>
                 </action>
-                <action id="10" name="Set CSS style" sid="897625117867507" type="PenghargaanTerbukaCountTxt">
-                    <param id="0" name="Property name">&quot;font-size&quot;</param>
-                    <param id="1" name="Value">&quot;2.5vh&quot;</param>
+                <action id="17" name="Execute Javascript" sid="579379226458571" type="Browser">
+                    <param id="0" name="Javascript">&quot;var rankEl = document.getElementById(&apos;RankID&apos;); if (rankEl) { rankEl.style.fontFamily = &apos;Fredoka&apos;; rankEl.style.fontSize = &apos;2.5vh&apos;; }&quot;</param>
                 </action>
-                <action id="6" name="Set content" sid="788540582595752" type="PenghargaanTerbukaCountTxt">
-                    <param id="0" name="Content type">0</param>
-                    <param id="1" name="String">TotalAchievement &amp; &quot;/10&quot;</param>
-                    <param id="2" name="Selector">&quot;&quot;</param>
-                    <param id="3" name="Type">0</param>
+                <action id="17" name="Execute Javascript" sid="704287434541374" type="Browser">
+                    <param id="0" name="Javascript">&quot;if (!document.getElementById(&apos;fredoka-class-style&apos;)) { var style = document.createElement(&apos;style&apos;); style.id = &apos;fredoka-class-style&apos;; style.innerHTML = &apos;.fredoka-style { font-family: Fredoka, sans-serif !important; font-size: 2.5vh !important; }&apos;; document.head.appendChild(style); } var ids = [&apos;NamaPlayerID&apos;, &apos;RankID&apos;, &apos;NamaPlayerHeader&apos;, &apos;EXPReqID&apos;]; ids.forEach(function(id) { var el = document.getElementById(id); if (el) { el.classList.add(&apos;fredoka-style&apos;); } });&quot;</param>
                 </action>
-                <action id="10" name="Set CSS style" sid="750794161022633" type="MateriCountTxt">
-                    <param id="0" name="Property name">&quot;font-family&quot;</param>
-                    <param id="1" name="Value">&quot;&apos;Press Start 2P&apos;&quot;</param>
+                <action id="4" name="Set animation" sid="454888747616090" type="PenghargaanCount">
+                    <param id="0" name="Animation">&quot;Count&quot; &amp; TotalAchievement</param>
+                    <param id="1" name="From">1</param>
                 </action>
-                <action id="10" name="Set CSS style" sid="325752117671335" type="MateriCountTxt">
-                    <param id="0" name="Property name">&quot;font-size&quot;</param>
-                    <param id="1" name="Value">&quot;2.5vh&quot;</param>
+                <action id="4" name="Set animation" sid="334008881667617" type="LevelHighestTxt">
+                    <param id="0" name="Animation">&quot;Count&quot; &amp; LevelGameHighest</param>
+                    <param id="1" name="From">1</param>
                 </action>
-                <action id="6" name="Set content" sid="385438363192970" type="MateriCountTxt">
-                    <param id="0" name="Content type">0</param>
-                    <param id="1" name="String">MateriUnlock &amp; &quot;/20&quot;</param>
-                    <param id="2" name="Selector">&quot;&quot;</param>
-                    <param id="3" name="Type">0</param>
+                <action id="4" name="Set animation" sid="498572634910919" type="MateriUnlockTxt">
+                    <param id="0" name="Animation">&quot;Count&quot; &amp; MateriUnlock</param>
+                    <param id="1" name="From">1</param>
                 </action>
-                <action id="10" name="Set CSS style" sid="996114905475957" type="LevelGameHighestTxt">
-                    <param id="0" name="Property name">&quot;font-family&quot;</param>
-                    <param id="1" name="Value">&quot;&apos;Press Start 2P&apos;&quot;</param>
-                </action>
-                <action id="10" name="Set CSS style" sid="100212201211434" type="LevelGameHighestTxt">
-                    <param id="0" name="Property name">&quot;font-size&quot;</param>
-                    <param id="1" name="Value">&quot;2.5vh&quot;</param>
-                </action>
-                <action id="6" name="Set content" sid="350100900969575" type="LevelGameHighestTxt">
-                    <param id="0" name="Content type">0</param>
-                    <param id="1" name="String">LevelGameHighest &amp; &quot;/20&quot;</param>
-                    <param id="2" name="Selector">&quot;&quot;</param>
-                    <param id="3" name="Type">0</param>
-                </action>
-                <action id="10" name="Set CSS style" sid="265574541015514" type="PlayerName">
-                    <param id="0" name="Property name">&quot;font-family&quot;</param>
-                    <param id="1" name="Value">&quot;&apos;Fredoka&apos;&quot;</param>
-                </action>
-                <action id="10" name="Set CSS style" sid="555961133120479" type="PlayerName">
-                    <param id="0" name="Property name">&quot;font-size&quot;</param>
-                    <param id="1" name="Value">&quot;2.5vh&quot;</param>
-                </action>
-                <action id="10" name="Set CSS style" sid="627278120858663" type="RankTxt">
-                    <param id="0" name="Property name">&quot;font-family&quot;</param>
-                    <param id="1" name="Value">&quot;&apos;Fredoka&apos;&quot;</param>
-                </action>
-                <action id="10" name="Set CSS style" sid="951500862118238" type="RankTxt">
-                    <param id="0" name="Property name">&quot;font-size&quot;</param>
-                    <param id="1" name="Value">&quot;2.5vh&quot;</param>
-                </action>
-                <action id="6" name="Set content" sid="235690323617605" type="RankTxt">
-                    <param id="0" name="Content type">0</param>
-                    <param id="1" name="String">&quot;Rank &quot;&amp;LevelPlayer</param>
-                    <param id="2" name="Selector">&quot;&quot;</param>
-                    <param id="3" name="Type">0</param>
-                </action>
-                <action id="10" name="Set CSS style" sid="596580647078437" type="PlayerNameHeaderTxt">
-                    <param id="0" name="Property name">&quot;font-family&quot;</param>
-                    <param id="1" name="Value">&quot;&apos;Fredoka&apos;&quot;</param>
-                </action>
-                <action id="10" name="Set CSS style" sid="238617791974549" type="PlayerNameHeaderTxt">
-                    <param id="0" name="Property name">&quot;font-size&quot;</param>
-                    <param id="1" name="Value">&quot;2.5vh&quot;</param>
-                </action>
-                <action id="10" name="Set CSS style" sid="608947898683097" type="RankEXPTxt">
-                    <param id="0" name="Property name">&quot;font-family&quot;</param>
-                    <param id="1" name="Value">&quot;&apos;Fredoka&apos;&quot;</param>
-                </action>
-                <action id="10" name="Set CSS style" sid="922965647652151" type="RankEXPTxt">
-                    <param id="0" name="Property name">&quot;font-size&quot;</param>
-                    <param id="1" name="Value">&quot;2.5vh&quot;</param>
-                </action>
-                <action id="6" name="Set content" sid="181126491903184" type="RankEXPTxt">
-                    <param id="0" name="Content type">0</param>
-                    <param id="1" name="String">&quot;Butuh &quot;&amp;ExperienceNextLevel - Experience&amp;&quot; EXP Untuk Naik Level&quot;</param>
-                    <param id="2" name="Selector">&quot;&quot;</param>
-                    <param id="3" name="Type">0</param>
-                </action>
-                <action id="10" name="Set CSS style" sid="341888566841023" type="PenghargaanHeader">
-                    <param id="0" name="Property name">&quot;font-family&quot;</param>
-                    <param id="1" name="Value">&quot;&apos;Fredoka&apos;&quot;</param>
-                </action>
-                <action id="10" name="Set CSS style" sid="100054063098624" type="PenghargaanHeader">
-                    <param id="0" name="Property name">&quot;font-size&quot;</param>
-                    <param id="1" name="Value">&quot;7vh&quot;</param>
+                <action id="17" name="Execute Javascript" sid="393116450041438" type="Browser">
+                    <param id="0" name="Javascript">&quot;var rankEl = document.getElementById(&apos;RankID&apos;); if (rankEl) { rankEl.style.fontFamily = &apos;Fredoka&apos;; rankEl.style.fontSize = &apos;2.5vh&apos;; if (&quot; &amp; LevelPlayer &amp; &quot; &gt;= 50) { rankEl.innerHTML = &apos;Rank MAX&apos;; } else { rankEl.innerHTML = &apos;Rank &apos; + &quot; &amp; LevelPlayer &amp; &quot;; } } var expEl = document.getElementById(&apos;EXPReqID&apos;); if (expEl) { if (&quot; &amp; LevelPlayer &amp; &quot; &gt;= 50) { expEl.innerHTML = &apos;Anda memiliki &apos; + &quot; &amp; Experience &amp; &quot; + &apos; EXP&apos;; } else { expEl.innerHTML = &apos;Butuh &apos; + &quot; &amp; (ExperienceNextLevel - Experience) &amp; &quot; + &apos; EXP Untuk Naik Level&apos;; } }&quot;</param>
                 </action>
             </actions>
             <sub-events>
@@ -313,11 +240,12 @@
                             <param id="0" name="Variable">LevelGameHighest</param>
                             <param id="1" name="Value">int(LocalStorage.ItemValue)</param>
                         </action>
-                        <action id="0" name="Set text" sid="841795076862313" type="LevelGameHighestTxt2">
-                            <param id="0" name="Text">LevelGameHighest&amp;&quot;/20&quot;</param>
-                        </action>
                         <action id="3" name="Set progress" sid="615310194351874" type="LevelGameBar">
                             <param id="0" name="Value">LevelGameHighest</param>
+                        </action>
+                        <action id="4" name="Set animation" sid="838566527560529" type="LevelHighestTxt">
+                            <param id="0" name="Animation">&quot;Count&quot; &amp; LevelGameHighest</param>
+                            <param id="1" name="From">1</param>
                         </action>
                     </actions>
                 </event-block>
@@ -332,19 +260,8 @@
                             <param id="0" name="Variable">LevelPlayer</param>
                             <param id="1" name="Value">int(LocalStorage.ItemValue)</param>
                         </action>
-                        <action id="10" name="Set CSS style" sid="100731475017588" type="RankTxt">
-                            <param id="0" name="Property name">&quot;font-family&quot;</param>
-                            <param id="1" name="Value">&quot;&apos;Fredoka&apos;&quot;</param>
-                        </action>
-                        <action id="10" name="Set CSS style" sid="977200982149797" type="RankTxt">
-                            <param id="0" name="Property name">&quot;font-size&quot;</param>
-                            <param id="1" name="Value">&quot;2.5vh&quot;</param>
-                        </action>
-                        <action id="6" name="Set content" sid="270396848456807" type="RankTxt">
-                            <param id="0" name="Content type">0</param>
-                            <param id="1" name="String">&quot;Rank &quot;&amp;LevelPlayer</param>
-                            <param id="2" name="Selector">&quot;&quot;</param>
-                            <param id="3" name="Type">0</param>
+                        <action id="17" name="Execute Javascript" sid="196634785701481" type="Browser">
+                            <param id="0" name="Javascript">&quot;var el = document.getElementById(&apos;RankID&apos;); if (el) { el.style.fontFamily = &apos;Fredoka&apos;; el.style.fontSize = &apos;2.5vh&apos;; el.innerHTML = &apos;Rank &apos; + &quot; &amp; LevelPlayer &amp; &quot;; }&quot;</param>
                         </action>
                     </actions>
                 </event-block>
@@ -387,6 +304,11 @@
                             <param id="1" name="Comparison">5</param>
                             <param id="2" name="Second value">ExperienceNextLevel</param>
                         </condition>
+                        <condition id="-14" name="Compare variable" sid="455564333129855" type="System">
+                            <param id="0" name="Variable">LevelPlayer</param>
+                            <param id="1" name="Comparison">2</param>
+                            <param id="2" name="Value">50</param>
+                        </condition>
                     </conditions>
                     <actions>
                         <action id="-10" name="Add to" sid="321243356472598" type="System">
@@ -412,6 +334,12 @@
                         <action id="0" name="Set item" sid="848740782678917" type="LocalStorage">
                             <param id="0" name="Key">&quot;EXP&quot;</param>
                             <param id="1" name="Value">Experience</param>
+                        </action>
+                        <action id="17" name="Execute Javascript" sid="820262510601119" type="Browser">
+                            <param id="0" name="Javascript">&quot;if (!document.getElementById(&apos;fredoka-class-style&apos;)) { var style = document.createElement(&apos;style&apos;); style.id = &apos;fredoka-class-style&apos;; style.innerHTML = &apos;.fredoka-style { font-family: Fredoka, sans-serif !important; font-size: 2.5vh !important; }&apos;; document.head.appendChild(style); } var ids = [&apos;NamaPlayerID&apos;, &apos;RankID&apos;, &apos;NamaPlayerHeader&apos;, &apos;EXPReqID&apos;]; ids.forEach(function(id) { var el = document.getElementById(id); if (el) { el.classList.add(&apos;fredoka-style&apos;); } });&quot;</param>
+                        </action>
+                        <action id="17" name="Execute Javascript" sid="646080786778348" type="Browser">
+                            <param id="0" name="Javascript">&quot;var rankEl = document.getElementById(&apos;RankID&apos;); if (rankEl) { rankEl.style.fontFamily = &apos;Fredoka&apos;; rankEl.style.fontSize = &apos;2.5vh&apos;; if (&quot; &amp; LevelPlayer &amp; &quot; &gt;= 50) { rankEl.innerHTML = &apos;Rank MAX&apos;; } else { rankEl.innerHTML = &apos;Rank &apos; + &quot; &amp; LevelPlayer &amp; &quot;; } } var expEl = document.getElementById(&apos;EXPReqID&apos;); if (expEl) { if (&quot; &amp; LevelPlayer &amp; &quot; &gt;= 50) { expEl.innerHTML = &apos;Anda memiliki &apos; + &quot; &amp; Experience &amp; &quot; + &apos; EXP&apos;; } else { expEl.innerHTML = &apos;Butuh &apos; + &quot; &amp; (ExperienceNextLevel - Experience) &amp; &quot; + &apos; EXP Untuk Naik Level&apos;; } }&quot;</param>
                         </action>
                     </actions>
                 </event-block>
@@ -449,6 +377,12 @@
                             <param id="0" name="Key">&quot;EXP&quot;</param>
                             <param id="1" name="Value">Experience</param>
                         </action>
+                        <action id="17" name="Execute Javascript" sid="447964446555898" type="Browser">
+                            <param id="0" name="Javascript">&quot;if (!document.getElementById(&apos;fredoka-class-style&apos;)) { var style = document.createElement(&apos;style&apos;); style.id = &apos;fredoka-class-style&apos;; style.innerHTML = &apos;.fredoka-style { font-family: Fredoka, sans-serif !important; font-size: 2.5vh !important; }&apos;; document.head.appendChild(style); } var ids = [&apos;NamaPlayerID&apos;, &apos;RankID&apos;, &apos;NamaPlayerHeader&apos;, &apos;EXPReqID&apos;]; ids.forEach(function(id) { var el = document.getElementById(id); if (el) { el.classList.add(&apos;fredoka-style&apos;); } });&quot;</param>
+                        </action>
+                        <action id="17" name="Execute Javascript" sid="558564667912420" type="Browser">
+                            <param id="0" name="Javascript">&quot;var rankEl = document.getElementById(&apos;RankID&apos;); if (rankEl) { rankEl.style.fontFamily = &apos;Fredoka&apos;; rankEl.style.fontSize = &apos;2.5vh&apos;; if (&quot; &amp; LevelPlayer &amp; &quot; &gt;= 50) { rankEl.innerHTML = &apos;Rank MAX&apos;; } else { rankEl.innerHTML = &apos;Rank &apos; + &quot; &amp; LevelPlayer &amp; &quot;; } } var expEl = document.getElementById(&apos;EXPReqID&apos;); if (expEl) { if (&quot; &amp; LevelPlayer &amp; &quot; &gt;= 50) { expEl.innerHTML = &apos;Anda memiliki &apos; + &quot; &amp; Experience &amp; &quot; + &apos; EXP&apos;; } else { expEl.innerHTML = &apos;Butuh &apos; + &quot; &amp; (ExperienceNextLevel - Experience) &amp; &quot; + &apos; EXP Untuk Naik Level&apos;; } }&quot;</param>
+                        </action>
                     </actions>
                 </event-block>
                 <event-block sid="205097631179735">
@@ -473,6 +407,12 @@
                             <param id="0" name="Key">&quot;EXP&quot;</param>
                             <param id="1" name="Value">Experience</param>
                         </action>
+                        <action id="17" name="Execute Javascript" sid="910772300372350" type="Browser">
+                            <param id="0" name="Javascript">&quot;if (!document.getElementById(&apos;fredoka-class-style&apos;)) { var style = document.createElement(&apos;style&apos;); style.id = &apos;fredoka-class-style&apos;; style.innerHTML = &apos;.fredoka-style { font-family: Fredoka, sans-serif !important; font-size: 2.5vh !important; }&apos;; document.head.appendChild(style); } var ids = [&apos;NamaPlayerID&apos;, &apos;RankID&apos;, &apos;NamaPlayerHeader&apos;, &apos;EXPReqID&apos;]; ids.forEach(function(id) { var el = document.getElementById(id); if (el) { el.classList.add(&apos;fredoka-style&apos;); } });&quot;</param>
+                        </action>
+                        <action id="17" name="Execute Javascript" sid="481033551939298" type="Browser">
+                            <param id="0" name="Javascript">&quot;var rankEl = document.getElementById(&apos;RankID&apos;); if (rankEl) { rankEl.style.fontFamily = &apos;Fredoka&apos;; rankEl.style.fontSize = &apos;2.5vh&apos;; if (&quot; &amp; LevelPlayer &amp; &quot; &gt;= 50) { rankEl.innerHTML = &apos;Rank MAX&apos;; } else { rankEl.innerHTML = &apos;Rank &apos; + &quot; &amp; LevelPlayer &amp; &quot;; } } var expEl = document.getElementById(&apos;EXPReqID&apos;); if (expEl) { if (&quot; &amp; LevelPlayer &amp; &quot; &gt;= 50) { expEl.innerHTML = &apos;Anda memiliki &apos; + &quot; &amp; Experience &amp; &quot; + &apos; EXP&apos;; } else { expEl.innerHTML = &apos;Butuh &apos; + &quot; &amp; (ExperienceNextLevel - Experience) &amp; &quot; + &apos; EXP Untuk Naik Level&apos;; } }&quot;</param>
+                        </action>
                     </actions>
                 </event-block>
                 <event-block sid="937352675911704">
@@ -486,25 +426,12 @@
                             <param id="0" name="Variable">LevelGameHighest</param>
                             <param id="1" name="Value">int(LocalStorage.ItemValue)</param>
                         </action>
-                        <action id="10" name="Set CSS style" sid="504283568671696" type="LevelGameHighestTxt">
-                            <param id="0" name="Property name">&quot;font-family&quot;</param>
-                            <param id="1" name="Value">&quot;&apos;Press Start 2P&apos;&quot;</param>
-                        </action>
-                        <action id="6" name="Set content" sid="536005463062845" type="LevelGameHighestTxt">
-                            <param id="0" name="Content type">0</param>
-                            <param id="1" name="String">LevelGameHighest &amp; &quot;/20&quot;</param>
-                            <param id="2" name="Selector">&quot;&quot;</param>
-                            <param id="3" name="Type">0</param>
-                        </action>
-                        <action id="10" name="Set CSS style" sid="111083081841421" type="LevelGameHighestTxt">
-                            <param id="0" name="Property name">&quot;font-size&quot;</param>
-                            <param id="1" name="Value">&quot;2.5vh&quot;</param>
-                        </action>
                         <action id="3" name="Set progress" sid="708997512923760" type="LevelGameBar">
                             <param id="0" name="Value">LevelGameHighest</param>
                         </action>
-                        <action id="17" name="Execute Javascript" sid="611264671169206" type="Browser">
-                            <param id="0" name="Javascript">&quot;document.head.insertAdjacentHTML(&apos;beforeend&apos;, &apos;&lt;style&gt;.textGlow { color: white; text-shadow: 2px 2px 4px #000; font-family: Arial Rounded MT Bold, sans-serif; }&lt;/style&gt;&apos;);&quot;</param>
+                        <action id="4" name="Set animation" sid="406442528449412" type="LevelHighestTxt">
+                            <param id="0" name="Animation">&quot;Count&quot; &amp; LevelGameHighest</param>
+                            <param id="1" name="From">1</param>
                         </action>
                     </actions>
                 </event-block>
@@ -519,22 +446,12 @@
                             <param id="0" name="Variable">TotalAchievement</param>
                             <param id="1" name="Value">int(LocalStorage.ItemValue)</param>
                         </action>
-                        <action id="10" name="Set CSS style" sid="141066268700261" type="PenghargaanTerbukaCountTxt">
-                            <param id="0" name="Property name">&quot;font-family&quot;</param>
-                            <param id="1" name="Value">&quot;&apos;Press Start 2P&apos;&quot;</param>
-                        </action>
-                        <action id="6" name="Set content" sid="292662442056491" type="PenghargaanTerbukaCountTxt">
-                            <param id="0" name="Content type">0</param>
-                            <param id="1" name="String">TotalAchievement &amp; &quot;/10&quot;</param>
-                            <param id="2" name="Selector">&quot;&quot;</param>
-                            <param id="3" name="Type">0</param>
-                        </action>
-                        <action id="10" name="Set CSS style" sid="361078572645347" type="PenghargaanTerbukaCountTxt">
-                            <param id="0" name="Property name">&quot;font-size&quot;</param>
-                            <param id="1" name="Value">&quot;20px&quot;</param>
-                        </action>
                         <action id="3" name="Set progress" sid="422644061684880" type="PenghargaanBar">
                             <param id="0" name="Value">TotalAchievement</param>
+                        </action>
+                        <action id="4" name="Set animation" sid="717886242897241" type="PenghargaanCount">
+                            <param id="0" name="Animation">&quot;Count&quot; &amp; TotalAchievement</param>
+                            <param id="1" name="From">1</param>
                         </action>
                     </actions>
                 </event-block>
@@ -552,19 +469,9 @@
                         <action id="3" name="Set progress" sid="609388856440671" type="MateriBar">
                             <param id="0" name="Value">MateriUnlock</param>
                         </action>
-                        <action id="10" name="Set CSS style" sid="231802117018632" type="MateriCountTxt">
-                            <param id="0" name="Property name">&quot;font-family&quot;</param>
-                            <param id="1" name="Value">&quot;&apos;Press Start 2P&apos;&quot;</param>
-                        </action>
-                        <action id="10" name="Set CSS style" sid="819453710716378" type="MateriCountTxt">
-                            <param id="0" name="Property name">&quot;font-size&quot;</param>
-                            <param id="1" name="Value">&quot;2.5vh&quot;</param>
-                        </action>
-                        <action id="6" name="Set content" sid="147732123205549" type="MateriCountTxt">
-                            <param id="0" name="Content type">0</param>
-                            <param id="1" name="String">MateriUnlock &amp; &quot;/20&quot;</param>
-                            <param id="2" name="Selector">&quot;&quot;</param>
-                            <param id="3" name="Type">0</param>
+                        <action id="4" name="Set animation" sid="464717254770416" type="MateriUnlockTxt">
+                            <param id="0" name="Animation">&quot;Count&quot; &amp; MateriUnlock</param>
+                            <param id="1" name="From">1</param>
                         </action>
                     </actions>
                 </event-block>

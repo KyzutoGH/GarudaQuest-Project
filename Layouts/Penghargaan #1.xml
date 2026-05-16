@@ -459,37 +459,26 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="PenghargaanHeader" uid="89">
+                <instance type="Sprite2" uid="89">
                     <properties>
-                        <tag>div</tag>
-                        <content>Penghargaan</content>
-                        <content-type>HTML</content-type>
                         <initial-visibility>Visible</initial-visibility>
-                        <id-optional></id-optional>
-                        <class-optional></class-optional>
-                        <allow-context-menu>No</allow-context-menu>
-                        <stop-input-events>No</stop-input-events>
-                        <hotspot>Top-left</hotspot>
-                        <styling></styling>
-                        <set-color>Yes</set-color>
-                        <default-color>0,0,0</default-color>
-                        <set-background-color>No</set-background-color>
-                        <default-background-color>255,255,255</default-background-color>
-                        <auto-font-size>Yes</auto-font-size>
-                        <allow-text-selection>No</allow-text-selection>
-                        <style-attribute></style-attribute>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
                     </properties>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>964</x>
-                        <y>102</y>
+                        <x>1193</x>
+                        <y>151</y>
                         <z>0</z>
-                        <width>580</width>
-                        <height>100</height>
+                        <width>691</width>
+                        <height>68</height>
                         <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
+                        <hotspotX>0.5007236</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
                     </world>
                 </instance>
             </instances>

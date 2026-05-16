@@ -148,7 +148,7 @@
                                     <param id="1" name="Tag (optional)">&quot;Clicked&quot;</param>
                                 </action>
                                 <action id="-2" name="Go to layout" sid="544157607527103" type="System">
-                                    <param id="0" name="Layout">Arsip Materi</param>
+                                    <param id="0" name="Layout">Arsip Materi #1</param>
                                 </action>
                             </actions>
                         </event-block>
@@ -165,7 +165,7 @@
                                     <param id="0" name="Seconds">0.2</param>
                                 </action>
                                 <action id="-2" name="Go to layout" sid="208913697697040" type="System">
-                                    <param id="0" name="Layout">Arsip Materi</param>
+                                    <param id="0" name="Layout">Arsip Materi #1</param>
                                 </action>
                             </actions>
                         </event-block>
@@ -765,6 +765,794 @@
                         </action>
                     </actions>
                 </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="451210680671299" title="Materi System">
+            <sub-events>
+                <event-block sid="751723177132173">
+                    <conditions>
+                        <condition id="-2" name="On start of layout" sid="511471242496919" type="System" />
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="145675500870761">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="479267997665590" type="System">
+                                    <param id="0" name="Variable">MateriUnlock</param>
+                                    <param id="1" name="Comparison">5</param>
+                                    <param id="2" name="Value">1</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="347813021254711" type="MateriLevel1">
+                                    <param id="0" name="Animation">&quot;Unlocked&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                                <action id="11" name="Set collisions enabled" sid="998082968760990" type="MateriLevel1">
+                                    <param id="0" name="Collisions">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="208184278033204">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="132415414225975" type="System">
+                                    <param id="0" name="Variable">MateriUnlock</param>
+                                    <param id="1" name="Comparison">5</param>
+                                    <param id="2" name="Value">2</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="722236372598516" type="MateriLevel2">
+                                    <param id="0" name="Animation">&quot;Unlocked&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                                <action id="11" name="Set collisions enabled" sid="597616458917263" type="MateriLevel2">
+                                    <param id="0" name="Collisions">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="954536814484986">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="346859149590365" type="System">
+                                    <param id="0" name="Variable">MateriUnlock</param>
+                                    <param id="1" name="Comparison">5</param>
+                                    <param id="2" name="Value">3</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="837204599961332" type="MateriLevel3">
+                                    <param id="0" name="Animation">&quot;Unlocked&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                                <action id="11" name="Set collisions enabled" sid="708188947238745" type="MateriLevel3">
+                                    <param id="0" name="Collisions">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="642190203348077">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="624164184945645" type="System">
+                                    <param id="0" name="Variable">MateriUnlock</param>
+                                    <param id="1" name="Comparison">5</param>
+                                    <param id="2" name="Value">4</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="307711931872150" type="MateriLevel4">
+                                    <param id="0" name="Animation">&quot;Unlocked&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                                <action id="11" name="Set collisions enabled" sid="444854345924746" type="MateriLevel4">
+                                    <param id="0" name="Collisions">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="899564659540062">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="370605306854473" type="System">
+                                    <param id="0" name="Variable">MateriUnlock</param>
+                                    <param id="1" name="Comparison">5</param>
+                                    <param id="2" name="Value">5</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="248174574621977" type="MateriLevel5">
+                                    <param id="0" name="Animation">&quot;Unlocked&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                                <action id="11" name="Set collisions enabled" sid="927678715459221" type="MateriLevel5">
+                                    <param id="0" name="Collisions">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="369673364788194">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="333906040482547" type="System">
+                                    <param id="0" name="Variable">MateriUnlock</param>
+                                    <param id="1" name="Comparison">5</param>
+                                    <param id="2" name="Value">6</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="294613265465498" type="MateriLevel6">
+                                    <param id="0" name="Animation">&quot;Unlocked&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                                <action id="11" name="Set collisions enabled" sid="600269009523309" type="MateriLevel6">
+                                    <param id="0" name="Collisions">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="421379363526549">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="278063337545561" type="System">
+                                    <param id="0" name="Variable">MateriUnlock</param>
+                                    <param id="1" name="Comparison">5</param>
+                                    <param id="2" name="Value">7</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="119920414179329" type="MateriLevel7">
+                                    <param id="0" name="Animation">&quot;Unlocked&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                                <action id="11" name="Set collisions enabled" sid="940093468096556" type="MateriLevel7">
+                                    <param id="0" name="Collisions">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="923482642370220">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="496221847154090" type="System">
+                                    <param id="0" name="Variable">MateriUnlock</param>
+                                    <param id="1" name="Comparison">5</param>
+                                    <param id="2" name="Value">8</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="559418311121573" type="MateriLevel8">
+                                    <param id="0" name="Animation">&quot;Unlocked&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                                <action id="11" name="Set collisions enabled" sid="871465338019967" type="MateriLevel8">
+                                    <param id="0" name="Collisions">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="729126081943403">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="298857025930646" type="System">
+                                    <param id="0" name="Variable">MateriUnlock</param>
+                                    <param id="1" name="Comparison">5</param>
+                                    <param id="2" name="Value">9</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="155212292991328" type="MateriLevel9">
+                                    <param id="0" name="Animation">&quot;Unlocked&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                                <action id="11" name="Set collisions enabled" sid="745182630610863" type="MateriLevel9">
+                                    <param id="0" name="Collisions">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="299650800509271">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="610166631006662" type="System">
+                                    <param id="0" name="Variable">MateriUnlock</param>
+                                    <param id="1" name="Comparison">5</param>
+                                    <param id="2" name="Value">10</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="885936580854525" type="MateriLevel10">
+                                    <param id="0" name="Animation">&quot;Unlocked&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                                <action id="11" name="Set collisions enabled" sid="677714347378689" type="MateriLevel10">
+                                    <param id="0" name="Collisions">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="431955977785660">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="819486339347259" type="System">
+                                    <param id="0" name="Variable">MateriUnlock</param>
+                                    <param id="1" name="Comparison">5</param>
+                                    <param id="2" name="Value">11</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="575157426361738" type="MateriLevel11">
+                                    <param id="0" name="Animation">&quot;Unlocked&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                                <action id="11" name="Set collisions enabled" sid="423284748096824" type="MateriLevel11">
+                                    <param id="0" name="Collisions">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="890273221626998">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="153836500424961" type="System">
+                                    <param id="0" name="Variable">MateriUnlock</param>
+                                    <param id="1" name="Comparison">5</param>
+                                    <param id="2" name="Value">12</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="520825605483121" type="MateriLevel12">
+                                    <param id="0" name="Animation">&quot;Unlocked&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                                <action id="11" name="Set collisions enabled" sid="448397093714674" type="MateriLevel12">
+                                    <param id="0" name="Collisions">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="936252925604305">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="227971607798327" type="System">
+                                    <param id="0" name="Variable">MateriUnlock</param>
+                                    <param id="1" name="Comparison">5</param>
+                                    <param id="2" name="Value">13</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="176381136241774" type="MateriLevel13">
+                                    <param id="0" name="Animation">&quot;Unlocked&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                                <action id="11" name="Set collisions enabled" sid="619309746412478" type="MateriLevel13">
+                                    <param id="0" name="Collisions">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="740522585338981">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="662327433875315" type="System">
+                                    <param id="0" name="Variable">MateriUnlock</param>
+                                    <param id="1" name="Comparison">5</param>
+                                    <param id="2" name="Value">14</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="618208592699563" type="MateriLevel14">
+                                    <param id="0" name="Animation">&quot;Unlocked&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                                <action id="11" name="Set collisions enabled" sid="894999388305406" type="MateriLevel14">
+                                    <param id="0" name="Collisions">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="422141683969354">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="685031292825441" type="System">
+                                    <param id="0" name="Variable">MateriUnlock</param>
+                                    <param id="1" name="Comparison">5</param>
+                                    <param id="2" name="Value">15</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="817337466888321" type="MateriLevel15">
+                                    <param id="0" name="Animation">&quot;Unlocked&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                                <action id="11" name="Set collisions enabled" sid="421413728791904" type="MateriLevel15">
+                                    <param id="0" name="Collisions">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="770726131703320">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="117198285741977" type="System">
+                                    <param id="0" name="Variable">MateriUnlock</param>
+                                    <param id="1" name="Comparison">5</param>
+                                    <param id="2" name="Value">16</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="871136132810264" type="MateriLevel16">
+                                    <param id="0" name="Animation">&quot;Unlocked&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                                <action id="11" name="Set collisions enabled" sid="840324471596020" type="MateriLevel16">
+                                    <param id="0" name="Collisions">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="473788377636243">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="113495131081544" type="System">
+                                    <param id="0" name="Variable">MateriUnlock</param>
+                                    <param id="1" name="Comparison">5</param>
+                                    <param id="2" name="Value">17</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="926083455399685" type="MateriLevel17">
+                                    <param id="0" name="Animation">&quot;Unlocked&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                                <action id="11" name="Set collisions enabled" sid="160793049536962" type="MateriLevel17">
+                                    <param id="0" name="Collisions">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="769379051872274">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="742618540311179" type="System">
+                                    <param id="0" name="Variable">MateriUnlock</param>
+                                    <param id="1" name="Comparison">5</param>
+                                    <param id="2" name="Value">18</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="156980869128954" type="MateriLevel18">
+                                    <param id="0" name="Animation">&quot;Unlocked&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                                <action id="11" name="Set collisions enabled" sid="664038909111049" type="MateriLevel18">
+                                    <param id="0" name="Collisions">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="756630899644783">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="595111423518974" type="System">
+                                    <param id="0" name="Variable">MateriUnlock</param>
+                                    <param id="1" name="Comparison">5</param>
+                                    <param id="2" name="Value">19</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="984783451841070" type="MateriLevel19">
+                                    <param id="0" name="Animation">&quot;Unlocked&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                                <action id="11" name="Set collisions enabled" sid="139027113341794" type="MateriLevel19">
+                                    <param id="0" name="Collisions">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="214894155638036">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="593490120491448" type="System">
+                                    <param id="0" name="Variable">MateriUnlock</param>
+                                    <param id="1" name="Comparison">5</param>
+                                    <param id="2" name="Value">20</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="485214209960479" type="MateriLevel20">
+                                    <param id="0" name="Animation">&quot;Unlocked&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                                <action id="11" name="Set collisions enabled" sid="968365021605091" type="MateriLevel20">
+                                    <param id="0" name="Collisions">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-group description="" sid="744723363819541" title="Pindah Halaman Materi">
+                    <sub-events>
+                        <event-block sid="348039084320658">
+                            <conditions>
+                                <condition id="3" name="On touched object" sid="280181694174166" type="Touch">
+                                    <param id="0" name="Object">MateriHal1</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="LiteTween" id="10" name="Start" sid="701372903362350" type="MateriHal1">
+                                    <param id="0" name="Start Mode">0</param>
+                                    <param id="1" name="Force use current">0</param>
+                                </action>
+                                <action id="-16" name="Wait" sid="226920865619089" type="System">
+                                    <param id="0" name="Seconds">0.2</param>
+                                </action>
+                                <action behavior="LiteTween" id="11" name="Reverse" sid="337247170966658" type="MateriHal1">
+                                    <param id="0" name="Reverse mode">0</param>
+                                </action>
+                                <action id="-2" name="Go to layout" sid="458947999570476" type="System">
+                                    <param id="0" name="Layout">Arsip Materi #1</param>
+                                </action>
+                                <action id="4" name="Set animation" sid="319932362220481" type="MateriHal1">
+                                    <param id="0" name="Animation">&quot;Enabled&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                                <action id="4" name="Set animation" sid="574364264582433" type="MateriHal2">
+                                    <param id="0" name="Animation">&quot;Disabled&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                                <action id="4" name="Set animation" sid="883105639633309" type="MateriHal3">
+                                    <param id="0" name="Animation">&quot;Disabled&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                                <action id="4" name="Set animation" sid="863289012682555" type="MateriHal4">
+                                    <param id="0" name="Animation">&quot;Disabled&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                            </actions>
+                            <sub-events>
+                                <event-block sid="438479488030710">
+                                    <conditions>
+                                        <condition id="3" inverted="1" name="Is silent" sid="730422086965233" type="Audio" />
+                                    </conditions>
+                                    <actions>
+                                        <action id="0" name="Play" sid="499545881365811" type="Audio">
+                                            <param id="0" name="Audio file">Clicked</param>
+                                            <param id="2" name="Loop">0</param>
+                                            <param id="3" name="Volume">0</param>
+                                            <param id="1" name="Tag (optional)">&quot;Clicked&quot;</param>
+                                        </action>
+                                        <action behavior="LiteTween" id="10" name="Start" sid="895081807023505" type="MateriHal1">
+                                            <param id="0" name="Start Mode">0</param>
+                                            <param id="1" name="Force use current">0</param>
+                                        </action>
+                                        <action id="-16" name="Wait" sid="195036862268863" type="System">
+                                            <param id="0" name="Seconds">0.2</param>
+                                        </action>
+                                        <action behavior="LiteTween" id="11" name="Reverse" sid="302174980786557" type="MateriHal1">
+                                            <param id="0" name="Reverse mode">0</param>
+                                        </action>
+                                        <action id="-2" name="Go to layout" sid="387062631637646" type="System">
+                                            <param id="0" name="Layout">Arsip Materi #1</param>
+                                        </action>
+                                        <action id="4" name="Set animation" sid="462266288894505" type="MateriHal1">
+                                            <param id="0" name="Animation">&quot;Enabled&quot;</param>
+                                            <param id="1" name="From">1</param>
+                                        </action>
+                                        <action id="4" name="Set animation" sid="485905660770875" type="MateriHal2">
+                                            <param id="0" name="Animation">&quot;Disabled&quot;</param>
+                                            <param id="1" name="From">1</param>
+                                        </action>
+                                        <action id="4" name="Set animation" sid="993694077748281" type="MateriHal3">
+                                            <param id="0" name="Animation">&quot;Disabled&quot;</param>
+                                            <param id="1" name="From">1</param>
+                                        </action>
+                                        <action id="4" name="Set animation" sid="201242252856568" type="MateriHal4">
+                                            <param id="0" name="Animation">&quot;Disabled&quot;</param>
+                                            <param id="1" name="From">1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="169786502467173">
+                                    <conditions>
+                                        <condition id="-22" name="Else" sid="464285391180869" type="System" />
+                                    </conditions>
+                                    <actions>
+                                        <action behavior="LiteTween" id="10" name="Start" sid="577613340988777" type="MateriHal1">
+                                            <param id="0" name="Start Mode">0</param>
+                                            <param id="1" name="Force use current">0</param>
+                                        </action>
+                                        <action id="-16" name="Wait" sid="132765131230781" type="System">
+                                            <param id="0" name="Seconds">0.2</param>
+                                        </action>
+                                        <action behavior="LiteTween" id="11" name="Reverse" sid="547410620160768" type="MateriHal1">
+                                            <param id="0" name="Reverse mode">0</param>
+                                        </action>
+                                        <action id="-2" name="Go to layout" sid="830731573852092" type="System">
+                                            <param id="0" name="Layout">Arsip Materi #1</param>
+                                        </action>
+                                        <action id="4" name="Set animation" sid="390273282819940" type="MateriHal1">
+                                            <param id="0" name="Animation">&quot;Enabled&quot;</param>
+                                            <param id="1" name="From">1</param>
+                                        </action>
+                                        <action id="4" name="Set animation" sid="412939809070897" type="MateriHal2">
+                                            <param id="0" name="Animation">&quot;Disabled&quot;</param>
+                                            <param id="1" name="From">1</param>
+                                        </action>
+                                        <action id="4" name="Set animation" sid="273962862784737" type="MateriHal3">
+                                            <param id="0" name="Animation">&quot;Disabled&quot;</param>
+                                            <param id="1" name="From">1</param>
+                                        </action>
+                                        <action id="4" name="Set animation" sid="185414653455203" type="MateriHal4">
+                                            <param id="0" name="Animation">&quot;Disabled&quot;</param>
+                                            <param id="1" name="From">1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <event-block sid="204799830320620">
+                            <conditions>
+                                <condition id="3" name="On touched object" sid="467285315576780" type="Touch">
+                                    <param id="0" name="Object">MateriHal2</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="317999781714413">
+                                    <conditions>
+                                        <condition id="3" inverted="1" name="Is silent" sid="891587336376487" type="Audio" />
+                                    </conditions>
+                                    <actions>
+                                        <action id="0" name="Play" sid="857516999596879" type="Audio">
+                                            <param id="0" name="Audio file">Clicked</param>
+                                            <param id="2" name="Loop">0</param>
+                                            <param id="3" name="Volume">0</param>
+                                            <param id="1" name="Tag (optional)">&quot;Clicked&quot;</param>
+                                        </action>
+                                        <action behavior="LiteTween" id="10" name="Start" sid="978046411812393" type="MateriHal2">
+                                            <param id="0" name="Start Mode">0</param>
+                                            <param id="1" name="Force use current">0</param>
+                                        </action>
+                                        <action id="-16" name="Wait" sid="501492563381261" type="System">
+                                            <param id="0" name="Seconds">0.2</param>
+                                        </action>
+                                        <action behavior="LiteTween" id="11" name="Reverse" sid="132711801258060" type="MateriHal2">
+                                            <param id="0" name="Reverse mode">0</param>
+                                        </action>
+                                        <action id="-2" name="Go to layout" sid="370385279674905" type="System">
+                                            <param id="0" name="Layout">Arsip Materi #2</param>
+                                        </action>
+                                        <action id="4" name="Set animation" sid="765681242747573" type="MateriHal1">
+                                            <param id="0" name="Animation">&quot;Disabled&quot;</param>
+                                            <param id="1" name="From">1</param>
+                                        </action>
+                                        <action id="4" name="Set animation" sid="944298075674547" type="MateriHal2">
+                                            <param id="0" name="Animation">&quot;Enabled&quot;</param>
+                                            <param id="1" name="From">1</param>
+                                        </action>
+                                        <action id="4" name="Set animation" sid="363482724501516" type="MateriHal3">
+                                            <param id="0" name="Animation">&quot;Disabled&quot;</param>
+                                            <param id="1" name="From">1</param>
+                                        </action>
+                                        <action id="4" name="Set animation" sid="466562908264964" type="MateriHal4">
+                                            <param id="0" name="Animation">&quot;Disabled&quot;</param>
+                                            <param id="1" name="From">1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="781812461217587">
+                                    <conditions>
+                                        <condition id="-22" name="Else" sid="750840093304515" type="System" />
+                                    </conditions>
+                                    <actions>
+                                        <action behavior="LiteTween" id="10" name="Start" sid="952481533005481" type="MateriHal2">
+                                            <param id="0" name="Start Mode">0</param>
+                                            <param id="1" name="Force use current">0</param>
+                                        </action>
+                                        <action id="-16" name="Wait" sid="549923770074711" type="System">
+                                            <param id="0" name="Seconds">0.2</param>
+                                        </action>
+                                        <action behavior="LiteTween" id="11" name="Reverse" sid="196572085401268" type="MateriHal2">
+                                            <param id="0" name="Reverse mode">0</param>
+                                        </action>
+                                        <action id="-2" name="Go to layout" sid="534015632254389" type="System">
+                                            <param id="0" name="Layout">Arsip Materi #2</param>
+                                        </action>
+                                        <action id="4" name="Set animation" sid="791253372330346" type="MateriHal1">
+                                            <param id="0" name="Animation">&quot;Disabled&quot;</param>
+                                            <param id="1" name="From">1</param>
+                                        </action>
+                                        <action id="4" name="Set animation" sid="853047458835492" type="MateriHal2">
+                                            <param id="0" name="Animation">&quot;Enabled&quot;</param>
+                                            <param id="1" name="From">1</param>
+                                        </action>
+                                        <action id="4" name="Set animation" sid="781858488591163" type="MateriHal3">
+                                            <param id="0" name="Animation">&quot;Disabled&quot;</param>
+                                            <param id="1" name="From">1</param>
+                                        </action>
+                                        <action id="4" name="Set animation" sid="673105417465779" type="MateriHal4">
+                                            <param id="0" name="Animation">&quot;Disabled&quot;</param>
+                                            <param id="1" name="From">1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <event-block sid="213426212766659">
+                            <conditions>
+                                <condition id="3" name="On touched object" sid="664414162712098" type="Touch">
+                                    <param id="0" name="Object">MateriHal3</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="671195109658383">
+                                    <conditions>
+                                        <condition id="3" inverted="1" name="Is silent" sid="345773170126700" type="Audio" />
+                                    </conditions>
+                                    <actions>
+                                        <action id="0" name="Play" sid="951706073749746" type="Audio">
+                                            <param id="0" name="Audio file">Clicked</param>
+                                            <param id="2" name="Loop">0</param>
+                                            <param id="3" name="Volume">0</param>
+                                            <param id="1" name="Tag (optional)">&quot;Clicked&quot;</param>
+                                        </action>
+                                        <action behavior="LiteTween" id="10" name="Start" sid="730862152782389" type="MateriHal3">
+                                            <param id="0" name="Start Mode">0</param>
+                                            <param id="1" name="Force use current">0</param>
+                                        </action>
+                                        <action id="-16" name="Wait" sid="678993602182279" type="System">
+                                            <param id="0" name="Seconds">0.2</param>
+                                        </action>
+                                        <action behavior="LiteTween" id="11" name="Reverse" sid="769997978610324" type="MateriHal3">
+                                            <param id="0" name="Reverse mode">0</param>
+                                        </action>
+                                        <action id="-2" name="Go to layout" sid="542742588137243" type="System">
+                                            <param id="0" name="Layout">Arsip Materi #3</param>
+                                        </action>
+                                        <action id="4" name="Set animation" sid="753591916025854" type="MateriHal1">
+                                            <param id="0" name="Animation">&quot;Disabled&quot;</param>
+                                            <param id="1" name="From">1</param>
+                                        </action>
+                                        <action id="4" name="Set animation" sid="387114316875830" type="MateriHal2">
+                                            <param id="0" name="Animation">&quot;Disabled&quot;</param>
+                                            <param id="1" name="From">1</param>
+                                        </action>
+                                        <action id="4" name="Set animation" sid="992353047237710" type="MateriHal3">
+                                            <param id="0" name="Animation">&quot;Enabled&quot;</param>
+                                            <param id="1" name="From">1</param>
+                                        </action>
+                                        <action id="4" name="Set animation" sid="776606846568421" type="MateriHal4">
+                                            <param id="0" name="Animation">&quot;Disabled&quot;</param>
+                                            <param id="1" name="From">1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="713405795762339">
+                                    <conditions>
+                                        <condition id="-22" name="Else" sid="269210872352475" type="System" />
+                                    </conditions>
+                                    <actions>
+                                        <action behavior="LiteTween" id="10" name="Start" sid="976075105845512" type="MateriHal3">
+                                            <param id="0" name="Start Mode">0</param>
+                                            <param id="1" name="Force use current">0</param>
+                                        </action>
+                                        <action id="-16" name="Wait" sid="618022967466366" type="System">
+                                            <param id="0" name="Seconds">0.2</param>
+                                        </action>
+                                        <action behavior="LiteTween" id="11" name="Reverse" sid="190297852018437" type="MateriHal3">
+                                            <param id="0" name="Reverse mode">0</param>
+                                        </action>
+                                        <action id="-2" name="Go to layout" sid="155152152370553" type="System">
+                                            <param id="0" name="Layout">Arsip Materi #3</param>
+                                        </action>
+                                        <action id="4" name="Set animation" sid="322005778264753" type="MateriHal1">
+                                            <param id="0" name="Animation">&quot;Disabled&quot;</param>
+                                            <param id="1" name="From">1</param>
+                                        </action>
+                                        <action id="4" name="Set animation" sid="122422898795255" type="MateriHal2">
+                                            <param id="0" name="Animation">&quot;Disabled&quot;</param>
+                                            <param id="1" name="From">1</param>
+                                        </action>
+                                        <action id="4" name="Set animation" sid="102837869176999" type="MateriHal3">
+                                            <param id="0" name="Animation">&quot;Enabled&quot;</param>
+                                            <param id="1" name="From">1</param>
+                                        </action>
+                                        <action id="4" name="Set animation" sid="462025013647860" type="MateriHal4">
+                                            <param id="0" name="Animation">&quot;Disabled&quot;</param>
+                                            <param id="1" name="From">1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <event-block sid="323377716098020">
+                            <conditions>
+                                <condition id="3" name="On touched object" sid="584465733224301" type="Touch">
+                                    <param id="0" name="Object">MateriHal4</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="631789882234114">
+                                    <conditions>
+                                        <condition id="3" inverted="1" name="Is silent" sid="881889271892668" type="Audio" />
+                                    </conditions>
+                                    <actions>
+                                        <action id="0" name="Play" sid="705301517586287" type="Audio">
+                                            <param id="0" name="Audio file">Clicked</param>
+                                            <param id="2" name="Loop">0</param>
+                                            <param id="3" name="Volume">0</param>
+                                            <param id="1" name="Tag (optional)">&quot;Clicked&quot;</param>
+                                        </action>
+                                        <action behavior="LiteTween" id="10" name="Start" sid="913076663717118" type="MateriHal4">
+                                            <param id="0" name="Start Mode">0</param>
+                                            <param id="1" name="Force use current">0</param>
+                                        </action>
+                                        <action id="-16" name="Wait" sid="286370075156911" type="System">
+                                            <param id="0" name="Seconds">0.2</param>
+                                        </action>
+                                        <action behavior="LiteTween" id="11" name="Reverse" sid="874503006340184" type="MateriHal4">
+                                            <param id="0" name="Reverse mode">0</param>
+                                        </action>
+                                        <action id="-2" name="Go to layout" sid="747265595637009" type="System">
+                                            <param id="0" name="Layout">Arsip Materi #4</param>
+                                        </action>
+                                        <action id="4" name="Set animation" sid="469520604601139" type="MateriHal1">
+                                            <param id="0" name="Animation">&quot;Disabled&quot;</param>
+                                            <param id="1" name="From">1</param>
+                                        </action>
+                                        <action id="4" name="Set animation" sid="706414810721224" type="MateriHal2">
+                                            <param id="0" name="Animation">&quot;Disabled&quot;</param>
+                                            <param id="1" name="From">1</param>
+                                        </action>
+                                        <action id="4" name="Set animation" sid="490317477200267" type="MateriHal3">
+                                            <param id="0" name="Animation">&quot;Disabled&quot;</param>
+                                            <param id="1" name="From">1</param>
+                                        </action>
+                                        <action id="4" name="Set animation" sid="991028301026896" type="MateriHal4">
+                                            <param id="0" name="Animation">&quot;Enabled&quot;</param>
+                                            <param id="1" name="From">1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="680783898315772">
+                                    <conditions>
+                                        <condition id="-22" name="Else" sid="752215153818759" type="System" />
+                                    </conditions>
+                                    <actions>
+                                        <action behavior="LiteTween" id="10" name="Start" sid="656520207750818" type="MateriHal4">
+                                            <param id="0" name="Start Mode">0</param>
+                                            <param id="1" name="Force use current">0</param>
+                                        </action>
+                                        <action id="-16" name="Wait" sid="288983556355696" type="System">
+                                            <param id="0" name="Seconds">0.2</param>
+                                        </action>
+                                        <action behavior="LiteTween" id="11" name="Reverse" sid="619548370387225" type="MateriHal4">
+                                            <param id="0" name="Reverse mode">0</param>
+                                        </action>
+                                        <action id="-2" name="Go to layout" sid="534087672126419" type="System">
+                                            <param id="0" name="Layout">Arsip Materi #4</param>
+                                        </action>
+                                        <action id="4" name="Set animation" sid="400208791373795" type="MateriHal1">
+                                            <param id="0" name="Animation">&quot;Disabled&quot;</param>
+                                            <param id="1" name="From">1</param>
+                                        </action>
+                                        <action id="4" name="Set animation" sid="148250775299196" type="MateriHal2">
+                                            <param id="0" name="Animation">&quot;Disabled&quot;</param>
+                                            <param id="1" name="From">1</param>
+                                        </action>
+                                        <action id="4" name="Set animation" sid="394223934130329" type="MateriHal3">
+                                            <param id="0" name="Animation">&quot;Disabled&quot;</param>
+                                            <param id="1" name="From">1</param>
+                                        </action>
+                                        <action id="4" name="Set animation" sid="567677010816008" type="MateriHal4">
+                                            <param id="0" name="Animation">&quot;Enabled&quot;</param>
+                                            <param id="1" name="From">1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                    </sub-events>
+                </event-group>
+                <event-group description="" sid="622439800395312" title="Pindah Detail Materi">
+                    <sub-events>
+                        <event-block sid="427564670938431">
+                            <conditions>
+                                <condition id="3" name="On touched object" sid="499325079435085" type="Touch">
+                                    <param id="0" name="Object">MateriLevel1</param>
+                                </condition>
+                                <condition id="11" name="Collisions enabled" sid="684145215682048" type="MateriLevel1" />
+                            </conditions>
+                            <actions>
+                                <action behavior="LiteTween" id="10" name="Start" sid="239843713911696" type="MateriLevel1">
+                                    <param id="0" name="Start Mode">0</param>
+                                    <param id="1" name="Force use current">0</param>
+                                </action>
+                                <action id="-16" name="Wait" sid="963251897080670" type="System">
+                                    <param id="0" name="Seconds">0.2</param>
+                                </action>
+                                <action behavior="LiteTween" id="11" name="Reverse" sid="412651952698000" type="MateriLevel1">
+                                    <param id="0" name="Reverse mode">0</param>
+                                </action>
+                                <action id="-16" name="Wait" sid="962485003786673" type="System">
+                                    <param id="0" name="Seconds">0.2</param>
+                                </action>
+                                <action id="-2" name="Go to layout" sid="654212812856554" type="System">
+                                    <param id="0" name="Layout">Arsip Detail Materi</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-group>
             </sub-events>
         </event-group>
     </events>

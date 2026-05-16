@@ -148,10 +148,10 @@
                         <y>750</y>
                         <z>0</z>
                         <width>1922</width>
-                        <height>1082</height>
+                        <height>1035</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
+                        <hotspotY>0.522705317</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -449,11 +449,11 @@
                         <x>1318.958496094</x>
                         <y>485.969543457</y>
                         <z>0</z>
-                        <width>120.421485901</width>
-                        <height>74.222045898</height>
+                        <width>120.490341187</width>
+                        <height>74.290901184</height>
                         <depth>0</depth>
-                        <hotspotX>0.499142379</hotspotX>
-                        <hotspotY>0.498144716</hotspotY>
+                        <hotspotX>0.498285711</hotspotX>
+                        <hotspotY>0.496756256</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
