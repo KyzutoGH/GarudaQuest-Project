@@ -10,12 +10,14 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout order="0">Arsip Materi #1</layout>
-        <layout order="2">Arsip Materi #3</layout>
-        <layout order="3">Arsip Materi #4</layout>
-        <layout order="1">Arsip Materi #2</layout>
-        <layout active="1" order="5">Arsip Detail Materi</layout>
-        <event-sheet order="4">MenuEvent</event-sheet>
+        <layout order="0">Arsip Detail Materi</layout>
+        <layout order="2">Main Menu</layout>
+        <layout order="3">Level 2</layout>
+        <layout order="5">Level 5</layout>
+        <layout order="6">Level 9</layout>
+        <layout active="1" order="7">Profile</layout>
+        <event-sheet order="1">MenuEvent</event-sheet>
+        <event-sheet order="4">Level Pancasila Event</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -29,7 +31,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     <folders-expanded>
         <folder expanded="0" path="object-folder/" />
         <folder expanded="1" path="layout-folder/" />
-        <folder expanded="0" path="event-folder/" />
+        <folder expanded="1" path="event-folder/" />
         <folder expanded="0" path="file-folder/" />
         <folder expanded="0" path="sound-folder/" />
         <folder expanded="1" path="music-folder/" />
@@ -266,5 +268,9 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/BackProfile/" />
         <folder expanded="1" path="animation-folder/Prev/" />
         <folder expanded="1" path="animation-folder/Nexdt/" />
+        <folder expanded="1" path="animation-folder/HeadMateri/" />
+        <folder expanded="1" path="animation-folder/IsiMateri/" />
+        <folder expanded="1" path="animation-folder/TextLevel/" />
+        <folder expanded="1" path="animation-folder/BetaBanner/" />
     </folders-expanded>
 </c2uistate>

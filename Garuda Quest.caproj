@@ -1896,7 +1896,16 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="552981740231862" speed="5">
-                    <frame duration="1" hotspotX="0.500486" hotspotY="0.5" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Profile\Profil - Profil (4).png" />
+                    <frame duration="1" hotspotX="0.496768" hotspotY="0.5" original-source="D:\Downloads\Layout Garuda Quest.png">
+                        <collision-poly>
+                            <point x="0.00184672" y="0.393715" />
+                            <point x="0.495845" y="0.000924214" />
+                            <point x="0.999077" y="0.384473" />
+                            <point x="0.999077" y="0.615527" />
+                            <point x="0.495845" y="0.999076" />
+                            <point x="0.00184672" y="0.606285" />
+                        </collision-poly>
+                    </frame>
                 </animation>
             </animation-folder>
         </object-type>
@@ -2672,11 +2681,6 @@
         </object-type>
         <object-type name="KunciLevel5" sid="754820664402689">
             <plugin id="Sprite" />
-            <behaviors>
-                <behavior-type name="DragDrop" sid="379406531792888">
-                    <behavior id="DragnDrop" />
-                </behavior-type>
-            </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="624606673148846" speed="5">
                     <frame duration="1" hotspotX="0.460967" hotspotY="0.5" original-source="D:\Tugas Cool-Yeah\Arsip Semester 8\GarudaQuest\Asset\Pecahan Layout\Level 5\48.png" />
@@ -6291,6 +6295,11 @@
         </object-type>
         <object-type name="Prev" sid="347893494361407">
             <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="LiteTween" sid="290610372118450">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Disabled" pingpong="0" repeatcount="1" repeatto="0" sid="191386822844231" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\Downloads\Asset Garuda Quest (6)\79.png">
@@ -6320,6 +6329,11 @@
         </object-type>
         <object-type name="Nexdt" sid="424693991068349">
             <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="LiteTween" sid="438531294436650">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Disabled" pingpong="0" repeatcount="1" repeatto="0" sid="895981412907089" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\Downloads\Asset Garuda Quest (6)\81.png">
@@ -6342,6 +6356,550 @@
                             <point x="0.774399" y="1" />
                             <point x="0.225601" y="1" />
                             <point x="0.00276752" y="0.495746" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="HeadMateri" sid="503200167055066">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="HeadMLevel1" pingpong="0" repeatcount="1" repeatto="0" sid="759298712329538" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.505747" original-source="D:\Downloads\Text Level (4)\3.png">
+                        <collision-poly>
+                            <point x="1" y="1" />
+                            <point x="0.202162" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0.202816" y="0" />
+                            <point x="0.756075" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="HeadMLevel2" pingpong="0" repeatcount="1" repeatto="0" sid="599344802891001" speed="5">
+                    <frame duration="1" hotspotX="0.500311" hotspotY="0.505747" original-source="D:\Downloads\Text Level (4)\4.png">
+                        <collision-poly>
+                            <point x="0.250817" y="1" />
+                            <point x="0.782479" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0.783107" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="HeadMLevel3" pingpong="0" repeatcount="1" repeatto="0" sid="855073786099482" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.505747" original-source="D:\Downloads\Text Level (4)\5.png">
+                        <collision-poly>
+                            <point x="0.248883" y="1" />
+                            <point x="0.786684" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0.787319" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="HeadMLevel4" pingpong="0" repeatcount="1" repeatto="0" sid="355444069386267" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.505747" original-source="D:\Downloads\Text Level (4)\6.png">
+                        <collision-poly>
+                            <point x="0.19249" y="1" />
+                            <point x="0.847822" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0.848595" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="HeadMLevel5" pingpong="0" repeatcount="1" repeatto="0" sid="510975264834169" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.505747" original-source="D:\Downloads\Text Level (4)\7.png">
+                        <collision-poly>
+                            <point x="0.251179" y="0.597701" />
+                            <point x="0.5" y="0.0804598" />
+                            <point x="0.774764" y="0.091954" />
+                            <point x="0.99941" y="0.62069" />
+                            <point x="0.76533" y="0.965517" />
+                            <point x="0.5" y="0.735632" />
+                            <point x="0.243514" y="0.793103" />
+                            <point x="0.000589623" y="0.62069" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="HeadMLevel6" pingpong="0" repeatcount="1" repeatto="0" sid="725094943230876" speed="5">
+                    <frame duration="1" hotspotX="0.500294" hotspotY="0.504587" original-source="D:\Downloads\Text Level (4)\8.png">
+                        <collision-poly>
+                            <point x="0.267453" y="1" />
+                            <point x="0.498236" y="0" />
+                            <point x="0.770819" y="0" />
+                            <point x="1" y="0" />
+                            <point x="0.77023" y="1" />
+                            <point x="0.498236" y="0.85791" />
+                            <point x="0.267453" y="0" />
+                            <point x="0" y="0" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="HeadMLevel7" pingpong="0" repeatcount="1" repeatto="0" sid="786336819626955" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.505747" original-source="D:\Downloads\Text Level (4)\9.png">
+                        <collision-poly>
+                            <point x="1" y="0.905393" />
+                            <point x="0.793265" y="1" />
+                            <point x="0.216179" y="1" />
+                            <point x="0" y="0.905393" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="HeadMLevel8" pingpong="0" repeatcount="1" repeatto="0" sid="554183178809423" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Downloads\Text Level (4)\10.png">
+                        <collision-poly>
+                            <point x="0.254303" y="0" />
+                            <point x="0.5" y="0" />
+                            <point x="0.733946" y="0" />
+                            <point x="1" y="0" />
+                            <point x="0.744629" y="1" />
+                            <point x="0.5" y="0" />
+                            <point x="0.262849" y="1" />
+                            <point x="0" y="0" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="HeadMLevel9" pingpong="0" repeatcount="1" repeatto="0" sid="836565909639450" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Downloads\Text Level (4)\11.png">
+                        <collision-poly>
+                            <point x="0.253784" y="0" />
+                            <point x="0.5" y="0" />
+                            <point x="0.734441" y="0" />
+                            <point x="1" y="0" />
+                            <point x="0.74461" y="1" />
+                            <point x="0.5" y="0" />
+                            <point x="0.261813" y="1" />
+                            <point x="0" y="0" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="HeadMLevel10" pingpong="0" repeatcount="1" repeatto="0" sid="354646090622191" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Downloads\Text Level (4)\12.png">
+                        <collision-poly>
+                            <point x="0.714048" y="0.87037" />
+                            <point x="1" y="0" />
+                            <point x="0.742059" y="1" />
+                            <point x="0.28331" y="0" />
+                            <point x="0" y="0" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="HeadMLevel11" pingpong="0" repeatcount="1" repeatto="0" sid="811309957467944" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Downloads\Text Level (4)\13.png">
+                        <collision-poly>
+                            <point x="0.715168" y="1" />
+                            <point x="1" y="0" />
+                            <point x="0.743326" y="1" />
+                            <point x="0.282176" y="0" />
+                            <point x="0" y="0" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="HeadMLevel12" pingpong="0" repeatcount="1" repeatto="0" sid="325513464388498" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.505747" original-source="D:\Downloads\Text Level (4)\14.png">
+                        <collision-poly>
+                            <point x="0.149658" y="1" />
+                            <point x="0.5" y="0" />
+                            <point x="0.868171" y="1" />
+                            <point x="1" y="1" />
+                            <point x="0.933248" y="1" />
+                            <point x="0.0667524" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="HeadMLevel13" pingpong="0" repeatcount="1" repeatto="0" sid="281073489765138" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.505747" original-source="D:\Downloads\Text Level (4)\15.png">
+                        <collision-poly>
+                            <point x="0.149658" y="1" />
+                            <point x="0.5" y="0" />
+                            <point x="0.868171" y="1" />
+                            <point x="1" y="1" />
+                            <point x="0.932356" y="1" />
+                            <point x="0.0676439" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="HeadMLevel14" pingpong="0" repeatcount="1" repeatto="0" sid="377198330709088" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.505747" original-source="D:\Downloads\Text Level (4)\16.png">
+                        <collision-poly>
+                            <point x="0.149643" y="0" />
+                            <point x="0.498532" y="0" />
+                            <point x="1" y="0.961074" />
+                            <point x="0.845947" y="1" />
+                            <point x="0.498532" y="1" />
+                            <point x="0.148167" y="1" />
+                            <point x="0" y="0.961074" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="HeadMLevel15" pingpong="0" repeatcount="1" repeatto="0" sid="214689028787413" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.505747" original-source="D:\Downloads\Text Level (4)\17.png">
+                        <collision-poly>
+                            <point x="0.150384" y="1" />
+                            <point x="0.5" y="0" />
+                            <point x="0.867591" y="1" />
+                            <point x="1" y="1" />
+                            <point x="0.937694" y="1" />
+                            <point x="0.5" y="0" />
+                            <point x="0.0623062" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="HeadMLevel16" pingpong="0" repeatcount="1" repeatto="0" sid="758582532839185" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Downloads\Text Level (4)\18.png">
+                        <collision-poly>
+                            <point x="0.245929" y="0" />
+                            <point x="0.5" y="0" />
+                            <point x="0.744681" y="0" />
+                            <point x="1" y="0.569213" />
+                            <point x="0.762355" y="1" />
+                            <point x="0.5" y="1" />
+                            <point x="0.238197" y="1" />
+                            <point x="0" y="0.569213" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="HeadMLevel17" pingpong="0" repeatcount="1" repeatto="0" sid="847878259021592" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.505747" original-source="D:\Downloads\Text Level (4)\19.png">
+                        <collision-poly>
+                            <point x="0.164435" y="0" />
+                            <point x="0.5" y="0" />
+                            <point x="0.823164" y="0" />
+                            <point x="1" y="0.961074" />
+                            <point x="0.846507" y="1" />
+                            <point x="0.5" y="1" />
+                            <point x="0.154222" y="1" />
+                            <point x="0" y="0.961074" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="HeadMLevel18" pingpong="0" repeatcount="1" repeatto="0" sid="928813967251998" speed="5">
+                    <frame duration="1" hotspotX="0.50032" hotspotY="0.505747" original-source="D:\Downloads\Text Level (4)\20.png">
+                        <collision-poly>
+                            <point x="0.197443" y="0" />
+                            <point x="0.49968" y="0" />
+                            <point x="0.785055" y="0" />
+                            <point x="1" y="0.855501" />
+                            <point x="0.801269" y="1" />
+                            <point x="0.196146" y="1" />
+                            <point x="0" y="0.855501" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="HeadMLevel19" pingpong="0" repeatcount="1" repeatto="0" sid="774302661437671" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.505747" original-source="D:\Downloads\Text Level (4)\21.png">
+                        <collision-poly>
+                            <point x="0.243421" y="1" />
+                            <point x="0.5" y="0" />
+                            <point x="1" y="0.835956" />
+                            <point x="0.792249" y="1" />
+                            <point x="0" y="0.835956" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="HeadMLevel20" pingpong="0" repeatcount="1" repeatto="0" sid="410052749101350" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Downloads\Text Level (4)\22.png">
+                        <collision-poly>
+                            <point x="0.217802" y="0" />
+                            <point x="1" y="0" />
+                            <point x="0.78403" y="1" />
+                            <point x="0.218413" y="1" />
+                            <point x="0" y="0" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Locked" pingpong="0" repeatcount="1" repeatto="0" sid="777776877237550" speed="5">
+                    <frame duration="1" hotspotX="0.503639" hotspotY="0.627451" original-source="D:\Downloads\Text Level (1)\1.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="IsiMateri" sid="496746586331682">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="IsiMateriLevel1" pingpong="0" repeatcount="1" repeatto="0" sid="832733309740539" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Downloads\Text Level\Materi Level 1.png">
+                        <collision-poly>
+                            <point x="0.0926119" y="0.0270619" />
+                            <point x="0.5" y="0.00515464" />
+                            <point x="0.91051" y="0.0193299" />
+                            <point x="0.994797" y="0.494845" />
+                            <point x="0.876171" y="0.885309" />
+                            <point x="0.5" y="0.889175" />
+                            <point x="0.0879292" y="0.974227" />
+                            <point x="0.00156087" y="0.494845" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="IsiMateriLevel2" pingpong="0" repeatcount="1" repeatto="0" sid="866272442647475" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.481534" original-source="D:\Downloads\Materi Level 2 (1).png">
+                        <collision-poly>
+                            <point x="0.0546024" y="0" />
+                            <point x="0.938637" y="0" />
+                            <point x="0.99844" y="0.471834" />
+                            <point x="0.915236" y="1" />
+                            <point x="0.50026" y="1" />
+                            <point x="0.0504423" y="1" />
+                            <point x="0.00208035" y="0.471834" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="IsiMateriLevel3" pingpong="0" repeatcount="1" repeatto="0" sid="667890024396720" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Downloads\Text Level\Materi Level 3.png">
+                        <collision-poly>
+                            <point x="0.111342" y="0.0298295" />
+                            <point x="0.5" y="0.0213068" />
+                            <point x="0.852758" y="0.127841" />
+                            <point x="0.8923" y="0.96875" />
+                            <point x="0.5" y="0.997159" />
+                            <point x="0.0998959" y="0.990057" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="IsiMateriLevel4" pingpong="0" repeatcount="1" repeatto="0" sid="840498620825220" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500711" original-source="D:\Downloads\Text Level\Materi Level 4.png">
+                        <collision-poly>
+                            <point x="0.113944" y="0.0369844" />
+                            <point x="0.897503" y="0.0056899" />
+                            <point x="0.858481" y="0.877667" />
+                            <point x="0.5" y="0.877667" />
+                            <point x="0.108221" y="0.968706" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="IsiMateriLevel5" pingpong="0" repeatcount="1" repeatto="0" sid="660878168205995" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Downloads\Text Level\Materi Level 5.png">
+                        <collision-poly>
+                            <point x="0.104058" y="0.00994318" />
+                            <point x="0.891779" y="0.0213068" />
+                            <point x="0.865245" y="0.894886" />
+                            <point x="0.5" y="0.980114" />
+                            <point x="0.103538" y="0.980114" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="IsiMateriLevel6" pingpong="0" repeatcount="1" repeatto="0" sid="721455465942270" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500711" original-source="D:\Downloads\Text Level\Materi Level 6.png">
+                        <collision-poly>
+                            <point x="0.104058" y="0.00995733" />
+                            <point x="0.5" y="0.123755" />
+                            <point x="0.891779" y="0.0213371" />
+                            <point x="0.859001" y="0.87909" />
+                            <point x="0.5" y="0.87909" />
+                            <point x="0.10718" y="0.971551" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="IsiMateriLevel7" pingpong="0" repeatcount="1" repeatto="0" sid="421019944286586" speed="5">
+                    <frame duration="1" hotspotX="0.49974" hotspotY="0.495484" original-source="D:\Downloads\Text Level\Materi Level 7.png">
+                        <collision-poly>
+                            <point x="0.0884956" y="0.0180645" />
+                            <point x="0.909422" y="0.0219355" />
+                            <point x="0.998438" y="0.495484" />
+                            <point x="0.880791" y="0.898064" />
+                            <point x="0.49974" y="0.890323" />
+                            <point x="0.0843311" y="0.983226" />
+                            <point x="0.00104112" y="0.495484" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="IsiMateriLevel8" pingpong="0" repeatcount="1" repeatto="0" sid="397240938950948" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Downloads\Text Level\Materi Level 8.png">
+                        <collision-poly>
+                            <point x="0.0829832" y="0.0244845" />
+                            <point x="0.909664" y="0.0193299" />
+                            <point x="0.99895" y="0.494845" />
+                            <point x="0.875525" y="0.886598" />
+                            <point x="0.495273" y="0.884021" />
+                            <point x="0.0772059" y="0.979381" />
+                            <point x="0.00157563" y="0.494845" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="IsiMateriLevel9" pingpong="0" repeatcount="1" repeatto="0" sid="458341962168089" speed="5">
+                    <frame duration="1" hotspotX="0.495533" hotspotY="0.482595" original-source="D:\Downloads\Materi Level 9.png">
+                        <collision-poly>
+                            <point x="0.0535952" y="0" />
+                            <point x="0.490764" y="0" />
+                            <point x="0.927403" y="0" />
+                            <point x="0.89455" y="1" />
+                            <point x="0.490764" y="1" />
+                            <point x="0.0493559" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="IsiMateriLevel10" pingpong="0" repeatcount="1" repeatto="0" sid="145921186283064" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Downloads\Text Level (3)\Materi Level 10.png">
+                        <collision-poly>
+                            <point x="0.0581154" y="0" />
+                            <point x="0.492628" y="0" />
+                            <point x="0.928197" y="0" />
+                            <point x="0.894936" y="1" />
+                            <point x="0.0934889" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="IsiMateriLevel11" pingpong="0" repeatcount="1" repeatto="0" sid="157174299020223" speed="5">
+                    <frame duration="1" hotspotX="0.50026" hotspotY="0.5" original-source="D:\Downloads\Text Level (3)\Materi Level 11.png">
+                        <collision-poly>
+                            <point x="0.0874089" y="0" />
+                            <point x="0.91051" y="0" />
+                            <point x="0.996358" y="0.487821" />
+                            <point x="0.876691" y="1" />
+                            <point x="0.49948" y="1" />
+                            <point x="0.0832466" y="1" />
+                            <point x="0.00104058" y="0.487821" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="IsiMateriLevel12" pingpong="0" repeatcount="1" repeatto="0" sid="788491788954492" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500888" original-source="D:\Downloads\Text Level (3)\Materi Level 12.png">
+                        <collision-poly>
+                            <point x="0.0644828" y="0" />
+                            <point x="0.931877" y="0" />
+                            <point x="0.855954" y="1" />
+                            <point x="0.49974" y="1" />
+                            <point x="0.0665629" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="IsiMateriLevel13" pingpong="0" repeatcount="1" repeatto="0" sid="444518751247813" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500894" original-source="D:\Downloads\Text Level (3)\Materi Level 13.png">
+                        <collision-poly>
+                            <point x="0.0636299" y="0" />
+                            <point x="0.490507" y="0" />
+                            <point x="0.926916" y="0" />
+                            <point x="0.89355" y="1" />
+                            <point x="0.490507" y="1" />
+                            <point x="0.0456227" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="IsiMateriLevel14" pingpong="0" repeatcount="1" repeatto="0" sid="563656990669997" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501018" original-source="D:\Downloads\Text Level (3)\Materi Level 14.png">
+                        <collision-poly>
+                            <point x="0.0660429" y="0" />
+                            <point x="0.50026" y="0" />
+                            <point x="0.931357" y="0" />
+                            <point x="0.891315" y="1" />
+                            <point x="0.50026" y="1" />
+                            <point x="0.0670829" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="IsiMateriLevel15" pingpong="0" repeatcount="1" repeatto="0" sid="100012482740037" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Downloads\Text Level (3)\Materi Level 15.png">
+                        <collision-poly>
+                            <point x="0.0712063" y="0" />
+                            <point x="0.929313" y="0" />
+                            <point x="0.905925" y="1" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0639298" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="IsiMateriLevel16" pingpong="0" repeatcount="1" repeatto="0" sid="814809364490718" speed="5">
+                    <frame duration="1" hotspotX="0.50026" hotspotY="0.501018" original-source="D:\Downloads\Text Level (3)\Materi Level 16.png">
+                        <collision-poly>
+                            <point x="0.0743635" y="0" />
+                            <point x="0.50026" y="0" />
+                            <point x="0.929797" y="0" />
+                            <point x="0.861674" y="1" />
+                            <point x="0.143006" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="IsiMateriLevel17" pingpong="0" repeatcount="1" repeatto="0" sid="971049571537161" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501018" original-source="D:\Downloads\Text Level (3)\Materi Level 17.png">
+                        <collision-poly>
+                            <point x="0.103484" y="0" />
+                            <point x="0.899116" y="0" />
+                            <point x="0.859074" y="1" />
+                            <point x="0.49974" y="1" />
+                            <point x="0.106084" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="IsiMateriLevel18" pingpong="0" repeatcount="1" repeatto="0" sid="648260498841435" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501018" original-source="D:\Downloads\Text Level (3)\Materi Level 18.png">
+                        <collision-poly>
+                            <point x="0.103484" y="0" />
+                            <point x="0.899116" y="0" />
+                            <point x="0.859074" y="1" />
+                            <point x="0.49974" y="1" />
+                            <point x="0.106084" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="IsiMateriLevel19" pingpong="0" repeatcount="1" repeatto="0" sid="513638913712977" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Downloads\Text Level (3)\Materi Level 19.png">
+                        <collision-poly>
+                            <point x="0.106084" y="0" />
+                            <point x="0.892875" y="0" />
+                            <point x="0.935517" y="1" />
+                            <point x="0.49974" y="1" />
+                            <point x="0.0260013" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="IsiMateriLevel20" pingpong="0" repeatcount="1" repeatto="0" sid="137962608822343" speed="5">
+                    <frame duration="1" hotspotX="0.50026" hotspotY="0.5" original-source="D:\Downloads\Text Level (3)\Materi Level 20.png">
+                        <collision-poly>
+                            <point x="0.0509626" y="0" />
+                            <point x="0.950598" y="0" />
+                            <point x="0.99688" y="0.482408" />
+                            <point x="0.913157" y="1" />
+                            <point x="0.50026" y="1" />
+                            <point x="0.0457623" y="1" />
+                            <point x="0.00208062" y="0.482408" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Locked" pingpong="0" repeatcount="1" repeatto="0" sid="183735829411162" speed="5">
+                    <frame duration="1" hotspotX="0.500285" hotspotY="0.503086" original-source="D:\Downloads\Text Level (1)\2.png">
+                        <collision-poly>
+                            <point x="0.161822" y="0" />
+                            <point x="0.499711" y="0" />
+                            <point x="0.839898" y="0" />
+                            <point x="0.834152" y="1" />
+                            <point x="0.499711" y="1" />
+                            <point x="0.154352" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TextLevel" sid="273034144246939">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="133509644063339" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Downloads\Text Level.png">
+                        <collision-poly>
+                            <point x="0.00260417" y="0.00462963" />
+                            <point x="0.997396" y="0.00462963" />
+                            <point x="0.999479" y="0.999074" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="BetaBanner" sid="999780105308447">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="968071029457009" speed="5">
+                    <frame duration="1" hotspotX="0.494792" hotspotY="0.489967" original-source="D:\Downloads\Text Level (3).png">
+                        <collision-poly>
+                            <point x="0.129187" y="0" />
+                            <point x="0.860181" y="0" />
+                            <point x="0.946837" y="0.490074" />
+                            <point x="0.801701" y="1" />
+                            <point x="0.494949" y="0" />
+                            <point x="0.129718" y="1" />
+                            <point x="0.000531632" y="0.490074" />
                         </collision-poly>
                     </frame>
                 </animation>

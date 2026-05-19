@@ -222,28 +222,6 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="ObjTasLevel2" uid="136">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>1949</x>
-                        <y>-356</y>
-                        <z>0</z>
-                        <width>250.631484985</width>
-                        <height>282.420166016</height>
-                        <depth>0</depth>
-                        <hotspotX>0.184486374</hotspotX>
-                        <hotspotY>0.489302337</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
                 <instance type="BukaTasLevel2" uid="151">
                     <properties>
                         <initial-visibility>Invisible</initial-visibility>
@@ -254,14 +232,36 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>757</x>
-                        <y>824</y>
+                        <x>774.54876709</x>
+                        <y>816.458129883</y>
                         <z>0</z>
-                        <width>245.761886597</width>
-                        <height>283.730377197</height>
+                        <width>202.188720703</width>
+                        <height>233.425460815</height>
                         <depth>0</depth>
                         <hotspotX>0.493222117</hotspotX>
                         <hotspotY>0.497227371</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="ObjTasLevel2" uid="136">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>740</x>
+                        <y>1300</y>
+                        <z>0</z>
+                        <width>250.631484985</width>
+                        <height>282.420166016</height>
+                        <depth>0</depth>
+                        <hotspotX>0.184486374</hotspotX>
+                        <hotspotY>0.489302337</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -438,15 +438,15 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1999</x>
-                        <y>-304</y>
+                        <x>800</x>
+                        <y>1347</y>
                         <z>0</z>
-                        <width>76.882049561</width>
-                        <height>73.338035583</height>
+                        <width>77</width>
+                        <height>73</height>
                         <depth>0</depth>
                         <hotspotX>0.498604655</hotspotX>
                         <hotspotY>0.570009947</hotspotY>
-                        <angle>0</angle>
+                        <angle>0.180792496</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>

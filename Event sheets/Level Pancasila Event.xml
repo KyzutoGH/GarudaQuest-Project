@@ -1081,14 +1081,14 @@
                                 <action id="-3" name="Create object" sid="322790590475591" type="System">
                                     <param id="0" name="Object to create">ObjTasLevel2</param>
                                     <param id="1" name="Layer">0</param>
-                                    <param id="2" name="X">705</param>
-                                    <param id="3" name="Y">845</param>
+                                    <param id="2" name="X">665</param>
+                                    <param id="3" name="Y">839</param>
                                 </action>
                                 <action id="-3" name="Create object" sid="746039530975601" type="System">
                                     <param id="0" name="Object to create">AmbilObat</param>
                                     <param id="1" name="Layer">0</param>
-                                    <param id="2" name="X">709</param>
-                                    <param id="3" name="Y">897</param>
+                                    <param id="2" name="X">725</param>
+                                    <param id="3" name="Y">885</param>
                                 </action>
                                 <action id="-9" name="Destroy" sid="878237305058295" type="BukaTasLevel2" />
                             </actions>
