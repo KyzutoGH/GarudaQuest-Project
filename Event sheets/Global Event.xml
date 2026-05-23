@@ -48,6 +48,9 @@
                 <action id="4" name="Preload" sid="523164792919708" type="Audio">
                     <param id="0" name="Audio file">Jump</param>
                 </action>
+                <action id="4" name="Preload" sid="561060450339932" type="Audio">
+                    <param id="0" name="Audio file">Achievement</param>
+                </action>
                 <action id="3" name="Set progress" sid="569988742781656" type="LevelGameBar">
                     <param id="0" name="Value">LevelGameHighest</param>
                 </action>
@@ -71,6 +74,9 @@
                 </action>
                 <action id="17" name="Execute Javascript" sid="704287434541374" type="Browser">
                     <param id="0" name="Javascript">&quot;if (!document.getElementById(&apos;fredoka-class-style&apos;)) { var style = document.createElement(&apos;style&apos;); style.id = &apos;fredoka-class-style&apos;; style.innerHTML = &apos;.fredoka-style { font-family: Fredoka, sans-serif !important; font-size: 2.5vh !important; }&apos;; document.head.appendChild(style); } var ids = [&apos;NamaPlayerID&apos;, &apos;RankID&apos;, &apos;NamaPlayerHeader&apos;, &apos;EXPReqID&apos;]; ids.forEach(function(id) { var el = document.getElementById(id); if (el) { el.classList.add(&apos;fredoka-style&apos;); } });&quot;</param>
+                </action>
+                <action id="17" name="Execute Javascript" sid="643238104968244" type="Browser">
+                    <param id="0" name="Javascript">&quot;if (!document.getElementById(&apos;fredoka-class-style&apos;)) { var style = document.createElement(&apos;style&apos;); style.id = &apos;fredoka-class-style&apos;; style.innerHTML = &apos;.fredoka-style { font-family: Fredoka, sans-serif !important; font-size: 2.5vh !important; }&apos;; document.head.appendChild(style); } var ids = [&apos;TextBoxName&apos;]; ids.forEach(function(id) { var el = document.getElementById(id); if (el) { el.classList.add(&apos;fredoka-style&apos;); } });&quot;</param>
                 </action>
                 <action id="4" name="Set animation" sid="454888747616090" type="PenghargaanCount">
                     <param id="0" name="Animation">&quot;Count&quot; &amp; TotalAchievement</param>
@@ -229,6 +235,49 @@
                         </action>
                     </actions>
                 </event-block>
+                <event-block sid="698802581482263">
+                    <conditions>
+                        <condition id="1" name="On item get" sid="855985089975129" type="LocalStorage">
+                            <param id="0" name="Key">&quot;NamaPemain&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="398767380631170" type="System">
+                            <param id="0" name="Variable">NamaPlayer</param>
+                            <param id="1" name="Value">str(LocalStorage.ItemValue)</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="343892553340670">
+                            <conditions>
+                                <condition id="-8" name="Compare two values" sid="423181986546598" type="System">
+                                    <param id="0" name="First value">len(NamaPlayer)</param>
+                                    <param id="1" name="Comparison">3</param>
+                                    <param id="2" name="Second value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Set value" sid="105239438516886" type="System">
+                                    <param id="0" name="Variable">NamaPlayer</param>
+                                    <param id="1" name="Value">&quot;Dipolt&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="335031576383082">
+                    <conditions>
+                        <condition id="10" name="On item missing" sid="738371114607530" type="LocalStorage">
+                            <param id="0" name="Key">&quot;NamaPemain&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="555797898843970" type="System">
+                            <param id="0" name="Variable">NamaPlayer</param>
+                            <param id="1" name="Value">&quot;Dipolt&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
                 <event-block sid="355141960329700">
                     <conditions>
                         <condition id="1" name="On item get" sid="470873939689069" type="LocalStorage">
@@ -264,6 +313,36 @@
                             <param id="0" name="Javascript">&quot;var el = document.getElementById(&apos;RankID&apos;); if (el) { el.style.fontFamily = &apos;Fredoka&apos;; el.style.fontSize = &apos;2.5vh&apos;; el.innerHTML = &apos;Rank &apos; + &quot; &amp; LevelPlayer &amp; &quot;; }&quot;</param>
                         </action>
                     </actions>
+                    <sub-events>
+                        <event-block sid="569845365028760">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="840824169049052" type="System">
+                                    <param id="0" name="Variable">LevelPlayer</param>
+                                    <param id="1" name="Comparison">2</param>
+                                    <param id="2" name="Value">1</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Set value" sid="291404930314165" type="System">
+                                    <param id="0" name="Variable">LevelPlayer</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="867832831022267">
+                    <conditions>
+                        <condition id="10" name="On item missing" sid="345654379425623" type="LocalStorage">
+                            <param id="0" name="Key">&quot;Level&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="621791056085622" type="System">
+                            <param id="0" name="Variable">LevelPlayer</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
                 </event-block>
                 <event-block sid="113492942790813">
                     <conditions>
@@ -296,122 +375,34 @@
                             <param id="1" name="Value">int(LocalStorage.ItemValue)</param>
                         </action>
                     </actions>
+                    <sub-events>
+                        <event-block sid="160794086307870">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="543940943170668" type="System">
+                                    <param id="0" name="Variable">ExperienceNextLevel</param>
+                                    <param id="1" name="Comparison">2</param>
+                                    <param id="2" name="Value">100</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Set value" sid="287155908330997" type="System">
+                                    <param id="0" name="Variable">ExperienceNextLevel</param>
+                                    <param id="1" name="Value">100</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
                 </event-block>
-                <event-block sid="560484911188318">
+                <event-block sid="836642843706054">
                     <conditions>
-                        <condition id="-8" name="Compare two values" sid="538490681245562" type="System">
-                            <param id="0" name="First value">Experience</param>
-                            <param id="1" name="Comparison">5</param>
-                            <param id="2" name="Second value">ExperienceNextLevel</param>
-                        </condition>
-                        <condition id="-14" name="Compare variable" sid="455564333129855" type="System">
-                            <param id="0" name="Variable">LevelPlayer</param>
-                            <param id="1" name="Comparison">2</param>
-                            <param id="2" name="Value">50</param>
+                        <condition id="10" name="On item missing" sid="529267603347337" type="LocalStorage">
+                            <param id="0" name="Key">&quot;ExperienceNextLevel&quot;</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-10" name="Add to" sid="321243356472598" type="System">
-                            <param id="0" name="Variable">LevelPlayer</param>
-                            <param id="1" name="Value">1</param>
-                        </action>
-                        <action id="-9" name="Set value" sid="894270456193121" type="System">
+                        <action id="-9" name="Set value" sid="349014344182486" type="System">
                             <param id="0" name="Variable">ExperienceNextLevel</param>
-                            <param id="1" name="Value">int(100 * (1.15 ^ LevelPlayer))</param>
-                        </action>
-                        <action id="-11" name="Subtract from" sid="202295075774016" type="System">
-                            <param id="0" name="Variable">Experience</param>
-                            <param id="1" name="Value">ExperienceNextLevel</param>
-                        </action>
-                        <action id="-9" name="Set value" sid="736952350168623" type="System">
-                            <param id="0" name="Variable">Experience</param>
-                            <param id="1" name="Value">max(0, Experience)</param>
-                        </action>
-                        <action id="0" name="Set item" sid="989585571692663" type="LocalStorage">
-                            <param id="0" name="Key">&quot;Level&quot;</param>
-                            <param id="1" name="Value">LevelPlayer</param>
-                        </action>
-                        <action id="0" name="Set item" sid="848740782678917" type="LocalStorage">
-                            <param id="0" name="Key">&quot;EXP&quot;</param>
-                            <param id="1" name="Value">Experience</param>
-                        </action>
-                        <action id="17" name="Execute Javascript" sid="820262510601119" type="Browser">
-                            <param id="0" name="Javascript">&quot;if (!document.getElementById(&apos;fredoka-class-style&apos;)) { var style = document.createElement(&apos;style&apos;); style.id = &apos;fredoka-class-style&apos;; style.innerHTML = &apos;.fredoka-style { font-family: Fredoka, sans-serif !important; font-size: 2.5vh !important; }&apos;; document.head.appendChild(style); } var ids = [&apos;NamaPlayerID&apos;, &apos;RankID&apos;, &apos;NamaPlayerHeader&apos;, &apos;EXPReqID&apos;]; ids.forEach(function(id) { var el = document.getElementById(id); if (el) { el.classList.add(&apos;fredoka-style&apos;); } });&quot;</param>
-                        </action>
-                        <action id="17" name="Execute Javascript" sid="646080786778348" type="Browser">
-                            <param id="0" name="Javascript">&quot;var rankEl = document.getElementById(&apos;RankID&apos;); if (rankEl) { rankEl.style.fontFamily = &apos;Fredoka&apos;; rankEl.style.fontSize = &apos;2.5vh&apos;; if (&quot; &amp; LevelPlayer &amp; &quot; &gt;= 50) { rankEl.innerHTML = &apos;Rank MAX&apos;; } else { rankEl.innerHTML = &apos;Rank &apos; + &quot; &amp; LevelPlayer &amp; &quot;; } } var expEl = document.getElementById(&apos;EXPReqID&apos;); if (expEl) { if (&quot; &amp; LevelPlayer &amp; &quot; &gt;= 50) { expEl.innerHTML = &apos;Anda memiliki &apos; + &quot; &amp; Experience &amp; &quot; + &apos; EXP&apos;; } else { expEl.innerHTML = &apos;Butuh &apos; + &quot; &amp; (ExperienceNextLevel - Experience) &amp; &quot; + &apos; EXP Untuk Naik Level&apos;; } }&quot;</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="886560652882450">
-                    <conditions>
-                        <condition id="-14" name="Compare variable" sid="112343143806961" type="System">
-                            <param id="0" name="Variable">Experience</param>
-                            <param id="1" name="Comparison">2</param>
-                            <param id="2" name="Value">0</param>
-                        </condition>
-                        <condition id="-14" name="Compare variable" sid="199552337456690" type="System">
-                            <param id="0" name="Variable">LevelPlayer</param>
-                            <param id="1" name="Comparison">4</param>
-                            <param id="2" name="Value">1</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="-11" name="Subtract from" sid="433603116148167" type="System">
-                            <param id="0" name="Variable">LevelPlayer</param>
-                            <param id="1" name="Value">1</param>
-                        </action>
-                        <action id="-9" name="Set value" sid="356599989078697" type="System">
-                            <param id="0" name="Variable">ExperienceNextLevel</param>
-                            <param id="1" name="Value">int(100 * (1.15 ^ LevelPlayer))</param>
-                        </action>
-                        <action id="-10" name="Add to" sid="823146784492914" type="System">
-                            <param id="0" name="Variable">Experience</param>
-                            <param id="1" name="Value">ExperienceNextLevel</param>
-                        </action>
-                        <action id="0" name="Set item" sid="805927796331587" type="LocalStorage">
-                            <param id="0" name="Key">&quot;Level&quot;</param>
-                            <param id="1" name="Value">LevelPlayer</param>
-                        </action>
-                        <action id="0" name="Set item" sid="847012664600211" type="LocalStorage">
-                            <param id="0" name="Key">&quot;EXP&quot;</param>
-                            <param id="1" name="Value">Experience</param>
-                        </action>
-                        <action id="17" name="Execute Javascript" sid="447964446555898" type="Browser">
-                            <param id="0" name="Javascript">&quot;if (!document.getElementById(&apos;fredoka-class-style&apos;)) { var style = document.createElement(&apos;style&apos;); style.id = &apos;fredoka-class-style&apos;; style.innerHTML = &apos;.fredoka-style { font-family: Fredoka, sans-serif !important; font-size: 2.5vh !important; }&apos;; document.head.appendChild(style); } var ids = [&apos;NamaPlayerID&apos;, &apos;RankID&apos;, &apos;NamaPlayerHeader&apos;, &apos;EXPReqID&apos;]; ids.forEach(function(id) { var el = document.getElementById(id); if (el) { el.classList.add(&apos;fredoka-style&apos;); } });&quot;</param>
-                        </action>
-                        <action id="17" name="Execute Javascript" sid="558564667912420" type="Browser">
-                            <param id="0" name="Javascript">&quot;var rankEl = document.getElementById(&apos;RankID&apos;); if (rankEl) { rankEl.style.fontFamily = &apos;Fredoka&apos;; rankEl.style.fontSize = &apos;2.5vh&apos;; if (&quot; &amp; LevelPlayer &amp; &quot; &gt;= 50) { rankEl.innerHTML = &apos;Rank MAX&apos;; } else { rankEl.innerHTML = &apos;Rank &apos; + &quot; &amp; LevelPlayer &amp; &quot;; } } var expEl = document.getElementById(&apos;EXPReqID&apos;); if (expEl) { if (&quot; &amp; LevelPlayer &amp; &quot; &gt;= 50) { expEl.innerHTML = &apos;Anda memiliki &apos; + &quot; &amp; Experience &amp; &quot; + &apos; EXP&apos;; } else { expEl.innerHTML = &apos;Butuh &apos; + &quot; &amp; (ExperienceNextLevel - Experience) &amp; &quot; + &apos; EXP Untuk Naik Level&apos;; } }&quot;</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="205097631179735">
-                    <conditions>
-                        <condition id="-14" name="Compare variable" sid="530028634480981" type="System">
-                            <param id="0" name="Variable">Experience</param>
-                            <param id="1" name="Comparison">2</param>
-                            <param id="2" name="Value">0</param>
-                        </condition>
-                        <condition id="-14" name="Compare variable" sid="226326690738090" type="System">
-                            <param id="0" name="Variable">LevelPlayer</param>
-                            <param id="1" name="Comparison">0</param>
-                            <param id="2" name="Value">1</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="-9" name="Set value" sid="246332494631091" type="System">
-                            <param id="0" name="Variable">Experience</param>
-                            <param id="1" name="Value">0</param>
-                        </action>
-                        <action id="0" name="Set item" sid="211122891130600" type="LocalStorage">
-                            <param id="0" name="Key">&quot;EXP&quot;</param>
-                            <param id="1" name="Value">Experience</param>
-                        </action>
-                        <action id="17" name="Execute Javascript" sid="910772300372350" type="Browser">
-                            <param id="0" name="Javascript">&quot;if (!document.getElementById(&apos;fredoka-class-style&apos;)) { var style = document.createElement(&apos;style&apos;); style.id = &apos;fredoka-class-style&apos;; style.innerHTML = &apos;.fredoka-style { font-family: Fredoka, sans-serif !important; font-size: 2.5vh !important; }&apos;; document.head.appendChild(style); } var ids = [&apos;NamaPlayerID&apos;, &apos;RankID&apos;, &apos;NamaPlayerHeader&apos;, &apos;EXPReqID&apos;]; ids.forEach(function(id) { var el = document.getElementById(id); if (el) { el.classList.add(&apos;fredoka-style&apos;); } });&quot;</param>
-                        </action>
-                        <action id="17" name="Execute Javascript" sid="481033551939298" type="Browser">
-                            <param id="0" name="Javascript">&quot;var rankEl = document.getElementById(&apos;RankID&apos;); if (rankEl) { rankEl.style.fontFamily = &apos;Fredoka&apos;; rankEl.style.fontSize = &apos;2.5vh&apos;; if (&quot; &amp; LevelPlayer &amp; &quot; &gt;= 50) { rankEl.innerHTML = &apos;Rank MAX&apos;; } else { rankEl.innerHTML = &apos;Rank &apos; + &quot; &amp; LevelPlayer &amp; &quot;; } } var expEl = document.getElementById(&apos;EXPReqID&apos;); if (expEl) { if (&quot; &amp; LevelPlayer &amp; &quot; &gt;= 50) { expEl.innerHTML = &apos;Anda memiliki &apos; + &quot; &amp; Experience &amp; &quot; + &apos; EXP&apos;; } else { expEl.innerHTML = &apos;Butuh &apos; + &quot; &amp; (ExperienceNextLevel - Experience) &amp; &quot; + &apos; EXP Untuk Naik Level&apos;; } }&quot;</param>
+                            <param id="1" name="Value">100</param>
                         </action>
                     </actions>
                 </event-block>
@@ -475,24 +466,63 @@
                         </action>
                     </actions>
                 </event-block>
+                <event-block sid="981772497656347">
+                    <conditions>
+                        <condition id="-2" name="On start of layout" sid="689312212754232" type="System" />
+                        <condition id="5" inverted="1" name="Is tag playing" sid="421926455401704" type="Audio">
+                            <param id="0" name="Tag">&quot;BGM&quot;</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="622815140124004" type="System">
+                            <param id="0" name="Variable">LoadingProgres</param>
+                            <param id="1" name="Comparison">5</param>
+                            <param id="2" name="Value">100</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="249169189772436" type="Audio">
+                            <param id="0" name="Audio file">BGMGarudaQuestV1</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">-5</param>
+                            <param id="1" name="Tag (optional)">&quot;BGM&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="914230639441058">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="765969390772789" type="System">
+                            <param id="0" name="Variable">Experience</param>
+                            <param id="1" name="Comparison">2</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="595842367650073" type="System">
+                            <param id="0" name="Variable">LevelPlayer</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="854723472888823" type="System">
+                            <param id="0" name="Variable">Experience</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="0" name="Set item" sid="719518307892673" type="LocalStorage">
+                            <param id="0" name="Key">&quot;EXP&quot;</param>
+                            <param id="1" name="Value">Experience</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="283861901249545" type="System">
+                            <param id="0" name="Variable">ExperienceNextLevel</param>
+                            <param id="1" name="Value">100</param>
+                        </action>
+                        <action id="17" name="Execute Javascript" sid="627750456074376" type="Browser">
+                            <param id="0" name="Javascript">&quot;if (!document.getElementById(&apos;fredoka-class-style&apos;)) { var style = document.createElement(&apos;style&apos;); style.id = &apos;fredoka-class-style&apos;; style.innerHTML = &apos;.fredoka-style { font-family: Fredoka, sans-serif !important; font-size: 2.5vh !important; }&apos;; document.head.appendChild(style); } var ids = [&apos;NamaPlayerID&apos;, &apos;RankID&apos;, &apos;NamaPlayerHeader&apos;, &apos;EXPReqID&apos;]; ids.forEach(function(id) { var el = document.getElementById(id); if (el) { el.classList.add(&apos;fredoka-style&apos;); } });&quot;</param>
+                        </action>
+                        <action id="17" name="Execute Javascript" sid="493728639370165" type="Browser">
+                            <param id="0" name="Javascript">&quot;var rankEl = document.getElementById(&apos;RankID&apos;); if (rankEl) { rankEl.style.fontFamily = &apos;Fredoka&apos;; rankEl.style.fontSize = &apos;2.5vh&apos;; if (&quot; &amp; LevelPlayer &amp; &quot; &gt;= 50) { rankEl.innerHTML = &apos;Rank MAX&apos;; } else { rankEl.innerHTML = &apos;Rank &apos; + &quot; &amp; LevelPlayer &amp; &quot;; } } var expEl = document.getElementById(&apos;EXPReqID&apos;); if (expEl) { if (&quot; &amp; LevelPlayer &amp; &quot; &gt;= 50) { expEl.innerHTML = &apos;Anda memiliki &apos; + &quot; &amp; Experience &amp; &quot; + &apos; EXP&apos;; } else { expEl.innerHTML = &apos;Butuh &apos; + &quot; &amp; (ExperienceNextLevel - Experience) &amp; &quot; + &apos; EXP Untuk Naik Level&apos;; } }&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
             </sub-events>
         </event-group>
-        <event-block sid="563959265516737">
-            <conditions>
-                <condition id="-2" name="On start of layout" sid="966414551327895" type="System" />
-                <condition id="5" inverted="1" name="Is tag playing" sid="371945357421564" type="Audio">
-                    <param id="0" name="Tag">&quot;BGM&quot;</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="0" name="Play" sid="873560689067216" type="Audio">
-                    <param id="0" name="Audio file">BGMGarudaQuestV1</param>
-                    <param id="2" name="Loop">0</param>
-                    <param id="3" name="Volume">-5</param>
-                    <param id="1" name="Tag (optional)">&quot;BGM&quot;</param>
-                </action>
-            </actions>
-        </event-block>
         <event-group description="" sid="268424247642422" title="Achievement System">
             <sub-events>
                 <event-block sid="761654435324079">

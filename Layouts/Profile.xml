@@ -575,7 +575,7 @@
                 <instance type="RankTxt" uid="87">
                     <properties>
                         <tag>div</tag>
-                        <content></content>
+                        <content>Rank 99</content>
                         <content-type>HTML</content-type>
                         <initial-visibility>Visible</initial-visibility>
                         <id-optional>RankID</id-optional>
@@ -596,10 +596,10 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>526</x>
-                        <y>333</y>
+                        <y>344</y>
                         <z>0</z>
                         <width>617</width>
-                        <height>36</height>
+                        <height>25</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
@@ -641,7 +641,7 @@
                 <instance type="RankEXPTxt" uid="107">
                     <properties>
                         <tag>div</tag>
-                        <content></content>
+                        <content>Butuh Sekian EXP</content>
                         <content-type>HTML</content-type>
                         <initial-visibility>Visible</initial-visibility>
                         <id-optional>EXPReqID</id-optional>
@@ -662,10 +662,10 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>526</x>
-                        <y>423</y>
+                        <y>426</y>
                         <z>0</z>
                         <width>617</width>
-                        <height>88</height>
+                        <height>85</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
@@ -733,6 +733,102 @@
                         <depth>0</depth>
                         <hotspotX>0.504273534</hotspotX>
                         <hotspotY>0.510638297</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="GantiNamaBtn" uid="610">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="LiteTween">
+                            <properties>
+                                <active-on-start>No</active-on-start>
+                                <tweened-property>Scale</tweened-property>
+                                <function>EaseOutQuart</function>
+                                <target>0.9</target>
+                                <target-mode>Absolute</target-mode>
+                                <duration>0.1</duration>
+                                <enforce-mode>Enforce</enforce-mode>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>865</x>
+                        <y>221</y>
+                        <z>0</z>
+                        <width>235</width>
+                        <height>60</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502127647</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="GantiNamaText" uid="611">
+                    <properties>
+                        <text></text>
+                        <placeholder>Nama Pemain Baru</placeholder>
+                        <tooltip></tooltip>
+                        <initial-visibility>Invisible</initial-visibility>
+                        <enabled>Yes</enabled>
+                        <read-only>No</read-only>
+                        <spell-check>No</spell-check>
+                        <type>Text</type>
+                        <auto-font-size>Yes</auto-font-size>
+                        <id-optional>TextBoxName</id-optional>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>748</x>
+                        <y>141</y>
+                        <z>0</z>
+                        <width>217</width>
+                        <height>38</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                    </world>
+                </instance>
+                <instance type="SimpanBTN" uid="613">
+                    <properties>
+                        <initial-visibility>Invisible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Disabled</collisions>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="LiteTween">
+                            <properties>
+                                <active-on-start>No</active-on-start>
+                                <tweened-property>Scale</tweened-property>
+                                <function>EaseOutQuart</function>
+                                <target>0.9</target>
+                                <target-mode>Absolute</target-mode>
+                                <duration>0.1</duration>
+                                <enforce-mode>Enforce</enforce-mode>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1062.215209961</x>
+                        <y>161.703292847</y>
+                        <z>0</z>
+                        <width>169</width>
+                        <height>43</height>
+                        <depth>0</depth>
+                        <hotspotX>0.502958596</hotspotX>
+                        <hotspotY>0.511627913</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>

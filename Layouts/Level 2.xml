@@ -89,8 +89,8 @@
                         <width>59.695983887</width>
                         <height>87.130737305</height>
                         <depth>0</depth>
-                        <hotspotX>2.217021227</hotspotX>
-                        <hotspotY>0.947521865</hotspotY>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -169,11 +169,11 @@
                         <x>979</x>
                         <y>293.814483643</y>
                         <z>0</z>
-                        <width>1590</width>
-                        <height>111</height>
+                        <width>1592.667724609</width>
+                        <height>114.5806427</height>
                         <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.475806445</hotspotY>
+                        <hotspotX>0.500279188</hotspotX>
+                        <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -610,6 +610,31 @@
                         <hotspotY>0.503816783</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Healed" uid="187">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Flash" />
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>3120</x>
+                        <y>-209</y>
+                        <z>0</z>
+                        <width>2029</width>
+                        <height>1167</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>0.5</opacity>
                     </world>
                 </instance>
             </instances>

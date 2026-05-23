@@ -3,6 +3,7 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>SplashScreenEvent</name>
     <events>
+        <include>Global Event</include>
         <variable comment="Untuk melacak panjang progress bar" constant="0" name="LoadingProgres" sid="482870105193765" static="0" type="number">0</variable>
         <event-block sid="605203443701976">
             <conditions>
@@ -14,6 +15,51 @@
                 </action>
                 <action id="17" name="Execute Javascript" sid="938615485025076" type="Browser">
                     <param id="0" name="Javascript">&quot;document.head.insertAdjacentHTML(&apos;beforeend&apos;, &apos;&lt;style&gt;#barLoading { -webkit-appearance: none; appearance: none; border: none; background: transparent; } #barLoading::-webkit-progress-bar { background-color: rgba(255, 235, 150, 0.5); border-radius: 15px; } #barLoading::-webkit-progress-value { background-color: #FFD700; border-radius: 15px; } #barLoading::-moz-progress-bar { background-color: #FFD700; border-radius: 15px; }&lt;/style&gt;&apos;);&quot;</param>
+                </action>
+                <action id="1" name="Get item" sid="483063243065340" type="LocalStorage">
+                    <param id="0" name="Key">&quot;TooEasyToStartACV&quot;</param>
+                </action>
+                <action id="1" name="Get item" sid="776697349128247" type="LocalStorage">
+                    <param id="0" name="Key">&quot;AnomaliSawitACV&quot;</param>
+                </action>
+                <action id="1" name="Get item" sid="799673328512094" type="LocalStorage">
+                    <param id="0" name="Key">&quot;NKRINihBosACV&quot;</param>
+                </action>
+                <action id="1" name="Get item" sid="758147540421689" type="LocalStorage">
+                    <param id="0" name="Key">&quot;SiPalingPancasilaACV&quot;</param>
+                </action>
+                <action id="1" name="Get item" sid="482896870927817" type="LocalStorage">
+                    <param id="0" name="Key">&quot;TooEZACV&quot;</param>
+                </action>
+                <action id="1" name="Get item" sid="582843866190580" type="LocalStorage">
+                    <param id="0" name="Key">&quot;GarudaQuestWinnerACV&quot;</param>
+                </action>
+                <action id="1" name="Get item" sid="555422456646452" type="LocalStorage">
+                    <param id="0" name="Key">&quot;ToleransiFtKolaborasiACV&quot;</param>
+                </action>
+                <action id="1" name="Get item" sid="989364875374918" type="LocalStorage">
+                    <param id="0" name="Key">&quot;NamaPemain&quot;</param>
+                </action>
+                <action id="1" name="Get item" sid="489718129228306" type="LocalStorage">
+                    <param id="0" name="Key">&quot;LevelGame&quot;</param>
+                </action>
+                <action id="1" name="Get item" sid="503494911917996" type="LocalStorage">
+                    <param id="0" name="Key">&quot;Level&quot;</param>
+                </action>
+                <action id="1" name="Get item" sid="894647584290162" type="LocalStorage">
+                    <param id="0" name="Key">&quot;EXP&quot;</param>
+                </action>
+                <action id="1" name="Get item" sid="636832138915212" type="LocalStorage">
+                    <param id="0" name="Key">&quot;ExperienceNextLevel&quot;</param>
+                </action>
+                <action id="1" name="Get item" sid="766383826280800" type="LocalStorage">
+                    <param id="0" name="Key">&quot;TotalLevel&quot;</param>
+                </action>
+                <action id="1" name="Get item" sid="569241246870731" type="LocalStorage">
+                    <param id="0" name="Key">&quot;TotalAchievement&quot;</param>
+                </action>
+                <action id="1" name="Get item" sid="780573645827847" type="LocalStorage">
+                    <param id="0" name="Key">&quot;MateriUnlock&quot;</param>
                 </action>
             </actions>
         </event-block>

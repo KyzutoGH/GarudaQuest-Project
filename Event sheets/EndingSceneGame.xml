@@ -4,7 +4,7 @@
     <name>EndingSceneGame</name>
     <events>
         <include>Global Event</include>
-        <event-block sid="250108581795367">
+        <event-block any="1" sid="250108581795367">
             <conditions>
                 <condition id="-2" name="On start of layout" sid="995193294989151" type="System" />
                 <condition id="5" name="Is tag playing" sid="814141209659134" type="Audio">

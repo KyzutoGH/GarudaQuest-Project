@@ -4,6 +4,7 @@
     <name>MenuEvent</name>
     <events>
         <include>Global Event</include>
+        <variable constant="0" name="NamaPlayer" sid="832219440283996" static="0" type="text">Dipolt</variable>
         <variable constant="0" name="HalMateri" sid="623256965151922" static="0" type="number">0</variable>
         <variable constant="0" name="BGMOn" sid="973086145800322" static="0" type="number">1</variable>
         <event-group description="" sid="952517311270986" title="Play Game Event">
@@ -31,6 +32,14 @@
                                 <condition id="3" inverted="1" name="Is silent" sid="785235226760892" type="Audio" />
                             </conditions>
                             <actions>
+                                <action id="-9" name="Set value" sid="183149822851309" type="System">
+                                    <param id="0" name="Variable">Nyawa</param>
+                                    <param id="1" name="Value">3</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="979919199558959" type="System">
+                                    <param id="0" name="Variable">Level</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
                                 <action id="0" name="Play" sid="948961965599412" type="Audio">
                                     <param id="0" name="Audio file">Clicked</param>
                                     <param id="2" name="Loop">0</param>
@@ -54,6 +63,14 @@
                                 <condition id="-22" name="Else" sid="998505682235573" type="System" />
                             </conditions>
                             <actions>
+                                <action id="-9" name="Set value" sid="460854067639373" type="System">
+                                    <param id="0" name="Variable">Nyawa</param>
+                                    <param id="1" name="Value">3</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="430383320111721" type="System">
+                                    <param id="0" name="Variable">Level</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
                                 <action behavior="LiteTween" id="10" name="Start" sid="260658050687269" type="Play">
                                     <param id="0" name="Start Mode">0</param>
                                     <param id="1" name="Force use current">0</param>
@@ -367,6 +384,206 @@
                                 </action>
                                 <action id="-2" name="Go to layout" sid="864480853068426" type="System">
                                     <param id="0" name="Layout">Main Menu</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="468437264451640">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="353393616516147" type="Touch">
+                            <param id="0" name="Object">GantiNamaBtn</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="919235010463487">
+                            <conditions>
+                                <condition id="3" inverted="1" name="Is silent" sid="879400482257682" type="Audio" />
+                            </conditions>
+                            <actions>
+                                <action id="-15" name="Set visible" sid="904740570026367" type="SimpanBTN">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                                <action id="3" name="Set visible" sid="799551086550197" type="GantiNamaText">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                                <action id="0" name="Play" sid="307589450246226" type="Audio">
+                                    <param id="0" name="Audio file">Clicked</param>
+                                    <param id="2" name="Loop">0</param>
+                                    <param id="3" name="Volume">0</param>
+                                    <param id="1" name="Tag (optional)">&quot;Clicked&quot;</param>
+                                </action>
+                                <action behavior="LiteTween" id="10" name="Start" sid="821156719220250" type="GantiNamaBtn">
+                                    <param id="0" name="Start Mode">0</param>
+                                    <param id="1" name="Force use current">0</param>
+                                </action>
+                                <action id="-16" name="Wait" sid="137938290888786" type="System">
+                                    <param id="0" name="Seconds">0.2</param>
+                                </action>
+                                <action behavior="LiteTween" id="11" name="Reverse" sid="673044238324432" type="GantiNamaBtn">
+                                    <param id="0" name="Reverse mode">0</param>
+                                </action>
+                                <action id="-16" name="Wait" sid="367572806121879" type="System">
+                                    <param id="0" name="Seconds">0.2</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="645543552182954" type="GantiNamaBtn">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="9" name="Set visible" sid="438343263820606" type="PlayerName">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="11" name="Set collisions enabled" sid="971380620151060" type="SimpanBTN">
+                                    <param id="0" name="Collisions">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="421945064531637">
+                            <conditions>
+                                <condition id="-22" name="Else" sid="466664595815520" type="System" />
+                            </conditions>
+                            <actions>
+                                <action id="-15" name="Set visible" sid="654719623935414" type="SimpanBTN">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                                <action id="3" name="Set visible" sid="599198275745987" type="GantiNamaText">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                                <action behavior="LiteTween" id="10" name="Start" sid="272812060313931" type="GantiNamaBtn">
+                                    <param id="0" name="Start Mode">0</param>
+                                    <param id="1" name="Force use current">0</param>
+                                </action>
+                                <action id="-16" name="Wait" sid="528340152128880" type="System">
+                                    <param id="0" name="Seconds">0.2</param>
+                                </action>
+                                <action behavior="LiteTween" id="11" name="Reverse" sid="401958842478497" type="GantiNamaBtn">
+                                    <param id="0" name="Reverse mode">0</param>
+                                </action>
+                                <action id="-16" name="Wait" sid="398559154306813" type="System">
+                                    <param id="0" name="Seconds">0.2</param>
+                                </action>
+                                <action id="9" name="Set visible" sid="403343728785827" type="PlayerName">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="248993055832037" type="GantiNamaBtn">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="11" name="Set collisions enabled" sid="849684902037289" type="SimpanBTN">
+                                    <param id="0" name="Collisions">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="955372973071435">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="936679506718615" type="Touch">
+                            <param id="0" name="Object">SimpanBTN</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="569990388844553">
+                            <conditions>
+                                <condition id="3" inverted="1" name="Is silent" sid="132045334131095" type="Audio" />
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Play" sid="390440258943866" type="Audio">
+                                    <param id="0" name="Audio file">Clicked</param>
+                                    <param id="2" name="Loop">0</param>
+                                    <param id="3" name="Volume">0</param>
+                                    <param id="1" name="Tag (optional)">&quot;Clicked&quot;</param>
+                                </action>
+                                <action id="3" name="Set visible" sid="575032135763152" type="GantiNamaText">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="9" name="Set visible" sid="896418894415416" type="PlayerName">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                                <action behavior="LiteTween" id="10" name="Start" sid="213756028899844" type="SimpanBTN">
+                                    <param id="0" name="Start Mode">0</param>
+                                    <param id="1" name="Force use current">0</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="966753579087064" type="System">
+                                    <param id="0" name="Variable">NamaPlayer</param>
+                                    <param id="1" name="Value">GantiNamaText.Text</param>
+                                </action>
+                                <action id="0" name="Set item" sid="649927959939268" type="LocalStorage">
+                                    <param id="0" name="Key">&quot;NamaPemain&quot;</param>
+                                    <param id="1" name="Value">NamaPlayer</param>
+                                </action>
+                                <action id="-16" name="Wait" sid="148609384133880" type="System">
+                                    <param id="0" name="Seconds">0.2</param>
+                                </action>
+                                <action behavior="LiteTween" id="11" name="Reverse" sid="423903816030370" type="SimpanBTN">
+                                    <param id="0" name="Reverse mode">0</param>
+                                </action>
+                                <action id="-16" name="Wait" sid="379594008905646" type="System">
+                                    <param id="0" name="Seconds">0.2</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="335765222283122" type="GantiNamaBtn">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="546338768009032" type="SimpanBTN">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="11" name="Set collisions enabled" sid="809701610354123" type="SimpanBTN">
+                                    <param id="0" name="Collisions">0</param>
+                                </action>
+                                <action id="6" name="Set content" sid="147689954189719" type="PlayerName">
+                                    <param id="0" name="Content type">0</param>
+                                    <param id="1" name="String">NamaPlayer</param>
+                                    <param id="2" name="Selector">&quot;&quot;</param>
+                                    <param id="3" name="Type">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="354077601818289">
+                            <conditions>
+                                <condition id="-22" name="Else" sid="241439639839733" type="System" />
+                            </conditions>
+                            <actions>
+                                <action id="3" name="Set visible" sid="569737415901396" type="GantiNamaText">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="9" name="Set visible" sid="553864961307662" type="PlayerName">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                                <action behavior="LiteTween" id="10" name="Start" sid="866808566485664" type="SimpanBTN">
+                                    <param id="0" name="Start Mode">0</param>
+                                    <param id="1" name="Force use current">0</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="928729205634423" type="System">
+                                    <param id="0" name="Variable">NamaPlayer</param>
+                                    <param id="1" name="Value">GantiNamaText.Text</param>
+                                </action>
+                                <action id="0" name="Set item" sid="718907366311149" type="LocalStorage">
+                                    <param id="0" name="Key">&quot;NamaPemain&quot;</param>
+                                    <param id="1" name="Value">NamaPlayer</param>
+                                </action>
+                                <action id="-16" name="Wait" sid="754070651839567" type="System">
+                                    <param id="0" name="Seconds">0.2</param>
+                                </action>
+                                <action behavior="LiteTween" id="11" name="Reverse" sid="923970705799541" type="SimpanBTN">
+                                    <param id="0" name="Reverse mode">0</param>
+                                </action>
+                                <action id="-16" name="Wait" sid="391207537276397" type="System">
+                                    <param id="0" name="Seconds">0.2</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="103261723353496" type="GantiNamaBtn">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="937808366945335" type="SimpanBTN">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="11" name="Set collisions enabled" sid="449970370287678" type="SimpanBTN">
+                                    <param id="0" name="Collisions">0</param>
+                                </action>
+                                <action id="6" name="Set content" sid="116036590004226" type="PlayerName">
+                                    <param id="0" name="Content type">0</param>
+                                    <param id="1" name="String">NamaPlayer</param>
+                                    <param id="2" name="Selector">&quot;&quot;</param>
+                                    <param id="3" name="Type">0</param>
                                 </action>
                             </actions>
                         </event-block>
@@ -777,6 +994,12 @@
                     <actions>
                         <action id="-16" name="Wait" sid="913557520349301" type="System">
                             <param id="0" name="Seconds">0.1</param>
+                        </action>
+                        <action id="6" name="Set content" sid="317821242550960" type="PlayerName">
+                            <param id="0" name="Content type">0</param>
+                            <param id="1" name="String">NamaPlayer</param>
+                            <param id="2" name="Selector">&quot;&quot;</param>
+                            <param id="3" name="Type">0</param>
                         </action>
                     </actions>
                     <sub-events>
