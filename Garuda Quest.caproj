@@ -6731,6 +6731,9 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="Text" sid="300317722970684">
+            <plugin id="Text" />
+        </object-type>
     </object-folder>
     <families>
         <family name="MateriButtons" plugin-id="Sprite" sid="993796079750768">

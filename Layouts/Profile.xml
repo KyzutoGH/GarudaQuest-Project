@@ -542,7 +542,7 @@
                 <instance type="PlayerName" uid="92">
                     <properties>
                         <tag>div</tag>
-                        <content>Raja Jawa</content>
+                        <content></content>
                         <content-type>HTML</content-type>
                         <initial-visibility>Visible</initial-visibility>
                         <id-optional>NamaPlayerID</id-optional>
@@ -562,11 +562,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>745.644775391</x>
-                        <y>145.61138916</y>
+                        <x>846.259399414</x>
+                        <y>102.028991699</y>
                         <z>0</z>
-                        <width>395.868896484</width>
-                        <height>33.057998657</height>
+                        <width>312</width>
+                        <height>33</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
@@ -596,10 +596,10 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>526</x>
-                        <y>344</y>
+                        <y>333</y>
                         <z>0</z>
                         <width>617</width>
-                        <height>25</height>
+                        <height>31</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
@@ -631,8 +631,8 @@
                         <x>746</x>
                         <y>103</y>
                         <z>0</z>
-                        <width>396</width>
-                        <height>37</height>
+                        <width>98</width>
+                        <height>29</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
@@ -662,10 +662,10 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>526</x>
-                        <y>426</y>
+                        <y>427</y>
                         <z>0</z>
                         <width>617</width>
-                        <height>85</height>
+                        <height>84</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
@@ -788,10 +788,10 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>748</x>
-                        <y>141</y>
+                        <x>745</x>
+                        <y>143</y>
                         <z>0</z>
-                        <width>217</width>
+                        <width>283</width>
                         <height>38</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
@@ -821,11 +821,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1062.215209961</x>
-                        <y>161.703292847</y>
+                        <x>1097</x>
+                        <y>163</y>
                         <z>0</z>
-                        <width>169</width>
-                        <height>43</height>
+                        <width>118.219741821</width>
+                        <height>30.0795784</height>
                         <depth>0</depth>
                         <hotspotX>0.502958596</hotspotX>
                         <hotspotY>0.511627913</hotspotY>

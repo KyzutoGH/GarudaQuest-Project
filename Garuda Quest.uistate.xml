@@ -14,8 +14,10 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <layout order="4">Level 20</layout>
         <layout order="5">Level 1 Victory</layout>
         <layout order="7">Credit Scene</layout>
+        <layout order="8">Main Menu</layout>
+        <layout active="1" order="9">Profile</layout>
         <event-sheet order="0">MenuEvent</event-sheet>
-        <event-sheet active="1" order="1">Level Pancasila Event</event-sheet>
+        <event-sheet order="1">Level Pancasila Event</event-sheet>
         <event-sheet order="2">Global Event</event-sheet>
         <event-sheet order="6">EndingSceneGame</event-sheet>
     </open-tabs>
