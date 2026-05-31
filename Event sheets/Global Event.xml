@@ -51,6 +51,9 @@
                 <action id="4" name="Preload" sid="561060450339932" type="Audio">
                     <param id="0" name="Audio file">Achievement</param>
                 </action>
+                <action id="4" name="Preload" sid="187415127118220" type="Audio">
+                    <param id="0" name="Audio file">BGMGarudaQuestV1</param>
+                </action>
                 <action id="3" name="Set progress" sid="569988742781656" type="LevelGameBar">
                     <param id="0" name="Value">LevelGameHighest</param>
                 </action>

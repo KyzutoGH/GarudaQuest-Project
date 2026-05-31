@@ -1761,16 +1761,16 @@
                     </frame>
                 </animation>
                 <animation framecount="1" loop="0" name="Amateur" pingpong="0" repeatcount="1" repeatto="0" sid="203895302557195" speed="5">
-                    <frame duration="1" hotspotX="0.500476" hotspotY="0.540373" original-source="D:\Downloads\Tiering Garuda Quest\Help.png">
+                    <frame duration="1" hotspotX="0.500947" hotspotY="1.12121" original-source="F:\Downloads\Help.png">
                         <collision-poly>
-                            <point x="0.418649" y="0.00621118" />
-                            <point x="0.500476" y="0.204969" />
-                            <point x="0.575642" y="0.0496894" />
-                            <point x="0.968601" y="0.540373" />
-                            <point x="0.569933" y="0.993789" />
-                            <point x="0.500476" y="0.795031" />
-                            <point x="0.431018" y="0.993789" />
-                            <point x="0.00190295" y="0.540373" />
+                            <point x="0.4168" y="0" />
+                            <point x="0.500487" y="0" />
+                            <point x="0.577361" y="0" />
+                            <point x="0.979251" y="1" />
+                            <point x="0.571522" y="1" />
+                            <point x="0.500487" y="1" />
+                            <point x="0.42945" y="1" />
+                            <point x="0" y="1" />
                         </collision-poly>
                     </frame>
                 </animation>
